@@ -1,7 +1,5 @@
 {
-  "functions": {
-    "api/send-email.js": {
-      "runtime": "nodejs20.x"
-    }
-  }
+  "buildCommand": null,
+  "outputDirectory": null,
+  "framework": null
 }
