@@ -73,6 +73,67 @@
 
 ---
 
-## タスク2：（将来追加予定）
+## タスク2：Xバズ投稿 リサーチ＆自動生成
 
-新しいタスクはここに追記する。
+**実行時刻**: 8時台（JST）のみ実行（毎朝8:00〜8:59）
+
+### 手順
+
+1. **WebSearchで今日のAI/テクノロジートレンドを5件調査**
+   以下のキーワードで検索し、信頼できるソース（TechCrunch, Gigazine, Wired, NHK, ITmedia等）の記事を5件選ぶ：
+   - 「AI 最新 2026」
+   - 「ChatGPT OR Claude OR Gemini 新機能」
+   - 「生成AI ビジネス 活用 事例」
+
+2. **各トピックのバズ投稿文をGemini APIで生成**（WebFetch）
+   5件それぞれについて以下のAPIを呼び出す：
+   ```
+   POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=AIzaSyDsG3nsnHJOWJZSP3yvKOqyBbA30YE42j8
+   Content-Type: application/json
+
+   {
+     "contents": [{"parts": [{"text": "あなたはXでバズる投稿を作るプロです。\n以下のトピックについてXでバズりやすい日本語投稿文を作成してください。\nトピック: {記事タイトル}\nソースURL: {記事URL}\n条件: 120文字以内、読者が思わず止まる冒頭、具体的な数字・事実を含む、末尾にソースURL、ハッシュタグ1〜2個\n投稿文のみ返答してください:"}]}],
+     "generationConfig": {"temperature": 0.9, "maxOutputTokens": 300}
+   }
+   ```
+
+3. **Supabaseにリサーチ結果と投稿文を保存**（WebFetch）
+
+   **research_topicsに保存**（5件ループ）:
+   ```
+   POST https://hebgqbklfnawsedqbqnp.supabase.co/rest/v1/research_topics
+   apikey: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImhlYmdxYmtsZm5hd3NlZHFicW5wIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzM3NjMwMDUsImV4cCI6MjA4OTMzOTAwNX0.3Vm70_v6LHLCQICqxb6z1cl_YIbvzdSrK-Gpl5MJEMs
+   Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImhlYmdxYmtsZm5hd3NlZHFicW5wIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzM3NjMwMDUsImV4cCI6MjA4OTMzOTAwNX0.3Vm70_v6LHLCQICqxb6z1cl_YIbvzdSrK-Gpl5MJEMs
+   Content-Type: application/json
+   Prefer: return=minimal
+
+   {"title": "記事タイトル", "summary": "3行以内の要約", "url": "記事URL", "genre": "AI/テクノロジー", "researched_at": "YYYY-MM-DD"}
+   ```
+
+   **buzz_postsに保存**（5件ループ）:
+   ```
+   POST https://hebgqbklfnawsedqbqnp.supabase.co/rest/v1/buzz_posts
+   （同じヘッダー）
+
+   {"text": "生成した投稿文", "source_url": "記事URL", "source_title": "記事タイトル", "status": "ready"}
+   ```
+
+4. **メール通知**（WebFetch）
+   ```
+   POST https://claudeautomationhub.vercel.app/api/send-buzz-notification
+   x-cron-secret: funJQTZBIEDAGPzD3najmf+OfXrSDdPJXUmm8dB0J5k=
+   Content-Type: application/json
+
+   {
+     "researchCount": 5,
+     "posts": [
+       {"text": "投稿文1", "source_url": "URL1", "source_title": "タイトル1"},
+       ...
+     ]
+   }
+   ```
+
+5. **注意事項**
+   - Supabaseが休止中の場合はエラーになる（その日はスキップ）
+   - 通知メールが届かない場合でもSupabaseへの保存は試みること
+   - 同じURLが既にresearch_topicsにある場合は重複登録しない（当日分のみチェック）
