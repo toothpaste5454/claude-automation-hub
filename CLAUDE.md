@@ -79,20 +79,37 @@
 
 ### 手順
 
-1. **WebSearchで今日のAI/テクノロジートレンドを5件調査**
-   以下のキーワードで検索し、信頼できるソース（TechCrunch, Gigazine, Wired, NHK, ITmedia等）の記事を5件選ぶ：
+1. **WebSearchで今日のAI/テクノロジートレンドを調査（国内3件＋海外3件）**
+
+   **国内リサーチ**（日本語ソース）:
+   信頼できるソース（TechCrunch Japan, Gigazine, Wired Japan, NHK, ITmedia等）から3件選ぶ：
    - 「AI 最新 2026」
    - 「ChatGPT OR Claude OR Gemini 新機能」
    - 「生成AI ビジネス 活用 事例」
 
+   **海外バズ投稿リサーチ**（英語圏X/SNSでバズっている内容）:
+   英語圏でバズっているAI/テック関連の投稿・記事を3件選ぶ：
+   - "viral AI twitter post 2026"
+   - "trending AI technology tweet this week"
+   - "most liked AI post X twitter today"
+   対象ソース: Twitter/X, TechCrunch, The Verge, Wired, Ars Technica等
+
 2. **各トピックのバズ投稿文をGemini APIで生成**（WebFetch）
-   5件それぞれについて以下のAPIを呼び出す：
+   6件それぞれについて以下のAPIを呼び出す。
+   **海外ソースの場合は日本語化＋日本向けローカライズも行う**（直訳不可。日本の文化・ビジネス感覚に合わせた言い回しにすること）：
    ```
    POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=AIzaSyDsG3nsnHJOWJZSP3yvKOqyBbA30YE42j8
    Content-Type: application/json
 
+   国内ソースの場合:
    {
      "contents": [{"parts": [{"text": "あなたはXでバズる投稿を作るプロです。\n以下のトピックについてXでバズりやすい日本語投稿文を作成してください。\nトピック: {記事タイトル}\nソースURL: {記事URL}\n条件: 120文字以内、読者が思わず止まる冒頭、具体的な数字・事実を含む、末尾にソースURL、ハッシュタグ1〜2個\n投稿文のみ返答してください:"}]}],
+     "generationConfig": {"temperature": 0.9, "maxOutputTokens": 300}
+   }
+
+   海外ソースの場合:
+   {
+     "contents": [{"parts": [{"text": "あなたはXでバズる投稿を作るプロです。\n以下の英語圏でバズった内容を日本人向けにローカライズしてX投稿文を作成してください。\n直訳は禁止。日本のビジネス・IT文化に合わせた表現にすること。\n元ネタ: {英語の内容・タイトル}\n元ネタURL: {URL}\n条件: 120文字以内、冒頭で日本人が思わず反応する一言、具体的な数字・驚き要素を含む、末尾に元ネタURL、ハッシュタグ1〜2個\n投稿文のみ返答してください:"}]}],
      "generationConfig": {"temperature": 0.9, "maxOutputTokens": 300}
    }
    ```
@@ -107,7 +124,8 @@
    Content-Type: application/json
    Prefer: return=minimal
 
-   {"title": "記事タイトル", "summary": "3行以内の要約", "url": "記事URL", "genre": "AI/テクノロジー", "researched_at": "YYYY-MM-DD"}
+   国内: {"title": "記事タイトル", "summary": "3行以内の要約", "url": "記事URL", "genre": "AI/テクノロジー", "researched_at": "YYYY-MM-DD"}
+   海外: {"title": "【海外】元の英語タイトル（日本語訳）", "summary": "3行以内の要約（日本語）", "url": "元ネタURL", "genre": "AI/テクノロジー（海外）", "researched_at": "YYYY-MM-DD"}
    ```
 
    **buzz_postsに保存**（5件ループ）:
