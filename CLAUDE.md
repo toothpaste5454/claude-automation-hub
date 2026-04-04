@@ -47,8 +47,8 @@
 
 6. **新着物件があればメールを送信**（WebFetch POST）
    ```
-   POST {VERCEL_API_URL}/api/send-email
-   Header: x-cron-secret: {CRON_SECRET}
+   POST https://claudeautomationhub.vercel.app/api/send-email
+   Header: x-cron-secret: funJQTZBIEDAGPzD3najmf+OfXrSDdPJXUmm8dB0J5k=
    Content-Type: application/json
 
    {
