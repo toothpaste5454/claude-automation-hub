@@ -1,32 +1,18 @@
-import { NextRequest, NextResponse } from 'next/server'
-import nodemailer from 'nodemailer'
+const nodemailer = require('nodemailer')
 
-interface Property {
-  name: string
-  url: string
-  area: string
-  address: string
-  tsubo: string
-  price_per_tsubo: string
-  monthly_rent: string
-}
-
-interface EmailPayload {
-  subject: string
-  properties: Property[]
-}
-
-export async function POST(req: NextRequest) {
-  const secret = req.headers.get('x-cron-secret')
-  if (secret !== process.env.CRON_SECRET) {
-    return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
+module.exports = async function handler(req, res) {
+  if (req.method !== 'POST') {
+    return res.status(405).json({ error: 'Method not allowed' })
   }
 
-  const payload: EmailPayload = await req.json()
-  const { subject, properties } = payload
+  if (req.headers['x-cron-secret'] !== process.env.CRON_SECRET) {
+    return res.status(401).json({ error: 'Unauthorized' })
+  }
+
+  const { subject, properties } = req.body
 
   if (!properties || properties.length === 0) {
-    return NextResponse.json({ error: 'No properties provided' }, { status: 400 })
+    return res.status(400).json({ error: 'No properties provided' })
   }
 
   const cardsHtml = properties.map((p) => `
@@ -38,8 +24,7 @@ export async function POST(req: NextRequest) {
         <tr><td style="padding:4px 8px;color:#666;width:80px;">エリア</td><td style="padding:4px 8px;">${p.area}</td></tr>
         <tr><td style="padding:4px 8px;color:#666;">所在地</td>
             <td style="padding:4px 8px;">
-              <a href="https://www.google.com/maps/search/${encodeURIComponent(p.address)}"
-                 style="color:#1a73e8;">${p.address}</a>
+              <a href="https://www.google.com/maps/search/${encodeURIComponent(p.address)}" style="color:#1a73e8;">${p.address}</a>
             </td></tr>
         <tr><td style="padding:4px 8px;color:#666;">面積</td><td style="padding:4px 8px;">${p.tsubo}</td></tr>
         <tr><td style="padding:4px 8px;color:#666;">坪単価</td><td style="padding:4px 8px;">${p.price_per_tsubo}</td></tr>
@@ -72,5 +57,5 @@ export async function POST(req: NextRequest) {
     html,
   })
 
-  return NextResponse.json({ ok: true, sent: properties.length })
+  return res.status(200).json({ ok: true, sent: properties.length })
 }

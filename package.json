@@ -2,19 +2,7 @@
   "name": "claude-automation-hub",
   "version": "1.0.0",
   "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
   "dependencies": {
-    "next": "^14.2.0",
     "nodemailer": "^6.9.9"
-  },
-  "devDependencies": {
-    "@types/node": "^20.0.0",
-    "@types/nodemailer": "^6.4.14",
-    "@types/react": "19.2.14",
-    "typescript": "^5.0.0"
   }
 }
