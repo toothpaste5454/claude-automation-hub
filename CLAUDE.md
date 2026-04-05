@@ -67,7 +67,19 @@
    }
    ```
 
-7. **state/livex.jsonを更新してコミット**
+7. **Telegram通知**（WebFetch POST）
+   ```
+   POST https://api.telegram.org/bot8573088199:AAFeeke9DEeyAWO0xhts3JVvNfhhbwRWYFk/sendMessage
+   Content-Type: application/json
+
+   新着あり:
+   {"chat_id": "8649379511", "text": "🏢 *Livex物件チェック完了*\n新着 N件を検出しメール送信しました。", "parse_mode": "Markdown"}
+
+   新着なし:
+   {"chat_id": "8649379511", "text": "🏢 *Livex物件チェック完了*\n本日の新着物件はありませんでした。", "parse_mode": "Markdown"}
+   ```
+
+8. **state/livex.jsonを更新してコミット**
    処理した全ビルのlastmodと通知済みフロアキー（"坪数|坪単価"形式）を更新し、
    Gitコミットする。
 
@@ -151,7 +163,21 @@
    }
    ```
 
-5. **注意事項**
+5. **Telegram通知**（WebFetch POST）
+   生成した投稿文の先頭2件のテキストを含めて通知する：
+   ```
+   POST https://api.telegram.org/bot8573088199:AAFeeke9DEeyAWO0xhts3JVvNfhhbwRWYFk/sendMessage
+   Content-Type: application/json
+
+   {
+     "chat_id": "8649379511",
+     "text": "📢 *今日のXバズ投稿 生成完了*\n\nN件生成しました。\n\n▼ 投稿例1\n{投稿文1の先頭80文字}...\n\n▼ 投稿例2\n{投稿文2の先頭80文字}...\n\nブラウザUIで確認してください。",
+     "parse_mode": "Markdown"
+   }
+   ```
+
+6. **注意事項**
    - Supabaseが休止中の場合はエラーになる（その日はスキップ）
    - 通知メールが届かない場合でもSupabaseへの保存は試みること
    - 同じURLが既にresearch_topicsにある場合は重複登録しない（当日分のみチェック）
+   - Telegram通知はメール通知の後に送ること
