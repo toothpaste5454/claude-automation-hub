@@ -5,11 +5,11 @@ module.exports = function handler(req, res) {
   }
 
   res.status(200).json({
-    telegram_bot_token: process.env.TELEGRAM_BOT_TOKEN,
-    telegram_chat_id: process.env.TELEGRAM_CHAT_ID,
-    gemini_api_key: process.env.GEMINI_API_KEY,
-    supabase_url: process.env.SUPABASE_URL,
-    supabase_anon_key: process.env.SUPABASE_ANON_KEY,
+    telegram_bot_token: (process.env.TELEGRAM_BOT_TOKEN || '').trim(),
+    telegram_chat_id: (process.env.TELEGRAM_CHAT_ID || '').trim(),
+    gemini_api_key: (process.env.GEMINI_API_KEY || '').trim(),
+    supabase_url: (process.env.SUPABASE_URL || '').trim(),
+    supabase_anon_key: (process.env.SUPABASE_ANON_KEY || '').trim(),
     email_endpoint: 'https://claudeautomationhub.vercel.app/api/send-email',
     buzz_endpoint: 'https://claudeautomationhub.vercel.app/api/send-buzz-notification',
   });
