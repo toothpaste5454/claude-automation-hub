@@ -5,6 +5,28 @@
 
 ---
 
+## 事前準備：設定値の取得
+
+**最初に必ずこのステップを実行すること。**
+
+プロンプトに含まれている `CRON_SECRET` の値を使って以下のAPIを呼び出し、設定値を取得する：
+
+```
+GET https://claudeautomationhub.vercel.app/api/get-config
+Header: x-cron-secret: {プロンプトに記載されたCRON_SECRETの値}
+```
+
+レスポンスのJSONから以下の値を取り出して、以降の全ステップで使用すること：
+- `telegram_bot_token`
+- `telegram_chat_id`
+- `gemini_api_key`
+- `supabase_url`
+- `supabase_anon_key`
+- `email_endpoint`
+- `buzz_endpoint`
+
+---
+
 ## タスク1：Livex物件チェック
 
 **実行時刻**: 9時台・15時台・21時台（JST）のみ実行
@@ -47,8 +69,8 @@
 
 6. **新着物件があればメールを送信**（WebFetch POST）
    ```
-   POST https://claudeautomationhub.vercel.app/api/send-email
-   Header: x-cron-secret: funJQTZBIEDAGPzD3najmf+OfXrSDdPJXUmm8dB0J5k=
+   POST {email_endpoint}
+   Header: x-cron-secret: {CRON_SECRET}
    Content-Type: application/json
 
    {
@@ -69,14 +91,14 @@
 
 7. **Telegram通知**（WebFetch POST）
    ```
-   POST https://api.telegram.org/bot8573088199:AAFeeke9DEeyAWO0xhts3JVvNfhhbwRWYFk/sendMessage
+   POST https://api.telegram.org/bot{telegram_bot_token}/sendMessage
    Content-Type: application/json
 
    新着あり:
-   {"chat_id": "8649379511", "text": "🏢 *Livex物件チェック完了*\n新着 N件を検出しメール送信しました。", "parse_mode": "Markdown"}
+   {"chat_id": "{telegram_chat_id}", "text": "🏢 *Livex物件チェック完了*\n新着 N件を検出しメール送信しました。", "parse_mode": "Markdown"}
 
    新着なし:
-   {"chat_id": "8649379511", "text": "🏢 *Livex物件チェック完了*\n本日の新着物件はありませんでした。", "parse_mode": "Markdown"}
+   {"chat_id": "{telegram_chat_id}", "text": "🏢 *Livex物件チェック完了*\n本日の新着物件はありませんでした。", "parse_mode": "Markdown"}
    ```
 
 8. **state/livex.jsonを更新してコミット**
@@ -110,7 +132,7 @@
    6件それぞれについて以下のAPIを呼び出す。
    **海外ソースの場合は日本語化＋日本向けローカライズも行う**（直訳不可。日本の文化・ビジネス感覚に合わせた言い回しにすること）：
    ```
-   POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=AIzaSyDsG3nsnHJOWJZSP3yvKOqyBbA30YE42j8
+   POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={gemini_api_key}
    Content-Type: application/json
 
    国内ソースの場合:
@@ -130,9 +152,9 @@
 
    **research_topicsに保存**（5件ループ）:
    ```
-   POST https://hebgqbklfnawsedqbqnp.supabase.co/rest/v1/research_topics
-   apikey: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImhlYmdxYmtsZm5hd3NlZHFicW5wIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzM3NjMwMDUsImV4cCI6MjA4OTMzOTAwNX0.3Vm70_v6LHLCQICqxb6z1cl_YIbvzdSrK-Gpl5MJEMs
-   Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImhlYmdxYmtsZm5hd3NlZHFicW5wIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzM3NjMwMDUsImV4cCI6MjA4OTMzOTAwNX0.3Vm70_v6LHLCQICqxb6z1cl_YIbvzdSrK-Gpl5MJEMs
+   POST {supabase_url}/rest/v1/research_topics
+   apikey: {supabase_anon_key}
+   Authorization: Bearer {supabase_anon_key}
    Content-Type: application/json
    Prefer: return=minimal
 
@@ -142,7 +164,7 @@
 
    **buzz_postsに保存**（5件ループ）:
    ```
-   POST https://hebgqbklfnawsedqbqnp.supabase.co/rest/v1/buzz_posts
+   POST {supabase_url}/rest/v1/buzz_posts
    （同じヘッダー）
 
    {"text": "生成した投稿文", "source_url": "記事URL", "source_title": "記事タイトル", "status": "ready"}
@@ -150,8 +172,8 @@
 
 4. **メール通知**（WebFetch）
    ```
-   POST https://claudeautomationhub.vercel.app/api/send-buzz-notification
-   x-cron-secret: funJQTZBIEDAGPzD3najmf+OfXrSDdPJXUmm8dB0J5k=
+   POST {buzz_endpoint}
+   x-cron-secret: {CRON_SECRET}
    Content-Type: application/json
 
    {
@@ -166,11 +188,11 @@
 5. **Telegram通知**（WebFetch POST）
    生成した投稿文の先頭2件のテキストを含めて通知する：
    ```
-   POST https://api.telegram.org/bot8573088199:AAFeeke9DEeyAWO0xhts3JVvNfhhbwRWYFk/sendMessage
+   POST https://api.telegram.org/bot{telegram_bot_token}/sendMessage
    Content-Type: application/json
 
    {
-     "chat_id": "8649379511",
+     "chat_id": "{telegram_chat_id}",
      "text": "📢 *今日のXバズ投稿 生成完了*\n\nN件生成しました。\n\n▼ 投稿例1\n{投稿文1の先頭80文字}...\n\n▼ 投稿例2\n{投稿文2の先頭80文字}...\n\nブラウザUIで確認してください。",
      "parse_mode": "Markdown"
    }
