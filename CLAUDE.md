@@ -97,14 +97,15 @@ Header: x-cron-secret: {プロンプトに記載されたCRON_SECRETの値}
 
 7. **Telegram通知**（WebFetch POST）
    ```
-   POST https://api.telegram.org/bot{telegram_bot_token}/sendMessage
+   POST https://claudeautomationhub.vercel.app/api/send-telegram
+   x-cron-secret: {CRON_SECRET}
    Content-Type: application/json
 
    新着あり:
-   {"chat_id": "{telegram_chat_id}", "text": "🏢 *Livex物件チェック完了*\n新着 N件を検出しメール送信しました。", "parse_mode": "Markdown"}
+   {"text": "🏢 *Livex物件チェック完了*\n新着 N件を検出しメール送信しました。"}
 
    新着なし:
-   {"chat_id": "{telegram_chat_id}", "text": "🏢 *Livex物件チェック完了*\n本日の新着物件はありませんでした。", "parse_mode": "Markdown"}
+   {"text": "🏢 *Livex物件チェック完了*\n本日の新着物件はありませんでした。"}
    ```
 
 8. **state/livex.jsonを更新してコミット**
@@ -194,13 +195,12 @@ Header: x-cron-secret: {プロンプトに記載されたCRON_SECRETの値}
 5. **Telegram通知**（WebFetch POST）
    生成した投稿文の先頭2件のテキストを含めて通知する：
    ```
-   POST https://api.telegram.org/bot{telegram_bot_token}/sendMessage
+   POST https://claudeautomationhub.vercel.app/api/send-telegram
+   x-cron-secret: {CRON_SECRET}
    Content-Type: application/json
 
    {
-     "chat_id": "{telegram_chat_id}",
-     "text": "📢 *今日のXバズ投稿 生成完了*\n\nN件生成しました。\n\n▼ 投稿例1\n{投稿文1の先頭80文字}...\n\n▼ 投稿例2\n{投稿文2の先頭80文字}...\n\nブラウザUIで確認してください。",
-     "parse_mode": "Markdown"
+     "text": "📢 *今日のXバズ投稿 生成完了*\n\nN件生成しました。\n\n▼ 投稿例1\n{投稿文1の先頭80文字}...\n\n▼ 投稿例2\n{投稿文2の先頭80文字}...\n\nブラウザUIで確認してください。"
    }
    ```
 
