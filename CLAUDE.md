@@ -11,6 +11,8 @@ TZ=Asia/Tokyo date +%H
 
 **APIコール方法（必須）**: カスタムヘッダー（`x-cron-secret`, `apikey`, `Authorization`, `Content-Type`等）が必要なHTTPリクエストは、**必ずBashツールで`curl`コマンドを使うこと**。WebFetchツールはカスタムヘッダーを設定できないため、認証付きAPIには使用禁止。WebFetchは認証不要の単純なWebページ取得（Sitemap、物件ページ等）にのみ使用すること。
 
+**APIエラー時のリトライ（必須）**: Gemini API等が503や429エラーを返した場合、10秒待ってから最大3回リトライすること。3回失敗したら該当トピックをスキップして次に進むこと。
+
 ---
 
 ## 事前準備：設定値の取得
@@ -129,7 +131,7 @@ curl -s -H "x-cron-secret: {CRON_SECRET}" "https://claudeautomationhub.vercel.ap
    **海外ソースの場合は日本語化＋日本向けローカライズも行う**（直訳不可。日本の文化・ビジネス感覚に合わせた言い回しにすること）：
    ```bash
    # 国内ソースの場合
-   curl -s -X POST "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={gemini_api_key}" \
+   curl -s -X POST "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key={gemini_api_key}" \
      -H "Content-Type: application/json" \
      -d '{
        "contents": [{"parts": [{"text": "あなたはXでバズる投稿を作るプロです。\n以下のトピックについてXでバズりやすい日本語投稿文を作成してください。\nトピック: {記事タイトル}\nソースURL: {記事URL}\n条件: 120文字以内、読者が思わず止まる冒頭、具体的な数字・事実を含む、末尾にソースURL、ハッシュタグ1〜2個\n投稿文のみ返答してください:"}]}],
@@ -137,7 +139,7 @@ curl -s -H "x-cron-secret: {CRON_SECRET}" "https://claudeautomationhub.vercel.ap
      }'
 
    # 海外ソースの場合
-   curl -s -X POST "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={gemini_api_key}" \
+   curl -s -X POST "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key={gemini_api_key}" \
      -H "Content-Type: application/json" \
      -d '{
        "contents": [{"parts": [{"text": "あなたはXでバズる投稿を作るプロです。\n以下の英語圏でバズった内容を日本人向けにローカライズしてX投稿文を作成してください。\n直訳は禁止。日本のビジネス・IT文化に合わせた表現にすること。\n元ネタ: {英語の内容・タイトル}\n元ネタURL: {URL}\n条件: 120文字以内、冒頭で日本人が思わず反応する一言、具体的な数字・驚き要素を含む、末尾に元ネタURL、ハッシュタグ1〜2個\n投稿文のみ返答してください:"}]}],
