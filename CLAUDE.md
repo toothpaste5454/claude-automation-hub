@@ -9,17 +9,18 @@ TZ=Asia/Tokyo date +%H
 ```
 このコマンドの出力値（0〜23の整数）を「現在のJST時」として使用すること。`date +%H` のみ（TZ指定なし）は使用禁止。
 
+**APIコール方法（必須）**: カスタムヘッダー（`x-cron-secret`, `apikey`, `Authorization`, `Content-Type`等）が必要なHTTPリクエストは、**必ずBashツールで`curl`コマンドを使うこと**。WebFetchツールはカスタムヘッダーを設定できないため、認証付きAPIには使用禁止。WebFetchは認証不要の単純なWebページ取得（Sitemap、物件ページ等）にのみ使用すること。
+
 ---
 
 ## 事前準備：設定値の取得
 
 **最初に必ずこのステップを実行すること。**
 
-プロンプトに含まれている `CRON_SECRET` の値を使って以下のAPIを呼び出し、設定値を取得する：
+プロンプトに含まれている `CRON_SECRET` の値を使って以下のAPIを呼び出し、設定値を取得する（**Bashツールでcurlを使うこと**）：
 
-```
-GET https://claudeautomationhub.vercel.app/api/get-config
-Header: x-cron-secret: {プロンプトに記載されたCRON_SECRETの値}
+```bash
+curl -s -H "x-cron-secret: {CRON_SECRET}" "https://claudeautomationhub.vercel.app/api/get-config"
 ```
 
 レスポンスのJSONから以下の値を取り出して、以降の全ステップで使用すること：
@@ -73,39 +74,27 @@ Header: x-cron-secret: {プロンプトに記載されたCRON_SECRETの値}
    - 面積: 65坪以上120坪以下
    - 坪単価: 10,000円以下
 
-6. **新着物件があればメールを送信**（WebFetch POST）
-   ```
-   POST {email_endpoint}
-   Header: x-cron-secret: {CRON_SECRET}
-   Content-Type: application/json
-
-   {
-     "subject": "【新着物件】Livex N件 (YYYY-MM-DD)",
-     "properties": [
-       {
-         "name": "物件名",
-         "url": "https://www.livex-inc.com/search/detail/facility_index.php?id=XXX",
-         "area": "大田区",
-         "address": "東京都大田区...",
-         "tsubo": "85坪",
-         "price_per_tsubo": "8,500円",
-         "monthly_rent": "722,500円"
-       }
-     ]
-   }
+6. **新着物件があればメールを送信**（Bash curl）
+   ```bash
+   curl -s -X POST "{email_endpoint}" \
+     -H "x-cron-secret: {CRON_SECRET}" \
+     -H "Content-Type: application/json" \
+     -d '{"subject":"【新着物件】Livex N件 (YYYY-MM-DD)","properties":[...]}'
    ```
 
-7. **Telegram通知**（WebFetch POST）
-   ```
-   POST https://claudeautomationhub.vercel.app/api/send-telegram
-   x-cron-secret: {CRON_SECRET}
-   Content-Type: application/json
+7. **Telegram通知**（Bash curl）
+   ```bash
+   # 新着あり
+   curl -s -X POST "https://claudeautomationhub.vercel.app/api/send-telegram" \
+     -H "x-cron-secret: {CRON_SECRET}" \
+     -H "Content-Type: application/json" \
+     -d '{"text":"🏢 *Livex物件チェック完了*\n新着 N件を検出しメール送信しました。"}'
 
-   新着あり:
-   {"text": "🏢 *Livex物件チェック完了*\n新着 N件を検出しメール送信しました。"}
-
-   新着なし:
-   {"text": "🏢 *Livex物件チェック完了*\n本日の新着物件はありませんでした。"}
+   # 新着なし
+   curl -s -X POST "https://claudeautomationhub.vercel.app/api/send-telegram" \
+     -H "x-cron-secret: {CRON_SECRET}" \
+     -H "Content-Type: application/json" \
+     -d '{"text":"🏢 *Livex物件チェック完了*\n本日の新着物件はありませんでした。"}'
    ```
 
 8. **state/livex.jsonを更新してコミット**
@@ -135,73 +124,73 @@ Header: x-cron-secret: {プロンプトに記載されたCRON_SECRETの値}
    - "most liked AI post X twitter today"
    対象ソース: Twitter/X, TechCrunch, The Verge, Wired, Ars Technica等
 
-2. **各トピックのバズ投稿文をGemini APIで生成**（WebFetch）
-   6件それぞれについて以下のAPIを呼び出す。
+2. **各トピックのバズ投稿文をGemini APIで生成**（Bash curl）
+   6件それぞれについて以下のcurlコマンドを実行する。
    **海外ソースの場合は日本語化＋日本向けローカライズも行う**（直訳不可。日本の文化・ビジネス感覚に合わせた言い回しにすること）：
-   ```
-   POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={gemini_api_key}
-   Content-Type: application/json
+   ```bash
+   # 国内ソースの場合
+   curl -s -X POST "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={gemini_api_key}" \
+     -H "Content-Type: application/json" \
+     -d '{
+       "contents": [{"parts": [{"text": "あなたはXでバズる投稿を作るプロです。\n以下のトピックについてXでバズりやすい日本語投稿文を作成してください。\nトピック: {記事タイトル}\nソースURL: {記事URL}\n条件: 120文字以内、読者が思わず止まる冒頭、具体的な数字・事実を含む、末尾にソースURL、ハッシュタグ1〜2個\n投稿文のみ返答してください:"}]}],
+       "generationConfig": {"temperature": 0.9, "maxOutputTokens": 300}
+     }'
 
-   国内ソースの場合:
-   {
-     "contents": [{"parts": [{"text": "あなたはXでバズる投稿を作るプロです。\n以下のトピックについてXでバズりやすい日本語投稿文を作成してください。\nトピック: {記事タイトル}\nソースURL: {記事URL}\n条件: 120文字以内、読者が思わず止まる冒頭、具体的な数字・事実を含む、末尾にソースURL、ハッシュタグ1〜2個\n投稿文のみ返答してください:"}]}],
-     "generationConfig": {"temperature": 0.9, "maxOutputTokens": 300}
-   }
-
-   海外ソースの場合:
-   {
-     "contents": [{"parts": [{"text": "あなたはXでバズる投稿を作るプロです。\n以下の英語圏でバズった内容を日本人向けにローカライズしてX投稿文を作成してください。\n直訳は禁止。日本のビジネス・IT文化に合わせた表現にすること。\n元ネタ: {英語の内容・タイトル}\n元ネタURL: {URL}\n条件: 120文字以内、冒頭で日本人が思わず反応する一言、具体的な数字・驚き要素を含む、末尾に元ネタURL、ハッシュタグ1〜2個\n投稿文のみ返答してください:"}]}],
-     "generationConfig": {"temperature": 0.9, "maxOutputTokens": 300}
-   }
-   ```
-
-3. **Supabaseにリサーチ結果と投稿文を保存**（WebFetch）
-
-   **research_topicsに保存**（5件ループ）:
-   ```
-   POST {supabase_url}/rest/v1/research_topics
-   apikey: {supabase_anon_key}
-   Authorization: Bearer {supabase_anon_key}
-   Content-Type: application/json
-   Prefer: return=minimal
-
-   国内: {"title": "記事タイトル", "summary": "3行以内の要約", "url": "記事URL", "genre": "AI/テクノロジー", "researched_at": "YYYY-MM-DD"}
-   海外: {"title": "【海外】元の英語タイトル（日本語訳）", "summary": "3行以内の要約（日本語）", "url": "元ネタURL", "genre": "AI/テクノロジー（海外）", "researched_at": "YYYY-MM-DD"}
+   # 海外ソースの場合
+   curl -s -X POST "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={gemini_api_key}" \
+     -H "Content-Type: application/json" \
+     -d '{
+       "contents": [{"parts": [{"text": "あなたはXでバズる投稿を作るプロです。\n以下の英語圏でバズった内容を日本人向けにローカライズしてX投稿文を作成してください。\n直訳は禁止。日本のビジネス・IT文化に合わせた表現にすること。\n元ネタ: {英語の内容・タイトル}\n元ネタURL: {URL}\n条件: 120文字以内、冒頭で日本人が思わず反応する一言、具体的な数字・驚き要素を含む、末尾に元ネタURL、ハッシュタグ1〜2個\n投稿文のみ返答してください:"}]}],
+       "generationConfig": {"temperature": 0.9, "maxOutputTokens": 300}
+     }'
    ```
 
-   **buzz_postsに保存**（5件ループ）:
-   ```
-   POST {supabase_url}/rest/v1/buzz_posts
-   （同じヘッダー）
+3. **Supabaseにリサーチ結果と投稿文を保存**（Bash curl）
 
-   {"text": "生成した投稿文", "source_url": "記事URL", "source_title": "記事タイトル", "status": "ready"}
-   ```
+   **research_topicsに保存**（6件ループ）:
+   ```bash
+   # 国内ソース
+   curl -s -X POST "{supabase_url}/rest/v1/research_topics" \
+     -H "apikey: {supabase_anon_key}" \
+     -H "Authorization: Bearer {supabase_anon_key}" \
+     -H "Content-Type: application/json" \
+     -H "Prefer: return=minimal" \
+     -d '{"title":"記事タイトル","summary":"3行以内の要約","url":"記事URL","genre":"AI/テクノロジー","researched_at":"YYYY-MM-DD"}'
 
-4. **メール通知**（WebFetch）
-   ```
-   POST {buzz_endpoint}
-   x-cron-secret: {CRON_SECRET}
-   Content-Type: application/json
-
-   {
-     "researchCount": 5,
-     "posts": [
-       {"text": "投稿文1", "source_url": "URL1", "source_title": "タイトル1"},
-       ...
-     ]
-   }
+   # 海外ソース
+   curl -s -X POST "{supabase_url}/rest/v1/research_topics" \
+     -H "apikey: {supabase_anon_key}" \
+     -H "Authorization: Bearer {supabase_anon_key}" \
+     -H "Content-Type: application/json" \
+     -H "Prefer: return=minimal" \
+     -d '{"title":"【海外】元の英語タイトル（日本語訳）","summary":"3行以内の要約（日本語）","url":"元ネタURL","genre":"AI/テクノロジー（海外）","researched_at":"YYYY-MM-DD"}'
    ```
 
-5. **Telegram通知**（WebFetch POST）
+   **buzz_postsに保存**（6件ループ）:
+   ```bash
+   curl -s -X POST "{supabase_url}/rest/v1/buzz_posts" \
+     -H "apikey: {supabase_anon_key}" \
+     -H "Authorization: Bearer {supabase_anon_key}" \
+     -H "Content-Type: application/json" \
+     -H "Prefer: return=minimal" \
+     -d '{"text":"生成した投稿文","source_url":"記事URL","source_title":"記事タイトル","status":"ready"}'
+   ```
+
+4. **メール通知**（Bash curl）
+   ```bash
+   curl -s -X POST "{buzz_endpoint}" \
+     -H "x-cron-secret: {CRON_SECRET}" \
+     -H "Content-Type: application/json" \
+     -d '{"researchCount":6,"posts":[{"text":"投稿文1","source_url":"URL1","source_title":"タイトル1"},...]}'
+   ```
+
+5. **Telegram通知**（Bash curl）
    生成した投稿文の先頭2件のテキストを含めて通知する：
-   ```
-   POST https://claudeautomationhub.vercel.app/api/send-telegram
-   x-cron-secret: {CRON_SECRET}
-   Content-Type: application/json
-
-   {
-     "text": "📢 *今日のXバズ投稿 生成完了*\n\nN件生成しました。\n\n▼ 投稿例1\n{投稿文1の先頭80文字}...\n\n▼ 投稿例2\n{投稿文2の先頭80文字}...\n\nブラウザUIで確認してください。"
-   }
+   ```bash
+   curl -s -X POST "https://claudeautomationhub.vercel.app/api/send-telegram" \
+     -H "x-cron-secret: {CRON_SECRET}" \
+     -H "Content-Type: application/json" \
+     -d '{"text":"📢 *今日のXバズ投稿 生成完了*\n\nN件生成しました。\n\n▼ 投稿例1\n{投稿文1の先頭80文字}...\n\n▼ 投稿例2\n{投稿文2の先頭80文字}...\n\nブラウザUIで確認してください。"}'
    ```
 
 6. **注意事項**
