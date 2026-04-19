@@ -1,13 +1,18 @@
 # 自動化ハブ
 
-このリポジトリはClaude Code Scheduleによって1時間ごとに実行される。
-現在時刻（JST）を確認し、該当するタスクのみ実行すること。
+## スケジューリング方式（2026-04-20 移行）
 
-**時刻確認方法（必須）**: 実行環境はUTCのため、必ず以下のコマンドでJST時刻を取得すること：
-```bash
-TZ=Asia/Tokyo date +%H
-```
-このコマンドの出力値（0〜23の整数）を「現在のJST時」として使用すること。`date +%H` のみ（TZ指定なし）は使用禁止。
+旧RemoteTriggerは`next_run_at`凍結バグ（GitHub Issue #42662）のため廃止。
+**Claude Code Routines**（クラウドスケジューリング）に移行済み。
+
+- ルーティン管理: [claude.ai/code/routines](https://claude.ai/code/routines)
+- プロンプトテンプレート: `routines/` ディレクトリ
+- 環境設定: 「automation-hub」Environment（環境変数を共有）
+- 詳細: `routines/README.md` を参照
+
+---
+
+## 共通ルール（全タスク共通）
 
 **APIコール方法（必須）**: カスタムヘッダー（`x-cron-secret`, `apikey`, `Authorization`, `Content-Type`等）が必要なHTTPリクエストは、**必ずBashツールで`curl`コマンドを使うこと**。WebFetchツールはカスタムヘッダーを設定できないため、認証付きAPIには使用禁止。WebFetchは認証不要の単純なWebページ取得（Sitemap、物件ページ等）にのみ使用すること。
 
@@ -15,9 +20,9 @@ TZ=Asia/Tokyo date +%H
 
 ---
 
-## 事前準備：設定値の取得
+## 事前準備：設定値の取得（Livexタスク用）
 
-**最初に必ずこのステップを実行すること。**
+**Livex物件チェックタスクで使用。** X-buzzタスクはRoutineの環境変数から直接取得するためこのステップは不要。
 
 プロンプトに含まれている `CRON_SECRET` の値を使って以下のAPIを呼び出し、設定値を取得する（**Bashツールでcurlを使うこと**）：
 
