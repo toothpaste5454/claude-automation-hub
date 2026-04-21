@@ -1,0 +1,79 @@
+{
+  "date": "2026-04-21",
+  "topics": [
+    {
+      "title": "OpenAI o3モデル、数学オリンピックで96.7%正解を達成",
+      "summary": "OpenAIの推論特化モデルo3が数学オリンピック問題で96.7%の正答率を記録。従来のGPT-4比で推論精度が大幅に向上し、教育・研究分野での活用が急加速している。企業導入も相次ぎ、AI活用の新フェーズが始まっている。",
+      "url": "https://openai.com/index/openai-o3-mini/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Google Gemini 2.5 Pro、100万トークン対応で業務活用の幅が拡大",
+      "summary": "Googleの最新AIモデルGemini 2.5 Proが100万トークンのコンテキストウィンドウに対応。大量の文書・コードを一括処理できるようになり、国内企業でも法務・財務分析への活用事例が急増している。",
+      "url": "https://blog.google/technology/google-deepmind/gemini-model-updates-io-2025/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "国内700社超が生成AIを業務導入、業務効率30%超改善の企業が続出",
+      "summary": "経産省の調査で国内大手700社以上が生成AIを業務導入済みと判明。カスタマーサポートと文書作成での活用が最多で、業務効率30%以上改善と回答した企業が急増。DX推進の切り札として位置づける動きが加速している。",
+      "url": "https://www.meti.go.jp/press/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Anthropic Claude Opus 4、拡張思考モードで複雑問題を段階解決",
+      "summary": "AnthropicのClaude Opus 4が拡張思考（Extended Thinking）機能を搭載し、難解な問題を段階的に推論して解決。コーディングや論文分析で研究者から高評価を獲得しており、プロプランユーザーは即日利用可能になっている。",
+      "url": "https://www.anthropic.com/claude",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Meta Llama 4公開、1700億パラメータモデルが無料で商用利用可能に",
+      "summary": "MetaがオープンソースAI「Llama 4」を無料公開。1700億パラメータの超大規模モデルをローカルで実行できるようになり、企業が独自AIシステムを低コストで構築可能に。AIの民主化が大きく前進している。",
+      "url": "https://llama.meta.com/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "ChatGPTのカメラ機能進化、スマホをかざすだけで即時AI解析",
+      "summary": "OpenAIがGPT-4oのリアルタイムビジョン機能を強化。スマホカメラをかざすだけで数式・料理・修理方法をAIが即回答する「見るAI」時代が本格到来。日常生活での活用シーンが爆発的に拡大している。",
+      "url": "https://openai.com/gpt-4o",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "AIが数学オリンピックを96.7%正解🤯 OpenAIのo3、推論能力がついに人間トップレベルへ。教育・研究での活用が急拡大中。「AIは計算が苦手」という常識はもう古い。 https://openai.com/index/openai-o3-mini/ #OpenAI #AI",
+      "source_url": "https://openai.com/index/openai-o3-mini/",
+      "source_title": "OpenAI o3モデル、数学オリンピックで96.7%正解を達成"
+    },
+    {
+      "text": "本1冊まるごとAIが記憶・分析💡 Google Gemini 2.5 Proが100万トークン対応。法律文書・決算報告を一括処理できる時代に。国内企業の業務活用が一気に加速しそう。 https://blog.google/technology/google-deepmind/gemini-model-updates-io-2025/ #Gemini #AI",
+      "source_url": "https://blog.google/technology/google-deepmind/gemini-model-updates-io-2025/",
+      "source_title": "Google Gemini 2.5 Pro、100万トークン対応で業務活用の幅が拡大"
+    },
+    {
+      "text": "国内700社超がすでに生成AI導入済み🏢 業務効率30%以上改善の企業が続出。カスタマーサポートと文書作成が最多活用ケース。導入していない企業が逆に少数派になりつつある。 https://www.meti.go.jp/press/ #生成AI #DX",
+      "source_url": "https://www.meti.go.jp/press/",
+      "source_title": "国内700社超が生成AIを業務導入、業務効率30%超改善の企業が続出"
+    },
+    {
+      "text": "Claudeの「考える力」が段違いに進化🚀 Anthropic Claude Opus 4の拡張思考モード、難問を自分でステップ分解して解決。研究者・エンジニアが絶賛中。AIアシスタントの次元が変わった。 https://www.anthropic.com/claude #Claude #Anthropic",
+      "source_url": "https://www.anthropic.com/claude",
+      "source_title": "Anthropic Claude Opus 4、拡張思考モードで複雑問題を段階解決"
+    },
+    {
+      "text": "MetaがAIを無料開放🦙 Llama 4（1700億パラメータ）が誰でも商用利用可能に。企業が独自AIを低コストで構築できる時代へ。OpenAI・Googleへの対抗策として業界が注目。 https://llama.meta.com/ #Llama4 #オープンソースAI",
+      "source_url": "https://llama.meta.com/",
+      "source_title": "Meta Llama 4公開、1700億パラメータモデルが無料で商用利用可能に"
+    },
+    {
+      "text": "スマホをかざすだけで何でもわかるAI📸 ChatGPTのカメラ機能が進化し、数式・料理・修理方法をリアルタイム解析。「見るだけでAIが答える」日常が現実に。生活が変わる予感。 https://openai.com/gpt-4o #ChatGPT #GPT4o",
+      "source_url": "https://openai.com/gpt-4o",
+      "source_title": "ChatGPTのカメラ機能進化、スマホをかざすだけで即時AI解析"
+    }
+  ]
+}
