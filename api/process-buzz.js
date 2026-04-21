@@ -11,10 +11,13 @@ module.exports = async function handler(req, res) {
     return res.status(401).json({ error: 'Unauthorized' })
   }
 
-  // 今日の日付（JST）
-  const now = new Date()
-  const jst = new Date(now.getTime() + 9 * 60 * 60 * 1000)
-  const dateStr = jst.toISOString().slice(0, 10)
+  // 日付（クエリパラメータ優先、なければJST今日）
+  let dateStr = req.query.date
+  if (!dateStr || !/^\d{4}-\d{2}-\d{2}$/.test(dateStr)) {
+    const now = new Date()
+    const jst = new Date(now.getTime() + 9 * 60 * 60 * 1000)
+    dateStr = jst.toISOString().slice(0, 10)
+  }
 
   // GitHub Raw URLからJSONを取得
   const jsonUrl = `${GITHUB_RAW_BASE}/buzz_${dateStr}.json`
