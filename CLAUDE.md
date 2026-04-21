@@ -3,12 +3,21 @@
 ## スケジューリング方式（2026-04-20 移行）
 
 旧RemoteTriggerは`next_run_at`凍結バグ（GitHub Issue #42662）のため廃止。
-**Claude Code Routines**（クラウドスケジューリング）に移行済み。
+全トリガーを自己完結型プロンプト（v2）に移行済み。
 
-- ルーティン管理: [claude.ai/code/routines](https://claude.ai/code/routines)
 - プロンプトテンプレート: `routines/` ディレクトリ
-- 環境設定: 「automation-hub」Environment（環境変数を共有）
 - 詳細: `routines/README.md` を参照
+
+### 稼働中トリガー一覧
+
+| トリガーID | 名前 | JST実行時刻 |
+|---|---|---|
+| `trig_017LyrzBCaqNUiEcn6XA4Hft` | X-buzz投稿生成 v3 | 毎朝 8:00 |
+| `trig_01Cp4th4FBhYNb7f4n5ysw1k` | Livex物件チェック v2 | 毎日 9:00 |
+| `trig_0149jRqrxoZgGvx2nXDyspha` | Livex物件チェック v2 | 毎日 15:00 |
+| `trig_012GodStUcHyaXgwhZk1g1Yp` | Livex物件チェック v2 | 毎日 21:00 |
+
+**v2方式**: プロンプトに全手順・設定値を直接埋め込み。CLAUDE.md参照やget-config API呼び出しは不要。
 
 ---
 
@@ -110,98 +119,31 @@ curl -s -H "x-cron-secret: {CRON_SECRET}" "https://claudeautomationhub.vercel.ap
 
 ---
 
-## タスク2：Xバズ投稿 リサーチ＆自動生成
+## タスク2：Xバズ投稿 リサーチ＆自動生成（v4: リモートセッション + Vercel Cron連携）
 
-**実行時刻**: 8時台（JST）のみ実行（毎朝8:00〜8:59）
+**v4移行理由**: リモートセッションのClaudeが外部APIへのPOSTリクエストを実行拒否するため、ファイル書き出し＋git push（リモートセッション）とDB保存＋通知（Vercel Cron）に分離。
 
-### 手順
+### アーキテクチャ
 
-1. **WebSearchで今日のAI/テクノロジートレンドを調査（国内3件＋海外3件）**
+```
+[リモートセッション 8:00 JST] → output/buzz_YYYY-MM-DD.json → git push
+[Vercel Cron 8:30 JST] → /api/process-buzz → Supabase保存 + メール + Telegram
+```
 
-   **国内リサーチ**（日本語ソース）:
-   信頼できるソース（TechCrunch Japan, Gigazine, Wired Japan, NHK, ITmedia等）から3件選ぶ：
-   - 「AI 最新 2026」
-   - 「ChatGPT OR Claude OR Gemini 新機能」
-   - 「生成AI ビジネス 活用 事例」
+### リモートセッション側（トリガー: trig_017LyrzBCaqNUiEcn6XA4Hft）
 
-   **海外バズ投稿リサーチ**（英語圏X/SNSでバズっている内容）:
-   英語圏でバズっているAI/テック関連の投稿・記事を3件選ぶ：
-   - "viral AI twitter post 2026"
-   - "trending AI technology tweet this week"
-   - "most liked AI post X twitter today"
-   対象ソース: Twitter/X, TechCrunch, The Verge, Wired, Ars Technica等
+1. RSS取得（curl GET）→ 国内3件＋海外3件のAIニュースを選定
+2. Claude自身が投稿文を生成（Gemini API不要）
+3. `output/buzz_YYYY-MM-DD.json` に書き出し
+4. `git add output/ && git commit && git push`
 
-2. **各トピックのバズ投稿文をGemini APIで生成**（Bash curl）
-   6件それぞれについて以下のcurlコマンドを実行する。
-   **海外ソースの場合は日本語化＋日本向けローカライズも行う**（直訳不可。日本の文化・ビジネス感覚に合わせた言い回しにすること）：
-   ```bash
-   # 国内ソースの場合
-   curl -s -X POST "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key={gemini_api_key}" \
-     -H "Content-Type: application/json" \
-     -d '{
-       "contents": [{"parts": [{"text": "あなたはXでバズる投稿を作るプロです。\n以下のトピックについてXでバズりやすい日本語投稿文を作成してください。\nトピック: {記事タイトル}\nソースURL: {記事URL}\n条件: 120文字以内、読者が思わず止まる冒頭、具体的な数字・事実を含む、末尾にソースURL、ハッシュタグ1〜2個\n投稿文のみ返答してください:"}]}],
-       "generationConfig": {"temperature": 0.9, "maxOutputTokens": 300}
-     }'
+**外部APIへのPOSTは一切行わない。**
 
-   # 海外ソースの場合
-   curl -s -X POST "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key={gemini_api_key}" \
-     -H "Content-Type: application/json" \
-     -d '{
-       "contents": [{"parts": [{"text": "あなたはXでバズる投稿を作るプロです。\n以下の英語圏でバズった内容を日本人向けにローカライズしてX投稿文を作成してください。\n直訳は禁止。日本のビジネス・IT文化に合わせた表現にすること。\n元ネタ: {英語の内容・タイトル}\n元ネタURL: {URL}\n条件: 120文字以内、冒頭で日本人が思わず反応する一言、具体的な数字・驚き要素を含む、末尾に元ネタURL、ハッシュタグ1〜2個\n投稿文のみ返答してください:"}]}],
-       "generationConfig": {"temperature": 0.9, "maxOutputTokens": 300}
-     }'
-   ```
+### Vercel Cron側（/api/process-buzz、毎日8:30 JST）
 
-3. **Supabaseにリサーチ結果と投稿文を保存**（Bash curl）
+1. GitHub Raw URLから当日のJSONを取得
+2. Supabase（research_topics + buzz_posts）に保存
+3. メール通知（send-buzz-notification相当）
+4. Telegram通知
 
-   **research_topicsに保存**（6件ループ）:
-   ```bash
-   # 国内ソース
-   curl -s -X POST "{supabase_url}/rest/v1/research_topics" \
-     -H "apikey: {supabase_anon_key}" \
-     -H "Authorization: Bearer {supabase_anon_key}" \
-     -H "Content-Type: application/json" \
-     -H "Prefer: return=minimal" \
-     -d '{"title":"記事タイトル","summary":"3行以内の要約","url":"記事URL","genre":"AI/テクノロジー","researched_at":"YYYY-MM-DD"}'
-
-   # 海外ソース
-   curl -s -X POST "{supabase_url}/rest/v1/research_topics" \
-     -H "apikey: {supabase_anon_key}" \
-     -H "Authorization: Bearer {supabase_anon_key}" \
-     -H "Content-Type: application/json" \
-     -H "Prefer: return=minimal" \
-     -d '{"title":"【海外】元の英語タイトル（日本語訳）","summary":"3行以内の要約（日本語）","url":"元ネタURL","genre":"AI/テクノロジー（海外）","researched_at":"YYYY-MM-DD"}'
-   ```
-
-   **buzz_postsに保存**（6件ループ）:
-   ```bash
-   curl -s -X POST "{supabase_url}/rest/v1/buzz_posts" \
-     -H "apikey: {supabase_anon_key}" \
-     -H "Authorization: Bearer {supabase_anon_key}" \
-     -H "Content-Type: application/json" \
-     -H "Prefer: return=minimal" \
-     -d '{"text":"生成した投稿文","source_url":"記事URL","source_title":"記事タイトル","status":"ready"}'
-   ```
-
-4. **メール通知**（Bash curl）
-   ```bash
-   curl -s -X POST "{buzz_endpoint}" \
-     -H "x-cron-secret: {CRON_SECRET}" \
-     -H "Content-Type: application/json" \
-     -d '{"researchCount":6,"posts":[{"text":"投稿文1","source_url":"URL1","source_title":"タイトル1"},...]}'
-   ```
-
-5. **Telegram通知**（Bash curl）
-   生成した投稿文の先頭2件のテキストを含めて通知する：
-   ```bash
-   curl -s -X POST "https://claudeautomationhub.vercel.app/api/send-telegram" \
-     -H "x-cron-secret: {CRON_SECRET}" \
-     -H "Content-Type: application/json" \
-     -d '{"text":"📢 *今日のXバズ投稿 生成完了*\n\nN件生成しました。\n\n▼ 投稿例1\n{投稿文1の先頭80文字}...\n\n▼ 投稿例2\n{投稿文2の先頭80文字}...\n\nブラウザUIで確認してください。"}'
-   ```
-
-6. **注意事項**
-   - Supabaseが休止中の場合はエラーになる（その日はスキップ）
-   - 通知メールが届かない場合でもSupabaseへの保存は試みること
-   - 同じURLが既にresearch_topicsにある場合は重複登録しない（当日分のみチェック）
-   - Telegram通知はメール通知の後に送ること
+詳細は `routines/task2_xbuzz.md` を参照。

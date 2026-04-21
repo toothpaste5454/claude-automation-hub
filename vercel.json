@@ -1,5 +1,11 @@
 {
   "buildCommand": null,
   "outputDirectory": null,
-  "framework": null
+  "framework": null,
+  "crons": [
+    {
+      "path": "/api/process-buzz",
+      "schedule": "30 23 * * *"
+    }
+  ]
 }
