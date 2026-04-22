@@ -1,0 +1,38 @@
+name: Fire X-buzz Routine
+
+on:
+  schedule:
+    - cron: '0 23 * * *'  # 毎日 8:00 JST (23:00 UTC)
+  workflow_dispatch:       # 手動実行用
+
+jobs:
+  fire-routine:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fire Claude Code Routine
+        env:
+          ROUTINES_FIRE_URL: ${{ secrets.ROUTINES_FIRE_URL }}
+          ROUTINES_FIRE_TOKEN: ${{ secrets.ROUTINES_FIRE_TOKEN }}
+        run: |
+          for i in 1 2 3; do
+            RESPONSE=$(curl -s -w "\n%{http_code}" -X POST "$ROUTINES_FIRE_URL" \
+              -H "Authorization: Bearer $ROUTINES_FIRE_TOKEN" \
+              -H "anthropic-version: 2023-06-01" \
+              -H "anthropic-beta: experimental-cc-routine-2026-04-01" \
+              -H "Content-Type: application/json" \
+              -d '{"text": "Daily X-buzz run. Collect AI/tech news and generate buzz posts for today."}')
+            HTTP_CODE=$(echo "$RESPONSE" | tail -n1)
+            BODY=$(echo "$RESPONSE" | head -n-1)
+            echo "Attempt $i: HTTP $HTTP_CODE"
+            echo "$BODY"
+            if [ "$HTTP_CODE" = "200" ]; then
+              echo "Routine fired successfully"
+              exit 0
+            fi
+            if [ $i -lt 3 ]; then
+              echo "Retrying in 30 seconds..."
+              sleep 30
+            fi
+          done
+          echo "Failed after 3 attempts"
+          exit 1
