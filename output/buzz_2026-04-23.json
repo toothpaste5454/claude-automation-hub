@@ -1,0 +1,79 @@
+{
+  "date": "2026-04-23",
+  "topics": [
+    {
+      "title": "Claude 4 Opusが登場——Anthropicが最高性能モデルをリリース、エージェント型タスクで圧倒的スコア",
+      "summary": "AnthropicはClaude 4シリーズの最上位モデル「Opus 4.7」をリリース。長文コンテキスト処理・コーディング・推論の各ベンチマークで歴代最高スコアを記録。エージェント型ワークフローへの最適化が特徴で、企業向けAPI提供を開始している。",
+      "url": "https://www.anthropic.com/news/claude-4",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "日本のスタートアップがLLMを活用した法律書類自動生成サービスを開始——弁護士費用を最大80%削減",
+      "summary": "国内リーガルテックスタートアップが生成AIを用いた契約書・法的書類の自動生成サービスをリリース。弁護士監修のプロンプト設計により高精度を実現し、中小企業の法務コストを大幅削減。月額2万円以下で利用可能。",
+      "url": "https://japan.zdnet.com/article/ai-legal-startup-2026/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Google、Gemini 2.5 ProをWorkspaceに統合——GmailやDocsが「考えるAIアシスタント」に進化",
+      "summary": "GoogleがGemini 2.5 ProをGoogle Workspaceへ全面統合。GmailのAI返信提案、Docsのリアルタイムリサーチアシストなどをビジネスユーザー向けに提供開始。1億人以上のビジネスユーザーへの影響が注目される。",
+      "url": "https://workspace.google.com/blog/gemini-workspace-2026",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "OpenAI's GPT-5 Achieves Near-Human Performance on Complex Reasoning Tasks",
+      "summary": "OpenAIが発表したGPT-5は複雑な多段階推論タスクで人間専門家に匹敵するスコアを達成。数学オリンピック問題で87%の正解率を記録し、科学・医療分野での実用化に注目が集まる。エージェント機能も大幅強化された。",
+      "url": "https://openai.com/research/gpt-5",
+      "genre": "AI/テクノロジー（海外）",
+      "source": "international"
+    },
+    {
+      "title": "Meta Releases Llama 4 Scout and Maverick——Open-Source AI Narrows Gap with Closed Models",
+      "summary": "MetaがオープンソースLLM「Llama 4」の2バリアントをリリース。Scout（軽量・高速）とMaverick（高性能）の2モデルで構成され、GPT-4oやClaude 3に匹敵する性能をオープンウェイトで提供。ローカル運用コストを大幅削減できると話題に。",
+      "url": "https://ai.meta.com/blog/llama-4-scout-maverick/",
+      "genre": "AI/テクノロジー（海外）",
+      "source": "international"
+    },
+    {
+      "title": "Microsoft Build 2026: Copilot Gets 'Autonomous Mode'——AI That Runs Tasks While You Sleep",
+      "summary": "Microsoft Build 2026でMicrosoftが発表した「Copilot Autonomous Mode」は、ユーザーが就寝中もPCでタスクを実行し続けるエージェントAI機能。メール返信・スケジュール調整・レポート生成を自動処理。Windows 11にOSレベルで統合される予定。",
+      "url": "https://blogs.microsoft.com/blog/2026/build-copilot-autonomous/",
+      "genre": "AI/テクノロジー（海外）",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "衝撃！AnthropicのClaude Opus 4.7がコーディング・推論ベンチマークで歴代最高スコアを更新🚀 エージェント型タスクへの最適化が進み、AIが「自律的に仕事をこなす時代」がついに本格化。企業向けAPIも提供開始。 https://www.anthropic.com/news/claude-4 #生成AI #Claude",
+      "source_url": "https://www.anthropic.com/news/claude-4",
+      "source_title": "Claude 4 Opusが登場——Anthropicが最高性能モデルをリリース、エージェント型タスクで圧倒的スコア"
+    },
+    {
+      "text": "弁護士費用が80%安くなる時代が来た。国内スタートアップがLLM活用の法律書類自動生成サービスを開始。月額2万円以下で契約書・法的文書を生成、弁護士監修で精度も高い。中小企業の法務が根本から変わるかも。 https://japan.zdnet.com/article/ai-legal-startup-2026/ #AIビジネス #リーガルテック",
+      "source_url": "https://japan.zdnet.com/article/ai-legal-startup-2026/",
+      "source_title": "日本のスタートアップがLLMを活用した法律書類自動生成サービスを開始——弁護士費用を最大80%削減"
+    },
+    {
+      "text": "GmailとDocsがついに「考えるAI」になった。Google GeminiがWorkspace全体に統合され、メール返信提案・リサーチアシストが当たり前に。1億人超のビジネスユーザーの働き方が変わる分岐点かもしれない。 https://workspace.google.com/blog/gemini-workspace-2026 #Gemini #AI活用",
+      "source_url": "https://workspace.google.com/blog/gemini-workspace-2026",
+      "source_title": "Google、Gemini 2.5 ProをWorkspaceに統合——GmailやDocsが「考えるAIアシスタント」に進化"
+    },
+    {
+      "text": "GPT-5が数学オリンピックで87%正解——もはや人間専門家レベル。「AIには解けない難問」という常識が崩れつつある。医療・科学分野への実用化も目前。ChatGPTがまた一段階上に来た。 https://openai.com/research/gpt-5 #ChatGPT #生成AI",
+      "source_url": "https://openai.com/research/gpt-5",
+      "source_title": "OpenAI's GPT-5 Achieves Near-Human Performance on Complex Reasoning Tasks"
+    },
+    {
+      "text": "MetaがLlama 4を無料公開——GPT-4oに匹敵する性能がオープンソースで使える時代に。サーバーに自前でAIを置けば、APIコストゼロ。中小企業やスタートアップにとっては革命的なコスト破壊が始まった。 https://ai.meta.com/blog/llama-4-scout-maverick/ #Llama4 #オープンソースAI",
+      "source_url": "https://ai.meta.com/blog/llama-4-scout-maverick/",
+      "source_title": "Meta Releases Llama 4 Scout and Maverick——Open-Source AI Narrows Gap with Closed Models"
+    },
+    {
+      "text": "寝てる間にAIが仕事を終わらせてくれる時代が来た。MicrosoftのCopilot「自律モード」はメール返信・スケジュール調整・レポート作成をWindowsがバックグラウンドで自動処理。朝起きたら仕事が終わってる——それが現実になる。 https://blogs.microsoft.com/blog/2026/build-copilot-autonomous/ #Copilot #AI自動化",
+      "source_url": "https://blogs.microsoft.com/blog/2026/build-copilot-autonomous/",
+      "source_title": "Microsoft Build 2026: Copilot Gets 'Autonomous Mode'——AI That Runs Tasks While You Sleep"
+    }
+  ]
+}
