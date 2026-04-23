@@ -7,7 +7,12 @@ module.exports = async function handler(req, res) {
     return res.status(405).json({ error: 'Method not allowed' })
   }
 
-  if (req.headers['x-cron-secret'] !== process.env.CRON_SECRET) {
+  // Vercel Cron は Authorization: Bearer <CRON_SECRET> を送る。
+  // 手動 curl 用の x-cron-secret も互換維持する。
+  const cronSecret = process.env.CRON_SECRET
+  const bearerOk = req.headers['authorization'] === `Bearer ${cronSecret}`
+  const customOk = req.headers['x-cron-secret'] === cronSecret
+  if (!bearerOk && !customOk) {
     return res.status(401).json({ error: 'Unauthorized' })
   }
 
