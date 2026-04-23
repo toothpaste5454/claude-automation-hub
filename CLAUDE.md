@@ -27,6 +27,8 @@
 
 **APIエラー時のリトライ（必須）**: Gemini API等が503や429エラーを返した場合、10秒待ってから最大3回リトライすること。3回失敗したら該当トピックをスキップして次に進むこと。
 
+**Vercel Cron エンドポイント認証（必須）**: Vercel Cron から呼ばれるAPI Routeは `Authorization: Bearer <CRON_SECRET>` で認証すること（公式仕様）。独自ヘッダー（`x-cron-secret`等）はCronから送られないため、Cron専用エンドポイントには使ってはいけない。手動 curl テスト用に互換ヘッダーを残すのは可。新規Cronを追加する際は、本番投入前に `curl -H "Authorization: Bearer $CRON_SECRET"` で200応答を必ず確認すること。
+
 ---
 
 ## 事前準備：設定値の取得（Livexタスク用）
