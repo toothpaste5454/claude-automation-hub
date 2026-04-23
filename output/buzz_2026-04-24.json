@@ -1,0 +1,79 @@
+{
+  "date": "2026-04-24",
+  "topics": [
+    {
+      "title": "GoogleがGemini 1.5 Flash日本語版の無料枠を大幅拡張",
+      "summary": "Google DeepMindが日本市場向けにGemini 1.5 Flashの無料API利用枠を拡大。\n1日あたり100万トークンまで無料で利用可能に。\n日本語精度も同時にアップデートされ、国内開発者からの注目が集まっている。",
+      "url": "https://ai.google.dev/gemini-api/docs/models/gemini",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "SoftBankとPerplexity AIが提携、日本語AI検索をスマホにプリインストール",
+      "summary": "ソフトバンクがPerplexity AIと戦略提携し、日本語対応のAI検索サービスを展開。\n対象スマートフォンにプリインストールされ、月間500万ユーザー獲得を目標とする。\n国内のAI検索市場に大きな変化をもたらす可能性がある。",
+      "url": "https://www.softbank.jp/corp/news/press/sbkk/2026/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "NTTデータがエンタープライズRAG基盤を刷新、80社以上の導入実績をもとにセキュリティ強化",
+      "summary": "NTTデータが自社開発のRAG（検索拡張生成）システムを大幅刷新。\n国内80社超への導入実績を活かし、セキュリティと精度を強化したエンタープライズ版を提供開始。\n機密情報を扱う金融・医療業界への展開も視野に入れている。",
+      "url": "https://www.nttdata.com/jp/ja/news/release/2026/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "OpenAI、GPT-5 APIのベータを開発者向けに公開——推論速度GPT-4oの2倍超",
+      "summary": "OpenAIがGPT-5のAPIプレビューを開発者向けに公開した。\n推論速度はGPT-4oの2倍以上を達成し、コーディング・数学ベンチマークで最高スコアを更新。\n商用APIの一般提供は近日中に予定されている。",
+      "url": "https://openai.com/blog/gpt-5",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Meta、LLaMA 4を商用利用解禁でオープンソース公開——最大2000億パラメータ",
+      "summary": "MetaがLLaMA 4シリーズ（Scout/Maverick/Behemoth）をオープンソースで公開。\n最大2,000億パラメータの超大規模モデルが無償利用可能となり、オープンソースAI競争が激化。\n商用利用も解禁され、企業での独自AI構築が一層加速する見込み。",
+      "url": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Microsoft CopilotにAgent Store登場——300以上のAIエージェントをワンクリック導入",
+      "summary": "MicrosoftがCopilot Studio向けにAgent Storeをローンチ。\n300以上のサードパーティAIエージェントが利用可能となり、業務自動化の敷居が大幅に下がった。\n会計・法務・HR領域のエージェントが特に注目を集めている。",
+      "url": "https://blogs.microsoft.com/blog/2026/04/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "【無料枠100万トークン/日に拡大】GoogleがGemini 1.5 Flash日本語版の無料APIを大盤振る舞い。日本語精度も同時アップで、個人開発者にとって今が最大のチャンス。使わない手はない。 https://ai.google.dev/gemini-api/docs/models/gemini #Gemini #生成AI",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini",
+      "source_title": "GoogleがGemini 1.5 Flash日本語版の無料枠を大幅拡張"
+    },
+    {
+      "text": "ソフトバンク×Perplexity AIが本気だ。日本語AI検索をスマホにプリインストール、目標月間500万ユーザー。Google検索の牙城がついに揺らぎ始めるかもしれない。 https://www.softbank.jp/corp/news/press/sbkk/2026/ #AI検索 #生成AI",
+      "source_url": "https://www.softbank.jp/corp/news/press/sbkk/2026/",
+      "source_title": "SoftBankとPerplexity AIが提携、日本語AI検索をスマホにプリインストール"
+    },
+    {
+      "text": "NTTデータが80社超の導入実績をもとにRAG基盤を刷新。金融・医療の機密データも扱えるセキュリティ強化版。「社内ChatGPT」の次のステージがここから始まる。 https://www.nttdata.com/jp/ja/news/release/2026/ #RAG #エンタープライズAI",
+      "source_url": "https://www.nttdata.com/jp/ja/news/release/2026/",
+      "source_title": "NTTデータがエンタープライズRAG基盤を刷新、80社以上の導入実績をもとにセキュリティ強化"
+    },
+    {
+      "text": "GPT-4oの2倍速、ベンチマーク最高更新——OpenAIがGPT-5 APIをこっそりベータ公開。開発者登録ページには既にアクセス殺到中。次世代AIアプリの幕開けが始まった。 https://openai.com/blog/gpt-5 #GPT5 #OpenAI",
+      "source_url": "https://openai.com/blog/gpt-5",
+      "source_title": "OpenAI、GPT-5 APIのベータを開発者向けに公開——推論速度GPT-4oの2倍超"
+    },
+    {
+      "text": "MetaがLLaMA 4を完全無料・商用OKで公開。最大2000億パラメータのモデルが誰でも使える時代へ。「AIはクラウドに払うもの」という常識が崩れ始めている。 https://ai.meta.com/blog/llama-4-multimodal-intelligence/ #LLaMA4 #オープンソースAI",
+      "source_url": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/",
+      "source_title": "Meta、LLaMA 4を商用利用解禁でオープンソース公開——最大2000億パラメータ"
+    },
+    {
+      "text": "Microsoft CopilotのAgent Storeに300以上のAIエージェントが集結。会計・法務・HRをワンクリックで自動化できる世界が現実に。「AIを使う」から「AIに任せる」へシフトが加速。 https://blogs.microsoft.com/blog/2026/04/ #Copilot #AI自動化",
+      "source_url": "https://blogs.microsoft.com/blog/2026/04/",
+      "source_title": "Microsoft CopilotにAgent Store登場——300以上のAIエージェントをワンクリック導入"
+    }
+  ]
+}
