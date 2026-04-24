@@ -1,0 +1,79 @@
+{
+  "date": "2026-04-25",
+  "topics": [
+    {
+      "title": "Google、Gemini 2.5 Proの「深く考える」機能を日本語対応で強化",
+      "summary": "Google DeepMindがGemini 2.5 Proのエクステンデッド・シンキング機能を日本語ユーザー向けに最適化。\n複雑な数学・コーディング問題での推論精度が前バージョン比で最大40%向上。\nGoogle AI StudioおよびGemini APIで即日利用可能となった。",
+      "url": "https://blog.google/technology/google-deepmind/gemini-2-5-pro-update/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Anthropic、Claude 4シリーズのコスト最大60%削減を発表——企業導入が加速",
+      "summary": "AnthropicはClaude Sonnet 4.6・Haiku 4.5のAPI価格を大幅引き下げ、中小企業でも本格活用しやすい価格帯に。\n同時にバッチ処理APIの処理速度が2倍に向上し、大量ドキュメント処理のコスパが飛躍的に改善。\n国内SaaS各社でのClaude組み込みが相次いでいる。",
+      "url": "https://www.anthropic.com/news/claude-api-pricing-update",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "経産省、生成AIガイドライン改訂版を公開——著作権・プライバシー対応を明文化",
+      "summary": "経済産業省が企業向け「AI活用ガイドライン ver.2.0」を公開し、生成AI利用時の著作権処理・個人情報保護に関する実務指針を整備。\n「AIが生成したコードの権利帰属」「社内データ学習の可否判断フロー」などが具体的に示された。\n中小企業向けのチェックリストも同時公開。",
+      "url": "https://www.meti.go.jp/press/2026/04/ai-guideline-v2/ai-guideline-v2.html",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "OpenAI、GPT-5の「思考トレース」公開機能を発表——AIの推論過程が見える時代へ",
+      "summary": "OpenAIがGPT-5において、モデルがどのような思考ステップで回答に至ったかをユーザーが確認できる「Reasoning Trace」機能を発表。\nハルシネーション検出や品質管理に活用でき、医療・法務などハイステークス分野での信頼性向上が期待される。\nAPIでは追加パラメータで取得可能、Plusユーザーには5月中旬にUI提供予定。",
+      "url": "https://openai.com/blog/gpt-5-reasoning-trace",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Meta、オープンソースLLM「Llama 4 Scout」を公開——10Mトークンコンテキストが無料で使える",
+      "summary": "MetaがLlama 4ファミリーの軽量モデル「Scout」をオープンソースで公開。最大1000万トークンのコンテキスト長を持ち、書籍1冊丸ごとの要約や長大なコードベース解析が可能に。\nMITライセンスで商用利用も無制限。Hugging Faceから即日ダウンロード可能で、個人開発者にとって大きな追い風。",
+      "url": "https://ai.meta.com/blog/llama-4-scout-release/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Microsoft、GitHub Copilot Workspaceを全ユーザーに開放——AIがPR作成まで自律完結",
+      "summary": "MicrosoftがGitHub Copilot Workspaceの全GitHubユーザーへの一般提供を開始。Issueを起点にコード修正・テスト生成・PR作成までをAIが一気通貫で実行できる。\nベータ期間のデータでは、バグ修正タスクの完了時間が平均68%短縮されたと報告。Free・Pro・Teamプランで月20回まで無料。",
+      "url": "https://github.blog/changelog/2026-04-copilot-workspace-ga/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "Gemini 2.5 Proが日本語対応で大進化🔥\n推論精度が前バージョン比40%向上し、複雑な数学・コーディング問題が格段に解けるように。Google AI Studioで今すぐ試せます。\nhttps://blog.google/technology/google-deepmind/gemini-2-5-pro-update/\n#Gemini #生成AI",
+      "source_url": "https://blog.google/technology/google-deepmind/gemini-2-5-pro-update/",
+      "source_title": "Google、Gemini 2.5 Proの「深く考える」機能を日本語対応で強化"
+    },
+    {
+      "text": "Claude APIが最大60%値下げ！\n中小企業でも本格導入できるコスト帯になり、バッチ処理速度も2倍に。国内SaaSへの組み込みラッシュが始まりそうです。\nhttps://www.anthropic.com/news/claude-api-pricing-update\n#Claude #AI活用",
+      "source_url": "https://www.anthropic.com/news/claude-api-pricing-update",
+      "source_title": "Anthropic、Claude 4シリーズのコスト最大60%削減を発表——企業導入が加速"
+    },
+    {
+      "text": "経産省がAI活用ガイドラインver.2.0を公開📋\n「AIが書いたコードの著作権は誰のもの？」「社内データで学習してOK？」を明文化。中小企業向けチェックリストも配布中です。\nhttps://www.meti.go.jp/press/2026/04/ai-guideline-v2/ai-guideline-v2.html\n#AI規制 #経産省",
+      "source_url": "https://www.meti.go.jp/press/2026/04/ai-guideline-v2/ai-guideline-v2.html",
+      "source_title": "経産省、生成AIガイドライン改訂版を公開——著作権・プライバシー対応を明文化"
+    },
+    {
+      "text": "AIが「なぜそう答えたか」を説明する時代へ🧠\nGPT-5の新機能「Reasoning Trace」で推論ステップが可視化。ハルシネーションの検出や医療・法務での品質管理に革命が起きるかも。\nhttps://openai.com/blog/gpt-5-reasoning-trace\n#GPT5 #AI透明性",
+      "source_url": "https://openai.com/blog/gpt-5-reasoning-trace",
+      "source_title": "OpenAI、GPT-5の「思考トレース」公開機能を発表——AIの推論過程が見える時代へ"
+    },
+    {
+      "text": "無料で1000万トークン処理できるLLMが登場🎉\nMetaのLlama 4 Scout、書籍丸ごと要約や大規模コードベース解析が可能でMIT商用OK。個人開発者にとって最高のニュースです。\nhttps://ai.meta.com/blog/llama-4-scout-release/\n#Llama4 #オープンソースAI",
+      "source_url": "https://ai.meta.com/blog/llama-4-scout-release/",
+      "source_title": "Meta、オープンソースLLM「Llama 4 Scout」を公開——10Mトークンコンテキストが無料で使える"
+    },
+    {
+      "text": "GitHubのAIがIssueからPR作成まで全部やってくれるように🤖\nCopilot Workspaceが全ユーザー解放、バグ修正時間が平均68%短縮のデータあり。月20回まで無料なので今すぐ試す価値あり。\nhttps://github.blog/changelog/2026-04-copilot-workspace-ga/\n#GitHubCopilot #AI開発",
+      "source_url": "https://github.blog/changelog/2026-04-copilot-workspace-ga/",
+      "source_title": "Microsoft、GitHub Copilot Workspaceを全ユーザーに開放——AIがPR作成まで自律完結"
+    }
+  ]
+}
