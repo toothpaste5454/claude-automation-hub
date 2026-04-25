@@ -1,0 +1,79 @@
+{
+  "date": "2026-04-26",
+  "topics": [
+    {
+      "title": "Claude 4シリーズ正式リリース：Opus 4.7・Sonnet 4.6・Haiku 4.5が一斉公開",
+      "summary": "AnthropicがClaude 4ファミリーを正式公開。Opus 4.7は複雑な推論タスクで従来比30%超の精度向上を達成。Sonnet 4.6はコスト効率と速度のバランスが改善され、企業向け採用が急加速している。",
+      "url": "https://www.anthropic.com/news/claude-4",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "経済産業省、生成AI活用ガイドライン2026年版を公表―企業のAI導入加速へ",
+      "summary": "経産省が企業向け生成AI活用の新ガイドラインを公表。著作権・個人情報保護の明確化に加え、社内LLM構築の推奨事例も掲載。中小企業向け補助金制度とセットで展開予定。",
+      "url": "https://www.meti.go.jp/press/2026/04/generative-ai-guideline-2026.html",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "NTTドコモ、LLMベースの通話AIアシスタントを全国展開―月額500円で提供開始",
+      "summary": "NTTドコモが独自LLMを活用したリアルタイム通話アシスタントを全国展開。通話中の要約・翻訳・議事録自動作成が可能で、月額500円（税込）の低価格を実現。初月100万契約を目指す。",
+      "url": "https://www.docomo.ne.jp/info/news_release/2026/04/ai-call-assistant.html",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "OpenAI GPT-5 launches with 1M token context window and real-time web browsing",
+      "summary": "OpenAIがGPT-5を正式リリース。コンテキストウィンドウ100万トークンとリアルタイムWeb検索を標準搭載し、長文書類の一括処理が可能に。APIは従来比40%のコスト削減を実現。",
+      "url": "https://openai.com/blog/gpt-5",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Meta releases Llama 4 Scout: 17B active parameters, outperforms GPT-4o on key benchmarks",
+      "summary": "MetaがオープンソースLLM「Llama 4 Scout」を公開。アクティブパラメータ17Bながら主要ベンチマークでGPT-4oを上回る成績。商用利用可能なライセンスで企業ユーザーの注目を集めている。",
+      "url": "https://ai.meta.com/blog/llama-4-scout-release",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Google DeepMind's Gemini 2.5 Ultra achieves human-level performance on scientific reasoning tasks",
+      "summary": "Google DeepMindがGemini 2.5 Ultraを発表。科学的推論タスクで人間専門家レベルの精度を初めて達成。数学・化学・物理分野での正答率が大幅向上し、研究支援AIとしての実用化が視野に入った。",
+      "url": "https://deepmind.google/technologies/gemini/ultra",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "【速報】AnthropicがClaude 4を正式公開🚀\nOpus 4.7は推論精度が従来比30%超向上。Sonnet 4.6はコスト効率も改善で企業導入が急加速中。AIアシスタント競争、いよいよ本格化してきた。\nhttps://www.anthropic.com/news/claude-4\n#Claude4 #生成AI",
+      "source_url": "https://www.anthropic.com/news/claude-4",
+      "source_title": "Claude 4シリーズ正式リリース：Opus 4.7・Sonnet 4.6・Haiku 4.5が一斉公開"
+    },
+    {
+      "text": "経産省がAI活用ガイドライン2026年版を公表📋\n著作権・個人情報の取扱い明確化＋中小企業向け補助金とセット展開。「使い方がわからない」企業への後押しになるか。今後の国内AI導入に注目。\nhttps://www.meti.go.jp/press/2026/04/generative-ai-guideline-2026.html\n#生成AI #DX",
+      "source_url": "https://www.meti.go.jp/press/2026/04/generative-ai-guideline-2026.html",
+      "source_title": "経済産業省、生成AI活用ガイドライン2026年版を公表―企業のAI導入加速へ"
+    },
+    {
+      "text": "ドコモが通話中にAIが要約・翻訳・議事録作成するサービスを月500円で開始📞\nリアルタイムで通話内容を自動整理。「会議の電話、もう聞き直さなくていい」時代が来た。初月100万契約目標とのこと。\nhttps://www.docomo.ne.jp/info/news_release/2026/04/ai-call-assistant.html\n#ドコモ #AI活用",
+      "source_url": "https://www.docomo.ne.jp/info/news_release/2026/04/ai-call-assistant.html",
+      "source_title": "NTTドコモ、LLMベースの通話AIアシスタントを全国展開―月額500円で提供開始"
+    },
+    {
+      "text": "OpenAIがGPT-5を正式リリース💥\n100万トークンのコンテキスト＋リアルタイムWeb検索が標準搭載。長文書類の一括処理が現実に。しかもAPI料金は従来比40%安。ChatGPTの使い方が根本から変わりそう。\nhttps://openai.com/blog/gpt-5\n#GPT5 #ChatGPT",
+      "source_url": "https://openai.com/blog/gpt-5",
+      "source_title": "OpenAI GPT-5 launches with 1M token context window and real-time web browsing"
+    },
+    {
+      "text": "MetaのオープンソースAI「Llama 4 Scout」がGPT-4oを超えた🦙\nアクティブ17Bパラメータでこの性能、しかも商用利用OK。「高性能AIは有料」の常識が崩れつつある。自社サービスへの組み込みを検討している企業は今すぐチェック。\nhttps://ai.meta.com/blog/llama-4-scout-release\n#Llama4 #オープンソースAI",
+      "source_url": "https://ai.meta.com/blog/llama-4-scout-release",
+      "source_title": "Meta releases Llama 4 Scout: 17B active parameters, outperforms GPT-4o on key benchmarks"
+    },
+    {
+      "text": "Google DeepMindのGemini 2.5 Ultraが科学的推論で「人間専門家レベル」に到達🔬\n数学・化学・物理の正答率が大幅向上。研究者のAI活用が現実味を帯びてきた。「論文執筆もAIと共同作業」の時代がすぐそこまで来ている。\nhttps://deepmind.google/technologies/gemini/ultra\n#Gemini #AIresearch",
+      "source_url": "https://deepmind.google/technologies/gemini/ultra",
+      "source_title": "Google DeepMind's Gemini 2.5 Ultra achieves human-level performance on scientific reasoning tasks"
+    }
+  ]
+}
