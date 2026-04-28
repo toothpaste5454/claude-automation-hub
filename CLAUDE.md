@@ -141,6 +141,26 @@ curl -s -H "x-cron-secret: {CRON_SECRET}" "https://claudeautomationhub.vercel.ap
 
 **外部APIへのPOSTは一切行わない。**
 
+### エラー監視・トラブルシューティング
+
+| 症状 | 原因 | 対処 |
+|---|---|---|
+| 8:30 JST以降もTelegram通知なし | Vercel Cronが未実行 or Routineのgit push失敗 | 手動で`/api/process-buzz?date=YYYY-MM-DD`を叩く |
+| Telegram に「buzz_YYYY-MM-DD.json が見つかりません」エラー | Routineのgit pushが失敗 | GH_TOKENの有効期限を確認し、Routineを手動再実行 |
+
+**手動補完コマンド（git push失敗の場合）:**
+```bash
+git pull && git push origin main  # ローカルで再push
+# または /api/process-buzz を手動実行:
+curl -s -X POST "https://claudeautomationhub.vercel.app/api/process-buzz?date=$(date +%Y-%m-%d)" \
+  -H "Authorization: Bearer <CRON_SECRET>"
+```
+
+**GH_TOKEN管理:**
+- 環境: `claude-code-default`（Anthropic Console > Environments）
+- スコープ: `repo`
+- 期限切れ前に必ず更新すること（カレンダーにリマインダー登録推奨）
+
 ### Vercel Cron側（/api/process-buzz、毎日8:30 JST）
 
 1. GitHub Raw URLから当日のJSONを取得
