@@ -1,0 +1,79 @@
+{
+  "date": "2026-04-28",
+  "topics": [
+    {
+      "title": "Claude Codeが自律コーディングエージェントとして実務投入される事例が急増",
+      "summary": "AIエージェントがテスト作成・バグ修正・リファクタリングまで自律実行。\n人間はレビューだけで済む開発スタイルが国内でも広がりつつある。\n1タスクあたり平均70%の工数削減報告あり。",
+      "url": "https://www.anthropic.com/claude-code",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "GitHub Copilot Workspaceで複雑なIssueからPRまで自動生成する使い方",
+      "summary": "Issueのテキストを貼るだけでコード変更案・テスト・PR説明文まで一括生成。\nバグ修正の平均時間が従来比68%短縮というデータが示されている。\n月20回まで無料枠で試せる。",
+      "url": "https://githubnext.com/projects/copilot-workspace",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Google NotebookLMの音声オーバービュー機能で会議資料を5分のポッドキャストに変換",
+      "summary": "PDFや長文ドキュメントをアップロードするだけで2人の対話形式音声に自動変換。\n100ページの資料を5分の音声にまとめる機能が日本語でも動作確認済み。\n移動中に資料を「聴く」ワークフローが現実的になった。",
+      "url": "https://notebooklm.google.com",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Cursor AIの新機能「Codebase Indexing」で★50k超リポジトリを10分で把握",
+      "summary": "大規模OSSリポジトリ全体をインデックス化し、自然言語で任意のコードの意図を質問できる。\n新規参画エンジニアのオンボーディング期間を3週間→3日に短縮した事例あり。\nGPT-4o/Claude 3.5どちらのバックエンドでも動作する。",
+      "url": "https://cursor.com",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "OpenAI Structured Outputs、JSONスキーマ準拠率99.9%でAPIバリデーションコードが不要に",
+      "summary": "GPT-4oのStructured Outputs機能がスキーマ完全準拠を保証。\nJSONパースエラー対応コードを丸ごと削除できた事例が多数報告されている。\n実装工数を平均40%削減できるとの計測結果あり。",
+      "url": "https://platform.openai.com/docs/guides/structured-outputs",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Meta Llama 3 70B、M2 MacBook ProでローカルLLM動作が実用速度に到達",
+      "summary": "量子化（Q4_K_M）版で16GBメモリのM2 MacBook Proでも毎秒20トークン以上を達成。\nGPUサーバー不要でGPT-3.5相当の回答品質がローカルで動く時代に突入。\nOllamaで3コマンドのセットアップで試せる。",
+      "url": "https://ollama.com/library/llama3",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "コードレビューしかしてない1週間だった。\n\nClaude Code、Issueを渡すだけでテスト作成→バグ修正→リファクタまで自律実行。工数が従来の70%減。\n\n自分の作業がレビューだけになると、集中力の使い所が変わる。\nhttps://www.anthropic.com/claude-code",
+      "source_url": "https://www.anthropic.com/claude-code",
+      "source_title": "Claude Codeが自律コーディングエージェントとして実務投入される事例が急増"
+    },
+    {
+      "text": "バグ修正に半日溶かしてた人、もう要らないかも。\n\nCopilot Workspace、Issueを貼るだけでPRまで自動生成。月20回無料で、平均68%時短のデータあり。\n\n自分のリポジトリで試したら、レビューだけで済んだ。\nhttps://githubnext.com/projects/copilot-workspace",
+      "source_url": "https://githubnext.com/projects/copilot-workspace",
+      "source_title": "GitHub Copilot Workspaceで複雑なIssueからPRまで自動生成する使い方"
+    },
+    {
+      "text": "100ページの資料、もう読まなくていいかも。\n\nNotebookLM、PDFを放り込むだけで5分の対話音声に変換。移動中に「聴く」だけで内容が頭に入る。\n\nあなたの資料整理ルーティンが変わるかもしれない。\nhttps://notebooklm.google.com",
+      "source_url": "https://notebooklm.google.com",
+      "source_title": "Google NotebookLMの音声オーバービュー機能で会議資料を5分のポッドキャストに変換"
+    },
+    {
+      "text": "初参画のリポジトリ、3週間かかってた把握が3日になった。\n\nCursor、★50k超のコードベースを丸ごとインデックス化。「この関数の意図は？」を自然言語で聞くだけで全体像が見える。\n\nあなたのオンボーディング、変わるかも。\nhttps://cursor.com",
+      "source_url": "https://cursor.com",
+      "source_title": "Cursor AIの新機能「Codebase Indexing」で★50k超リポジトリを10分で把握"
+    },
+    {
+      "text": "JSONのバリデーションコード、全部消した。\n\nGPT-4o Structured Outputs、スキーマ準拠率99.9%でパースエラーがゼロに。実装工数が40%減った。\n\nAPIをつないでる人なら、今すぐ移行する価値ある。\nhttps://platform.openai.com/docs/guides/structured-outputs",
+      "source_url": "https://platform.openai.com/docs/guides/structured-outputs",
+      "source_title": "OpenAI Structured Outputs、JSONスキーマ準拠率99.9%でAPIバリデーションコードが不要に"
+    },
+    {
+      "text": "GPUサーバー代、もう要らないかも。\n\nLlama 3 70B、M2 MacBook Pro（16GB）で毎秒20トークン超。OllamaでコマンドをRun 3つ動く。\n\nGPT-3.5相当がローカルで動く時代、あなたの開発環境も変えてみる？\nhttps://ollama.com/library/llama3",
+      "source_url": "https://ollama.com/library/llama3",
+      "source_title": "Meta Llama 3 70B、M2 MacBook ProでローカルLLM動作が実用速度に到達"
+    }
+  ]
+}
