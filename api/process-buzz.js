@@ -2,6 +2,21 @@ const nodemailer = require('nodemailer')
 
 const GITHUB_RAW_BASE = 'https://raw.githubusercontent.com/toothpaste5454/claude-automation-hub/main/output'
 
+async function sendTelegramAlert(text) {
+  const botToken = process.env.TELEGRAM_BOT_TOKEN
+  const chatId = process.env.TELEGRAM_CHAT_ID
+  if (!botToken || !chatId) return
+  try {
+    await fetch(`https://api.telegram.org/bot${botToken}/sendMessage`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ chat_id: chatId, text, parse_mode: 'Markdown' }),
+    })
+  } catch (e) {
+    console.error('Telegram alert error:', e.message)
+  }
+}
+
 module.exports = async function handler(req, res) {
   if (req.method !== 'POST' && req.method !== 'GET') {
     return res.status(405).json({ error: 'Method not allowed' })
@@ -30,10 +45,14 @@ module.exports = async function handler(req, res) {
   try {
     const fetchRes = await fetch(jsonUrl)
     if (!fetchRes.ok) {
+      await sendTelegramAlert(
+        `⚠️ *process-buzz エラー*\n\nbuzz_${dateStr}.json が GitHub に見つかりません（HTTP ${fetchRes.status}）。\nRoutine の git push が失敗した可能性があります。`
+      )
       return res.status(404).json({ error: `JSON not found: buzz_${dateStr}.json`, status: fetchRes.status })
     }
-    data = await fetch(jsonUrl).then(r => r.json())
+    data = await fetchRes.json()
   } catch (e) {
+    await sendTelegramAlert(`⚠️ *process-buzz エラー*\n\nGitHub からの JSON 取得に失敗しました。\n${e.message}`)
     return res.status(500).json({ error: 'Failed to fetch JSON from GitHub', detail: e.message })
   }
 
