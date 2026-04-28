@@ -1,0 +1,79 @@
+{
+  "date": "2026-04-29",
+  "topics": [
+    {
+      "title": "Claude APIのPrompt Cachingで繰り返し処理のコストを最大90%削減する実装パターン",
+      "summary": "システムプロンプトや参照ドキュメントをキャッシュすることで、同じコンテキストを繰り返す処理でAPIコストを最大90%削減できる。\nClaudeの実務活用が増える中、コスト最適化の手段として国内開発者の注目度が高まっている。\n対応モデルはClaude 3シリーズ以降。",
+      "url": "https://docs.anthropic.com/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Vercel v0：テキスト指示でReactコンポーネントを3秒生成、プロトタイプ制作が激変",
+      "summary": "テキストで指示するだけでReactとTailwind CSSのUIコンポーネントを即時生成。\nデザイナー不在でもモックアップを即日作れると国内スタートアップで急速普及。\n月15回まで無料で試せる。",
+      "url": "https://v0.dev",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Dify（GitHub★5万超）でコード不要のRAGアプリを30分で本番デプロイする方法",
+      "summary": "ドキュメントのアップロード・プロンプト設定・APIエンドポイント発行をGUIのみで完結。\nベクトルDB連携やマルチエージェントフローも視覚的に設計できる。\n国内企業の社内ナレッジ活用に採用実績が増加中。",
+      "url": "https://github.com/langgenius/dify",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "OpenAI Codex CLI（GitHub★3万超）：ターミナルから自然言語でコードを書き換えるオープンソースエージェント",
+      "summary": "ターミナルに「この関数のバグを直して」と入力するだけで、ファイル変更・テスト実行まで自律実行。\nGitHubスター数が公開1週間で3万を突破した注目OSSエージェント。\nGPT-4oベースで動作し、コードベース全体を把握した上で変更を提案する。",
+      "url": "https://github.com/openai/codex",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Gemini 2.5 Flash：100万トークンコンテキストをGPT-4o比10分の1以下のコストで処理",
+      "summary": "Googleの最新モデルGemini 2.5 Flashは速度・コスト・精度のバランスで注目。\n100万トークンのコンテキストウィンドウを持ちながら入力コストは$0.075/1Mトークン。\nコーディング・分析・長文処理タスクで実用的な選択肢として採用が拡大。",
+      "url": "https://ai.google.dev/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Anthropic MCP（スター1万超）：AIエージェントがあらゆるツールと連携できるオープン標準として急速普及",
+      "summary": "AIモデルが外部ツール・データソースと安全に連携するためのオープン標準プロトコル。\nClaude・OpenAI・その他主要LLMが採用を開始し、エコシステムが急拡大。\nGitHubのMCPサーバーリポジトリ数が1,000件を超えた。",
+      "url": "https://modelcontextprotocol.io/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "API費用、9割カットした。\n\nClaude Prompt Caching、繰り返し同じ文脈を送る処理でコスト最大90%削減。\n月5万円→5,000円になった人も。\n\n自分のAPIコスト、一度計算してみて。\nhttps://docs.anthropic.com/",
+      "source_url": "https://docs.anthropic.com/",
+      "source_title": "Claude APIのPrompt Cachingで繰り返し処理のコストを最大90%削減する実装パターン"
+    },
+    {
+      "text": "デザインなしでUIを作れた。\n\nv0、テキストで指示するだけでReactコンポーネントを生成。「ログイン画面を作って」で3秒後に動くコードが出てくる。\n\nあなたのプロトタイプ制作、1日→30分になるかも。\nhttps://v0.dev",
+      "source_url": "https://v0.dev",
+      "source_title": "Vercel v0：テキスト指示でReactコンポーネントを3秒生成、プロトタイプ制作が激変"
+    },
+    {
+      "text": "コードなしでRAGアプリを作る手順:\n\nDify（★5万超）なら、\n1. 社内資料をアップ\n2. プロンプトをGUI設定\n3. APIを1クリックで公開\n\n自分のナレッジベースが30分で動き出す。\nhttps://github.com/langgenius/dify",
+      "source_url": "https://github.com/langgenius/dify",
+      "source_title": "Dify（GitHub★5万超）でコード不要のRAGアプリを30分で本番デプロイする方法"
+    },
+    {
+      "text": "ターミナルを離れずにコードが直せた。\n\nOpenAI Codex CLI（★3万超）、「この関数のバグ直して」と打つだけでPR相当の変更を提案。\n\nあなたのIDE切り替え時間が、ゼロになるかも。\nhttps://github.com/openai/codex",
+      "source_url": "https://github.com/openai/codex",
+      "source_title": "OpenAI Codex CLI（GitHub★3万超）：ターミナルから自然言語でコードを書き換えるオープンソースエージェント"
+    },
+    {
+      "text": "GPT-4oの10分の1でほぼ同等品質が出た。\n\nGemini 2.5 Flash、100万トークン・入力$0.075/1M。長文処理もコスト削減も両方気になる人向け。\n\nあなたのAPI選定、見直す価値あるかも。\nhttps://ai.google.dev/",
+      "source_url": "https://ai.google.dev/",
+      "source_title": "Gemini 2.5 Flash：100万トークンコンテキストをGPT-4o比10分の1以下のコストで処理"
+    },
+    {
+      "text": "AIがどんなツールとも繋がる標準規格。\n\nMCP（AIエージェント連携プロトコル）、スター1万超。ClaudeもOpenAIも採用し、サーバー数1,000件突破。\n\nあなたのエージェント、次は何と繋ぐ？\nhttps://modelcontextprotocol.io/",
+      "source_url": "https://modelcontextprotocol.io/",
+      "source_title": "Anthropic MCP（スター1万超）：AIエージェントがあらゆるツールと連携できるオープン標準として急速普及"
+    }
+  ]
+}
