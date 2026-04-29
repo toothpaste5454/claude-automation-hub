@@ -1,0 +1,79 @@
+{
+  "date": "2026-04-30",
+  "topics": [
+    {
+      "title": "Dify：ノーコードでLLMアプリを構築できるOSS、GitHub ★50k超",
+      "summary": "DifyはノーコードでRAGシステムやチャットボットなどのLLMアプリを構築できるOSS。\nAPIキー1つで本番環境まで持っていける設計で、開発期間を大幅に短縮できる。\nGitHub Stars 50k超と国内外の企業での採用が急増している。",
+      "url": "https://github.com/langgenius/dify",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Cursor AIエディタで開発作業を60%短縮する3つの使い方",
+      "summary": "AIエディタCursorは、テスト自動生成・PRレビューコメント返答案の生成・仕様書からコード変換など複数の用途で活用できる。\n3ヶ月継続利用で作業時間60%削減を実現した事例が報告されている。\n月額20ドルのProプランで全モデルへのアクセスが可能。",
+      "url": "https://cursor.sh",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Google NotebookLM：100ページの資料を10分の音声概要に変換",
+      "summary": "NotebookLMの音声概要機能はURLや資料を貼るだけで勉強用ポッドキャストを自動生成する。\n長文PDFや論文も10分以内の音声にまとめられ、通勤・移動中の学習に活用できる。\n無料で利用可能で、複数のソースをまとめた概要生成にも対応。",
+      "url": "https://notebooklm.google.com",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "OpenHands：issueからPRまで自律で完結するAIソフトウェアエンジニアOSS",
+      "summary": "OpenHands（旧OpenDevin）はAIが実装→テスト→自己修正まで自律でこなすOSSエージェント。\nGitHub Stars 30k超、ローカルで動かせてコストゼロから試せる。\n1タスク平均3回の試行でPRまで完結するベンチマーク結果が出ている。",
+      "url": "https://github.com/All-Hands-AI/OpenHands",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Claude Prompt Caching：APIコストを最大90%削減する実装ガイド",
+      "summary": "AnthropicのPrompt Cachingを使うと繰り返し送るシステムプロンプトのコストが90%削減される。\nキャッシュヒット時はレスポンスも85%高速化され、コンテキストが長いアプリほど効果が大きい。\nAPIキャッシュブレークポイントをプロンプトに追加するだけで有効化できる。",
+      "url": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-caching",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Vercel v0：テキスト指示だけでNext.js対応ReactコンポーネントをAI生成",
+      "summary": "v0.devは自然言語の指示やFigmaデザインからNext.js対応のReactコンポーネントを数分で自動生成する。\n生成コードはそのままコピペで使え、Tailwind CSS・shadcn/uiに対応。\n月15クレジットまで無料で試せる。",
+      "url": "https://v0.dev",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "あなたの会社のRAGシステム、コード不要で動かせるOSSがある。\n\nDify、GitHub ★50k超 / LLMアプリをノーコードで構築できる。\n開発2週間→3日に短縮。APIキー1つで本番まで持っていける。\n\nhttps://github.com/langgenius/dify",
+      "source_url": "https://github.com/langgenius/dify",
+      "source_title": "Dify：ノーコードでLLMアプリを構築できるOSS、GitHub ★50k超"
+    },
+    {
+      "text": "あなたのコーディング作業、Cursorで60%短くなる可能性がある。\n\nやってること3つ：\n1. テスト自動生成（手書きゼロ）\n2. PRコメント返答の草案を生成\n3. 仕様書→コードに直接変換\n\n3ヶ月試した結果。\nhttps://cursor.sh",
+      "source_url": "https://cursor.sh",
+      "source_title": "Cursor AIエディタで開発作業を60%短縮する3つの使い方"
+    },
+    {
+      "text": "100ページの資料が10分の音声になる。\n\nNotebookLM、URLを貼るだけで勉強用ポッドキャストを自動生成。\nあなたの積読リストが「通勤中の勉強素材」に変わる。\n\nあなたなら何に使う？\nhttps://notebooklm.google.com",
+      "source_url": "https://notebooklm.google.com",
+      "source_title": "Google NotebookLM：100ページの資料を10分の音声概要に変換"
+    },
+    {
+      "text": "issueを貼るだけで、PRまで自分で作ってくる。\n\nOpenHands、GitHub ★30k超 / AIが実装→テスト→修正を自律で回すOSS。\nあなたのコードベースに入れると、1タスク平均3回で完結する。\n\nhttps://github.com/All-Hands-AI/OpenHands",
+      "source_url": "https://github.com/All-Hands-AI/OpenHands",
+      "source_title": "OpenHands：issueからPRまで自律で完結するAIソフトウェアエンジニアOSS"
+    },
+    {
+      "text": "Claude APIのコストが月1万→1千円になった。\n\nPrompt Cachingを使うと、繰り返すシステムプロンプトが90%安くなる。\nあなたのアプリのコンテキストを1回キャッシュするだけで、レスポンスも85%速くなる。\n\nhttps://docs.anthropic.com/en/docs/build-with-claude/prompt-caching",
+      "source_url": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-caching",
+      "source_title": "Claude Prompt Caching：APIコストを最大90%削減する実装ガイド"
+    },
+    {
+      "text": "デザインモックがそのままReactコンポーネントになる時代。\n\nv0.dev、テキストで指示するだけでNext.js対応UIを自動生成。\nあなたのFigmaデザインを貼ると、数分でコピペできるコードが出てくる。\n\nあなたなら何に使う？\nhttps://v0.dev",
+      "source_url": "https://v0.dev",
+      "source_title": "Vercel v0：テキスト指示だけでNext.js対応ReactコンポーネントをAI生成"
+    }
+  ]
+}
