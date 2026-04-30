@@ -1,0 +1,79 @@
+{
+  "date": "2026-05-01",
+  "topics": [
+    {
+      "title": "ノーコードAIエージェント構築ツール「Dify」、GitHub Stars 4万超で日本のスタートアップでも急速普及",
+      "summary": "APIキー1本でRAG・チャットボット・AIエージェントを30分以内に構築できるOSS。コーディング不要でGUI操作のみ。国内スタートアップでの内製AIツール構築に多く採用されている。",
+      "url": "https://github.com/langgenius/dify",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "「ollama」1コマンドでLlama3がローカル動作、M2 MacでGPT-4相当モデルが毎秒30トークン超処理",
+      "summary": "「ollama run llama3」の1コマンドだけでLLMがローカル実行可能。API費用ゼロ・データ外部送信なし。M2 MacでLlama3-8Bを毎秒30トークン超で処理でき、開発・検証コストを大幅削減できる。",
+      "url": "https://ollama.com",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "GitHub Copilotのコードレビュー機能が本格化、PRの差分貼るだけでバグ指摘〜改善案まで自動出力",
+      "summary": "GitHub Copilotがコードレビューにも対応。差分を貼るだけでバグ指摘・セキュリティ問題・改善提案を自動出力。月10ドルのCopilot Individualでも利用可能で、レビュー工数を大幅削減できる。",
+      "url": "https://github.com/features/copilot",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "LLM推論フレームワーク「vLLM」、HuggingFaceより最大24倍高速・GitHub Stars 2万超でOpenAI互換APIを実現",
+      "summary": "vLLMはPagedAttentionによりHuggingFace Transformersより最大24倍のスループット向上を実現。OpenAI互換APIとして動作するため既存コードをほぼ変更不要。本番環境でのLLMサービング標準ツールになりつつある。",
+      "url": "https://github.com/vllm-project/vllm",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Meta Llama 3.1-405B、主要ベンチマークでGPT-4oと互角・商用OKのオープンソースLLM",
+      "summary": "MetaのLlama 3.1-405Bが主要ベンチマークでGPT-4oと互角のスコアを達成。商用利用可能なライセンスで本番サービスに無料で組み込み可能。128Kコンテキストと多言語対応で実用性が大幅向上。",
+      "url": "https://ai.meta.com/blog/meta-llama-3-1/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "ClaudeのArtifacts機能でデータ分析・ダッシュボード作成が会話だけで完結、無料プランでも利用可能",
+      "summary": "ClaudeのArtifacts機能はコード実行結果をその場でプレビュー表示。データ渡して「グラフ化して」と頼むだけでインタラクティブなダッシュボードが約10秒で完成。コピペ不要で無料プランでも利用できる。",
+      "url": "https://claude.ai",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "ノーコードでAIエージェントを作りたい人、Difyが最速。\n\nGitHub ★4万超。APIキー1本で、RAGもチャットボットも30分で完成。\n自分の業務フローがAIで動き始める。\n\nhttps://github.com/langgenius/dify",
+      "source_url": "https://github.com/langgenius/dify",
+      "source_title": "ノーコードAIエージェント構築ツール「Dify」、GitHub Stars 4万超で日本のスタートアップでも急速普及"
+    },
+    {
+      "text": "💻 ローカルLLM、まだ試してない？\n\nollama run llama3 の1コマンドで動く。\nM2 MacでLlama3-8Bが毎秒30トークン超、API費用ゼロ。\n自分のデータが外に出ない環境が5分で完成する。\n\nhttps://ollama.com",
+      "source_url": "https://ollama.com",
+      "source_title": "「ollama」1コマンドでLlama3がローカル動作、M2 MacでGPT-4相当モデルが毎秒30トークン超処理"
+    },
+    {
+      "text": "PRレビューに毎回2時間かけてる人へ。\n\nGitHub Copilotのコードレビュー機能、差分を貼るだけで\nバグ指摘・改善案まで出てくる。\n月10ドルで、あなたのレビュー時間が半分以下になる。\n\nhttps://github.com/features/copilot",
+      "source_url": "https://github.com/features/copilot",
+      "source_title": "GitHub Copilotのコードレビュー機能が本格化、PRの差分貼るだけでバグ指摘〜改善案まで自動出力"
+    },
+    {
+      "text": "LLMの推論を自前サーバーで動かしてる人へ。\n\nvLLMはHuggingFaceより最大24倍速い。\nGitHub ★2万超、OpenAI互換APIとしてそのまま使える。\n既存コードをほぼ変えずに乗り換えられる。\n\nhttps://github.com/vllm-project/vllm",
+      "source_url": "https://github.com/vllm-project/vllm",
+      "source_title": "LLM推論フレームワーク「vLLM」、HuggingFaceより最大24倍高速・GitHub Stars 2万超でOpenAI互換APIを実現"
+    },
+    {
+      "text": "無料で使えるGPT-4レベルのLLM。\n\nMeta Llama 3.1-405Bは主要ベンチマークでGPT-4oと互角。\n商用OKのライセンスで、あなたの本番サービスに無料で組み込める。\n日本語対応も大幅に改善されてる。\n\nhttps://ai.meta.com/blog/meta-llama-3-1/",
+      "source_url": "https://ai.meta.com/blog/meta-llama-3-1/",
+      "source_title": "Meta Llama 3.1-405B、主要ベンチマークでGPT-4oと互角・商用OKのオープンソースLLM"
+    },
+    {
+      "text": "データ分析を頼んだら、グラフが10秒で完成した。\n\nClaudeのArtifacts機能、コードの実行結果がその場でプレビューされる。\nコピペ不要で、あなたのダッシュボードが会話だけで作れる。\n無料プランでも使える。\n\nhttps://claude.ai",
+      "source_url": "https://claude.ai",
+      "source_title": "ClaudeのArtifacts機能でデータ分析・ダッシュボード作成が会話だけで完結、無料プランでも利用可能"
+    }
+  ]
+}
