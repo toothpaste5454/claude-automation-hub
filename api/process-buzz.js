@@ -128,10 +128,10 @@ module.exports = async function handler(req, res) {
 
     const html = `
       <div style="font-family:sans-serif;max-width:600px;margin:0 auto;">
-        <h2 style="color:#333;">今日のXバズ投稿案 ${posts.length}件</h2>
+        <h2 style="color:#333;">今日のXバズ投稿案 ${posts.length}件 / スレッド ${topics.length}件</h2>
         <p style="color:#666;font-size:14px;">リサーチ件数: ${topics.length}件 | 生成日時: ${new Date().toLocaleString('ja-JP', { timeZone: 'Asia/Tokyo' })}</p>
         ${cardsHtml}
-        <p style="color:#aaa;font-size:12px;margin-top:24px;">Xバズポストツールで確認・編集してからXに投稿してください。</p>
+        <p style="color:#aaa;font-size:12px;margin-top:24px;">Xバズポストツールで確認・編集してからXに投稿してください。スレッドは「スレッド作成」タブで確認できます。</p>
       </div>
     `
 
@@ -155,14 +155,14 @@ module.exports = async function handler(req, res) {
     console.error('Email send error:', e.message)
   }
 
-  // スレッド自動生成
-  let threadSaved = false
+  // スレッド自動生成（全トピック分、最大6本）
+  let threadsSaved = 0
   let threadError = null
   try {
     const geminiKey = process.env.GEMINI_API_KEY
     if (geminiKey && topics.length > 0) {
-      const threadTopic = topics.find(t => !t.source || t.source !== 'international') || topics[0]
-      const prompt = `あなたはXでバズるスレッド投稿を作るプロです。
+      for (const threadTopic of topics) {
+        const prompt = `あなたはXでバズるスレッド投稿を作るプロです。
 以下のトピックについて、Xのスレッド（連続ツイート）形式で投稿文を作成してください。
 
 トピック: ${threadTopic.title}
@@ -189,45 +189,49 @@ ${threadTopic.summary ? `概要: ${threadTopic.summary}` : ''}
 必ずJSON形式のみで返答してください（説明文不要）:
 {"tweets": ["ツイート1", "ツイート2", "ツイート3", "ツイート4", "ツイート5"]}`
 
-      let threadTweets = null
-      for (let attempt = 1; attempt <= 3; attempt++) {
-        const geminiRes = await fetch(
-          `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${geminiKey}`,
-          {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({
-              contents: [{ parts: [{ text: prompt }] }],
-              generationConfig: { temperature: 0.9, maxOutputTokens: 1500, responseMimeType: 'application/json' },
-            }),
+        let threadTweets = null
+        for (let attempt = 1; attempt <= 3; attempt++) {
+          const geminiRes = await fetch(
+            `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${geminiKey}`,
+            {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({
+                contents: [{ parts: [{ text: prompt }] }],
+                generationConfig: { temperature: 0.9, maxOutputTokens: 1500, responseMimeType: 'application/json' },
+              }),
+            }
+          )
+          if (!geminiRes.ok) {
+            if ((geminiRes.status === 503 || geminiRes.status === 429) && attempt < 3) {
+              await new Promise(r => setTimeout(r, 10000))
+              continue
+            }
+            break
           }
-        )
-        if (!geminiRes.ok) {
-          if ((geminiRes.status === 503 || geminiRes.status === 429) && attempt < 3) {
-            await new Promise(r => setTimeout(r, 10000))
-            continue
+          const geminiData = await geminiRes.json()
+          // Gemini 2.5 Flash は思考パートと回答パートを別々に返すことがある
+          const parts = geminiData.candidates?.[0]?.content?.parts ?? []
+          let parsed = null
+          for (const part of parts) {
+            const cleaned = (part.text ?? '').replace(/^```(?:json)?\s*/i, '').replace(/\s*```\s*$/i, '').trim()
+            try { parsed = JSON.parse(cleaned); break } catch (_) { /* 思考パートはスキップ */ }
           }
+          if (parsed?.tweets && parsed.tweets.length > 0) { threadTweets = parsed.tweets; break }
           break
         }
-        const geminiData = await geminiRes.json()
-        // Gemini 2.5 Flash は思考パートと回答パートを別々に返すことがある
-        const parts = geminiData.candidates?.[0]?.content?.parts ?? []
-        let parsed = null
-        for (const part of parts) {
-          const cleaned = (part.text ?? '').replace(/^```(?:json)?\s*/i, '').replace(/\s*```\s*$/i, '').trim()
-          try { parsed = JSON.parse(cleaned); break } catch (_) { /* 思考パートはスキップ */ }
-        }
-        if (parsed?.tweets && parsed.tweets.length > 0) { threadTweets = parsed.tweets; break }
-        break
-      }
 
-      if (threadTweets) {
-        const insertRes = await fetch(`${supabaseUrl}/rest/v1/threads`, {
-          method: 'POST',
-          headers: { ...supabaseHeaders, 'Prefer': 'return=minimal' },
-          body: JSON.stringify({ topic: threadTopic.title, tweets: threadTweets, status: 'saved' }),
-        })
-        threadSaved = insertRes.ok
+        if (threadTweets) {
+          const insertRes = await fetch(`${supabaseUrl}/rest/v1/threads`, {
+            method: 'POST',
+            headers: { ...supabaseHeaders, 'Prefer': 'return=minimal' },
+            body: JSON.stringify({ topic: threadTopic.title, tweets: threadTweets, status: 'saved' }),
+          })
+          if (insertRes.ok) threadsSaved++
+        }
+
+        // API過負荷を避けるため各トピックの間に少し待機
+        await new Promise(r => setTimeout(r, 3000))
       }
     }
   } catch (e) {
@@ -242,7 +246,7 @@ ${threadTopic.summary ? `概要: ${threadTopic.summary}` : ''}
     if (botToken && chatId) {
       const preview1 = posts[0] ? posts[0].text.slice(0, 80) : ''
       const preview2 = posts[1] ? posts[1].text.slice(0, 80) : ''
-      const telegramText = `📢 *今日のXバズ投稿 生成完了*\n\n${postsSaved}件生成しました。\n${threadSaved ? '🧵 スレッドも自動生成しました。' : ''}\n\n▼ 投稿例1\n${preview1}...\n\n▼ 投稿例2\n${preview2}...\n\nブラウザUIで確認してください。`
+      const telegramText = `📢 *今日のXバズ投稿 生成完了*\n\nバズ投稿: ${postsSaved}件\n🧵 スレッド: ${threadsSaved}件\n\n▼ 投稿例1\n${preview1}...\n\n▼ 投稿例2\n${preview2}...\n\nブラウザUIで確認してください。`
 
       await fetch(`https://api.telegram.org/bot${botToken}/sendMessage`, {
         method: 'POST',
@@ -263,7 +267,7 @@ ${threadTopic.summary ? `概要: ${threadTopic.summary}` : ''}
     date: dateStr,
     research: researchSaved,
     posts: postsSaved,
-    thread: threadSaved,
+    threads: threadsSaved,
     threadError,
   })
 }
