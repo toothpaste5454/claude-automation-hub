@@ -193,7 +193,7 @@ ${threadTopic.summary ? `概要: ${threadTopic.summary}` : ''}
         let threadTweets = null
         for (let attempt = 1; attempt <= 3; attempt++) {
           const geminiRes = await fetch(
-            `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${geminiKey}`,
+            `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${geminiKey}`,
             {
               method: 'POST',
               headers: { 'Content-Type': 'application/json' },
@@ -213,17 +213,17 @@ ${threadTopic.summary ? `概要: ${threadTopic.summary}` : ''}
             break
           }
           const geminiData = await geminiRes.json()
-          // Gemini 2.5 Flash は思考パートと回答パートを別々に返すことがある
-          const parts = geminiData.candidates?.[0]?.content?.parts ?? []
+          const rawText = geminiData.candidates?.[0]?.content?.parts?.[0]?.text ?? ''
+          // JSON文字列内の改行を除去してからパース
+          const cleaned = rawText
+            .replace(/^```(?:json)?\s*/i, '').replace(/\s*```\s*$/i, '').trim()
+            .replace(/(?<=:\s*")([^"\\]|\\.)*?(?=")/g, m => m.replace(/\n/g, ' '))
           let parsed = null
-          for (const part of parts) {
-            const cleaned = (part.text ?? '').replace(/^```(?:json)?\s*/i, '').replace(/\s*```\s*$/i, '').trim()
-            try { parsed = JSON.parse(cleaned); break } catch (pe) {
-              threadErrors.push(`[${threadTopic.title.slice(0,20)}] JSON parse: ${pe.message} | raw[:80]: ${(part.text ?? '').slice(0,80)}`)
-            }
+          try { parsed = JSON.parse(cleaned) } catch (pe) {
+            threadErrors.push(`[${threadTopic.title.slice(0,20)}] JSON parse: ${pe.message} | raw[:80]: ${rawText.slice(0,80)}`)
           }
           if (parsed?.tweets && parsed.tweets.length > 0) { threadTweets = parsed.tweets; break }
-          if (!parsed) threadErrors.push(`[${threadTopic.title.slice(0,20)}] parsed=null, parts=${parts.length}`)
+          if (!parsed) threadErrors.push(`[${threadTopic.title.slice(0,20)}] parsed=null`)
           break
         }
 
@@ -237,8 +237,8 @@ ${threadTopic.summary ? `概要: ${threadTopic.summary}` : ''}
           else threadErrors.push(`[${threadTopic.title.slice(0,20)}] Supabase insert ${insertRes.status}`)
         }
 
-        // API過負荷を避けるため各トピックの間に少し待機
-        await new Promise(r => setTimeout(r, 3000))
+        // レート制限を避けるため各トピックの間に待機
+        await new Promise(r => setTimeout(r, 8000))
       }
     }
   } catch (e) {
