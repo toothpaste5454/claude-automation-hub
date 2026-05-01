@@ -1,0 +1,79 @@
+{
+  "date": "2026-05-02",
+  "topics": [
+    {
+      "title": "Cursor IDEで実装時間50%削減：AIコーディングアシスタントの活用実例",
+      "summary": "AIがリアルタイムでコード補完・エラー修正を提案するIDE。月$20のProプランで使い放題。多くのエンジニアが実装時間の大幅削減を報告しており、国内エンジニアコミュニティでの採用が加速している。",
+      "url": "https://cursor.com",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Claude APIで変わる業務自動化：契約書・CS対応・データ分類の実装例",
+      "summary": "AnthropicのClaude APIで文書処理・顧客対応・データ分類を自動化。GPT-4o比1/4程度のコストで高精度な処理が可能で、日本企業での導入事例が増加。Haiku/Sonnetなどモデル選択で用途別コスト最適化もできる。",
+      "url": "https://docs.anthropic.com",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Google NotebookLM Audio Overview：PDF・論文を聴くポッドキャストに自動変換",
+      "summary": "GoogleのNotebookLMがPDFや論文を会話形式のポッドキャストに自動変換する機能を提供。通勤中に「聴く読書」が可能になり、研究者・学生・ビジネスパーソンに支持されている。無料から使え、Plusプランは月$20。",
+      "url": "https://notebooklm.google.com",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Gemini 2.5 Pro：100万トークンコンテキストでコーディングベンチマーク首位",
+      "summary": "Googleの最新モデルGemini 2.5 Proが100万トークン（小説50冊分）の文脈を一度に処理可能。各種コーディングベンチマークで最高スコアを記録し、リポジトリ全体を渡した設計相談やコードレビューが実用的に。",
+      "url": "https://ai.google.dev",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Ollama：コマンド1行でLlama・GemmaをローカルPC実行、API代$0・完全オフライン",
+      "summary": "OllamaはMac・Linux・Windowsでオープンソースの大規模言語モデルをローカル実行できるOSS。月額課金不要で外部にデータを送らずプライベートに使える。GitHubスター10万超の人気ツールで3ステップで導入できる。",
+      "url": "https://ollama.com",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "GitHub Copilot Workspace：IssueからPR全自動生成、バグ修正時間68%短縮のデータ",
+      "summary": "GitHubのCopilot WorkspaceがIssueのURLを入力するだけでコード修正からPR作成まで自動化。バグ修正時間が平均68%短縮されるというデータがあり、月20回まで無料で試せる。",
+      "url": "https://github.com/features/copilot",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "コードレビューに毎日2時間溶かしてた人、これ試してみて。\n\nCursorのAI補完、エラーの原因を即座に特定して修正案を提示。\n自分の実装時間が50%減って、月$20で余裕で元が取れた。\n\nhttps://cursor.com",
+      "source_url": "https://cursor.com",
+      "source_title": "Cursor IDEで実装時間50%削減：AIコーディングアシスタントの活用実例"
+    },
+    {
+      "text": "Claude APIで自動化できる3つの仕事:\n\n1. 契約書の要点抽出（50枚→3分）\n2. CS一次対応（返信を5秒で生成）\n3. データ分類（GPT-4oの1/4コスト）\n\n自分の業務に当てはまるものある？\nhttps://docs.anthropic.com",
+      "source_url": "https://docs.anthropic.com",
+      "source_title": "Claude APIで変わる業務自動化：契約書・CS対応・データ分類の実装例"
+    },
+    {
+      "text": "📚 論文読む時間が10分の1になった。\n\nNotebookLMにPDFを入れると会話形式ポッドキャストに変換。\n通勤中に聴く読書ができて、無料から使える。\n\n自分のPDFで試したら、要点がスッと頭に入った。\nhttps://notebooklm.google.com",
+      "source_url": "https://notebooklm.google.com",
+      "source_title": "Google NotebookLM Audio Overview：PDF・論文を聴くポッドキャストに自動変換"
+    },
+    {
+      "text": "100万トークン、小説50冊分を一度に解析できる。\n\nGemini 2.5 Pro、コーディングベンチで1位。\n自分のリポ全体を渡して設計相談できる時代になった。\n\nあなたなら何に使う？\nhttps://ai.google.dev",
+      "source_url": "https://ai.google.dev",
+      "source_title": "Gemini 2.5 Pro：100万トークンコンテキストでコーディングベンチマーク首位"
+    },
+    {
+      "text": "ChatGPT月$20、毎月払ってる人に聞きたい。\n\nOllama、コマンド1行でLlamaやGemmaをローカル実行。\nAPI代$0・データ外部送信なし・オフライン完結。\n\n自分のMacで動かしたら応答が3秒以内だった。\nhttps://ollama.com",
+      "source_url": "https://ollama.com",
+      "source_title": "Ollama：コマンド1行でLlama・GemmaをローカルPC実行、API代$0・完全オフライン"
+    },
+    {
+      "text": "バグ修正に半日溶かしてた人、もう要らないかも。\n\nCopilot Workspace、IssueでPRまで全自動。\n修正時間68%短縮、月20回まで無料のデータあり。\n\n自分のリポで試したらレビューだけで済んだ。\nhttps://github.com/features/copilot",
+      "source_url": "https://github.com/features/copilot",
+      "source_title": "GitHub Copilot Workspace：IssueからPR全自動生成、バグ修正時間68%短縮のデータ"
+    }
+  ]
+}
