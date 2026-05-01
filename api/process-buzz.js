@@ -157,6 +157,7 @@ module.exports = async function handler(req, res) {
 
   // スレッド自動生成
   let threadSaved = false
+  let threadError = null
   try {
     const geminiKey = process.env.GEMINI_API_KEY
     if (geminiKey && topics.length > 0) {
@@ -224,6 +225,7 @@ ${threadTopic.summary ? `概要: ${threadTopic.summary}` : ''}
     }
   } catch (e) {
     console.error('Thread generation error:', e.message)
+    threadError = e.message
   }
 
   // Telegram通知
@@ -255,5 +257,6 @@ ${threadTopic.summary ? `概要: ${threadTopic.summary}` : ''}
     research: researchSaved,
     posts: postsSaved,
     thread: threadSaved,
+    threadError,
   })
 }
