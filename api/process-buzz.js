@@ -210,7 +210,10 @@ ${threadTopic.summary ? `概要: ${threadTopic.summary}` : ''}
         }
         const geminiData = await geminiRes.json()
         const raw = geminiData.candidates?.[0]?.content?.parts?.[0]?.text ?? ''
-        const parsed = JSON.parse(raw)
+        // マークダウンコードブロックを除去してからパース
+        const cleaned = raw.replace(/^```(?:json)?\s*/i, '').replace(/\s*```\s*$/i, '').trim()
+        console.log('Gemini raw (first 200):', cleaned.substring(0, 200))
+        const parsed = JSON.parse(cleaned)
         if (parsed.tweets && parsed.tweets.length > 0) { threadTweets = parsed.tweets; break }
         break
       }
