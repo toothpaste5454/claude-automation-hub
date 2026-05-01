@@ -158,6 +158,7 @@ module.exports = async function handler(req, res) {
   // スレッド自動生成（全トピック分、最大6本）
   let threadsSaved = 0
   let threadError = null
+  const threadErrors = []
   try {
     const geminiKey = process.env.GEMINI_API_KEY
     if (geminiKey && topics.length > 0) {
@@ -203,6 +204,8 @@ ${threadTopic.summary ? `概要: ${threadTopic.summary}` : ''}
             }
           )
           if (!geminiRes.ok) {
+            const errText = await geminiRes.text().catch(() => '')
+            threadErrors.push(`[${threadTopic.title.slice(0,20)}] Gemini HTTP ${geminiRes.status}: ${errText.slice(0,100)}`)
             if ((geminiRes.status === 503 || geminiRes.status === 429) && attempt < 3) {
               await new Promise(r => setTimeout(r, 10000))
               continue
@@ -215,9 +218,12 @@ ${threadTopic.summary ? `概要: ${threadTopic.summary}` : ''}
           let parsed = null
           for (const part of parts) {
             const cleaned = (part.text ?? '').replace(/^```(?:json)?\s*/i, '').replace(/\s*```\s*$/i, '').trim()
-            try { parsed = JSON.parse(cleaned); break } catch (_) { /* 思考パートはスキップ */ }
+            try { parsed = JSON.parse(cleaned); break } catch (pe) {
+              threadErrors.push(`[${threadTopic.title.slice(0,20)}] JSON parse: ${pe.message} | raw[:80]: ${(part.text ?? '').slice(0,80)}`)
+            }
           }
           if (parsed?.tweets && parsed.tweets.length > 0) { threadTweets = parsed.tweets; break }
+          if (!parsed) threadErrors.push(`[${threadTopic.title.slice(0,20)}] parsed=null, parts=${parts.length}`)
           break
         }
 
@@ -228,6 +234,7 @@ ${threadTopic.summary ? `概要: ${threadTopic.summary}` : ''}
             body: JSON.stringify({ topic: threadTopic.title, tweets: threadTweets, status: 'saved' }),
           })
           if (insertRes.ok) threadsSaved++
+          else threadErrors.push(`[${threadTopic.title.slice(0,20)}] Supabase insert ${insertRes.status}`)
         }
 
         // API過負荷を避けるため各トピックの間に少し待機
@@ -269,5 +276,6 @@ ${threadTopic.summary ? `概要: ${threadTopic.summary}` : ''}
     posts: postsSaved,
     threads: threadsSaved,
     threadError,
+    threadErrors: threadErrors.slice(0, 5),
   })
 }
