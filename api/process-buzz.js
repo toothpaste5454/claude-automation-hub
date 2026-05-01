@@ -155,6 +155,77 @@ module.exports = async function handler(req, res) {
     console.error('Email send error:', e.message)
   }
 
+  // スレッド自動生成
+  let threadSaved = false
+  try {
+    const geminiKey = process.env.GEMINI_API_KEY
+    if (geminiKey && topics.length > 0) {
+      const threadTopic = topics.find(t => !t.source || t.source !== 'international') || topics[0]
+      const prompt = `あなたはXでバズるスレッド投稿を作るプロです。
+以下のトピックについて、Xのスレッド（連続ツイート）形式で投稿文を作成してください。
+
+トピック: ${threadTopic.title}
+${threadTopic.url ? `URL: ${threadTopic.url}` : ''}
+${threadTopic.summary ? `概要: ${threadTopic.summary}` : ''}
+
+【スレッド構成（この順番で必ず作成）】
+1. フック: 「知らないと損する」「これを使ったら◯◯が変わった」などの掴みツイート
+2. 何が変わるか: Before → After形式で変化を伝える
+3. 何が便利になるか: 具体的なメリット・時間短縮・コスト削減など
+4. どんなことができるか: 機能・活用シーン・具体例
+5. どう使うか: 始め方・手順・コツ（シンプルに）
+6. 締め: 自然にまとめられる場合のみ追加（無理に入れない）
+
+【ルール】
+- 各ツイートは140文字以内（厳守）
+- ハッシュタグは使わない
+- 各ツイートは単体でも読める完結した文章にする
+- 続きを読みたくなるよう、ツイート末尾に「↓」を入れる（最後のツイートを除く）
+- 日本語で作成
+
+必ずJSON形式のみで返答してください（説明文不要）:
+{"tweets": ["ツイート1", "ツイート2", "ツイート3", "ツイート4", "ツイート5"]}`
+
+      let threadTweets = null
+      for (let attempt = 1; attempt <= 3; attempt++) {
+        const geminiRes = await fetch(
+          `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${geminiKey}`,
+          {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              contents: [{ parts: [{ text: prompt }] }],
+              generationConfig: { temperature: 0.9, maxOutputTokens: 1500, responseMimeType: 'application/json' },
+            }),
+          }
+        )
+        if (!geminiRes.ok) {
+          if ((geminiRes.status === 503 || geminiRes.status === 429) && attempt < 3) {
+            await new Promise(r => setTimeout(r, 10000))
+            continue
+          }
+          break
+        }
+        const geminiData = await geminiRes.json()
+        const raw = geminiData.candidates?.[0]?.content?.parts?.[0]?.text ?? ''
+        const parsed = JSON.parse(raw)
+        if (parsed.tweets && parsed.tweets.length > 0) { threadTweets = parsed.tweets; break }
+        break
+      }
+
+      if (threadTweets) {
+        const insertRes = await fetch(`${supabaseUrl}/rest/v1/threads`, {
+          method: 'POST',
+          headers: { ...supabaseHeaders, 'Prefer': 'return=minimal' },
+          body: JSON.stringify({ topic: threadTopic.title, tweets: threadTweets, status: 'saved' }),
+        })
+        threadSaved = insertRes.ok
+      }
+    }
+  } catch (e) {
+    console.error('Thread generation error:', e.message)
+  }
+
   // Telegram通知
   try {
     const botToken = process.env.TELEGRAM_BOT_TOKEN
@@ -162,7 +233,7 @@ module.exports = async function handler(req, res) {
     if (botToken && chatId) {
       const preview1 = posts[0] ? posts[0].text.slice(0, 80) : ''
       const preview2 = posts[1] ? posts[1].text.slice(0, 80) : ''
-      const telegramText = `📢 *今日のXバズ投稿 生成完了*\n\n${postsSaved}件生成しました。\n\n▼ 投稿例1\n${preview1}...\n\n▼ 投稿例2\n${preview2}...\n\nブラウザUIで確認してください。`
+      const telegramText = `📢 *今日のXバズ投稿 生成完了*\n\n${postsSaved}件生成しました。\n${threadSaved ? '🧵 スレッドも自動生成しました。' : ''}\n\n▼ 投稿例1\n${preview1}...\n\n▼ 投稿例2\n${preview2}...\n\nブラウザUIで確認してください。`
 
       await fetch(`https://api.telegram.org/bot${botToken}/sendMessage`, {
         method: 'POST',
@@ -183,5 +254,6 @@ module.exports = async function handler(req, res) {
     date: dateStr,
     research: researchSaved,
     posts: postsSaved,
+    thread: threadSaved,
   })
 }
