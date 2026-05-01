@@ -210,12 +210,14 @@ ${threadTopic.summary ? `概要: ${threadTopic.summary}` : ''}
           break
         }
         const geminiData = await geminiRes.json()
-        const raw = geminiData.candidates?.[0]?.content?.parts?.[0]?.text ?? ''
-        // マークダウンコードブロックを除去してからパース
-        const cleaned = raw.replace(/^```(?:json)?\s*/i, '').replace(/\s*```\s*$/i, '').trim()
-        console.log('Gemini raw (first 200):', cleaned.substring(0, 200))
-        const parsed = JSON.parse(cleaned)
-        if (parsed.tweets && parsed.tweets.length > 0) { threadTweets = parsed.tweets; break }
+        // Gemini 2.5 Flash は思考パートと回答パートを別々に返すことがある
+        const parts = geminiData.candidates?.[0]?.content?.parts ?? []
+        let parsed = null
+        for (const part of parts) {
+          const cleaned = (part.text ?? '').replace(/^```(?:json)?\s*/i, '').replace(/\s*```\s*$/i, '').trim()
+          try { parsed = JSON.parse(cleaned); break } catch (_) { /* 思考パートはスキップ */ }
+        }
+        if (parsed?.tweets && parsed.tweets.length > 0) { threadTweets = parsed.tweets; break }
         break
       }
 
