@@ -1,0 +1,79 @@
+{
+  "date": "2026-05-03",
+  "topics": [
+    {
+      "title": "Cursor AIを導入してコードレビュー時間を60%削減した開発チームの実践例",
+      "summary": "VS Codeベースで自分のコードベースを学習し高精度なサジェストを提供。コードレビュー時間を平均60%削減した事例が国内開発チームで報告されている。月額$20から利用可能。",
+      "url": "https://cursor.com",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Claude APIで議事録の要約・分類を自動化、1日4時間の作業が30分に",
+      "summary": "Anthropic Claude APIを使ったPythonスクリプト50行以内で議事録の要約・タスク抽出を自動化する方法。入力トークン単価が安く大量処理に向く。月2万円以下で導入した事例も。",
+      "url": "https://www.anthropic.com/api",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "オープンソースLLMアプリ開発ツール「Dify」でノーコードAIチャットボットを30分で構築",
+      "summary": "GitHub★55k超のオープンソースLLMアプリビルダー。コードなしでRAGパイプラインやチャットボットを構築できる。国内企業の社内ツール開発での採用事例が増加。",
+      "url": "https://github.com/langgenius/dify",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "自然言語でPCを自律操作するOpen Interpreter、GitHub★57k突破",
+      "summary": "チャットでファイル操作・コード実行・ブラウザ操作が可能なOSSツール。セットアップ5分で使い始められ、ChatGPT Code Interpreterのローカル版として注目。GitHub★57k以上。",
+      "url": "https://github.com/OpenInterpreter/open-interpreter",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "16GBのMacBookでLlama 70Bが動く、Ollamaで構築するローカルLLM環境",
+      "summary": "Ollamaを使えば量子化したLlama 3 70Bが16GBのMacで動作。セットアップ3ステップ、APIも使えてローカル無制限利用が可能。プライバシーを保ちながらGPT-4並みの性能が得られる。",
+      "url": "https://ollama.com/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Google NotebookLMが100ページPDFを8分の音声コンテンツに変換",
+      "summary": "Google NotebookLMのAudio Overview機能でPDFや資料を読み込むだけで自動的に8〜10分のポッドキャスト形式音声を生成。英語資料も日本語化して活用できる。",
+      "url": "https://notebooklm.google.com/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "コードレビューに3時間溶かしてた人、これで終わりかも。\n\nCursor AI、自分のリポジトリを学習してサジェスト精度が別格。月$20で、ある開発チームの作業時間が60%削減。\n\n自分のコードで試したら、もう戻れなくなった。\nhttps://cursor.com",
+      "source_url": "https://cursor.com",
+      "source_title": "Cursor AIを導入してコードレビュー時間を60%削減した開発チームの実践例"
+    },
+    {
+      "text": "議事録の要約・分類に毎日4時間かけてる人、まだ手作業でやってる？\n\nClaude API + Python、50行以内のコードで全部自動化できる。月2万円以下で導入して30分に短縮した事例あり。\n\nhttps://www.anthropic.com/api",
+      "source_url": "https://www.anthropic.com/api",
+      "source_title": "Claude APIで議事録の要約・分類を自動化、1日4時間の作業が30分に"
+    },
+    {
+      "text": "社内チャットボットを30分で作る3ステップ:\n\n1. Difyをdocker composeで起動(3分)\n2. LLMモデルをAPI設定で繋ぐ(5分)\n3. RAGに自社ドキュメントを読み込んで完成\n\nGitHub★55k。あなたのチームにも今日から使える。\nhttps://github.com/langgenius/dify",
+      "source_url": "https://github.com/langgenius/dify",
+      "source_title": "オープンソースLLMアプリ開発ツール「Dify」でノーコードAIチャットボットを30分で構築"
+    },
+    {
+      "text": "「このフォルダ全部整理して」と入力したらPCが動いた。\n\nOpen Interpreter、★57k。自然言語でコード実行・ファイル操作まで自動。セットアップ5分。\n\nあなたのPCが今日からAIアシスタントになる。\nhttps://github.com/OpenInterpreter/open-interpreter",
+      "source_url": "https://github.com/OpenInterpreter/open-interpreter",
+      "source_title": "自然言語でPCを自律操作するOpen Interpreter、GitHub★57k突破"
+    },
+    {
+      "text": "16GBのMacで70Bモデルを動かす3ステップ:\n\n1. brew install ollama(30秒)\n2. ollama pull llama3:70b-q4(20分待つだけ)\n3. localhost:11434でAPIが起動、あなたのデータはどこにも送られない\n\n完全ローカルで無料・無制限。\nhttps://ollama.com/",
+      "source_url": "https://ollama.com/",
+      "source_title": "16GBのMacBookでLlama 70Bが動く、Ollamaで構築するローカルLLM環境"
+    },
+    {
+      "text": "100ページのPDFを読む時間、8分に圧縮できる。\n\nGoogle NotebookLM、資料を貼るだけで音声ポッドキャストを自動生成。英語論文も日本語で要約して聞けるようになった。\n\n自分の勉強時間が劇的に変わった。\nhttps://notebooklm.google.com/",
+      "source_url": "https://notebooklm.google.com/",
+      "source_title": "Google NotebookLMが100ページPDFを8分の音声コンテンツに変換"
+    }
+  ]
+}
