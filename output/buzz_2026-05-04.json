@@ -1,0 +1,79 @@
+{
+  "date": "2026-05-04",
+  "topics": [
+    {
+      "title": "Dify：ノーコードでRAGアプリが30分で作れるOSSビルダー",
+      "summary": "GitHub Stars 44k超のOSSツール。PDF読み込み→ベクトル化→チャットUIまでノーコードで構築できる。社内ドキュメントBotや顧客対応AIを手軽に作れる。",
+      "url": "https://github.com/langgenius/dify",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "NotebookLM音声概要機能：60分の資料が5分のポッドキャストに",
+      "summary": "GoogleのNotebookLMがPDFや資料を音声形式の概要に自動変換。論文・長文ドキュメントの把握時間を大幅に短縮できる。日本語にも対応済み。",
+      "url": "https://notebooklm.google.com/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Claude API Prompt Caching：繰り返しリクエストのコストを最大90%削減",
+      "summary": "Anthropicが提供するPrompt Cachingを使うと、同一コンテキストへの繰り返しリクエストのAPI費用が最大90%オフになる。長いシステムプロンプト運用に即効性あり。",
+      "url": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-caching",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Cursor AIエディタ：IssueコピペからPR自動生成、バグ調査が1時間→10分に",
+      "summary": "GitHub Stars 50k超のAIエディタCursorが大規模アップデート。Issueを貼り付けるだけでコードベース全体を理解しPRまで自動生成する。開発フローを根本から変える。",
+      "url": "https://cursor.com/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Meta Llama 3.1 405B：GPT-4レベルのオープンモデルが自社サーバーで動く",
+      "summary": "MetaがLlama 3.1の405Bパラメータモデルを商用利用OKで公開。自社インフラで動かせるため外部へのデータ送信ゼロで高精度なAIを実装できる。",
+      "url": "https://llama.meta.com/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "GitHub Copilot Workspace：IssueからPRまで自動生成、平均68%の時短データ",
+      "summary": "GitHub CopilotのWorkspace機能が全ユーザー向けに拡大。IssueをインプットするだけでPR作成まで完結し、月20回まで無料で利用可能。バグ修正の平均時間が68%短縮という実測データあり。",
+      "url": "https://githubnext.com/projects/copilot-workspace",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "RAGアプリを1から作ってた人、これで30分に縮んだ。\n\nDify、★44k超のOSSツール。\nPDF読み込み→ベクトル化→チャットUI、全部ノーコード。\n\n自分の社内ドキュメントBotが今日から作れる。\nhttps://github.com/langgenius/dify",
+      "source_url": "https://github.com/langgenius/dify",
+      "source_title": "Dify：ノーコードでRAGアプリが30分で作れるOSSビルダー"
+    },
+    {
+      "text": "長い論文を全部読む時間、もう要らないかも。\n\nNotebookLM、PDFを貼るだけで音声概要を自動生成。\n60分の資料が5分のポッドキャストになる。\n\n自分の勉強スタイルが根本から変わる。\nhttps://notebooklm.google.com/",
+      "source_url": "https://notebooklm.google.com/",
+      "source_title": "NotebookLM音声概要機能：60分の資料が5分のポッドキャストに"
+    },
+    {
+      "text": "APIコスト、毎回同じ処理で払ってた人へ。\n\nClaude APIのPrompt Caching、最大90%オフになる。\n長いシステムプロンプトを繰り返すだけで適用。\n\n自分のAPIコストが今月から劇的に変わる。\nhttps://docs.anthropic.com/en/docs/build-with-claude/prompt-caching",
+      "source_url": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-caching",
+      "source_title": "Claude API Prompt Caching：繰り返しリクエストのコストを最大90%削減"
+    },
+    {
+      "text": "コードレビューだけで済む時代。\n\nCursor、★50k超のAIエディタ。\nIssueをコピペするだけでPRまで自動生成。\nバグ調査が1時間→10分になった人が続出。\n\nあなたの開発フロー、どう変える？\nhttps://cursor.com/",
+      "source_url": "https://cursor.com/",
+      "source_title": "Cursor AIエディタ：IssueコピペからPR自動生成、バグ調査が1時間→10分に"
+    },
+    {
+      "text": "GPT-4レベルのAIが、社外に一切データを出さずに動く。\n\nMeta Llama 3.1、405Bパラメータ・商用利用OK。\n自社サーバーで動かせるので情報漏洩リスクがゼロになる。\n\nあなたの会社のデータで何を作る？\nhttps://llama.meta.com/",
+      "source_url": "https://llama.meta.com/",
+      "source_title": "Meta Llama 3.1 405B：GPT-4レベルのオープンモデルが自社サーバーで動く"
+    },
+    {
+      "text": "バグ修正に半日溶かしてた人、これで変わるかも。\n\nCopilot Workspace、IssueからPRまで自動生成。\n月20回無料、平均68%の時短データあり。\n\nレビューだけで済む日がきた。\nhttps://githubnext.com/projects/copilot-workspace",
+      "source_url": "https://githubnext.com/projects/copilot-workspace",
+      "source_title": "GitHub Copilot Workspace：IssueからPRまで自動生成、平均68%の時短データ"
+    }
+  ]
+}
