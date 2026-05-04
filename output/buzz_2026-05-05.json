@@ -1,0 +1,79 @@
+{
+  "date": "2026-05-05",
+  "topics": [
+    {
+      "title": "v0.dev：自然言語でReactコンポーネントを即生成、プロトタイプ作成が10分→1分に",
+      "summary": "Vercelが提供するUI生成ツール。「カードを3列表示して」などの自然言語だけでReactコンポーネントを即生成。無料プランあり、デザインからコードへの変換作業を大幅に短縮。",
+      "url": "https://v0.dev/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "FLUX.1：Midjourney超えと評される画像生成OSS、★16k超・商用利用OK",
+      "summary": "Black Forest Labsが公開した高精度画像生成モデル。人物・テキスト描写でMidjourneyを凌ぐと評価され、GitHubで★16k超を獲得。商用利用可能でローカル動作も可能。",
+      "url": "https://github.com/black-forest-labs/flux",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "n8n：★45k超のOSSオートメーション、メール受信→AI要約→Slack通知を15分で構築",
+      "summary": "ノーコードでAI連携ワークフローを構築できるOSSツール。Zapierの代替として注目され、OpenAI・Claude等のAI APIと簡単に連携。自社サーバーで動かせるためデータ外部送信ゼロ。",
+      "url": "https://github.com/n8n-io/n8n",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Anthropic Computer Use：ClaudeがPCを自律操作、フォーム入力・ブラウザ操作を自動化",
+      "summary": "AnthropicのClaude 3.5がPC画面を認識しマウス・キーボードを操作できる機能。Webフォームの入力やファイル操作を自動化でき、月20ドル台から試せる。定型業務を根本から削減。",
+      "url": "https://www.anthropic.com/news/3-5-models-and-computer-use",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "OpenAI o3-mini：ChatGPT Plus月20ドルで使える推論特化モデル、数学・コーディング精度が2倍以上",
+      "summary": "OpenAIの推論特化モデルがChatGPT Plusで解放。競技プログラミングや数学問題の正答率が従来モデルの2倍以上。複雑なロジックを要するコードレビュー・バグ分析に即効性あり。",
+      "url": "https://openai.com/o3",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Perplexity AI Spaces：チームで知識ベースを共有、出典付きAI検索が月20ドルで使い放題",
+      "summary": "Perplexity AIのSpaces機能でチームが共有知識ベースを持てるようになった。リサーチ・競合調査をAIが出典付きでまとめ、従来の検索→まとめ作業を1ステップに短縮。",
+      "url": "https://www.perplexity.ai/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "デザイン指示を書くだけでReactコンポーネントが出る。\n\nv0.dev、自然言語でUI生成。\n「カードを3列表示して」→1分でコードが完成。\nプロトタイプ作成が10分→1分に縮んだ。\n\n自分のフロント作業、何時間削れる？\nhttps://v0.dev/",
+      "source_url": "https://v0.dev/",
+      "source_title": "v0.dev：自然言語でReactコンポーネントを即生成、プロトタイプ作成が10分→1分に"
+    },
+    {
+      "text": "Midjourneyの月額、やめた人が続出している。\n\nFLUX.1、★16k超のOSS画像生成AI。\n人物・テキスト描写の精度でMidjourneyを超えたと評価され、商用利用OK。\n\n自分のデザイン制作コスト、ゼロにする？\nhttps://github.com/black-forest-labs/flux",
+      "source_url": "https://github.com/black-forest-labs/flux",
+      "source_title": "FLUX.1：Midjourney超えと評される画像生成OSS、★16k超・商用利用OK"
+    },
+    {
+      "text": "毎朝のルーティン作業が消えた。\n\nn8n、★45k超のOSSオートメーション。\n「メール受信→AI要約→Slack通知」が15分で組める。\nZapier比でコストがほぼゼロになる。\n\n自分の繰り返し作業、1つ自動化してみる。\nhttps://github.com/n8n-io/n8n",
+      "source_url": "https://github.com/n8n-io/n8n",
+      "source_title": "n8n：★45k超のOSSオートメーション、メール受信→AI要約→Slack通知を15分で構築"
+    },
+    {
+      "text": "PCの繰り返し操作を全部AIに任せた。\n\nClaude Computer Use、ブラウザ操作・フォーム入力を自律実行。\n月20ドル台から試せて、定型業務が丸ごと消える。\n\nあなたの作業、何時間が毎日返ってくる？\nhttps://www.anthropic.com/news/3-5-models-and-computer-use",
+      "source_url": "https://www.anthropic.com/news/3-5-models-and-computer-use",
+      "source_title": "Anthropic Computer Use：ClaudeがPCを自律操作、フォーム入力・ブラウザ操作を自動化"
+    },
+    {
+      "text": "難しいバグや数学、これで片付くようになった。\n\nOpenAI o3-mini、ChatGPT Plus月20ドルで利用可能。\n推論精度が従来の2倍以上、競プロや論文も解ける。\n\n自分が詰まってた問題、今日1つ試す。\nhttps://openai.com/o3",
+      "source_url": "https://openai.com/o3",
+      "source_title": "OpenAI o3-mini：ChatGPT Plus月20ドルで使える推論特化モデル、数学・コーディング精度が2倍以上"
+    },
+    {
+      "text": "Googleで調べてChatGPTにまとめさせる手順が1つになった。\n\nPerplexity AI Spaces、出典付きAI検索＋チーム共有。\n月20ドルで使い放題、リサーチ時間が半分以下になった。\n\n自分の情報収集、今日から変えてみる。\nhttps://www.perplexity.ai/",
+      "source_url": "https://www.perplexity.ai/",
+      "source_title": "Perplexity AI Spaces：チームで知識ベースを共有、出典付きAI検索が月20ドルで使い放題"
+    }
+  ]
+}
