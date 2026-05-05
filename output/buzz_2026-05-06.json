@@ -1,0 +1,79 @@
+{
+  "date": "2026-05-06",
+  "topics": [
+    {
+      "title": "GitHub Copilot Workspace：IssueからPRまで全自動、バグ修正時間が68%削減",
+      "summary": "GitHubのAI機能がIssueのURLを貼るだけでPR作成まで自動化。全ユーザーに解放され、月20回まで無料。バグ修正の平均時間が68%短縮のデータあり。",
+      "url": "https://githubnext.com/projects/copilot-workspace/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Google NotebookLM：PDF50件を一括処理し日本語「音声概要」を自動生成",
+      "summary": "GoogleのNotebookLMが最大50件のPDFを同時に処理し、日本語の音声サマリーを自動生成。通勤中に論文を「聴く」ワークフローが実現。無料で利用可能で調査時間を大幅に短縮。",
+      "url": "https://notebooklm.google.com/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Dify.AI：★75k超のOSS、LLMアプリをノーコードで30分構築",
+      "summary": "LLMを使ったアプリをGUI操作だけで構築できるOSSフレームワーク。ChatGPT・Claude・Geminiをバックエンドに指定でき、RAGや会話フローを視覚的に設計。GitHubで★75k超を獲得。",
+      "url": "https://github.com/langgenius/dify",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Cursor AI：400万ユーザー突破、月$20でコーディング速度3倍を実現するAIエディタ",
+      "summary": "AIネイティブのコードエディタCursorが400万ユーザーを突破。VSCode互換でGPT-4/Claude APIを統合し、コード補完・バグ修正・リファクタリングをチャット操作だけで完結。月$20のProプラン。",
+      "url": "https://www.cursor.com/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Google Gemini 2.0 Flash：前世代の2倍速・同価格帯、リアルタイム音声・映像処理も対応",
+      "summary": "GoogleがGemini 2.0 Flashをリリース。Gemini 1.5 Proの2倍の処理速度を維持しながら同等のコスト水準を実現。マルチモーダル対応でリアルタイム音声・映像処理も可能になった。",
+      "url": "https://deepmind.google/technologies/gemini/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Open WebUI：★45k超のOSS、ChatGPT風UIでLlamaをローカル管理",
+      "summary": "ChatGPT風のUIでローカルLLMを管理できるOSSツール。Ollamaと連携してLlama・Mistral等を手元PCで動かせる。外部サービスへのデータ送信ゼロで、企業の社内データ活用に最適。",
+      "url": "https://github.com/open-webui/open-webui",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "バグ修正に半日かけてた、もう要らない。\n\nCopilot Workspace、IssueのURLでPRまで自動生成。\n月20回無料、平均68%の時短データあり。\n\n自分のリポジトリで試したら、レビューだけで済んだ。\nhttps://githubnext.com/projects/copilot-workspace/",
+      "source_url": "https://githubnext.com/projects/copilot-workspace/",
+      "source_title": "GitHub Copilot Workspace：IssueからPRまで全自動、バグ修正時間が68%削減"
+    },
+    {
+      "text": "会議録50件を読み込んで「音声まとめ」が出てくる。\n\nGoogle NotebookLM、PDF50件を一括処理し日本語音声概要を自動生成。\n通勤中に論文を「聴く」ワークフローが実現。\n\nあなたの調査時間、半分になるかも。\nhttps://notebooklm.google.com/",
+      "source_url": "https://notebooklm.google.com/",
+      "source_title": "Google NotebookLM：PDF50件を一括処理し日本語「音声概要」を自動生成"
+    },
+    {
+      "text": "社内AI、エンジニアなしで30分で動いた。\n\nDify.AI、★75k超のOSSでLLMアプリをノーコード構築。\nChatGPT・Claude・Geminiを切り替えてRAGが組める。\n\n自分の業務フロー、今日1つ自動化してみる。\nhttps://github.com/langgenius/dify",
+      "source_url": "https://github.com/langgenius/dify",
+      "source_title": "Dify.AI：★75k超のOSS、LLMアプリをノーコードで30分構築"
+    },
+    {
+      "text": "400万人が使い始めたAIエディタ、試さないのはもったいない。\n\nCursor、GitHubを丸ごと読んで修正案を出す。\n月$20で使い放題、体感3倍速くなった。\n\nあなたのエディタ、まだ素のVSCodeのまま？\nhttps://www.cursor.com/",
+      "source_url": "https://www.cursor.com/",
+      "source_title": "Cursor AI：400万ユーザー突破、月$20でコーディング速度3倍を実現するAIエディタ"
+    },
+    {
+      "text": "APIコストを下げたい人、これが一択かも。\n\nGemini 2.0 Flash、前世代の2倍速で同等クオリティ。\nあなたのRAGに差し替えるだけで、レイテンシが半分になる可能性。\n\nhttps://deepmind.google/technologies/gemini/",
+      "source_url": "https://deepmind.google/technologies/gemini/",
+      "source_title": "Google Gemini 2.0 Flash：前世代の2倍速・同価格帯、リアルタイム音声・映像処理も対応"
+    },
+    {
+      "text": "社内データをChatGPTに貼るのをやめた。\n\nOpen WebUI、★45k超のOSSでローカルAI環境を構築。\nデータ送信ゼロ、LlamaをPCで動かせる。\n\n自分の業務データ、外に出したくない人に試してほしい。\nhttps://github.com/open-webui/open-webui",
+      "source_url": "https://github.com/open-webui/open-webui",
+      "source_title": "Open WebUI：★45k超のOSS、ChatGPT風UIでLlamaをローカル管理"
+    }
+  ]
+}
