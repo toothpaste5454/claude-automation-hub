@@ -193,13 +193,13 @@ ${threadTopic.summary ? `概要: ${threadTopic.summary}` : ''}
         let threadTweets = null
         for (let attempt = 1; attempt <= 3; attempt++) {
           const geminiRes = await fetch(
-            `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${geminiKey}`,
+            `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=${geminiKey}`,
             {
               method: 'POST',
               headers: { 'Content-Type': 'application/json' },
               body: JSON.stringify({
                 contents: [{ parts: [{ text: prompt }] }],
-                generationConfig: { temperature: 0.9, maxOutputTokens: 1500, responseMimeType: 'application/json' },
+                generationConfig: { temperature: 0.9, maxOutputTokens: 1500, responseMimeType: 'application/json', thinkingConfig: { thinkingBudget: 0 } },
               }),
             }
           )
