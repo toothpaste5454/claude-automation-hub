@@ -19,6 +19,11 @@
 
 **v2方式**: プロンプトに全手順・設定値を直接埋め込み。CLAUDE.md参照やget-config API呼び出しは不要。
 
+### 注意事項
+
+- **`process-buzz.js`のスレッド生成は`gemini-2.5-flash-lite`を使用**（`gemini-2.0-flash`はquota制限で失敗→2026-05-06修正済み）
+- **Supabaseの`threads`テーブルが存在しないとスレッド保存が失敗する**（2026-05-06作成済み。再作成が必要な場合は`x_buzz_tool/supabase_setup.sql`のSQLを実行すること）
+
 ---
 
 ## 共通ルール（全タスク共通）
