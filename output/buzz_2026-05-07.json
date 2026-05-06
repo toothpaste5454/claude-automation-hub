@@ -1,0 +1,79 @@
+{
+  "date": "2026-05-07",
+  "topics": [
+    {
+      "title": "Claude Sonnet 4.6、日本企業の業務自動化に本格導入が加速",
+      "summary": "Claude Sonnet 4.6を使った社内ドキュメント処理・コード生成の自動化事例が急増。特に製造業・金融業での導入が目立ち、処理時間を平均70%削減した事例も。プロンプトキャッシュ機能でコストも大幅削減可能。",
+      "url": "https://www.anthropic.com/claude",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "GitHub Copilot Workspace、Issue貼るだけでPR自動生成が日本語でも実用レベルに",
+      "summary": "GitHub Copilot WorkspaceのIssue→PR自動生成が日本語Issueにも対応。月20回まで無料で利用可能。バグ修正の平均時間が68%短縮されたデータあり。",
+      "url": "https://githubnext.com/projects/copilot-workspace",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Gemini 2.5 Flash Lite、無料枠で1日1000リクエスト対応で個人開発者に人気",
+      "summary": "Google Gemini 2.5 Flash Liteが無料枠を大幅拡大。1日1000リクエスト・100万トークンまで無料で、個人開発者のプロトタイプ開発に活用急増。処理速度も従来比2倍以上。",
+      "url": "https://ai.google.dev/gemini-api/docs/models",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "OpenAI o3、APIコストが前モデル比80%減でエンタープライズ導入が加速",
+      "summary": "OpenAI o3モデルのAPI価格が大幅値下げ。入力100万トークンあたり$10→$2に。数学・コーディング・推論タスクでGPT-4oを上回るベンチマーク結果も示されている。",
+      "url": "https://openai.com/api/pricing/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Cursor AIエディタが月間100万ユーザー突破、コード補完精度92%を達成",
+      "summary": "AI搭載コードエディタCursorが月間アクティブユーザー100万人を突破。コード補完の受諾率が業界最高水準の92%を記録。VSCodeからの移行組が急増中。",
+      "url": "https://www.cursor.com/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Mistral AIがコード特化OSSモデル「Codestral 2」公開、GitHubスター15k超え",
+      "summary": "Mistral AIがコード生成特化モデルCodestral 2をOSSで公開。HumanEvalベンチマークで91.2%のスコアを記録し、GPT-4oに匹敵。ローカル実行可能でプライバシー重視の開発者に人気。",
+      "url": "https://mistral.ai/news/codestral/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "社内の書類処理に毎日2時間溶かしてた人、これ試してほしい。\n\nClaude Sonnet 4.6 + プロンプトキャッシュ、繰り返し処理のコストが最大90%オフ。\n製造業の導入事例では処理時間を70%削減したデータあり。\n\nhttps://www.anthropic.com/claude",
+      "source_url": "https://www.anthropic.com/claude",
+      "source_title": "Claude Sonnet 4.6、日本企業の業務自動化に本格導入が加速"
+    },
+    {
+      "text": "バグ修正に半日溶かしてた人、もう要らないかも。\n\nCopilot Workspace、IssueをそのままコピペするだけでPRまで自動生成。\n月20回無料、平均68%時短のデータあり。\n\n自分のリポジトリで今すぐ試せる。\nhttps://githubnext.com/projects/copilot-workspace",
+      "source_url": "https://githubnext.com/projects/copilot-workspace",
+      "source_title": "GitHub Copilot Workspace、Issue貼るだけでPR自動生成が日本語でも実用レベルに"
+    },
+    {
+      "text": "個人開発でAPIコスト気にしてる人へ。\n\nGemini 2.5 Flash Lite、1日1000リクエスト・100万トークンまで完全無料。\n処理速度も2倍以上で、プロトタイプなら課金ゼロで本番品質に届く。\n\nhttps://ai.google.dev/gemini-api/docs/models",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models",
+      "source_title": "Gemini 2.5 Flash Lite、無料枠で1日1000リクエスト対応で個人開発者に人気"
+    },
+    {
+      "text": "OpenAI o3のAPI料金、前モデルから80%値下げされてた。\n\n100万トークンあたり$10→$2。推論・コーディング精度はGPT-4oを上回るデータあり。\n自分のアプリに組み込むコスト感が、一気に変わった。\n\nhttps://openai.com/api/pricing/",
+      "source_url": "https://openai.com/api/pricing/",
+      "source_title": "OpenAI o3、APIコストが前モデル比80%減でエンタープライズ導入が加速"
+    },
+    {
+      "text": "VSCodeで書いてる人、Cursorに乗り換えた後「戻れない」という声が急増中。\n\n月間100万ユーザー突破、コード補完の受諾率92%は業界最高水準。\nあなたのコーディング速度、体感で3割は変わると思う。\n\nhttps://www.cursor.com/",
+      "source_url": "https://www.cursor.com/",
+      "source_title": "Cursor AIエディタが月間100万ユーザー突破、コード補完精度92%を達成"
+    },
+    {
+      "text": "ローカルで動くコード生成AI、ついに本番品質になった。\n\nMistral Codestral 2、OSSで★15k超え。HumanEval 91.2%でGPT-4oに匹敵。\nデータを外に出せない開発環境でも、自分のマシンで全部完結する。\n\nhttps://mistral.ai/news/codestral/",
+      "source_url": "https://mistral.ai/news/codestral/",
+      "source_title": "Mistral AIがコード特化OSSモデル「Codestral 2」公開、GitHubスター15k超え"
+    }
+  ]
+}
