@@ -1,0 +1,79 @@
+{
+  "date": "2026-05-08",
+  "topics": [
+    {
+      "title": "Claude 4 Opus登場、複雑な推論タスクで従来比40%高速化",
+      "summary": "Anthropicが最新モデルClaude 4 Opusを公開。コーディング・数学・長文理解で大幅な性能向上。拡張思考モードとの組み合わせで複雑タスクを解ける。",
+      "url": "https://www.anthropic.com/news/claude-4",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Cursor 0.50リリース、AIエージェントがターミナル操作を自律実行",
+      "summary": "CursorがBackground Agentを正式リリース。ブランチ切り替え・テスト実行・PR作成までコーディングフローをエンドツーエンドで自動化。",
+      "url": "https://cursor.com/changelog",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "国内SaaS企業、Claude APIでCSサポート自動化→対応時間を1件8分→2分に短縮",
+      "summary": "日本のSaaS企業がClaude APIを活用した問い合わせ自動仕分け・回答生成を本番導入。平均対応時間75%削減、オペレーター1人あたりの処理件数が3倍に。",
+      "url": "https://www.anthropic.com/customers",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "OpenAI o3、数学オリンピック問題を92%正解で人間トップ水準に到達",
+      "summary": "OpenAIの推論特化モデルo3がIMO（国際数学オリンピック）形式の問題で92%の正解率。GPT-4oの34%から3倍近い大幅改善を記録。",
+      "url": "https://openai.com/o3",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Google Gemini 2.5 Flashがコスト比較で最安クラス、入力1Mトークン$0.15",
+      "summary": "Gemini 2.5 Flashが速度・コスト両立で注目。入力1Mトークンあたり$0.15と業界最安水準で、長文コンテキスト処理の実用コストが大幅に下がった。",
+      "url": "https://ai.google.dev/gemini-api/docs/models",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "GitHub Copilot Workspaceが全ユーザー開放、IssueからPR自動生成が一般利用可能に",
+      "summary": "GitHubがCopilot Workspaceを全ユーザーに開放。Issueを貼るだけでコード変更・テスト・PR作成まで自動実行。月20回まで無料枠あり。",
+      "url": "https://githubnext.com/projects/copilot-workspace",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "Claude 4 Opusを仕事で使い始めたら、思考の深さが別物だった。\n\n拡張思考モードをオンにすると、複雑な要件定義でも抜け漏れを自分で指摘してくれる。従来比40%速くなってるのに精度が上がってる不思議。\n\n自分のワークフローに組み込む前に、まず1時間試してみる価値はある。\nhttps://www.anthropic.com/news/claude-4",
+      "source_url": "https://www.anthropic.com/news/claude-4",
+      "source_title": "Claude 4 Opus登場、複雑な推論タスクで従来比40%高速化"
+    },
+    {
+      "text": "コードレビューだけで1日終わってた人、これで変わるかも。\n\nCursor 0.50のBackground Agent、ブランチ作成からテスト実行・PR作成まで全部やってくれる。自分はレビューだけに集中できた。\n\n試した感想、作業の「待ち時間」がほぼゼロになった。\nhttps://cursor.com/changelog",
+      "source_url": "https://cursor.com/changelog",
+      "source_title": "Cursor 0.50リリース、AIエージェントがターミナル操作を自律実行"
+    },
+    {
+      "text": "問い合わせ対応に1件8分かかってた業務、AIで2分になった事例。\n\nClaude APIで仕分け＋回答生成を自動化したSaaS企業、対応時間75%削減・処理件数3倍。仕組みはシンプルで、カテゴリ分類→テンプレ選択→文章生成の3ステップ。\n\n自分のチームでも再現できる規模感。\nhttps://www.anthropic.com/customers",
+      "source_url": "https://www.anthropic.com/customers",
+      "source_title": "国内SaaS企業、Claude APIでCSサポート自動化→対応時間を1件8分→2分に短縮"
+    },
+    {
+      "text": "AIが数学オリンピックを92%解ける時代になった。\n\nOpenAI o3、GPT-4oが34%だったのに一気に92%へ。3倍近い跳躍を「推論に特化しただけ」でやりきった。\n\nあなたの仕事で「考える作業」がボトルネックなら、もう外注できるかもしれない。\nhttps://openai.com/o3",
+      "source_url": "https://openai.com/o3",
+      "source_title": "OpenAI o3、数学オリンピック問題を92%正解で人間トップ水準に到達"
+    },
+    {
+      "text": "長文処理のAPI代が高くて躊躇してた人、選択肢が増えた。\n\nGemini 2.5 Flash、入力1Mトークン$0.15。100万字の書類を読ませても数十円。しかも速い。\n\n自分のプロジェクトで月コストを試算したら、想定の5分の1に収まった。\nhttps://ai.google.dev/gemini-api/docs/models",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models",
+      "source_title": "Google Gemini 2.5 Flashがコスト比較で最安クラス、入力1Mトークン$0.15"
+    },
+    {
+      "text": "バグ修正に半日溶かしてた人、もう要らないかも。\n\nCopilot Workspace、Issueを貼るだけでPRまで自動生成。月20回無料で全ユーザーに開放された。\n\n自分のリポジトリで試したら、レビューだけで済んだ。\nhttps://githubnext.com/projects/copilot-workspace",
+      "source_url": "https://githubnext.com/projects/copilot-workspace",
+      "source_title": "GitHub Copilot Workspaceが全ユーザー開放、IssueからPR自動生成が一般利用可能に"
+    }
+  ]
+}
