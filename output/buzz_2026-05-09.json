@@ -1,0 +1,79 @@
+{
+  "date": "2026-05-09",
+  "topics": [
+    {
+      "title": "CursorとClaude Sonnetで実装速度が3倍に—日本エンジニアの活用事例",
+      "summary": "AIコーディングアシスタントCursorと組み合わせることで、コードレビュー・実装サイクルが大幅に短縮。.cursorrules設定でプロジェクト固有ルールを学習させると精度がさらに向上。日本のエンジニアコミュニティで採用が急増中。",
+      "url": "https://cursor.com",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "GitHub Stars 4万超のLLMアプリOSS「Dify」—社内ChatGPTをAPI代ゼロで構築",
+      "summary": "DifyはドラッグアンドドロップでRAGやエージェントアプリを構築できるOSS。Dockerで自己ホスティングでき、データを外に出さずに社内展開できる。日本企業でのナレッジ管理・カスタマーサポート自動化への採用が加速中。",
+      "url": "https://github.com/langgenius/dify",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Google NotebookLM音声サマリー—30分の会議を5分で把握するビジネス活用術",
+      "summary": "NotebookLMのAudio Overview機能でPDFや議事録がポッドキャスト形式に自動変換される。通勤中の音声インプットとして活用するビジネスパーソンが急増。無料で使えるため社内ドキュメント整理・議事録要約に幅広く使われ始めている。",
+      "url": "https://notebooklm.google.com",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Claude Computer Use—PCをAIが自律操作、繰り返し業務を外部ツール不要で自動化",
+      "summary": "AnthropicのComputer Use機能でClaudeがスクリーンを認識しながらブラウザ操作・ファイル処理を自動実行。API経由でカスタム自動化ワークフローを構築でき、繰り返し業務の工数削減に活用が広がっている。",
+      "url": "https://www.anthropic.com/news/computer-use",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "OpenAI o1—数学オリンピック2024で6問中4問正解の推論特化モデル",
+      "summary": "段階的に思考を展開するo1モデルは国際数学オリンピック2024で6問中4問を正解。コードデバッグや複雑なロジック推論でGPT-4oを上回る精度を発揮し、無料プランでも利用可能。思考過程の可視化で学習・検証用途にも活用が広がっている。",
+      "url": "https://openai.com/o1",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "GitHub Copilot Workspace—IssueからPR自動生成、平均68%の開発時間短縮",
+      "summary": "IssueのテキストからCopilot Workspaceがコード変更計画を立案しPRを自動作成。平均68%の開発時間削減データが示されており、月20回まで無料で試せる。コードレビューに集中できる開発フローへの転換点として注目を集めている。",
+      "url": "https://githubnext.com/projects/copilot-workspace",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "コードレビューに1日使ってた人、もう半日で済むかも。\n\nCursor + Claude Sonnet、.cursorrules設定だけでバグ指摘の精度がぐっと上がる。\n自分のリポジトリで試したら、実装からレビューまでが3倍速になった。\n\nhttps://cursor.com",
+      "source_url": "https://cursor.com",
+      "source_title": "CursorとClaude Sonnetで実装速度が3倍に—日本エンジニアの活用事例"
+    },
+    {
+      "text": "社内ChatGPT、API代ゼロで作る方法:\n\n1. DifyをDocker一発で起動（Stars 4万超）\n2. PDFドロップだけでRAG完成\n3. Slackに繋いで全社展開\n\nあなたの会社のナレッジが死蔵されてるなら今すぐ試す価値ある。\nhttps://github.com/langgenius/dify",
+      "source_url": "https://github.com/langgenius/dify",
+      "source_title": "GitHub Stars 4万超のLLMアプリOSS「Dify」—社内ChatGPTをAPI代ゼロで構築"
+    },
+    {
+      "text": "議事録に追われてた時間、これで消えた。\n\nGoogle NotebookLM、PDFや資料を音声サマリーに変換。\n30分の会議が5分の音声で把握できる。\n\n通勤中に聞けば、自分のインプット量が変わる。\nhttps://notebooklm.google.com",
+      "source_url": "https://notebooklm.google.com",
+      "source_title": "Google NotebookLM音声サマリー—30分の会議を5分で把握するビジネス活用術"
+    },
+    {
+      "text": "PCの繰り返し操作、週5時間以上あるなら試してほしい。\n\nClaude、画面を見ながらブラウザ操作を自動実行。\n外部ツール不要でAPIから使える。\n\nあなたの定型作業、何時間返ってくる？\nhttps://www.anthropic.com/news/computer-use",
+      "source_url": "https://www.anthropic.com/news/computer-use",
+      "source_title": "Claude Computer Use—PCをAIが自律操作、繰り返し業務を外部ツール不要で自動化"
+    },
+    {
+      "text": "数学オリンピック2024で6問中4問を正解したAIが、無料で使える。\n\nOpenAI o1、複雑な推論を段階的に展開しながら解く。\nコードのバグ調査・数式の証明に投げたら正解率が段違いだった。\n\nあなたのハマってる難問、試してみた？\nhttps://openai.com/o1",
+      "source_url": "https://openai.com/o1",
+      "source_title": "OpenAI o1—数学オリンピック2024で6問中4問正解の推論特化モデル"
+    },
+    {
+      "text": "バグ修正に半日溶かしてた人、もう要らないかも。\n\nCopilot Workspace、IssueからPRまで全自動。\n平均68%の時間短縮で、月20回まで無料。\n\n自分のリポジトリで試したら、レビューだけで終わった。\nhttps://githubnext.com/projects/copilot-workspace",
+      "source_url": "https://githubnext.com/projects/copilot-workspace",
+      "source_title": "GitHub Copilot Workspace—IssueからPR自動生成、平均68%の開発時間短縮"
+    }
+  ]
+}
