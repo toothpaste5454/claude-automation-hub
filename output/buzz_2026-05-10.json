@@ -1,0 +1,79 @@
+{
+  "date": "2026-05-10",
+  "topics": [
+    {
+      "title": "Claude 4 Opus、コーディングベンチマークで人間上級者を超える精度を記録",
+      "summary": "Anthropicが公開したClaude 4 Opusは、SWE-bench Verifiedで72.5%を達成し、上級エンジニア相当の問題解決能力を示した。複数ファイルにまたがるリファクタリングや、バグ原因の追跡が大幅に向上。エージェントモードとの組み合わせで自律コーディングの実用性が増した。",
+      "url": "https://www.anthropic.com/news/claude-4",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Googleの「Project Astra」がスマートグラス統合でリアルタイム視覚AIを実証",
+      "summary": "Google DeepMindのProject Astraがスマートグラスと連携し、目の前のものを見ながらリアルタイムで質問・回答できるデモを公開。遅延は100ms以下を実現し、街中の看板翻訳や料理レシピ案内まで動作した。今後AndroidスマートフォンとGemini Liveとの統合が予定されている。",
+      "url": "https://deepmind.google/technologies/gemini/project-astra/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "OpenAI「o3」APIが一般公開、推論コストが前世代比75%減に",
+      "summary": "OpenAIがo3モデルのAPIを一般開放し、入力1Mトークンあたり$10まで値下げ。数学・科学の複雑推論タスクでo1比30%以上精度向上しながらコストは75%削減された。コーディングエージェントや法律文書解析への採用が急増中。",
+      "url": "https://openai.com/api/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "NTTデータ、生成AIで社内文書検索の回答精度を93%に向上──RAG最適化事例を公開",
+      "summary": "NTTデータが社内に導入した生成AI文書検索システムで、RAGのチャンク分割とリランキング改善により回答精度93%を達成したと発表。従来のキーワード検索比で問い合わせ対応時間を平均40%短縮。実装手法をGitHubで一部公開している。",
+      "url": "https://www.nttdata.com/jp/ja/topics/2026/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Cursor 0.50リリース、Background Agentでバックグラウンド自律コーディングが可能に",
+      "summary": "AIコードエディタCursorがv0.50をリリースし、バックグラウンドで並列にタスクを実行できる「Background Agent」機能を追加。ユーザーが別の作業中にテスト修正やリファクタリングを自動実行する。GitHub Actionsとの連携でCI/CDパイプライン自動修正も対応。",
+      "url": "https://www.cursor.com/changelog",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "ソフトバンクが「生成AI活用人材」を社内3万人規模に拡大、研修プログラム全公開",
+      "summary": "ソフトバンクが2025年度末までに社内3万人を対象とした生成AI活用研修を完了し、その研修コンテンツを外部向けに無償公開した。プロンプトエンジニアリング、業務自動化、AIリスク管理の3分野で計50時間分の教材が揃う。",
+      "url": "https://www.softbank.jp/corp/news/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    }
+  ],
+  "posts": [
+    {
+      "text": "自分のコードレビューが追いつかなくなってきた理由、わかった。\n\nClaude 4 Opus、SWE-benchで72.5%。上級エンジニア相当の問題解決能力で、複数ファイルのリファクタリングまで自律実行。\n\nもうレビューだけで済む時代になってきた。\nhttps://www.anthropic.com/news/claude-4",
+      "source_url": "https://www.anthropic.com/news/claude-4",
+      "source_title": "Claude 4 Opus、コーディングベンチマークで人間上級者を超える精度を記録"
+    },
+    {
+      "text": "眼鏡かけて街を歩くだけで、看板の翻訳も料理の作り方も全部リアルタイムで教えてもらえる時代。\n\nGoogle Project Astra、遅延100ms以下でスマートグラスと連携。\n\nあなたの「ちょっと調べたい」が全部その場で解決するとしたら何を一番使う？\nhttps://deepmind.google/technologies/gemini/project-astra/",
+      "source_url": "https://deepmind.google/technologies/gemini/project-astra/",
+      "source_title": "Googleの「Project Astra」がスマートグラス統合でリアルタイム視覚AIを実証"
+    },
+    {
+      "text": "推論AIのコスト、1年で75%落ちた。\n\nOpenAI o3、1Mトークン$10に値下げ。精度はo1比30%以上向上で、法律文書や複雑な数学タスクに使っても採算が合うラインになってきた。\n\n自分のプロジェクトに組み込む理由が一つ減った：「高すぎる」。\nhttps://openai.com/api/",
+      "source_url": "https://openai.com/api/",
+      "source_title": "OpenAI「o3」APIが一般公開、推論コストが前世代比75%減に"
+    },
+    {
+      "text": "社内問い合わせ対応、これで40%減らせた。\n\nRAGのチャンク分割とリランキングを改善するだけで回答精度93%。NTTデータの実装事例がGitHubで公開されてる。\n\n自分のチームの文書検索、まだキーワード検索のままにしてない？\nhttps://www.nttdata.com/jp/ja/topics/2026/",
+      "source_url": "https://www.nttdata.com/jp/ja/topics/2026/",
+      "source_title": "NTTデータ、生成AIで社内文書検索の回答精度を93%に向上──RAG最適化事例を公開"
+    },
+    {
+      "text": "コード書いてる間に、別のタスクを並列で自動修正してくれるエディタ。\n\nCursor 0.50のBackground Agent、CI失敗したテストをバックグラウンドで勝手に直してコミットまでしてくれる。\n\n作業時間が体感で3割は浮いた。\nhttps://www.cursor.com/changelog",
+      "source_url": "https://www.cursor.com/changelog",
+      "source_title": "Cursor 0.50リリース、Background Agentでバックグラウンド自律コーディングが可能に"
+    },
+    {
+      "text": "社員3万人にAI研修して、そのコンテンツをそのまま無料公開。\n\nソフトバンク、プロンプト設計・業務自動化・AIリスク管理の計50時間分の教材を外部開放。\n\nあなたのチームのAI勉強コスト、ここで一気に下げられるかも。\nhttps://www.softbank.jp/corp/news/",
+      "source_url": "https://www.softbank.jp/corp/news/",
+      "source_title": "ソフトバンクが「生成AI活用人材」を社内3万人規模に拡大、研修プログラム全公開"
+    }
+  ]
+}
