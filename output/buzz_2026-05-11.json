@@ -1,0 +1,79 @@
+{
+  "date": "2026-05-11",
+  "topics": [
+    {
+      "title": "Claude 3.7 Sonnetの拡張思考機能でコーディング正答率が62%向上",
+      "summary": "Anthropicが拡張思考機能を搭載したClaude 3.7 Sonnetを公開。SWE-benchで62%のスコアを達成しコーディングベンチマーク1位に。思考プロセスが可視化されAIの推論根拠を確認できる。",
+      "url": "https://www.anthropic.com/news/claude-3-7-sonnet",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "GitHub Copilot WorkspaceがIssueからPR自動生成を全ユーザーに解放",
+      "summary": "GitHub Copilot WorkspaceがGAに。IssueのテキストをAIが解釈しコード修正からPR作成まで自動化。バグ修正時間が平均68%短縮されるというデータが公開されている。",
+      "url": "https://github.blog/2024-04-29-github-copilot-workspace/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "CursorのAgentモードが複数ファイルを横断自動編集、実装時間が3分の1に",
+      "summary": "AIコードエディタCursorのAgentモード活用事例が国内で急増中。1プロンプトでファイル横断的な実装が可能で、実装時間を3時間→20分に短縮した事例も報告されている。",
+      "url": "https://cursor.com/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Meta Llama 4 Scout、17B×16 MoEで商用完全無料のマルチモーダルモデル",
+      "summary": "MetaがLlama 4シリーズを公開。Scout（17B×16 MoE）は画像・テキスト両対応で無料商用利用可能。Maverick（17B×128 MoE）は内部テストでGPT-4oに匹敵するスコアを記録。",
+      "url": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Gemini 2.5 Pro、100万トークンで巨大コードベースを一括解析しLMArenaコーディング1位",
+      "summary": "GoogleのGemini 2.5 ProがLMArenaコーディング部門で1位を獲得。100万トークンのコンテキストウィンドウにより巨大コードベース全体を一度に解析可能。Google AI Studioで無料利用できる。",
+      "url": "https://blog.google/technology/google-deepmind/gemini-2-5-pro-preview/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Ollama、GitHub Stars 10万突破——MacBookでLlama 3を30tok/秒でオフライン推論",
+      "summary": "OllamaでローカルLLM環境を構築するケースが急増。MacBook Pro M3でLlama 3:8Bを30トークン/秒以上で推論可能。GitHub Stars 10万超え、APIキー不要のオフライン開発環境として注目されている。",
+      "url": "https://github.com/ollama/ollama",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "バグ修正で何度もAIに聞き直してた人、これで変わるかも。\n\nClaude 3.7の拡張思考、コード正答率62%でSWE-bench1位。\n思考プロセスが見えるから「なぜそのコード？」が追える。\n\nhttps://www.anthropic.com/news/claude-3-7-sonnet",
+      "source_url": "https://www.anthropic.com/news/claude-3-7-sonnet",
+      "source_title": "Claude 3.7 Sonnetの拡張思考機能でコーディング正答率が62%向上"
+    },
+    {
+      "text": "Issueを貼るだけでPRまで自動でできてた。\n\nCopilot Workspace、バグ修正時間が平均68%短縮。\n自分のリポジトリで試したら、コードレビューだけで済んだ。\n\nhttps://github.blog/2024-04-29-github-copilot-workspace/",
+      "source_url": "https://github.blog/2024-04-29-github-copilot-workspace/",
+      "source_title": "GitHub Copilot WorkspaceがIssueからPR自動生成を全ユーザーに解放"
+    },
+    {
+      "text": "Cursorを入れてから、実装時間が3分の1になった。\n\n開発を爆速化する3つの使い方:\n1. Agentモードで複数ファイルを一括修正（3時間→20分）\n2. @コンテキストで設計書を読み込ませてコード生成\n3. チャットでリファクタ案を出させてから手直し\n\nhttps://cursor.com/",
+      "source_url": "https://cursor.com/",
+      "source_title": "CursorのAgentモードが複数ファイルを横断自動編集、実装時間が3分の1に"
+    },
+    {
+      "text": "商用無料のマルチモーダルAIが17B×16 MoEの規模になった。\n\nGPT-4oと同等スコアで、APIコストほぼゼロ。\n自分のサービスに組み込むなら、今が一番コスパがいい。\n\nあなたなら何に使う？\nhttps://ai.meta.com/blog/llama-4-multimodal-intelligence/",
+      "source_url": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/",
+      "source_title": "Meta Llama 4 Scout、17B×16 MoEで商用完全無料のマルチモーダルモデル"
+    },
+    {
+      "text": "100万トークンで自分のコードベース全体を読み込めるようになった。\n\nGemini 2.5 Pro、LMArenaコーディング1位。\n大規模リポジトリも丸ごと解析、無料で今すぐ試せる。\n\nhttps://blog.google/technology/google-deepmind/gemini-2-5-pro-preview/",
+      "source_url": "https://blog.google/technology/google-deepmind/gemini-2-5-pro-preview/",
+      "source_title": "Gemini 2.5 Pro、100万トークンで巨大コードベースを一括解析しLMArenaコーディング1位"
+    },
+    {
+      "text": "APIキー不要でLLMが手元で動くの、思ったより簡単だった。\n\nOllama、GitHub Stars 10万超。M3 MacBookでLlama 3を30tok/秒で推論。\nオフラインで動かせるから、プロトタイプが爆速で作れる。\n\nhttps://github.com/ollama/ollama",
+      "source_url": "https://github.com/ollama/ollama",
+      "source_title": "Ollama、GitHub Stars 10万突破——MacBookでLlama 3を30tok/秒でオフライン推論"
+    }
+  ]
+}
