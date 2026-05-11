@@ -1,0 +1,79 @@
+{
+  "date": "2026-05-12",
+  "topics": [
+    {
+      "title": "Gemini 2.5 Flash、日本語タスクで処理コストが従来比60%削減",
+      "summary": "GoogleのGemini 2.5 Flashが日本語処理の精度と速度を大幅に向上。\nAPIコストが従来の2.0比で約60%削減され、個人開発者でも本格利用できるレベルに。\n特に長文要約・翻訳タスクで評価が高い。",
+      "url": "https://deepmind.google/technologies/gemini/flash/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "GitHub Copilot Workspace、Issueから実装PRまで全自動化が話題",
+      "summary": "GitHub Copilot WorkspaceがIssueを貼るだけでコード修正からPR作成まで行う機能を全ユーザー開放。\n月20回まで無料で利用でき、バグ修正時間の平均68%短縮データが公開されている。\n国内でも個人・企業で活用が急増中。",
+      "url": "https://githubnext.com/projects/copilot-workspace",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "CursorがJetBrains系IDEに正式対応、IntelliJ・PyCharmでAIコーディング可能に",
+      "summary": "AI搭載コードエディタCursorがJetBrains製IDEとの統合を正式サポート。\nIntelliJやPyCharmユーザーもそのままAIペアプログラミングを利用できるようになった。\n移行コストがなくなり、Java・Python開発者からの関心が急増。",
+      "url": "https://cursor.sh",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "OpenAI o3、推論コストを前世代比80%削減しGPT-4o超えのベンチマーク達成",
+      "summary": "OpenAIのo3モデルが推論コストを大幅削減しながらGPT-4oを上回る性能を達成。\n数学・コーディング・科学推論の各ベンチマークで最高スコアを更新。\n従来は高コストで躊躇していた長時間推論タスクも現実的な選択肢に。",
+      "url": "https://openai.com/o3",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Claude 4、100万トークンのコンテキストウィンドウで長大な技術文書処理が変わる",
+      "summary": "AnthropicのClaude 4が100万トークンのコンテキストウィンドウを実現。\n数百ページの仕様書や大規模コードベース全体を一度に読み込んで質問できる。\n長文ドキュメント処理のワークフローが根本から変わりつつある。",
+      "url": "https://www.anthropic.com/claude",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Microsoft Copilot Studio、ノーコードでカスタムAIエージェント構築が30分以内に",
+      "summary": "Microsoft Build 2026でCopilot Studioが大幅アップデート。\nコードを書かずにカスタムAIエージェントを30分以内に構築・デプロイできるようになった。\n社内ナレッジベース連携やTeamsへの自動通知も簡単に設定可能。",
+      "url": "https://www.microsoft.com/microsoft-copilot/microsoft-copilot-studio",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "APIコストが気になって使い倒せてない人、これ見て。\n\nGemini 2.5 Flash、日本語タスクで従来比60%コスト削減。要約・翻訳・分類を大量に回しても月数百円で収まるレベルになってきた。\n\n自分のアプリをまず試し直す価値ある。\nhttps://deepmind.google/technologies/gemini/flash/",
+      "source_url": "https://deepmind.google/technologies/gemini/flash/",
+      "source_title": "Gemini 2.5 Flash、日本語タスクで処理コストが従来比60%削減"
+    },
+    {
+      "text": "バグ修正に半日使ってた人、もう要らないかも。\n\nCopilot Workspace、IssueのURL貼るだけでコード修正からPR作成まで自動。月20回無料で、平均68%時短のデータあり。\n\n自分のリポジトリで試したらレビューだけで済んだ。\nhttps://githubnext.com/projects/copilot-workspace",
+      "source_url": "https://githubnext.com/projects/copilot-workspace",
+      "source_title": "GitHub Copilot Workspace、Issueから実装PRまで全自動化が話題"
+    },
+    {
+      "text": "IntelliJやPyCharm使ってる人、これで乗り換えコストがゼロになった。\n\nCursorがJetBrains系IDEに正式対応。今のIDEそのままでAIペアプログラミングが使える。\n\nJava・Python開発者の自分の作業スピード、変わるかもしれない。\nhttps://cursor.sh",
+      "source_url": "https://cursor.sh",
+      "source_title": "CursorがJetBrains系IDEに正式対応、IntelliJ・PyCharmでAIコーディング可能に"
+    },
+    {
+      "text": "推論AIのコストがついてきた。\n\nOpenAI o3、前世代比80%コスト削減でGPT-4o超えのスコア。数学・コーディング・科学推論すべてで最高更新。\n\n高すぎて諦めてた長時間タスク、もう一度試す価値ある。\nhttps://openai.com/o3",
+      "source_url": "https://openai.com/o3",
+      "source_title": "OpenAI o3、推論コストを前世代比80%削減しGPT-4o超えのベンチマーク達成"
+    },
+    {
+      "text": "100万トークン、何が変わる？\n\nClaude 4なら数百ページの仕様書やコードベース全体を一度に読み込んで質問できる。「どこに書いてあったっけ」が消える作業量は想像以上。\n\nあなたのドキュメント管理、どう変える？\nhttps://www.anthropic.com/claude",
+      "source_url": "https://www.anthropic.com/claude",
+      "source_title": "Claude 4、100万トークンのコンテキストウィンドウで長大な技術文書処理が変わる"
+    },
+    {
+      "text": "社内ツール作りに1週間かけてた人へ。\n\nCopilot Studio、コードなしでカスタムAIエージェントを30分以内に構築・Teams連携まで完了。社内ナレッジQ&A、自動通知、全部ノーコード。\n\n自分の職場に入れるとしたら何から始める？\nhttps://www.microsoft.com/microsoft-copilot/microsoft-copilot-studio",
+      "source_url": "https://www.microsoft.com/microsoft-copilot/microsoft-copilot-studio",
+      "source_title": "Microsoft Copilot Studio、ノーコードでカスタムAIエージェント構築が30分以内に"
+    }
+  ]
+}
