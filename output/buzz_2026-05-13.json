@@ -1,0 +1,79 @@
+{
+  "date": "2026-05-13",
+  "topics": [
+    {
+      "title": "WindsurfがGitHub ★40k超——Cursorに次ぐAIエディタが日本でも普及中",
+      "summary": "CodeiumのAIエディタWindsurfがGitHub ★40k超を達成、日本のエンジニアにも利用が広がる。\n関数名の書き始めでブロック全体を補完する精度の高さで評価が高い。\nVSCode拡張としても使えて乗り換えコストが低い。",
+      "url": "https://codeium.com/windsurf",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Google NotebookLM Plus、音声概要機能で100ページ資料を移動中に聴ける",
+      "summary": "Google NotebookLMのProプランが日本でも利用可能に。PDFや論文を読み込むと音声ポッドキャスト形式で要約してくれる。\n月2,900円で50個のノートブック管理・複数人共有が可能。\n長文ドキュメント処理の新定番として注目が集まっている。",
+      "url": "https://notebooklm.google.com",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "DifyがGitHub ★100k突破——ノーコードでRAG・エージェントを自社構築",
+      "summary": "OSSのAIアプリビルダーDifyがGitHub ★100k突破。RAGパイプライン・エージェント・APIワークフローをGUIで設定でき、セルフホストも可能。\n社内ナレッジQAや業務自動化への導入が急増している。\nデータを外部に出さずに本格的なAI活用が実現できる点が評価されている。",
+      "url": "https://github.com/langgenius/dify",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Replit Agent、プロンプトだけでWebアプリをデプロイまで10分以内に完結",
+      "summary": "Replitのエージェント機能がテキスト指示だけでコーディング・デプロイを完結。\n1M人以上が利用し、プログラミング未経験者がアプリを公開するケースも増加。\nバックエンド・フロントエンド・DBを同時生成し、即デプロイできる。",
+      "url": "https://replit.com/agent",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "OpenAI Codex CLI、公開1週間でGitHub ★15k超——ターミナルからAIコーディング",
+      "summary": "OpenAIのターミナル向けAIコーディングエージェントCodex CLIがGitHub ★15k超を記録。\nコマンドラインでコードの生成・修正・テスト・実行を自然言語で操作できる。\nオープンソースで無料利用可能。",
+      "url": "https://github.com/openai/codex",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Mistral Devstral、SWE-bench 46.8%でGPT-4o級のコーディング性能をオープンソースで実現",
+      "summary": "Mistral AIのコーディング特化モデルDevstralがSWE-bench Verifiedで46.8%を達成。\n完全オープンソースかつ商用利用無料で、ローカル環境でも動作可能。\n既存の商用モデルに匹敵するバグ修正・実装能力を持つ。",
+      "url": "https://mistral.ai/news/devstral/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "コードの補完が「怖いくらい」当たる。\n\nWindsurf、GitHub ★40k超のAIエディタ。関数名を書き始めるだけでブロック全体が自動生成、VSCode拡張で今のままインストールできる。\n\n自分の補完精度、比較してみると差がわかる。\nhttps://codeium.com/windsurf",
+      "source_url": "https://codeium.com/windsurf",
+      "source_title": "WindsurfがGitHub ★40k超——Cursorに次ぐAIエディタが日本でも普及中"
+    },
+    {
+      "text": "100ページの資料を処理する3つの使い方:\n\n1. 音声ポッドキャスト形式で要約→通勤中に聴ける\n2. 複数PDF横断で質問→「どこに書いてあったっけ」が消える\n3. チーム共有→ナレッジ整理が月2,900円で完結\n\nhttps://notebooklm.google.com",
+      "source_url": "https://notebooklm.google.com",
+      "source_title": "Google NotebookLM Plus、音声概要機能で100ページ資料を移動中に聴ける"
+    },
+    {
+      "text": "GitHub ★100kのOSSが、社内AI構築を変えた。\n\nDifyはRAG・エージェント・API連携をGUIで完結。自社データに強いAIを30分以内で構築でき、セルフホストでデータが外に出ない。\n\nあなたの職場、どの業務に使う？\nhttps://github.com/langgenius/dify",
+      "source_url": "https://github.com/langgenius/dify",
+      "source_title": "DifyがGitHub ★100k突破——ノーコードでRAG・エージェントを自社構築"
+    },
+    {
+      "text": "コードを一行も書いたことがない人が、アプリを公開して売上を出している。\n\nReplit Agentはテキスト指示だけでフロント・バックエンド・DBを同時生成、10分でデプロイまで完了。1M人以上が利用中。\n\nあなたなら最初に何を作る？\nhttps://replit.com/agent",
+      "source_url": "https://replit.com/agent",
+      "source_title": "Replit Agent、プロンプトだけでWebアプリをデプロイまで10分以内に完結"
+    },
+    {
+      "text": "ターミナルで「このバグ直して」が通じるようになった。\n\nOpenAI Codex CLI、公開1週間でGitHub ★15k超。コマンドラインでコード生成・修正・テスト生成が全部自然言語で動く。オープンソースで無料。\n\n自分のリポジトリで今すぐ動かせる。\nhttps://github.com/openai/codex",
+      "source_url": "https://github.com/openai/codex",
+      "source_title": "OpenAI Codex CLI、公開1週間でGitHub ★15k超——ターミナルからAIコーディング"
+    },
+    {
+      "text": "GPT-4o級のコーディングAIが、無料でローカルで動くようになった。\n\nMistral Devstral、SWE-bench 46.8%——バグ修正・実装能力で商用モデルと同水準。完全オープンソースで商用利用も無料。\n\nあなたなら何のプロジェクトに投入する？\nhttps://mistral.ai/news/devstral/",
+      "source_url": "https://mistral.ai/news/devstral/",
+      "source_title": "Mistral Devstral、SWE-bench 46.8%でGPT-4o級のコーディング性能をオープンソースで実現"
+    }
+  ]
+}
