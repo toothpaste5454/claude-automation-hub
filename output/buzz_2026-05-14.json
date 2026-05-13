@@ -1,0 +1,79 @@
+{
+  "date": "2026-05-14",
+  "topics": [
+    {
+      "title": "CursorのComposerが複数ファイルまたぎ修正を自動化—作業時間40%削減の実例",
+      "summary": "AIコードエディタCursorのComposer機能を使うと、複数ファイルにまたがる修正をチャットで指示するだけで完結できる。導入した開発者からは作業時間40%削減という報告が続出している。GitHub CopilotとはコンテキストHR管理の精度で差別化されている。",
+      "url": "https://cursor.com/changelog",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Dify v0.10—ノーコードでRAGアプリを30分で構築、GitHubスター8万超",
+      "summary": "オープンソースのLLMアプリ構築プラットフォームDifyがGitHubで8万スターを突破。PDFをアップロードするだけでRAGベースのチャットボットが完成し、API経由で既存ツールと連携できる。エンジニアなしの社内知識検索システム構築事例が急増中。",
+      "url": "https://github.com/langgenius/dify",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "NotebookLMが日本語音声概要に完全対応—1時間の会議録が3分の音声ファイルに",
+      "summary": "GoogleのNotebookLMが日本語音声概要生成に完全対応。会議録・論文・長文PDFを投げるだけでポッドキャスト形式の3〜5分の音声ファイルを自動生成する。移動中のインプットとして活用するビジネスパーソンが急増している。",
+      "url": "https://notebooklm.google.com/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Claude 3.7 Sonnet Extended Thinking—推論過程を可視化してコーディング成功率72%を達成",
+      "summary": "AnthropicのClaude 3.7 Sonnetに搭載された拡張思考モードは、AIが推論プロセスを段階的に出力しながら問題を解く。SWE-benchのコーディングタスクで72%の成功率を記録し、数学・論理推論ベンチマークでも大幅な改善を示した。",
+      "url": "https://www.anthropic.com/news/claude-3-7-sonnet",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Gemini 2.5 Flash—100万トークン$0.15でGPT-4o同等のコスト効率を実現",
+      "summary": "GoogleのGemini 2.5 Flashは100万入力トークンあたり$0.15という低価格でGPT-4oと同等のベンチマーク性能を達成。長文PDF分析や大量テキスト処理を日常的に行う開発者のAPIコストを大幅に削減できる。",
+      "url": "https://ai.google.dev/pricing",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Lovableがバイブコーディングを民主化—プロンプトだけでフルスタックWebアプリを自動生成",
+      "summary": "AIアプリ生成ツールLovableは自然言語のプロンプトだけでReactベースのフルスタックWebアプリを生成しデプロイまで完結する。コーディング経験ゼロのユーザーが1〜3時間でSaaSアプリを作り上げる事例が急増しており、バイブコーディングブームを牽引している。",
+      "url": "https://lovable.dev/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "自分の作業時間、コード検索とコピペで溶かしてた人向け。\n\nCursorのComposer、ファイルまたぎ修正がチャット1回で完結。\n1週間で40%時短できた。\n\nhttps://cursor.com/changelog",
+      "source_url": "https://cursor.com/changelog",
+      "source_title": "CursorのComposerが複数ファイルまたぎ修正を自動化—作業時間40%削減の実例"
+    },
+    {
+      "text": "RAGアプリ、エンジニアなしで30分で作れるOSSが出た。\n\nDify（★8万超）でRAGを作る流れ:\nPDF入れる → モデル選ぶ → API公開\nこれで自分の業務データに質問できる。\n\nhttps://github.com/langgenius/dify",
+      "source_url": "https://github.com/langgenius/dify",
+      "source_title": "Dify v0.10—ノーコードでRAGアプリを30分で構築、GitHubスター8万超"
+    },
+    {
+      "text": "1時間の会議録、要約に30分かけてた。\n\nNotebookLM、録音や資料を投げると3分で音声概要を生成。\n移動中に日本語で聞けるので議事録作業がほぼ消えた。\n\nhttps://notebooklm.google.com/",
+      "source_url": "https://notebooklm.google.com/",
+      "source_title": "NotebookLMが日本語音声概要に完全対応—1時間の会議録が3分の音声ファイルに"
+    },
+    {
+      "text": "Claude 3.7、推論過程を表示しながら問題を解く。\n\nコーディング成功率72%で通常より大幅上昇。\n自分のタスクで試すと正答率が変わる体感がある。\n\nあなたなら何に使う？\nhttps://www.anthropic.com/news/claude-3-7-sonnet",
+      "source_url": "https://www.anthropic.com/news/claude-3-7-sonnet",
+      "source_title": "Claude 3.7 Sonnet Extended Thinking—推論過程を可視化してコーディング成功率72%を達成"
+    },
+    {
+      "text": "GPT-4oと同等の精度で、APIコストが5分の1になった。\n\nGemini 2.5 Flash、100万トークンで$0.15。\n長文PDF分析を毎日回してるなら月のコストが激変する。\n\nhttps://ai.google.dev/pricing",
+      "source_url": "https://ai.google.dev/pricing",
+      "source_title": "Gemini 2.5 Flash—100万トークン$0.15でGPT-4o同等のコスト効率を実現"
+    },
+    {
+      "text": "コードが書けない人が、1日でWebアプリを作り始めてる。\n\nLovable、プロンプトだけでフルスタックアプリを生成してデプロイ。\nアイデアを形にする時間が1週間→3時間になった体感。\n\nhttps://lovable.dev/",
+      "source_url": "https://lovable.dev/",
+      "source_title": "Lovableがバイブコーディングを民主化—プロンプトだけでフルスタックWebアプリを自動生成"
+    }
+  ]
+}
