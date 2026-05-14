@@ -1,0 +1,79 @@
+{
+  "date": "2026-05-15",
+  "topics": [
+    {
+      "title": "ELYZA Llama-3 JP—商用可能な8B日本語LLMをHuggingFaceで無料公開",
+      "summary": "ELYZAがMeta Llama-3ベースの日本語特化8BパラメータLLMをHuggingFaceで無料公開。日本語ベンチマークでGPT-3.5を上回る性能を持ち、自前サーバーで実行できるため社内データをクラウドに送らず安全にAIを活用できる。",
+      "url": "https://huggingface.co/elyza/Llama-3-ELYZA-JP-8B",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Ollama—コマンド1行でLlama3・Mistralをローカル実行するGitHub ★80k OSSツール",
+      "summary": "OllamaはGitHub ★80,000超のローカルLLM実行ツール。コマンド1行でLlama3やMistralを起動でき、RAGシステムを完全にオンプレミスで構築できる。外部APIへのデータ送信なしでAI検索を実現できるため、機密データを扱う企業で採用が増加している。",
+      "url": "https://github.com/ollama/ollama",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Open Interpreter—日本語で指示するだけでPCがコードを書いて実行するローカルAIエージェント",
+      "summary": "Open Interpreter（GitHub ★50k超）は自然言語でPCに指示するとAIがコードを生成し即実行するローカルAIエージェント。「売上データを可視化して」と言うだけでPythonコードが走りグラフまで自動生成される。全処理がPC内で完結するため社外にデータが漏れない。",
+      "url": "https://github.com/OpenInterpreter/open-interpreter",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Claude computer use—スクリーンショット解析でマウス・キーボードを自律操作するPC自動化API",
+      "summary": "AnthropicのComputer Use APIはPCのスクリーンショットを解析してマウスクリックやキーボード入力を自律制御する。フォーム入力・Excel集計・ブラウザ操作など反復的なデスクトップ作業を自動化でき、繰り返し業務の大幅な時間削減が期待できる。",
+      "url": "https://www.anthropic.com/news/developing-computer-use",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "CrewAI—AIエージェントチームを3行のコードで組めるGitHub ★20k超マルチエージェントFW",
+      "summary": "CrewAIはGitHub ★20,000超のオープンソースマルチエージェントフレームワーク。リサーチ・執筆・レビューなど役割を持つAIエージェントを数行のコードで定義し、複雑なタスクを自律的に分担実行できる。LLMの組み合わせも自由でClaude・GPT-4・Geminiに対応。",
+      "url": "https://github.com/crewAIInc/crewAI",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "LangGraph—LangChain製のステートグラフ型AIエージェントフレームワーク活用ガイド",
+      "summary": "LangGraphはLangChain製のエージェントオーケストレーションFW。状態グラフでエージェントの動きを定義し、並列処理・ループ・Human-in-the-loopを組み合わせた複雑なマルチエージェントシステムを構築できる。単純なチェーン処理から複雑なワークフローまで対応。",
+      "url": "https://github.com/langchain-ai/langgraph",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "商用OKの日本語LLMが無料で手に入る。\n\nELYZA Llama-3、8Bで日本語ベンチマークGPT-3.5超え。\nHuggingFaceから落として自前サーバーで動く。\n\nあなたのデータ、クラウドに流さなくていい。\nhttps://huggingface.co/elyza/Llama-3-ELYZA-JP-8B",
+      "source_url": "https://huggingface.co/elyza/Llama-3-ELYZA-JP-8B",
+      "source_title": "ELYZA Llama-3 JP—商用可能な8B日本語LLMをHuggingFaceで無料公開"
+    },
+    {
+      "text": "社内データをAIで検索、でも外部に出せない人向け。\n\nOllama、GitHub ★80,000超のローカルLLM実行ツール。\nコマンド1行でLlama3起動、RAGも自前完結できる。\n\n自分のMacで試したら、API代ゼロで社内検索が動いた。\nhttps://github.com/ollama/ollama",
+      "source_url": "https://github.com/ollama/ollama",
+      "source_title": "Ollama—コマンド1行でLlama3・Mistralをローカル実行するGitHub ★80k OSSツール"
+    },
+    {
+      "text": "コードを書かずに日本語でPCを動かせる。\n\nOpen Interpreter（GitHub ★50k+）ローカルAI。\n「売上データを可視化して」でPython実行→グラフまで全自動。\n\n自分のPC内で全完結、データが外に出ない。\nhttps://github.com/OpenInterpreter/open-interpreter",
+      "source_url": "https://github.com/OpenInterpreter/open-interpreter",
+      "source_title": "Open Interpreter—日本語で指示するだけでPCがコードを書いて実行するローカルAIエージェント"
+    },
+    {
+      "text": "PCの作業をAIに丸投げしたら、何時間返ってくる？\n\nClaude computer use、スクショ→マウス操作まで自律実行。\nフォーム・Excel・ブラウザ作業が全自動化できる。\n\nあなたの毎日の繰り返し、80%を取り返せるかもしれない。\nhttps://www.anthropic.com/news/developing-computer-use",
+      "source_url": "https://www.anthropic.com/news/developing-computer-use",
+      "source_title": "Claude computer use—スクリーンショット解析でマウス・キーボードを自律操作するPC自動化API"
+    },
+    {
+      "text": "AIのチームを3行のコードで作れるOSSがある。\n\nCrewAI、GitHub ★20,000超のマルチエージェントFW。\nリサーチ・執筆・レビューを役割分担して自律で回せる。\n\nあなたのルーティン作業、3人のAIに任せたら何が残る？\nhttps://github.com/crewAIInc/crewAI",
+      "source_url": "https://github.com/crewAIInc/crewAI",
+      "source_title": "CrewAI—AIエージェントチームを3行のコードで組めるGitHub ★20k超マルチエージェントFW"
+    },
+    {
+      "text": "AIエージェントを自前で作るなら、LangGraphが今一番使いやすい。\n\n複数エージェントを動かす3つのパターン:\n1. 並列収集→まとめで3倍速化\n2. ループ+条件分岐でリトライ自動化\n3. あなたの承認を1行で挿入できる\n\nhttps://github.com/langchain-ai/langgraph",
+      "source_url": "https://github.com/langchain-ai/langgraph",
+      "source_title": "LangGraph—LangChain製のステートグラフ型AIエージェントフレームワーク活用ガイド"
+    }
+  ]
+}
