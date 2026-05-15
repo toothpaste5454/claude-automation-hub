@@ -1,0 +1,79 @@
+{
+  "date": "2026-05-16",
+  "topics": [
+    {
+      "title": "PDFを渡すだけで2分のポッドキャストを自動生成―NotebookLM音声概要が日本語に完全対応",
+      "summary": "Google NotebookLMの音声概要機能が日本語に対応。PDFや資料を貼るだけでAIが2人の話者による2分程度のポッドキャストを自動生成する。議事録・論文の確認時間を大幅短縮でき、国内利用者が急増中。",
+      "url": "https://notebooklm.google/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "コードなしでRAG・チャットボット・自動化を構築―GitHub ★60k超のDifyを使ってみた",
+      "summary": "DifyはノーコードでプロンプトFW・RAG・ワークフロー自動化を構築できるOSS。GitHubスター数60k超で急成長中。Dockerでセルフホスト可能で、社内向けAIアプリをAPIコスト最小で作れる。",
+      "url": "https://github.com/langgenius/dify",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "CursorへのVSCode移行で平均コーディング時間40%削減―国内スタートアップの事例増加",
+      "summary": "AIネイティブエディタのCursorを導入した国内スタートアップでコーディング時間平均40%削減の報告が増えている。コンテキスト全体を参照したコード補完やリファクタ提案が特に評価されている。",
+      "url": "https://www.cursor.com",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "数学ベンチマーク92%正解―AnthropicのClaudeが拡張思考モードで複雑推論タスクを専門家超えのスコアに",
+      "summary": "Anthropicのモデルが思考過程を可視化しながら回答するExtended Thinking機能で、数学・論理推論ベンチマークで92%正答率を達成。設計レビューや要件整理での活用事例も増えている。",
+      "url": "https://www.anthropic.com/claude",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "M4 MacでLlama3を毎秒30トークン以上―Ollamaでローカル実行・月額0円のLLM環境を5分で構築",
+      "summary": "OllamaはM4 MacBook ProなどでLlama3等のモデルをローカル実行できるツール。月額0円・データを外部送信せず、セットアップ5分で使い始められる。ローカルRAGやプライベートAI活用が一気に身近になった。",
+      "url": "https://ollama.com",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "SWE-bench 72%達成―OpenAI o3がGitHubイシューから実動PRを自動生成する時代へ",
+      "summary": "OpenAIのo3モデルがソフトウェアエンジニアリングベンチマーク「SWE-bench」で72%を達成。実際のGitHubイシューを与えるだけでPR相当の修正コードを出力でき、バグ対応のあり方が変わりつつある。",
+      "url": "https://openai.com/o3",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "PDFを渡すと2分のポッドキャストを作ってくれる。\n\nNotebookLMの音声概要、日本語に完全対応。\n資料を貼るだけで要点を音声解説、読む時間が1/5になった。\n\n自分の議事録で試したら、会議後の確認作業がほぼ消えた。\nhttps://notebooklm.google/",
+      "source_url": "https://notebooklm.google/",
+      "source_title": "PDFを渡すだけで2分のポッドキャストを自動生成―NotebookLM音声概要が日本語に完全対応"
+    },
+    {
+      "text": "コードなしでAIアプリを作る3つの使い方：\n\n1. PDFで社内QAボット（5分で完成）\n2. SlackとLLMを繋いで議事録を自動化\n3. セルフホストでAPIコストほぼゼロ\n\nGitHub ★60k超のDify、今すぐ試せる。\nhttps://github.com/langgenius/dify",
+      "source_url": "https://github.com/langgenius/dify",
+      "source_title": "コードなしでRAG・チャットボット・自動化を構築―GitHub ★60k超のDifyを使ってみた"
+    },
+    {
+      "text": "コードレビューに半日かけてた、もう要らないかも。\n\nCursorのAI、コンテキスト全体を読んでリファクタ提案まで出してくれる。平均40%の時間削減データあり。\n\n自分のプロジェクトに入れたらPRレビューだけで済んでる。\nhttps://www.cursor.com",
+      "source_url": "https://www.cursor.com",
+      "source_title": "CursorへのVSCode移行で平均コーディング時間40%削減―国内スタートアップの事例増加"
+    },
+    {
+      "text": "AIが数学ベンチで92%正解する時代になった。\n\nClaudeのExtended Thinking、複雑な推論を思考過程ごと出力してくれる。\n自分の要件整理に使ったら論理の穴を先に潰してくれた。\n\nあなたなら何に使う？\nhttps://www.anthropic.com/claude",
+      "source_url": "https://www.anthropic.com/claude",
+      "source_title": "数学ベンチマーク92%正解―AnthropicのClaudeが拡張思考モードで複雑推論タスクを専門家超えのスコアに"
+    },
+    {
+      "text": "API代ゼロで手元でLLMを動かせる。\n\nOllama、M4 MacでLlama3を毎秒30トークン以上で実行可能。\n自分のデータを外に出さず月額0円でGPT相当が使える。\n\nセットアップ5分で始められる。\nhttps://ollama.com",
+      "source_url": "https://ollama.com",
+      "source_title": "M4 MacでLlama3を毎秒30トークン以上―Ollamaでローカル実行・月額0円のLLM環境を5分で構築"
+    },
+    {
+      "text": "AIがエンジニアのコーディング作業を72%解けるようになった。\n\no3、GitHubのイシューを渡すだけでPR相当の修正を出してくる。\n自分のバグ対応時間が変わるかもしれない。\n\nあなたなら何のタスクを任せる？\nhttps://openai.com/o3",
+      "source_url": "https://openai.com/o3",
+      "source_title": "SWE-bench 72%達成―OpenAI o3がGitHubイシューから実動PRを自動生成する時代へ"
+    }
+  ]
+}
