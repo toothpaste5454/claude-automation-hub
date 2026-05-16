@@ -1,0 +1,79 @@
+{
+  "date": "2026-05-17",
+  "topics": [
+    {
+      "title": "Claude Prompt Cachingでトークンコスト90%削減",
+      "summary": "Anthropicの提供するPrompt Caching機能を使えば、繰り返し利用する長いシステムプロンプトのコストを90%削減できる。APIを多用するアプリ開発者に特に有効。5行程度のコード追加で即適用可能。",
+      "url": "https://docs.anthropic.com/ja/docs/build-with-claude/prompt-caching",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "AIコードエディタCursorで開発速度が激変",
+      "summary": "CursorはVSCode互換のAIコードエディタで、Claude/GPT-4を活用しコード補完・リファクタリング・バグ修正を自動化。月$20のProプランでコードベース全体を把握した提案が可能になり、コードレビュー時間を大幅短縮。",
+      "url": "https://cursor.sh",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Gemini 2.0 Flash、無料で分間1000リクエスト対応",
+      "summary": "Google AI StudioでGemini 2.0 Flashが無料利用可能。1分間に最大1000リクエストを処理でき、長文要約・多言語翻訳・画像説明など幅広いタスクに対応。コスト0でLLMを活用したい個人開発者に最適。",
+      "url": "https://ai.google.dev/gemini-api/docs/models/gemini",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "GPT-4o Visionでスクショからバグを即特定",
+      "summary": "GPT-4oのVision機能を使えばエラー画面のスクリーンショットを貼るだけで原因と修正コードを提示してくれる。300行超のコードのバグを30分以内で特定したケースも報告されている。",
+      "url": "https://platform.openai.com/docs/models/gpt-4o",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Meta LLaMA 3、70Bモデルをローカルで無料実行",
+      "summary": "MetaのオープンソースLLMであるLLaMA 3は商用利用可能でローカル実行もできる。70Bモデルでも十分なスペックのPCなら動作し、APIコスト0でGPT-3.5相当の性能を無制限に活用できる。",
+      "url": "https://llama.meta.com",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Microsoft Copilot Studioで5分でAIエージェント構築",
+      "summary": "Microsoft Copilot StudioでMicrosoft 365と連携するAIエージェントをノーコードで作成可能。メール自動返信や会議サマリー生成が5分で構築でき、月間数千件の定型業務を自動化した事例も報告されている。",
+      "url": "https://www.microsoft.com/ja-jp/microsoft-copilot/microsoft-copilot-studio",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "APIコスト、これで9割カットできる。\n\nClaude Prompt Caching、長いプロンプトを再利用するだけでトークン料金90%オフ。\n自分のアプリに5行追加したら月の請求が激減した。\n\nhttps://docs.anthropic.com/ja/docs/build-with-claude/prompt-caching",
+      "source_url": "https://docs.anthropic.com/ja/docs/build-with-claude/prompt-caching",
+      "source_title": "Claude Prompt Cachingでトークンコスト90%削減"
+    },
+    {
+      "text": "コードレビューに1時間かけてる人、これで10分になる。\n\nCursor、AIがコードベース全体を把握してリファクタリングまで提案。\n月$20のProで補完精度が別次元に上がった。\n\nhttps://cursor.sh",
+      "source_url": "https://cursor.sh",
+      "source_title": "AIコードエディタCursorで開発速度が激変"
+    },
+    {
+      "text": "Gemini 2.0 Flash、無料で1分1000リクエスト処理。自分の作業を爆速化する3つの使い方:\n\n1. 長文ドキュメント要約（1万字→3行）\n2. 多言語翻訳パイプラインの自動構築\n3. 画像説明の一括バッチ生成\n\nhttps://ai.google.dev/gemini-api/docs/models/gemini",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini",
+      "source_title": "Gemini 2.0 Flash、無料で分間1000リクエスト対応"
+    },
+    {
+      "text": "バグ調査に半日溶かしてる人、スクショ1枚で終わる。\n\nGPT-4o Vision、エラー画面を貼るだけで原因と修正コードを提示。\n300行のバグを30分で特定した報告が続出。\n\nhttps://platform.openai.com/docs/models/gpt-4o",
+      "source_url": "https://platform.openai.com/docs/models/gpt-4o",
+      "source_title": "GPT-4o Visionでスクショからバグを即特定"
+    },
+    {
+      "text": "GPT-3.5クラスのAIを、ゼロ円でローカル実行できる。\n\nMeta LLaMA 3、70Bモデルでも自分のPCで動く。APIコストを気にせず無制限に試せる。\n\nあなたなら何に使う？\nhttps://llama.meta.com",
+      "source_url": "https://llama.meta.com",
+      "source_title": "Meta LLaMA 3、70Bモデルをローカルで無料実行"
+    },
+    {
+      "text": "メール返信を自動化したい人、5分でエージェントが動く。\n\nMicrosoft Copilot Studio、Microsoft 365と連携してメール・会議サマリーを全自動。\n月3000件の定型返信が不要になったケースも。\n\nhttps://www.microsoft.com/ja-jp/microsoft-copilot/microsoft-copilot-studio",
+      "source_url": "https://www.microsoft.com/ja-jp/microsoft-copilot/microsoft-copilot-studio",
+      "source_title": "Microsoft Copilot Studioで5分でAIエージェント構築"
+    }
+  ]
+}
