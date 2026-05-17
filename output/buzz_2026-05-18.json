@@ -1,0 +1,79 @@
+{
+  "date": "2026-05-18",
+  "topics": [
+    {
+      "title": "GitHub Copilot Workspace、全ユーザー開放でIssueからPR自動生成が現実に",
+      "summary": "GitHub Copilot WorkspaceがGAとなり、IssueのテキストをもとにPRまで自動生成できるように。平均68%のバグ修正時間短縮データが公開。月20回まで無料で試せる。",
+      "url": "https://github.blog/2025-04-29-github-copilot-workspace-generally-available/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Google AI Studio、Gemini 2.5 Proを無料開放——日本語長文処理が2倍速に",
+      "summary": "Google AI StudioでGemini 2.5 Proが無料利用可能に。100万トークンコンテキストウィンドウと日本語処理速度の向上が目玉。APIも月100万トークンまで無償。",
+      "url": "https://ai.google.dev/gemini-api/docs/models/gemini",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "ノーコードLLMオーケストレーター「Dify」国内導入企業が1,000社超え——社内検索に活用",
+      "summary": "オープンソースのLLMワークフローツール「Dify」の国内導入が急増し、累計1,000社を突破。PDFや社内Wikiを繋いでRAG検索を構築できる手軽さが評価されている。GitHubスター数は8万超。",
+      "url": "https://github.com/langgenius/dify",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "OpenAI o3・o4-mini登場——数学AMCスコアで前世代比30点超え、APIで即使える",
+      "summary": "OpenAIがo3とo4-miniをリリース。AMC数学ベンチマークでGPT-4oを30点以上上回り、コーディングでも大幅改善。o4-miniは低コストで実用的な推論が可能。",
+      "url": "https://openai.com/index/openai-o3-and-o4-mini/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Cursor 0.50、バックグラウンドエージェントで並列タスク処理——作業効率3倍のレポート続出",
+      "summary": "Cursor 0.50でBackgroundエージェント機能が追加。複数タスクをバックグラウンドで並列処理できるようになり、コーディング効率が最大3倍になったという報告が相次ぐ。",
+      "url": "https://www.cursor.com/changelog",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Meta LLaMA 4 Scout、1720億パラメータでローカル推論——RTX 4090でも動く軽量版あり",
+      "summary": "MetaがLLaMA 4 Scoutを公開。1720億パラメータのMoEモデルだが、アクティブパラメータは170億程度でRTX 4090でも動作可能な量子化版が既にHugging Faceに登場。",
+      "url": "https://ai.meta.com/blog/llama-4-scout-maverick-multimodal-models/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "バグ修正に半日溶かしてた人、もう要らないかも。\n\nCopilot Workspace、Issueを貼るだけでPRまで自動生成。月20回無料で、平均68%時短のデータあり。\n\n自分のリポジトリで試したら、レビューだけで済んだ。\nhttps://github.blog/2025-04-29-github-copilot-workspace-generally-available/",
+      "source_url": "https://github.blog/2025-04-29-github-copilot-workspace-generally-available/",
+      "source_title": "GitHub Copilot Workspace、全ユーザー開放でIssueからPR自動生成が現実に"
+    },
+    {
+      "text": "Gemini 2.5 Proが無料で使えるようになった。\n\n100万トークンのコンテキスト、日本語処理2倍速。APIも月100万トークンまで無料枠あり。\n\nあなたの長文解析ワークフロー、今すぐ置き換える価値がある。\nhttps://ai.google.dev/gemini-api/docs/models/gemini",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini",
+      "source_title": "Google AI Studio、Gemini 2.5 Proを無料開放——日本語長文処理が2倍速に"
+    },
+    {
+      "text": "社内の「あの資料どこだっけ」を撲滅する3つの使い方:\n\n1. PDFをDifyに流し込んでRAG検索を5分で構築\n2. SlackログをベクトルDBに繋いで過去議事録を即検索\n3. 社内WikiをGPT-4oに繋いで新人のQ&Aを自動化\n\nGitHub ★8万超のOSS。自分のPCで動く。\nhttps://github.com/langgenius/dify",
+      "source_url": "https://github.com/langgenius/dify",
+      "source_title": "ノーコードLLMオーケストレーター「Dify」国内導入企業が1,000社超え——社内検索に活用"
+    },
+    {
+      "text": "o3が数学テストで前世代より30点以上高いスコアを出した。\n\nコーディングも同様に大幅更新。o4-miniはコスト低めで実用レベルの推論ができる。\n\n自分のAIワークフロー、モデルだけ差し替えてみる価値がある。\nhttps://openai.com/index/openai-o3-and-o4-mini/",
+      "source_url": "https://openai.com/index/openai-o3-and-o4-mini/",
+      "source_title": "OpenAI o3・o4-mini登場——数学AMCスコアで前世代比30点超え、APIで即使える"
+    },
+    {
+      "text": "Cursorを使ってる人、0.50から作業感が変わった。\n\nバックグラウンドエージェントで複数タスクを並列処理。「3つのPRを同時に進めてた」報告が続出、体感3倍速。\n\nあなたのコーディング時間、半分になるかも。\nhttps://www.cursor.com/changelog",
+      "source_url": "https://www.cursor.com/changelog",
+      "source_title": "Cursor 0.50、バックグラウンドエージェントで並列タスク処理——作業効率3倍のレポート続出"
+    },
+    {
+      "text": "1720億パラメータのLLMが手元のGPUで動くようになった。\n\nMeta LLaMA 4 Scout、実際に動くのは170億パラメータ分だけ。RTX 4090でも動く量子化版がHugging Faceに既に登場。\n\nあなたのローカル推論環境、試す価値がある。\nhttps://ai.meta.com/blog/llama-4-scout-maverick-multimodal-models/",
+      "source_url": "https://ai.meta.com/blog/llama-4-scout-maverick-multimodal-models/",
+      "source_title": "Meta LLaMA 4 Scout、1720億パラメータでローカル推論——RTX 4090でも動く軽量版あり"
+    }
+  ]
+}
