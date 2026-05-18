@@ -1,0 +1,79 @@
+{
+  "date": "2026-05-19",
+  "topics": [
+    {
+      "title": "Claude Codeで開発フローを自動化——コミットからPRまでAIが代行",
+      "summary": "AnthropicのCLIツール「Claude Code」がエンジニアの間で急速に広まっている。\nIssue読み込み→コード修正→git commit→PR作成までをワンコマンドで実行でき、\n繰り返し作業を大幅に削減できると話題。",
+      "url": "https://www.anthropic.com/claude-code",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Gemini 2.5 Flash Lite、コスト1/10でGPT-4並みの精度——国内スタートアップが続々採用",
+      "summary": "GoogleのGemini 2.5 Flash Liteは従来モデル比でAPIコストを約90%削減しつつ、\nコーディング・要約タスクでGPT-4oと同等以上のスコアを記録。\n国内SaaSスタートアップでの採用事例が急増中。",
+      "url": "https://blog.google/technology/google-deepmind/gemini-2-5-flash/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "GitHub Copilot Workspace、全ユーザー開放——Issueからコード修正まで平均68%時短",
+      "summary": "GitHubのAIコーディング環境「Copilot Workspace」が全ユーザーに解放された。\nIssueを貼るだけでブランチ作成→コード修正→PRドラフトを自動化でき、\nバグ修正時間が平均68%短縮というデータが公開されている。",
+      "url": "https://githubnext.com/projects/copilot-workspace",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "OpenAI o3、数学オリンピック問題を90%正答——推論特化モデルが開発者APIで利用可能に",
+      "summary": "OpenAIの推論特化モデル「o3」が開発者向けAPIで一般提供開始。\n数学・コーディングベンチマークで従来モデルを大幅に上回り、\nAIME 2024で90%超の正答率を達成した。",
+      "url": "https://openai.com/blog/openai-o3",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Meta Llama 3、70Bパラメータをローカル動作——MacBook Proで毎秒30トークン生成",
+      "summary": "MetaのオープンソースLLM「Llama 3 70B」がllama.cppの最適化により、\nMacBook Pro M3 Maxで毎秒30トークン以上の生成速度を実現。\nクラウドAPIゼロコストで本格的な推論が手元で動く時代に。",
+      "url": "https://ai.meta.com/blog/llama-3/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Google AI Studio、プロンプトキャッシュで呼び出しコスト75%削減——無料枠も拡大",
+      "summary": "Google AI StudioがGemini APIにプロンプトキャッシュ機能を追加。\n同一コンテキストの繰り返し呼び出しでコストを最大75%削減でき、\n無料ティアのレート上限も従来比2倍に引き上げられた。",
+      "url": "https://ai.google.dev/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "自分のルーティン作業、全部AIに任せてみた。\n\nClaude Code、IssueからPRまでCLI一発で自動化。コミットメッセージも書いてくれる。\nレビューするだけで1日終わる日が来るかもしれない。\n\nhttps://www.anthropic.com/claude-code",
+      "source_url": "https://www.anthropic.com/claude-code",
+      "source_title": "Claude Codeで開発フローを自動化——コミットからPRまでAIが代行"
+    },
+    {
+      "text": "APIコストが1/10になっても精度が落ちないなら、もう迷う理由がない。\n\nGemini 2.5 Flash Lite、GPT-4o並みの精度でコスト約90%削減。\n自分のプロダクトに乗せ換えたら月の請求が激変した人が続出中。\n\nhttps://blog.google/technology/google-deepmind/gemini-2-5-flash/",
+      "source_url": "https://blog.google/technology/google-deepmind/gemini-2-5-flash/",
+      "source_title": "Gemini 2.5 Flash Lite、コスト1/10でGPT-4並みの精度——国内スタートアップが続々採用"
+    },
+    {
+      "text": "バグ修正に半日溶かしてた人、もう要らないかも。\n\nCopilot Workspace、Issueを貼るだけでPRまで自動生成。\n平均68%時短のデータがあって、月20回まで無料で試せる。\n\nhttps://githubnext.com/projects/copilot-workspace",
+      "source_url": "https://githubnext.com/projects/copilot-workspace",
+      "source_title": "GitHub Copilot Workspace、全ユーザー開放——Issueからコード修正まで平均68%時短"
+    },
+    {
+      "text": "数学オリンピックの問題を90%正解するAIが、今日から自分のコードに使える。\n\nOpenAI o3、API解放。推論が必要なバグ調査やアーキテクチャ設計に刺さる。\nあなたのプロジェクトで一番難しい問題、これに投げてみる価値ある。\n\nhttps://openai.com/blog/openai-o3",
+      "source_url": "https://openai.com/blog/openai-o3",
+      "source_title": "OpenAI o3、数学オリンピック問題を90%正答——推論特化モデルが開発者APIで利用可能に"
+    },
+    {
+      "text": "クラウド代ゼロで70Bのモデルが手元で動く時代になった。\n\nLlama 3 70B、MacBook Pro M3 Maxで毎秒30トークン生成。\n自分のデータを外に出さずにLLMを使いたい人には今が転換点かもしれない。\n\nhttps://ai.meta.com/blog/llama-3/",
+      "source_url": "https://ai.meta.com/blog/llama-3/",
+      "source_title": "Meta Llama 3、70Bパラメータをローカル動作——MacBook Proで毎秒30トークン生成"
+    },
+    {
+      "text": "同じAPIを何度も叩いてるなら、コストが75%下がる設定がある。\n\nGoogle AI Studioのプロンプトキャッシュ、同一コンテキストの繰り返しに効く。\n無料枠も2倍になったので、個人開発なら実質タダで試せる。\n\nhttps://ai.google.dev/",
+      "source_url": "https://ai.google.dev/",
+      "source_title": "Google AI Studio、プロンプトキャッシュで呼び出しコスト75%削減——無料枠も拡大"
+    }
+  ]
+}
