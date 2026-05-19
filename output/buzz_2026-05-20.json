@@ -1,0 +1,79 @@
+{
+  "date": "2026-05-20",
+  "topics": [
+    {
+      "title": "AWS Bedrock Knowledge Bases、30分で自社データをClaudeに接続できるマネージドRAG",
+      "summary": "AWSのマネージドRAGサービス「Bedrock Knowledge Bases」が国内企業での採用を拡大中。\nS3にドキュメントをアップするだけでClaudeと連携したRAGアプリが構築でき、\nベクトルDB・埋め込みモデルの管理が不要になる。",
+      "url": "https://aws.amazon.com/bedrock/knowledge-bases/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Vercel AI SDK v4、Next.jsにAIストリーミングチャットを10行で実装——Claude/GPT-4/Geminiを統一インターフェースで切り替え",
+      "summary": "VercelのAI SDKがv4にアップデートされ、Claude・GPT-4・Geminiを同一コードで切り替え可能に。\nストリーミングレスポンスやツール呼び出しを数行で実装でき、\nVercel無料プランでデプロイまで完結する。",
+      "url": "https://sdk.vercel.ai/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Model Context Protocol（MCP）、Claudeに外部ツールを繋ぐOSSサーバーが1,000件超に急増",
+      "summary": "AnthropicのClaude拡張プロトコル「MCP」に対応したOSSサーバーが1,000件を突破。\nGitHub・Slack・PostgreSQL等の接続がコード数行で完結し、\n国内エンジニアコミュニティでの自作MCPサーバー事例が急増中。",
+      "url": "https://modelcontextprotocol.io/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Composio、AIエージェントからGmail/Slack等150+のSaaS APIを3行で接続——GitHub ★15k超",
+      "summary": "AIエージェントのSaaS API接続をOAuth管理ごと自動化するOSS「Composio」が急成長。\nClaude・GPT・Geminiエージェントから150以上のSaaSツールを数行で呼び出せ、\n認証設定なしで外部ツールを持つエージェントを構築できる。",
+      "url": "https://github.com/ComposioHQ/composio",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "E2B Code Interpreter、LLMが生成したコードをセキュアなサンドボックスで100ms以内に実行",
+      "summary": "LLMが生成したコードを安全に実行できるクラウドサンドボックス「E2B」が開発者の注目を集めている。\nコンテナ起動は100ms以内で、Python/Node.js/Rustに対応。\n自前でDockerを管理せずにコード実行エージェントが構築できる。",
+      "url": "https://e2b.dev/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Instructor（Python）、LLMの出力を型安全なPydanticオブジェクトに変換——GitHub ★10k超",
+      "summary": "OpenAI・Anthropic・Gemini APIの出力を型安全なPydanticオブジェクトに変換するPythonライブラリ「Instructor」。\nプロンプトに「JSON形式で返せ」と書かずに済み、バリデーション失敗時のリトライも自動処理される。\nGitHub Stars 10k超でPythonのLLM開発のデファクトになりつつある。",
+      "url": "https://github.com/instructor-ai/instructor",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "自社データをClaudeに繋ぐRAG構築、30分で終わるようになった。\n\nAWS Bedrock Knowledge Bases、S3に置くだけでRAG完成。\nベクトルDB・埋め込みモデルの管理が全部不要になった。\n\nhttps://aws.amazon.com/bedrock/knowledge-bases/",
+      "source_url": "https://aws.amazon.com/bedrock/knowledge-bases/",
+      "source_title": "AWS Bedrock Knowledge Bases、30分で自社データをClaudeに接続できるマネージドRAG"
+    },
+    {
+      "text": "自分のサイトにAIチャット、10行で動いた。\n\nVercel AI SDK v4、Claude/GPT-4/Geminiを同じコードで切り替え可能。\nストリーミングもツール呼び出しも込みで、無料プランでデプロイまで完結。\n\nhttps://sdk.vercel.ai/",
+      "source_url": "https://sdk.vercel.ai/",
+      "source_title": "Vercel AI SDK v4、Next.jsにAIストリーミングチャットを10行で実装——Claude/GPT-4/Geminiを統一インターフェースで切り替え"
+    },
+    {
+      "text": "自分のツールをClaudeに繋ぐのが、今は15分で終わるようになった。\n\nMCP（Model Context Protocol）、対応OSSサーバーが1,000件超。\nGitHub・Slack・DBどれも数行で接続できる。\n\nhttps://modelcontextprotocol.io/",
+      "source_url": "https://modelcontextprotocol.io/",
+      "source_title": "Model Context Protocol（MCP）、Claudeに外部ツールを繋ぐOSSサーバーが1,000件超に急増"
+    },
+    {
+      "text": "AIエージェントのSaaS接続でOAuth設定に1日溶かしてた。\n\nComposio、★15k超。150以上のAPIをエージェントから3行で叩ける。\nあなたのエージェントに外部ツールを今すぐ持たせられる。\n\nhttps://github.com/ComposioHQ/composio",
+      "source_url": "https://github.com/ComposioHQ/composio",
+      "source_title": "Composio、AIエージェントからGmail/Slack等150+のSaaS APIを3行で接続——GitHub ★15k超"
+    },
+    {
+      "text": "AIが書いたコードをそのまま実行するのは怖い。でもサンドボックス自作も面倒だった。\n\nE2B、起動100ms以内のクラウド実行環境。Python/Node.js対応。\n自前でDockerゼロで、コード実行エージェントが作れる。\n\nhttps://e2b.dev/",
+      "source_url": "https://e2b.dev/",
+      "source_title": "E2B Code Interpreter、LLMが生成したコードをセキュアなサンドボックスで100ms以内に実行"
+    },
+    {
+      "text": "LLMに「JSON形式で返せ」と毎回書いてたの、やめた。\n\nInstructor、★10k超。Claudeの出力がPydanticで届き、リトライも自動。\n3行で型安全なパイプラインになる。\n\nhttps://github.com/instructor-ai/instructor",
+      "source_url": "https://github.com/instructor-ai/instructor",
+      "source_title": "Instructor（Python）、LLMの出力を型安全なPydanticオブジェクトに変換——GitHub ★10k超"
+    }
+  ]
+}
