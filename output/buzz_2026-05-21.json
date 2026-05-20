@@ -1,0 +1,79 @@
+{
+  "date": "2026-05-21",
+  "topics": [
+    {
+      "title": "Cursor AI - 国内開発者に急速普及するAIコードエディタ",
+      "summary": "AIペアプログラミングで有名なCursor AIが国内スタートアップにも広まっている。コーディング時間45%削減のデータがあり、4百万人以上の開発者が利用。Issueを貼るだけでPR作成まで自動化できる機能が特に人気。",
+      "url": "https://cursor.com",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Dify - ノーコードでLLMアプリを構築できるOSSプラットフォーム",
+      "summary": "Difyを使えばGPT/ClaudeのAPIキーを登録するだけで社内AIチャットbotが5分で立ち上がる。PDFを入れるだけでRAGも完成。GitHub ★74kを超え、ノーコードで本番運用できる点が国内企業にも評価されている。",
+      "url": "https://github.com/langgenius/dify",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "CyberAgent CALM3-22B - 商用利用可能な日本語特化LLM",
+      "summary": "CyberAgentが提供するCALM3-22Bは英語モデルと同等の精度を持ちCC BY 4.0ライセンスで商用利用可能。220億パラメータで自社データのファインチューニングにも対応しており、日本語業務への組み込みが加速している。",
+      "url": "https://huggingface.co/cyberagent/calm3-22b-chat",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Claude 拡張思考モード - 複雑な推論タスクを自律解決",
+      "summary": "Anthropicが提供するClaudeの拡張思考モードは32kトークンを使って「考えながら」複雑な問題を解決する。バグ調査や設計レビューなど従来3時間かかっていた作業が30分程度に短縮される事例が報告されている。",
+      "url": "https://anthropic.com/claude",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Gemini 2.5 Flash - GPT-4oの1/10以下のコストで高精度コーディング支援",
+      "summary": "GoogleのGemini 2.5 FlashはGPT-4oと比較して1/10以下のAPI価格でコーディングベンチマーク90点超えを達成。本番アプリに組み込んだ開発者からは月のAPI費用が8割削減できたという報告が相次いでいる。",
+      "url": "https://ai.google.dev/gemini-api/docs/models",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Vibe Coding with Claude Code - コードを書かずにWebアプリを1時間で構築",
+      "summary": "Claude CodeやCursorを使い、日本語で指示するだけでWebアプリが1時間で完成するVibe Codingが広まっている。プログラミングの専門知識不要で業務ツールを自作できる時代になり、非エンジニアでもAIを活用した開発が現実的に。",
+      "url": "https://claude.ai/code",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "コードレビューに半日溶かしてた人、これで変わるかも。\n\nCursor、AI補完でコーディング時間が45%削減。\n4百万人以上の開発者が使ってて、日本でも導入例急増。\n\n自分のコードに試したら指示だけでPRが出てきた。\nhttps://cursor.com",
+      "source_url": "https://cursor.com",
+      "source_title": "Cursor AI - 国内開発者に急速普及するAIコードエディタ"
+    },
+    {
+      "text": "社内AIチャットbotを自作する3ステップ:\n\n1. Difyにキー登録→即起動（5分）\n2. PDFを入れるだけでRAG完成\n3. 埋め込みで社内ツールに実装\n\nGitHub ★74k。あなたの会社でもノーコードで本番運用できる。\nhttps://github.com/langgenius/dify",
+      "source_url": "https://github.com/langgenius/dify",
+      "source_title": "Dify - ノーコードでLLMアプリを構築できるOSSプラットフォーム"
+    },
+    {
+      "text": "日本語LLMが商用無料で使える。\n\nCyberAgentのCALM3-22B、英語並みの精度でCC BY 4.0ライセンス。\n220億パラメータ、自分のデータでFT可能。\n\nあなたなら何の業務に組み込む？\nhttps://huggingface.co/cyberagent/calm3-22b-chat",
+      "source_url": "https://huggingface.co/cyberagent/calm3-22b-chat",
+      "source_title": "CyberAgent CALM3-22B - 商用利用可能な日本語特化LLM"
+    },
+    {
+      "text": "バグ調査に3時間溶かしてた人、30分になるかも。\n\nClaudeの拡張思考モード、32kトークンで\n「考えながら」複雑な推論を自律でこなす。\n\n自分のデバッグに使ったら手順説明しながら直してくれた。\nhttps://anthropic.com/claude",
+      "source_url": "https://anthropic.com/claude",
+      "source_title": "Claude 拡張思考モード - 複雑な推論タスクを自律解決"
+    },
+    {
+      "text": "APIコスト高くて本番見送りだった人、選択肢増えた。\n\nGemini 2.5 Flash、GPT-4o比1/10の価格で\nコーディングスコア90点超え。\n\n自分のアプリに入れたら月のAPI費用が8割減った。\nhttps://ai.google.dev/gemini-api/docs/models",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models",
+      "source_title": "Gemini 2.5 Flash - GPT-4oの1/10以下のコストで高精度コーディング支援"
+    },
+    {
+      "text": "「コードが書けなくても」アプリが作れる時代になった。\n\nClaude CodeやCursorで日本語で指示するだけで\nWebアプリが1時間で完成。\n\nあなたなら何を作る？\nhttps://claude.ai/code",
+      "source_url": "https://claude.ai/code",
+      "source_title": "Vibe Coding with Claude Code - コードを書かずにWebアプリを1時間で構築"
+    }
+  ]
+}
