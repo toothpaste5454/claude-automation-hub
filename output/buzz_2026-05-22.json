@@ -1,0 +1,79 @@
+{
+  "date": "2026-05-22",
+  "topics": [
+    {
+      "title": "GoogleのNotebookLMが200ページのPDFを10分で要約・質問対応できる",
+      "summary": "NotebookLMはGoogleが提供するAIノートツール。PDFや文書を複数アップするだけでAIが内容を学習し、自然言語で質問できる。Audio Overview機能でポッドキャスト形式に変換も可能で、無料で50ソースまで利用できる。",
+      "url": "https://notebooklm.google.com",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Perplexity AIが調査・リサーチ業務を大幅に効率化するAI検索エンジン",
+      "summary": "Perplexity AIはリアルタイムで情報を検索しながら回答を生成するAI検索エンジン。従来のGoogle検索+情報まとめ作業が不要になり、競合分析や市場調査を30分から5分に短縮できる事例が急増している。",
+      "url": "https://www.perplexity.ai",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Bolt.newがブラウザだけでフルスタックアプリを30分で構築・デプロイまで完結",
+      "summary": "StackBlitzのBolt.newはブラウザ上でAIに指示するだけでReactアプリが動作し、そのままデプロイまで完結できる。プログラミング経験ゼロでも30分以内に実際に使えるWebアプリが完成するとして非エンジニアにも広まっている。",
+      "url": "https://bolt.new",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "OpenAI o3がAIMEで96.7%のスコア、博士レベルの推論が実用化",
+      "summary": "OpenAI o3はAIの数学オリンピック問題で96.7%正答率を達成。複雑な推論を段階的に行うアーキテクチャで、科学・法律・財務分析など専門家レベルのタスクにも対応できるようになった。",
+      "url": "https://openai.com/o3",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "AnthropicのComputer Use機能でClaudeがPC操作を自律実行できるようになった",
+      "summary": "AnthropicがClaudeにPC操作機能「Computer Use」を追加。スクリーンショットを見ながらブラウザ操作・ファイル管理・アプリ制御まで自律で実行できる。繰り返し業務の完全自動化が視野に入ってきた。",
+      "url": "https://docs.anthropic.com/en/docs/agents-and-tools/computer-use",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Meta Llama 3.1 405Bが完全無料・商用利用可能なオープンソースLLMとして公開",
+      "summary": "MetaのLlama 3.1 405BはGPT-4に近い性能を持つ大規模LLMが完全無料で商用利用可能。自社サーバーに展開でき、データをクラウドに送らずにAIを活用できる点が企業のセキュリティ要件と合致すると注目されている。",
+      "url": "https://llama.meta.com",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "200ページのPDF読み込みに半日かけてた人、10分に短縮できる。\n\nNotebookLM、文書をアップするだけで全内容を学習して質問対応。\n無料で50ソースまで使えて、ポッドキャスト形式への変換も可能。\n\n自分の業務資料に試したら、会議メモも即要約してくれた。\nhttps://notebooklm.google.com",
+      "source_url": "https://notebooklm.google.com",
+      "source_title": "GoogleのNotebookLMが200ページのPDFを10分で要約・質問対応できる"
+    },
+    {
+      "text": "調査業務を爆速化するPerplexity AIの3つの使い方:\n\n1. 競合分析→キーワード1つで比較表を生成（30分→5分）\n2. 最新動向を要約→リアルタイム検索で即まとめ\n3. 専門書をQ&A→論文や技術文書を口語で解説\n\nhttps://www.perplexity.ai",
+      "source_url": "https://www.perplexity.ai",
+      "source_title": "Perplexity AIが調査・リサーチ業務を大幅に効率化するAI検索エンジン"
+    },
+    {
+      "text": "プログラミング未経験でも30分でWebアプリが動く時代になった。\n\nBolt.new、ブラウザでAIに指示するだけでReactアプリ完成→即デプロイ。\n自分のアイデア、もう「作れない」は言い訳にならない。\n\nあなたなら何を作る？\nhttps://bolt.new",
+      "source_url": "https://bolt.new",
+      "source_title": "Bolt.newがブラウザだけでフルスタックアプリを30分で構築・デプロイまで完結"
+    },
+    {
+      "text": "数学オリンピックの問題を96.7%解くAIが手元で使える。\n\nOpenAI o3、法律文書の解釈や財務分析でも\n「プロのコンサル」感覚で使えるレベルになった。\n\nあなたの仕事で一番複雑な問題、試してみた？\nhttps://openai.com/o3",
+      "source_url": "https://openai.com/o3",
+      "source_title": "OpenAI o3がAIMEで96.7%のスコア、博士レベルの推論が実用化"
+    },
+    {
+      "text": "毎日の繰り返し作業、AIに丸投げできる時代が来た。\n\nClaude Computer Use、スクショを見ながらブラウザ操作まで自律実行。\nRPAなしで定型業務を自動化できる。\n\nあなたの業務、何から委任する？\nhttps://docs.anthropic.com/en/docs/agents-and-tools/computer-use",
+      "source_url": "https://docs.anthropic.com/en/docs/agents-and-tools/computer-use",
+      "source_title": "AnthropicのComputer Use機能でClaudeがPC操作を自律実行できるようになった"
+    },
+    {
+      "text": "GPT-4級のAIを自社サーバーで無料運用できる3つのメリット:\n\n1. Llama 3.1 405B、商用利用完全無料\n2. 社内データをAPIに送らず処理（情報漏洩ゼロ）\n3. 自社でFTして業務特化モデルを構築\n\nあなたの会社のデータ、守りながらAI活用できそう？\nhttps://llama.meta.com",
+      "source_url": "https://llama.meta.com",
+      "source_title": "Meta Llama 3.1 405Bが完全無料・商用利用可能なオープンソースLLMとして公開"
+    }
+  ]
+}
