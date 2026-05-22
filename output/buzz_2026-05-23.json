@@ -1,0 +1,79 @@
+{
+  "date": "2026-05-23",
+  "topics": [
+    {
+      "title": "CursorとClaudeで大量リファクタリングが1/4の時間に",
+      "summary": "CursorエディタとClaudeを組み合わせることで、コードのリファクタリング作業を大幅に短縮。指示を入力するだけでコード全体を解析し差分提案を出力。開発者の体感では8時間→2時間に短縮。",
+      "url": "https://cursor.sh/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "ChatGPT o3でデバッグ時間が1/4に - 複雑なバグも3秒で原因特定",
+      "summary": "OpenAIのo3モデルはコーディングと数学推論に特化した能力を持ち、複雑なバグの原因を数秒で特定する。競合モデルと比べて正答率90%超のベンチマーク結果が示されている。",
+      "url": "https://openai.com/o3",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Google NotebookLMで社内資料をAI化 - 議事録作成が10分に短縮",
+      "summary": "Google NotebookLMにPDF・音声・動画をアップロードするだけで、AIが内容を理解し質問に答える。議事録作成が60分→10分に短縮、資料検索時間が1/6になったという事例も。",
+      "url": "https://notebooklm.google/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Claude 3.7 Sonnet の Extended Thinking が数学ベンチマーク97%達成",
+      "summary": "AnthropicのClaude 3.7 SonnetはExtended Thinkingモードで推論ステップを可視化。数学ベンチマークで97%の正答率を達成し、複雑な設計相談や問題解決に活用されている。",
+      "url": "https://www.anthropic.com/news/claude-3-7-sonnet",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Vercel AI SDK (★12K) でNextJSにAIチャット機能を3時間でデプロイ",
+      "summary": "Vercel AI SDKはChat・RAG・マルチモーダルなど主要なAIパターンに対応したOSS（GitHub Stars 12K超）。NextJSプロジェクトへの組み込みが簡単で、本番デプロイまで最短3時間という事例も。",
+      "url": "https://github.com/vercel/ai",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Windsurf IDE - AIネイティブなコーディング環境が無料で月500回のAI補完",
+      "summary": "CodeiumのWindsurf IDEはコードベース全体を理解した上でAI補完を提供するVSCode代替IDE。無料プランでも月500回のAI補完が使え、コード全体の文脈を踏まえた高精度な提案が特徴。",
+      "url": "https://codeium.com/windsurf",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "コードの整理に1日溶かしてた人、これ使ってみて。\n\nCursor×Claude、指示を入れるだけでリファクタ差分が出る。8時間→2時間が体感値。自分のリポで試したらレビューだけで済んだ。\n\nhttps://cursor.sh/",
+      "source_url": "https://cursor.sh/",
+      "source_title": "CursorとClaudeで大量リファクタリングが1/4の時間に"
+    },
+    {
+      "text": "デバッグに半日溶かす前に、これ試してほしい。\n\nChatGPT o3、バグの原因を3秒で特定。正答率90%超のコーディング能力で、自分のコードを投げるだけで次のステップが出てくる。デバッグ時間が1/4になった。\n\nhttps://openai.com/o3",
+      "source_url": "https://openai.com/o3",
+      "source_title": "ChatGPT o3でデバッグ時間が1/4に - 複雑なバグも3秒で原因特定"
+    },
+    {
+      "text": "会議の録音を貼ると議事録が10分で完成する。\n\nGoogle NotebookLM、PDF・音声・動画を読み込ませるだけでAIが答えてくれる。自分の業務資料で試したら検索時間が1/6になった。\n\nhttps://notebooklm.google/",
+      "source_url": "https://notebooklm.google/",
+      "source_title": "Google NotebookLMで社内資料をAI化 - 議事録作成が10分に短縮"
+    },
+    {
+      "text": "数学の難問でAIが97%正解する時代。\n\nClaude 3.7のExtended Thinking、推論ステップが全部見える。自分の設計相談に使ったら1時間→15分に。あなたの一番複雑な問題、試す価値ある。\n\nhttps://www.anthropic.com/news/claude-3-7-sonnet",
+      "source_url": "https://www.anthropic.com/news/claude-3-7-sonnet",
+      "source_title": "Claude 3.7 Sonnet の Extended Thinking が数学ベンチマーク97%達成"
+    },
+    {
+      "text": "AIアプリ、今は最短3時間で本番デプロイできる。\n\nVercel AI SDK、★12K超のOSSでChat・RAGに対応。自分のNextJSに組み込んだらAIチャット機能を3時間でデプロイできた。\n\nhttps://github.com/vercel/ai",
+      "source_url": "https://github.com/vercel/ai",
+      "source_title": "Vercel AI SDK (★12K) でNextJSにAIチャット機能を3時間でデプロイ"
+    },
+    {
+      "text": "VSCode使ってる人、これ1週間試したら戻れなくなった。\n\nWindsurf IDE、コードベース全体を理解した上でAI補完。無料で月500回使える。自分のリポで試したら補完の文脈精度が全然違った。\n\nhttps://codeium.com/windsurf",
+      "source_url": "https://codeium.com/windsurf",
+      "source_title": "Windsurf IDE - AIネイティブなコーディング環境が無料で月500回のAI補完"
+    }
+  ]
+}
