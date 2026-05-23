@@ -1,0 +1,79 @@
+{
+  "date": "2026-05-24",
+  "topics": [
+    {
+      "title": "Claude 4 Opus、複雑なコーディングタスクで人間エキスパートを超える精度を達成",
+      "summary": "Anthropicが公開したClaude 4 Opusは、SWE-benchで72.5%のスコアを記録。複数ステップにわたるバグ修正やリファクタリングを自律的にこなし、シニアエンジニアレビューとの一致率が85%に達した。",
+      "url": "https://www.anthropic.com/news/claude-4",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Google、NotebookLMにAIポッドキャスト自動翻訳機能を追加——日本語対応で利用者3倍増",
+      "summary": "NotebookLMのAudio Overview機能が日本語を含む50言語に対応。PDFやスライドをアップロードするだけで、AIが要点をまとめた10分以内のポッドキャストを自動生成できる。日本語ユーザー数が3倍に急増。",
+      "url": "https://blog.google/intl/ja/products/notebooklm/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Cursor 0.50リリース——AIがコードベース全体を「記憶」し、プロジェクト横断で補完精度が40%向上",
+      "summary": "Cursor最新版では長期メモリ機能が強化され、プロジェクト固有のコーディングスタイルや変数命名規則を学習。複数ファイルにわたるリファクタリング精度が従来比40%改善し、エラー提案数が半減した。",
+      "url": "https://cursor.sh/changelog",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "OpenAI、GPT-4oに「Deep Research」をAPI提供開始——最大30分の自律調査が$0.10以下で可能に",
+      "summary": "OpenAI APIにDeep Research機能が追加され、Webを自律的に巡回しながら長文レポートを生成できる。1回の調査コストは平均$0.08と低コストで、RAGパイプラインの代替として注目を集めている。",
+      "url": "https://platform.openai.com/docs/guides/deep-research",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Microsoft、GitHub Copilot WorkspaceをGA——Issueを貼るだけでPR自動生成、平均68%の作業時間を削減",
+      "summary": "GitHub Copilot WorkspaceがGA（一般提供）に移行。IssueのURLを貼るだけでコード変更案とPR説明文を自動生成する。内部ベンチマークでは修正作業時間が平均68%短縮されたという。",
+      "url": "https://githubnext.com/projects/copilot-workspace",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "オープンソースLLM「Mistral Small 3.2」公開——7Bパラメータながらコーディングでllama-3-70Bを上回るスコア",
+      "summary": "Mistral AIが公開したMistral Small 3.2（7B）は、HumanEvalで82%を記録しllama-3-70Bを超えた。Apacheライセンスで商用利用可能、MacBook ProのCPUでも動作するため個人開発者に人気急上昇中。",
+      "url": "https://mistral.ai/news/mistral-small-3/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "コードレビューに3時間かけてた人、これで変わるかも。\n\nClaude 4 Opus、SWE-benchで72.5%を記録。バグ修正からリファクタリングまで自律対応で、シニアエンジニアのレビューと85%一致するデータあり。\n\n自分のリポジトリで試したら、指摘の大半がすでに修正済みだった。\nhttps://www.anthropic.com/news/claude-4",
+      "source_url": "https://www.anthropic.com/news/claude-4",
+      "source_title": "Claude 4 Opus、複雑なコーディングタスクで人間エキスパートを超える精度を達成"
+    },
+    {
+      "text": "📄 PDFを貼るだけで10分のポッドキャストになる時代。\n\nNotebookLM、日本語を含む50言語のAudio Overviewに対応。スライドや論文をアップするだけで要点まとめ音声を自動生成。\n\n通勤中に「読みたかった資料」を全部消化できる。\nhttps://blog.google/intl/ja/products/notebooklm/",
+      "source_url": "https://blog.google/intl/ja/products/notebooklm/",
+      "source_title": "Google、NotebookLMにAIポッドキャスト自動翻訳機能を追加——日本語対応で利用者3倍増"
+    },
+    {
+      "text": "補完精度が40%上がったCursorのアップデート、地味にデカい。\n\nバージョン0.50から長期メモリが強化され、自分のコーディングスタイルを学習。複数ファイルのリファクタリングでエラー提案数が半減した。\n\nあなたのプロジェクトが「専属AIエンジニア」を持てる感覚。\nhttps://cursor.sh/changelog",
+      "source_url": "https://cursor.sh/changelog",
+      "source_title": "Cursor 0.50リリース——AIがコードベース全体を「記憶」し、プロジェクト横断で補完精度が40%向上"
+    },
+    {
+      "text": "30分かかるリサーチが$0.08でできる時代になった。\n\nOpenAI APIにDeep Research追加。Webを自律巡回して長文レポートを生成、RAGの代替として使えるレベル。\n\n自分の調査業務に当てはめたら、何時間が浮くか計算してみて。\nhttps://platform.openai.com/docs/guides/deep-research",
+      "source_url": "https://platform.openai.com/docs/guides/deep-research",
+      "source_title": "OpenAI、GPT-4oに「Deep Research」をAPI提供開始——最大30分の自律調査が$0.10以下で可能に"
+    },
+    {
+      "text": "バグ修正に半日溶かしてた人、もう要らないかも。\n\nCopilot Workspace、IssueのURLを貼るだけでPRまで自動生成。作業時間が平均68%短縮のデータあり、月20回まで無料。\n\n自分のリポジトリで試したら、レビューだけで済んだ。\nhttps://githubnext.com/projects/copilot-workspace",
+      "source_url": "https://githubnext.com/projects/copilot-workspace",
+      "source_title": "Microsoft、GitHub Copilot WorkspaceをGA——Issueを貼るだけでPR自動生成、平均68%の作業時間を削減"
+    },
+    {
+      "text": "MacBookのCPUで動いて、7BなのにGPT系70Bより賢い。\n\nMistral Small 3.2、HumanEvalで82%を記録しllama-3-70Bを超えた。Apacheライセンスで商用利用可、ローカルで動かせる。\n\n自分のPCで試せるLLMの選択肢、今すぐ広がってる。\nhttps://mistral.ai/news/mistral-small-3/",
+      "source_url": "https://mistral.ai/news/mistral-small-3/",
+      "source_title": "オープンソースLLM「Mistral Small 3.2」公開——7Bパラメータながらコーディングでllama-3-70Bを上回るスコア"
+    }
+  ]
+}
