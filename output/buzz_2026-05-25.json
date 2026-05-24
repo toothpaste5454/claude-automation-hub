@@ -1,0 +1,79 @@
+{
+  "date": "2026-05-25",
+  "topics": [
+    {
+      "title": "Cursor AIコーディングで開発時間を半減させる実践活用術",
+      "summary": "CursorはAIがプロジェクト全体を理解してコード補完・生成を行うエディタ。\n開発時間50%削減の事例が多数あり、VSCodeと同じ操作感で移行がしやすい。\n無料プランで今すぐ試せる。",
+      "url": "https://cursor.com",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Google NotebookLM、日本語音声概要で100ページのPDFを5分で要約",
+      "summary": "GoogleのNotebookLMが日本語での音声概要（Audio Overview）に対応。\n100ページのPDFも5分以内に音声で要約でき、複数資料の横断検索も可能。\n無料版から利用できる。",
+      "url": "https://notebooklm.google/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Claude APIで業務メール自動化、返信時間を30分→3分に短縮",
+      "summary": "AnthropicのClaude APIを使った業務自動化事例が増加中。\nメール返信の下書き・校閲フローを1つのプロンプトで自動化でき、返信時間を90%削減できる。\n日本語対応が優秀でビジネス文書自動化に最適。",
+      "url": "https://www.anthropic.com/api",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Gemini 2.5 Pro、SWE-benchで63.8%達成—コーディングAI最前線",
+      "summary": "GoogleのGemini 2.5 ProがSWE-benchで63.8%を達成しコーディングAI首位に。\n100万トークンのコンテキストウィンドウで大規模コードベースも一括処理可能。\nGoogle AI Studioから無料でアクセスできる。",
+      "url": "https://deepmind.google/models/gemini/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Vibe Coding入門: WindsurfのAIが全コードの80%を自動生成",
+      "summary": "CodiumのWindsurfはコードを書かずにアプリが作れるAI搭載エディタ。\n自然言語で仕様を伝えるだけでコードの80%を自動生成してくれる。\n個人利用は無料プランあり。",
+      "url": "https://codeium.com/windsurf",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Meta Llama 4 Scout公開、109億パラメータのマルチモーダルOSSモデル",
+      "summary": "MetaがLlama 4 Scoutをオープンソースで公開。\n109億パラメータでマルチモーダル対応し、自前サーバーにホスティングすればAPIコスト0で大量処理が可能。\nHugging Faceから無料でダウンロードできる。",
+      "url": "https://ai.meta.com/llama/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "実装に半日かかってたコード、Cursorで2時間になった。\n\nAIがプロジェクト全体を読んで補完してくれるので、自分のコードスタイルのまま進められる。\n開発時間50%削減の事例が続出してる。\n\nhttps://cursor.com",
+      "source_url": "https://cursor.com",
+      "source_title": "Cursor AIコーディングで開発時間を半減させる実践活用術"
+    },
+    {
+      "text": "100ページの資料読むのに1時間かけてる人へ。\n\nNotebookLMで爆速化する3つの使い方:\n1. PDFアップロードだけで5分で音声要約\n2. 複数資料を横断してQ&A\n3. 議事録から自動でメモ生成\n\nhttps://notebooklm.google/",
+      "source_url": "https://notebooklm.google/",
+      "source_title": "Google NotebookLM、日本語音声概要で100ページのPDFを5分で要約"
+    },
+    {
+      "text": "メール返信に30分かかってた作業、Claude APIで3分になった。\n\nプロンプト1つで下書き→校閲→送信まで自動化できる。\n自分の業務フローに組み込むだけ。\n\nhttps://www.anthropic.com/api",
+      "source_url": "https://www.anthropic.com/api",
+      "source_title": "Claude APIで業務メール自動化、返信時間を30分→3分に短縮"
+    },
+    {
+      "text": "コードレビューに1時間溶かしてた人、これで変わるかも。\n\nGemini 2.5 Pro、SWE-benchで63.8%スコアでAIコーディングトップに。\n自分のバグ修正が、レビューだけで済む世界。\n\nhttps://deepmind.google/models/gemini/",
+      "source_url": "https://deepmind.google/models/gemini/",
+      "source_title": "Gemini 2.5 Pro、SWE-benchで63.8%達成—コーディングAI最前線"
+    },
+    {
+      "text": "コードが書けなくてもアプリが作れる3ステップ:\n\n1. 日本語で「こんなアプリ作って」と入力\n2. WindsurfのAIが全ファイル自動生成（平均80%のコード）\n3. 確認してデプロイ\n\nあなたのアイデアを今すぐ試せる。\nhttps://codeium.com/windsurf",
+      "source_url": "https://codeium.com/windsurf",
+      "source_title": "Vibe Coding入門: WindsurfのAIが全コードの80%を自動生成"
+    },
+    {
+      "text": "無料でGPT-4レベルのAIが動く時代になった。\n\nMeta Llama 4 Scout、109億パラメータでマルチモーダル対応。\n自分のPCに置いてコスト0で使える。\n\nあなたなら何に使う？\nhttps://ai.meta.com/llama/",
+      "source_url": "https://ai.meta.com/llama/",
+      "source_title": "Meta Llama 4 Scout公開、109億パラメータのマルチモーダルOSSモデル"
+    }
+  ]
+}
