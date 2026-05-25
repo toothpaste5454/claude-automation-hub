@@ -1,0 +1,79 @@
+{
+  "date": "2026-05-26",
+  "topics": [
+    {
+      "title": "DifyでRAGアプリを10分で構築する方法",
+      "summary": "OSSのLLMワークフロービルダー「Dify」がGitHub Stars 67,000超を記録。Docker一発でセルフホスト可能で、GPT・Claude・Geminiを切り替えながら自前のドキュメント検索AIを構築できる。UI自動生成機能でノーコードでも扱える。",
+      "url": "https://github.com/langgenius/dify",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "NotebookLMの音声概要機能で資料を聞き流す勉強法",
+      "summary": "GoogleのNotebookLMが200ページ超のPDFやウェブ記事をポッドキャスト形式の音声に変換できる機能を無料提供中。日本語対応済みで、通勤中に資料を「聞く」ことで勉強時間を大幅短縮できると話題。",
+      "url": "https://notebooklm.google.com/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "GitHub Copilot WorkspaceがIssueからPR自動生成に対応",
+      "summary": "GitHub Copilot WorkspaceがIssueのURLを貼るだけでコード修正からPR作成まで一気通貫で行える機能を全ユーザーに提供。月20回まで無料で利用でき、バグ修正の工数が大幅に削減されると開発者に注目されている。",
+      "url": "https://githubnext.com/projects/copilot-workspace",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "OpenAI Codex CLI: ターミナルで動くOSSコーディングエージェント",
+      "summary": "OpenAIがターミナル上で動作するコーディングエージェント「Codex CLI」をOSSとして公開。自然言語でコード修正・テスト生成・gitコマンド生成が可能。GitHubで公開直後に急速にスターを集めている。",
+      "url": "https://github.com/openai/codex",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Gemini 2.5 Flash: 思考機能つき最安値クラスの推論モデル",
+      "summary": "GoogleのGemini 2.5 Flashが入力100万トークンあたり$0.15という低コストで思考（Thinking）機能を提供。複雑な推論タスクをGPT-4クラスのコストの10分の1以下でこなせるとして、API開発者から支持を集めている。",
+      "url": "https://ai.google.dev/gemini-api/docs/models",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Vercel AI SDK v4: Next.jsとLLMを5行でつなぐOSS",
+      "summary": "VercelのAI SDKがGitHub Stars 12,000超を記録。Claude・GPT・Geminiなど主要LLMをたった数行のコードで切り替えられる設計で、Next.jsアプリへのAI機能追加が大幅に簡略化される。",
+      "url": "https://github.com/vercel/ai",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "RAGアプリ、一から作るの諦めてた人へ。\n\nDify、★67,000超のOSSで自分のドキュメントを検索できるAIを10分で構築できる。\nGPT・Claudeも選べて、UIも自動生成。\n\nDocker一発で動かせた。\nhttps://github.com/langgenius/dify",
+      "source_url": "https://github.com/langgenius/dify",
+      "source_title": "DifyでRAGアプリを10分で構築する方法"
+    },
+    {
+      "text": "200ページのPDF、読む前に諦めてた。\n\nNotebookLM、無料で資料をポッドキャスト形式に変換してくれる。\n音声概要は日本語対応で、自分の勉強時間が3分の1になった。\n\nhttps://notebooklm.google.com/",
+      "source_url": "https://notebooklm.google.com/",
+      "source_title": "NotebookLMの音声概要機能で資料を聞き流す勉強法"
+    },
+    {
+      "text": "バグ修正に半日溶かしてる人、試す価値ある。\n\nCopilot Workspace、IssueのURLを貼るだけでPRまで自動生成。月20回無料。\n\n自分のリポジトリで試したら、レビューだけで済んだ。\nhttps://githubnext.com/projects/copilot-workspace",
+      "source_url": "https://githubnext.com/projects/copilot-workspace",
+      "source_title": "GitHub Copilot WorkspaceがIssueからPR自動生成に対応"
+    },
+    {
+      "text": "ターミナル作業を爆速化する3つの使い方:\n\n1. コードを貼るとバグ特定→修正まで自動\n2. テストなしファイルにテストを自動追加\n3. 自然言語でgitコマンドを生成\n\n自分のプロジェクトで試したら、1日30分浮いた。\nhttps://github.com/openai/codex",
+      "source_url": "https://github.com/openai/codex",
+      "source_title": "OpenAI Codex CLI: ターミナルで動くOSSコーディングエージェント"
+    },
+    {
+      "text": "推論モデルが月1,000円以下で使える時代になった。\n\nGemini 2.5 Flash、入力100万トークンあたり$0.15。\n思考機能つきで、自分のAPIコストが10分の1になった人も続出中。\n\nあなたならどのアプリに組み込む？\nhttps://ai.google.dev/gemini-api/docs/models",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models",
+      "source_title": "Gemini 2.5 Flash: 思考機能つき最安値クラスの推論モデル"
+    },
+    {
+      "text": "Next.jsとAIをつなぐのに、100行書いてた。\n\nVercel AI SDK、★12,000超のOSSで5行で実装できる。\nClaude・GPT・Geminiの切り替えもコード1行。\n\n自分のサービスにAIチャットを追加するのが1時間で済んだ。\nhttps://github.com/vercel/ai",
+      "source_url": "https://github.com/vercel/ai",
+      "source_title": "Vercel AI SDK v4: Next.jsとLLMを5行でつなぐOSS"
+    }
+  ]
+}
