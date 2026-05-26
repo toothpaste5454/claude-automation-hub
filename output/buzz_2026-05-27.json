@@ -1,0 +1,79 @@
+{
+  "date": "2026-05-27",
+  "topics": [
+    {
+      "title": "ClineでVSCodeがAIエージェントに変わる——ファイル生成からコマンド実行まで自律化",
+      "summary": "OSSのVSCode拡張「Cline」がGitHub Stars 30,000超を達成。AIがファイル作成・コード修正・ターミナルコマンド実行を自律的にこなすエージェント型拡張で、Claude・GPT・Gemini等主要LLMと接続できる。実装工数を大幅に削減できると開発者に支持されている。",
+      "url": "https://github.com/cline/cline",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Cursorのコンポーザー機能——複数ファイルを横断した大規模リファクタリングが10分で完了",
+      "summary": "AIコードエディタ「Cursor」のComposer機能を使うと、複数ファイルにまたがるリファクタリングを自然言語で指示できる。.cursorrulesでプロジェクト固有のコーディングルールを学習させることも可能で、チームの開発速度向上に活用されている。",
+      "url": "https://cursor.com",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Claude APIのPrompt Cachingでコストを最大90%削減する方法",
+      "summary": "AnthropicのPrompt Caching機能を使うと、繰り返し送信するシステムプロンプトやコンテキストをキャッシュしてAPIコストを最大90%削減できる。長いシステムプロンプトを使うチャットボットや社内ツールで特に効果が大きい。",
+      "url": "https://www.anthropic.com/news/prompt-caching",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Qwen2.5-Coder 32B——ローカルで動くオープンソースのコーディングAIがGPT-4クラスに",
+      "summary": "AlibabaのQwen2.5-Coder 32Bがコード補完ベンチマークでトップクラスのスコアを記録。オープンソースで無料ダウンロードでき、自前のサーバーやPCで実行できるため社内コードを外部に送らずに済む。7B・14B・32Bと用途に応じてサイズを選べる。",
+      "url": "https://github.com/QwenLM/Qwen2.5-Coder",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "bolt.new——ブラウザ上でAIがフルスタックアプリを生成・デプロイまで完結",
+      "summary": "StackBlitzのbolt.newはブラウザ上で自然言語を入力するとフルスタックアプリの生成からデプロイまでが完結するツール。コードを1行も書かずにNext.js・React・Supabaseを使ったアプリが数分で動く状態になる。",
+      "url": "https://bolt.new",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Perplexity Deep Research——質問を入力するだけで複数ソースを自動調査して長文レポートを生成",
+      "summary": "PerplexityのDeep Research機能は複数のWebソースを自動クロール・分析して長文レポートを生成する。数時間かかっていた市場調査・競合調査が15分程度に短縮でき、出典付きのレポートとして出力される。",
+      "url": "https://www.perplexity.ai/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "エディタを行き来しながらコード書いてた作業、全部VSCodeで完結した。\n\nCline、★30,000超のVSCode拡張でAIがファイル作成からコマンド実行まで自律的にこなす。\n自分のリポジトリで試したら、1時間の実装が15分で終わった。\n\nhttps://github.com/cline/cline",
+      "source_url": "https://github.com/cline/cline",
+      "source_title": "ClineでVSCodeがAIエージェントに変わる——ファイル生成からコマンド実行まで自律化"
+    },
+    {
+      "text": "Cursorを爆速化する3つの使い方:\n\n1. Composerで複数ファイルを一括リファクタ（1時間→10分）\n2. バグをチャットに貼るだけで即修正\n3. .cursorrulesで自分ルールを覚えさせる\n\nhttps://cursor.com",
+      "source_url": "https://cursor.com",
+      "source_title": "Cursorのコンポーザー機能——複数ファイルを横断した大規模リファクタリングが10分で完了"
+    },
+    {
+      "text": "Claude APIの費用、知らずに無駄払いしてた。\n\nPrompt Caching、繰り返し送るコンテキストをキャッシュしてコストを最大90%削減できる。\n毎回同じシステムプロンプトを送ってるアプリなら今すぐ使える。\n\nhttps://www.anthropic.com/news/prompt-caching",
+      "source_url": "https://www.anthropic.com/news/prompt-caching",
+      "source_title": "Claude APIのPrompt Cachingでコストを最大90%削減する方法"
+    },
+    {
+      "text": "ローカルAIがGPT-4クラスに追いついてきた。\n\nQwen2.5-Coder 32B、無料でDLでき、コード補完精度でトップクラスのスコアを記録。\n社内コードを外に送らずに動かせる。\n\nあなたのチームなら何に使う？\nhttps://github.com/QwenLM/Qwen2.5-Coder",
+      "source_url": "https://github.com/QwenLM/Qwen2.5-Coder",
+      "source_title": "Qwen2.5-Coder 32B——ローカルで動くオープンソースのコーディングAIがGPT-4クラスに"
+    },
+    {
+      "text": "Webアプリ、コード1行も書かずに完成した話。\n\nbolt.new、自然言語を入力するだけでブラウザ上でフルスタックアプリを生成→デプロイまで完結。\nアイデアから動くものが出るまで5分かかってない。\n\nhttps://bolt.new",
+      "source_url": "https://bolt.new",
+      "source_title": "bolt.new——ブラウザ上でAIがフルスタックアプリを生成・デプロイまで完結"
+    },
+    {
+      "text": "競合調査に3時間かけてたの、もう終わった話。\n\nPerplexity Deep Research、質問を入れるだけで複数ソースを自動調査して出典付きレポートを生成。\n自分の調査時間が3時間→15分になった。\n\nhttps://www.perplexity.ai/",
+      "source_url": "https://www.perplexity.ai/",
+      "source_title": "Perplexity Deep Research——質問を入力するだけで複数ソースを自動調査して長文レポートを生成"
+    }
+  ]
+}
