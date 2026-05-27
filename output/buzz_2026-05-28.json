@@ -1,0 +1,79 @@
+{
+  "date": "2026-05-28",
+  "topics": [
+    {
+      "title": "Claude Codeで自分のコードベースを爆速理解する方法",
+      "summary": "AnthropicのCLIツール「Claude Code」を使うと、大規模コードベースの理解・修正・テスト生成が従来の数分の一の時間で可能になる。リファクタリングや新機能追加でコンテキスト理解にかかる時間が大幅に削減される。作業時間60%削減事例が報告されている。",
+      "url": "https://claude.ai/code",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "CursorAIが国内エンジニアに急普及、VS Code移行組が続出",
+      "summary": "AIコーディングエディタ「Cursor」の国内利用者が急増。コード補完の精度が高く、AIとのチャット機能でデバッグや新機能開発が大幅に効率化できる。月20ドルのProプランでGPT-4/Claudeが使い放題で試せる。",
+      "url": "https://www.cursor.com/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Google NotebookLMで社内ドキュメント管理が変わる、PDF壁を突破",
+      "summary": "GoogleのNotebookLMがビジネス向け機能を強化。社内マニュアルや技術仕様書をアップロードするだけで自然言語Q&Aが可能になり、新人オンボーディング時間を70%短縮した事例がある。無料で使い始められる。",
+      "url": "https://notebooklm.google/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "GitHub Copilot WorkspaceがIssueからPRを全自動生成、全ユーザーに解放",
+      "summary": "GitHubがCopilot WorkspaceをGA公開。IssueのURLを貼るだけでコード変更計画・ファイル編集・PRドラフトまで自動化される。内部テストでバグ修正時間が平均68%短縮、月20回まで無料で使える。",
+      "url": "https://githubnext.com/projects/copilot-workspace",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "MetaのLlama 4、17Bパラメータでマルチモーダル対応、GPT-4oに匹敵",
+      "summary": "MetaがLlama 4シリーズを公開。Scout(active 17B/total 109B)はマルチモーダル対応で画像・テキスト両方を処理可能。商用利用可能なオープンウェイトモデルとして公開され、自前サーバーで運用できる。",
+      "url": "https://ai.meta.com/llama/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Gemini 2.5 Proがコーディングベンチマーク首位、100万トークンを処理",
+      "summary": "GoogleのGemini 2.5 Proがコーディング評価で最高スコアを記録。最大100万トークンのコンテキストウィンドウで大規模コードベースを丸ごと解析できる。特にリファクタリングや大規模リポジトリ理解で強みを発揮する。",
+      "url": "https://deepmind.google/technologies/gemini/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "コードの理解に半日かけてた自分が変わった。\n\nClaude Code、CLIから自然文で指示するだけでリファクタ提案〜修正まで完結。\n作業時間60%削減した人の報告が続出中。\n\nhttps://claude.ai/code",
+      "source_url": "https://claude.ai/code",
+      "source_title": "Claude Codeで自分のコードベースを爆速理解する方法"
+    },
+    {
+      "text": "VS Codeから移れなかった自分がCursorに変えた。\n\n月20ドルでGPT-4/Claude使い放題、補完精度が段違い。\n自分のデバッグ時間、体感で半分以下になった。\n\nhttps://www.cursor.com/",
+      "source_url": "https://www.cursor.com/",
+      "source_title": "CursorAIが国内エンジニアに急普及、VS Code移行組が続出"
+    },
+    {
+      "text": "社内ドキュメントをAIで爆速化する3つの使い方:\n\n1. PDF 100枚を5分でQ&A対応化\n2. 会議録から自動FAQ生成\n3. 新人オンボーディングを70%短縮\n\nhttps://notebooklm.google/",
+      "source_url": "https://notebooklm.google/",
+      "source_title": "Google NotebookLMで社内ドキュメント管理が変わる、PDF壁を突破"
+    },
+    {
+      "text": "バグ修正に半日溶かしてた人、もう要らないかも。\n\nCopilot Workspace、Issueを貼るだけでPRまで自動生成。\n平均68%時短のデータあり、月20回まで無料。\n\nhttps://githubnext.com/projects/copilot-workspace",
+      "source_url": "https://githubnext.com/projects/copilot-workspace",
+      "source_title": "GitHub Copilot WorkspaceがIssueからPRを全自動生成、全ユーザーに解放"
+    },
+    {
+      "text": "GPT-4oと互角のAIが、今日から無料で使える。\n\nMetaのLlama 4、active 17Bパラメータでマルチモーダル対応。\n自分のサーバーで動かせるオープンモデルとして公開中。\n\nあなたなら何に使う？\nhttps://ai.meta.com/llama/",
+      "source_url": "https://ai.meta.com/llama/",
+      "source_title": "MetaのLlama 4、17Bパラメータでマルチモーダル対応、GPT-4oに匹敵"
+    },
+    {
+      "text": "コードベース100万行を一度に読めるAI、出た。\n\nGemini 2.5 Pro、コーディングベンチマーク首位。\n自分の巨大プロジェクトを丸ごと1コンテキストで解析できる。\n\nあなたなら何に使う？\nhttps://deepmind.google/technologies/gemini/",
+      "source_url": "https://deepmind.google/technologies/gemini/",
+      "source_title": "Gemini 2.5 Proがコーディングベンチマーク首位、100万トークンを処理"
+    }
+  ]
+}
