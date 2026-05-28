@@ -1,0 +1,79 @@
+{
+  "date": "2026-05-29",
+  "topics": [
+    {
+      "title": "ノーコードでRAGアプリが10分で作れるOSS「Dify」の活用事例",
+      "summary": "DifyはGUI操作でLLMワークフローを組めるOSSツール。RAG・エージェント機能を内蔵し、APIキーを設定するだけで自社データで動くAIアプリが完成する。GitHubスター数4.6万超。",
+      "url": "https://github.com/langgenius/dify",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "CursorのAgentモードで複数ファイルを一括リファクタリング、65%時短の実績",
+      "summary": "CursorのComposerエージェントは自然言語の指示で複数ファイルを横断的に編集する。IDEを離れずに設計変更・テスト修正まで完結でき、作業時間65%削減の実績が報告されている。",
+      "url": "https://cursor.sh",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Google NotebookLMの音声概要機能で100ページPDFを5分で把握する方法",
+      "summary": "NotebookLMはGoogleのAI研究ノートツール。PDFや動画をソースにQ&Aや音声ポッドキャスト形式の要約を自動生成する。100ページの論文も5分で主要論点が把握できる。",
+      "url": "https://notebooklm.google.com/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Gemini 2.5 ProがLMArenaコーディング部門で首位、100万トークン対応",
+      "summary": "Gemini 2.5 ProはLMArenaでGPT-4oを上回るスコアを記録。100万トークンのコンテキストウィンドウで大規模コードベースや長文ドキュメントを一括処理できる。",
+      "url": "https://deepmind.google/technologies/gemini/pro/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "GitHub Copilot WorkspaceがIssueからPR作成まで自動化、平均68%時短",
+      "summary": "Copilot WorkspaceはGitHub上でIssueを指定するだけで実装・テスト・PR作成まで自動生成するツール。バグ修正時間の平均68%削減データが公開され、月20回まで無料。",
+      "url": "https://githubnext.com/projects/copilot-workspace",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Ollamaで自分のPCにLlama 3を2コマンドで立ち上げる、★90,000超のOSS",
+      "summary": "OllamaはM1/M2 MacやLinux上でLlama 3等のLLMをコマンド1行で実行できるOSSツール。API形式でも使えOpenAI互換。外部にデータを送らず無料で動かせる。",
+      "url": "https://github.com/ollama/ollama",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "自分のデータで動くAIを、コード不要で作れる時代になった。\n\nDify、★46,000超のOSSツール。\nPDFを食わせるだけでRAGアプリが完成する。\n\n構築時間が従来の1/10になったという声が続いてる。\nhttps://github.com/langgenius/dify",
+      "source_url": "https://github.com/langgenius/dify",
+      "source_title": "ノーコードでRAGアプリが10分で作れるOSS「Dify」の活用事例"
+    },
+    {
+      "text": "毎日2時間溶かしてたリファクタが、30分で終わるようになった。\n\nCursorのAgentモード、複数ファイルを一括で書き換える。\n「このパターン全部直して」の指示で65%時短のデータあり。\n\nあなたのコードで試す価値はある。\nhttps://cursor.sh",
+      "source_url": "https://cursor.sh",
+      "source_title": "CursorのAgentモードで複数ファイルを一括リファクタリング、65%時短の実績"
+    },
+    {
+      "text": "📄 100ページの論文を5分で整理できるようになった。\n\nNotebookLM、ソースを放り込むだけで音声解説を生成。\nQ&A形式で深掘りもできる、無料で使える。\n\n自分の読み切れてないPDFを入れてみて。\nhttps://notebooklm.google.com/",
+      "source_url": "https://notebooklm.google.com/",
+      "source_title": "Google NotebookLMの音声概要機能で100ページPDFを5分で把握する方法"
+    },
+    {
+      "text": "100万トークン、まるごとリポジトリが入る時代になった。\n\nGemini 2.5 Pro、LMArenaコーディング部門で首位。\n大規模コードを一括レビューして設計問題を指摘してくれる。\n\nあなたのプロジェクト、何ファイル入るか試してみて。\nhttps://deepmind.google/technologies/gemini/pro/",
+      "source_url": "https://deepmind.google/technologies/gemini/pro/",
+      "source_title": "Gemini 2.5 ProがLMArenaコーディング部門で首位、100万トークン対応"
+    },
+    {
+      "text": "バグ修正に半日使ってた人、これで変わるかも。\n\nCopilot Workspace、IssueからPRまで自動生成。\n平均68%の時短データあり、月20回まで無料。\n\nレビューするだけで済む未来が来てる。\nhttps://githubnext.com/projects/copilot-workspace",
+      "source_url": "https://githubnext.com/projects/copilot-workspace",
+      "source_title": "GitHub Copilot WorkspaceがIssueからPR作成まで自動化、平均68%時短"
+    },
+    {
+      "text": "クラウドAPI代ゼロでLLMを動かす方法。\n\nbrew install ollama → ollama run llama3\n2コマンドで、あなたのPCがLLMサーバーになる。\n\n★90,000超のOSS。データが外に出ない安心感あり。\nhttps://github.com/ollama/ollama",
+      "source_url": "https://github.com/ollama/ollama",
+      "source_title": "Ollamaで自分のPCにLlama 3を2コマンドで立ち上げる、★90,000超のOSS"
+    }
+  ]
+}
