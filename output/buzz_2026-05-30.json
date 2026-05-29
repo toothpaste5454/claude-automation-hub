@@ -1,0 +1,79 @@
+{
+  "date": "2026-05-30",
+  "topics": [
+    {
+      "title": "自然言語でPCを自動操作できるOSS「Open Interpreter」、★18,000超",
+      "summary": "Open InterpreterはLLMをターミナルと統合し、自然言語でファイル操作・コード実行・ブラウザ操作まで自動化できるOSSツール。「このフォルダのPDFを全部要約して」といった指示が実行まで完結する。GitHubスター数18,000超。",
+      "url": "https://github.com/OpenInterpreter/open-interpreter",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "ClaudeのAPIプロンプトキャッシュでコストを最大90%削減する方法",
+      "summary": "Anthropicが提供するプロンプトキャッシュ機能を使うと、同じシステムプロンプトの2回目以降の呼び出しコストが大幅に削減される。月100ドルのAPI費用が10ドル前後になった事例もある。",
+      "url": "https://www.anthropic.com/api",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "OpenAI Whisperで会議の文字起こしを完全自動化、★70,000超のOSS",
+      "summary": "Whisperは音声認識精度95%超を誇るOSS。1時間の音声を5分で文字起こしでき、日本語にも対応。Pyannoteと組み合わせると話者分離も自動化でき、議事録作成の手間を大幅に削減できる。",
+      "url": "https://github.com/openai/whisper",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "マルチエージェントフレームワーク「CrewAI」でAIチームを組む、★20,000超",
+      "summary": "CrewAIは複数のAIエージェントを役割分担させて協調動作させるOSSフレームワーク。調査・執筆・レビューなどのワークフローを複数エージェントが自動担当し、複雑なタスクを自律的にこなす。GitHubスター数20,000超。",
+      "url": "https://github.com/crewAIInc/crewAI",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Vercel v0でUIコンポーネントをテキスト1行から生成、プロトタイプが30分→3分に",
+      "summary": "v0.devはVercelが提供するAI駆動UIジェネレーター。テキストで説明するだけでReactコンポーネントを即生成し、コードもコピーできる。デザイナーなしでもプロトタイプを数分で作れる。",
+      "url": "https://v0.dev/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Groqの超高速LPU推論でLlama 3が500トークン/秒、ChatGPTの10倍速",
+      "summary": "GroqはLPU（Language Processing Unit）専用チップでLlama 3等のOSSモデルを超高速推論する。応答速度はChatGPTの約10倍で、リアルタイムアプリや音声AIなど低レイテンシが必要な用途に最適。",
+      "url": "https://groq.com/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "PCを自然言語で動かす、★18,000超のOSS。\n\nOpen Interpreter、「このフォルダ要約して」で実行まで完結。\n\nあなたのルーティン作業、これ一発で終わるかも。\nhttps://github.com/OpenInterpreter/open-interpreter",
+      "source_url": "https://github.com/OpenInterpreter/open-interpreter",
+      "source_title": "自然言語でPCを自動操作できるOSS「Open Interpreter」、★18,000超"
+    },
+    {
+      "text": "📉 APIコストを90%削減した。\n\nClaudeのプロンプトキャッシュ、2回目以降は激安。\n月100ドルが10ドルになった事例もある。\n\n自分のAPIに実装するだけで変わる。\nhttps://www.anthropic.com/api",
+      "source_url": "https://www.anthropic.com/api",
+      "source_title": "ClaudeのAPIプロンプトキャッシュでコストを最大90%削減する方法"
+    },
+    {
+      "text": "会議録を手作業で書いてる人、もう要らないかも。\n\nWhisper、★70,000超のOSS音声認識。\n精度95%超で、1時間の音声が5分で文字起こし完了。\n\n自分の会議録に使えば週2時間は返ってくる。\nhttps://github.com/openai/whisper",
+      "source_url": "https://github.com/openai/whisper",
+      "source_title": "OpenAI Whisperで会議の文字起こしを完全自動化、★70,000超のOSS"
+    },
+    {
+      "text": "AIが複数いてチームで動くフレームワーク。\n\nCrewAI、★20,000超のOSS。\n「調査→執筆→レビュー」を3つのエージェントが自動で回す。\n\n自分のワークフローをAIチームに任せてみる時代。\nhttps://github.com/crewAIInc/crewAI",
+      "source_url": "https://github.com/crewAIInc/crewAI",
+      "source_title": "マルチエージェントフレームワーク「CrewAI」でAIチームを組む、★20,000超"
+    },
+    {
+      "text": "デザイナーいなくても、UIが秒で出来上がる。\n\nv0、テキスト1行でReactコンポーネントを即生成。\nプロトタイプが30分→3分になった事例が続出。\n\nあなたのアプリ、ここから始めると早い。\nhttps://v0.dev/",
+      "source_url": "https://v0.dev/",
+      "source_title": "Vercel v0でUIコンポーネントをテキスト1行から生成、プロトタイプが30分→3分に"
+    },
+    {
+      "text": "Llama 3が500トークン/秒で動く時代になった。\n\nレスポンス速度はChatGPTの約10倍。\nチャットじゃなくリアルタイムなAIアプリが作れる領域。\n\nあなたならこのスピードで何を作る？\nhttps://groq.com/",
+      "source_url": "https://groq.com/",
+      "source_title": "Groqの超高速LPU推論でLlama 3が500トークン/秒、ChatGPTの10倍速"
+    }
+  ]
+}
