@@ -1,0 +1,79 @@
+{
+  "date": "2026-05-31",
+  "topics": [
+    {
+      "title": "Cursor AIで大規模リファクタリングを1日未満で完了する方法",
+      "summary": "AIコードエディタCursorのComposerモードを使い、数万行のコードベースを数時間でリファクタリングした実践例が国内エンジニアの間で話題。従来3日かかっていた作業が1日未満に短縮されたという報告が相次いでいる。ソロ開発者でも大規模改修が現実的になってきた。",
+      "url": "https://cursor.com",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Claude Opus 4.8の拡張思考でチーム開発が変わる3つの使い方",
+      "summary": "Anthropicの最新モデルClaude Opus 4.8は拡張思考（Extended Thinking）機能を搭載し、ER図からAPIスペックの自動生成、設計レビュー、バグ修正時間50%削減など複雑な開発タスクを段階的に推論して解決する。国内スタートアップでの採用事例が急増中。",
+      "url": "https://www.anthropic.com/claude",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Perplexity Pro、月$20でリサーチ時間を70%削減できる理由",
+      "summary": "AI検索エンジンPerplexityが日本語対応を強化し、最新ニュースや専門的な調査で高精度な回答を提供。月額$20のProプランでGPT-4oやClaude等複数モデルを切り替え可能で、毎日2時間かけていたリサーチ業務が30分程度に短縮されたという報告が増えている。",
+      "url": "https://www.perplexity.ai",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "GitHub Copilot WorkspaceがGA、IssueからPRを自動生成し開発時間68%短縮",
+      "summary": "GitHubのAI開発環境Copilot WorkspaceがGA（一般提供）となり、IssueをアサインするだけでコードからPRまで自動生成できるように。平均バグ修正時間が68%短縮されたデータが報告されており、月20回まで無料で試せる。個人・チーム開発の両方で活用が広がっている。",
+      "url": "https://githubnext.com/projects/copilot-workspace",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "OpenAI o3がSWE-benchで72%を達成、コーディングベンチマークで人間を超える",
+      "summary": "OpenAIの推論モデルo3がソフトウェアエンジニアリングタスクのベンチマークSWE-benchで72%のスコアを達成し、人間のソフトウェアエンジニアのパフォーマンスを超えた。特に数学・論理推論タスクで飛躍的な性能向上を示し、コーディング補助AIの質が大幅に向上している。",
+      "url": "https://openai.com/o3",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Gemini 2.5 Flashで音声AIアシスタントを構築、APIコスト従来比70%削減",
+      "summary": "GoogleのGemini 2.5 Flashは100万トークンのコンテキストウィンドウとネイティブ音声対応を統合した低コスト・高速推論モデル。APIコストは従来比で約70%削減され、個人開発者でもAlexa級の音声アシスタントが構築可能な時代になってきた。",
+      "url": "https://deepmind.google/technologies/gemini/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "コードのリファクタリングに3日溶かしてた作業、1日未満になった。\n\nCursor Composer、数万行のコードベースを指示するだけで自動改修。\n自分のリポジトリで試したら、レビューだけで済んだ。\n\nhttps://cursor.com",
+      "source_url": "https://cursor.com",
+      "source_title": "Cursor AIで大規模リファクタリングを1日未満で完了する方法"
+    },
+    {
+      "text": "Claude Opus 4.8の拡張思考、あなたの開発を変える3つの使い方:\n\n1. ER図→APIスペックを1プロンプトで自動生成\n2. 設計レビューを5分以内に完了\n3. バグ修正時間を50%削減\n\nhttps://www.anthropic.com/claude",
+      "source_url": "https://www.anthropic.com/claude",
+      "source_title": "Claude Opus 4.8の拡張思考でチーム開発が変わる3つの使い方"
+    },
+    {
+      "text": "リサーチに毎日2時間かけてた人、これに変えたら30分になった。\n\nPerplexity Pro、月$20で最新AIモデルを横断検索。\nリサーチ時間70%削減、情報収集の質も上がった。\n\nhttps://www.perplexity.ai",
+      "source_url": "https://www.perplexity.ai",
+      "source_title": "Perplexity Pro、月$20でリサーチ時間を70%削減できる理由"
+    },
+    {
+      "text": "バグ修正に半日溶かしてた人、もう要らないかも。\n\nCopilot Workspace、IssueをアサインするだけでPRまで自動生成。\n平均68%時短のデータあり、月20回無料で試せる。\n\nhttps://githubnext.com/projects/copilot-workspace",
+      "source_url": "https://githubnext.com/projects/copilot-workspace",
+      "source_title": "GitHub Copilot WorkspaceがGA、IssueからPRを自動生成し開発時間68%短縮"
+    },
+    {
+      "text": "コーディングベンチマークで人間を超えた。SWE-benchスコア72%。\n\n自分が書いたコードより正確に書く時代になってきた。\nあなたの仕事、どこから任せる？\n\nhttps://openai.com/o3",
+      "source_url": "https://openai.com/o3",
+      "source_title": "OpenAI o3がSWE-benchで72%を達成、コーディングベンチマークで人間を超える"
+    },
+    {
+      "text": "Gemini 2.5 Flash、音声AI開発の3つの強み:\n\n1. 100万トークンで超長文対応\n2. APIコスト従来比70%削減\n3. 音声＋テキストを1モデルで統合\n\nあなたの開発コストが激変する。\nhttps://deepmind.google/technologies/gemini/",
+      "source_url": "https://deepmind.google/technologies/gemini/",
+      "source_title": "Gemini 2.5 Flashで音声AIアシスタントを構築、APIコスト従来比70%削減"
+    }
+  ]
+}
