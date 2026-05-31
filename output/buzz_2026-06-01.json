@@ -1,0 +1,79 @@
+{
+  "date": "2026-06-01",
+  "topics": [
+    {
+      "title": "Cursor AI、日本語コメント自動補完が強化──変数名から意図を読んで瞬時に生成",
+      "summary": "AIコードエディタ「Cursor」の日本語補完機能が強化。変数名・関数から意図を自動読解し、日本語コメントを瞬時に生成。月額$20で利用可能、繰り返し作業が60%削減できる。",
+      "url": "https://cursor.com",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Google NotebookLM Plus、社内PDF横断検索で議事録作成が5分に短縮",
+      "summary": "Google NotebookLM Plusが複数PDF横断検索・要約を自動化。会議前の資料読み込みが大幅短縮。月額1,900円（個人プラン）で利用可能。",
+      "url": "https://notebooklm.google.com",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Sakana AI、1Bパラメータで7B相当の性能──推論コスト80%削減の小型モデルを開発",
+      "summary": "日本発スタートアップSakana AIが1Bパラメータで7B相当の性能を持つ小型モデルを開発。推論コストを従来比80%削減できるとされ、自社サーバーでの内製AI活用が現実的になった。",
+      "url": "https://sakana.ai",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Claude、200Kトークンでリポジトリ全体を一括解析──SWE-benchでトップスコア",
+      "summary": "AnthropicのClaudeが最大200,000トークンのコンテキストを持ち、大規模リポジトリの一括解析が可能。SWE-benchでトップスコアを記録し、コードレビューの自動化が進む。",
+      "url": "https://www.anthropic.com/news",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Meta Llama 3.1 405B、GPT-4相当の精度を無料・商用OKで公開",
+      "summary": "MetaがオープンソースLLM「Llama 3.1」の405Bパラメータ版を公開。GPT-4相当の精度で商用ライセンスが付与され、自社サーバーで動作可能。APIコスト削減と社内データ保護の両立を実現。",
+      "url": "https://llama.meta.com",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "OpenAI o3-mini、競技プログラミング上位2%・数学オリンピック87%正解でGPT-4比75%安",
+      "summary": "OpenAIの推論特化モデル「o3-mini」が競技プログラミングで上位2%のスコアを達成。数学オリンピックの問題を87%正解し、GPT-4比75%の低コストで利用可能。",
+      "url": "https://openai.com/index/openai-o3-mini/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "コードコメントに30分溶かしてた人、もう解放される。\n\nCursor AI、日本語補完が大幅強化。\n変数名から意図を自動読解し、コメントを瞬時に生成。\nあなたの開発速度が60%上がる。\n\nhttps://cursor.com",
+      "source_url": "https://cursor.com",
+      "source_title": "Cursor AI、日本語コメント自動補完が強化──変数名から意図を読んで瞬時に生成"
+    },
+    {
+      "text": "社内PDF20件を読む半日が、5分に変わった。\n\nNotebookLM Plus、複数PDF横断検索＋要約が自動化。\nあなたの会議準備が消える。月1,900円。\n\nhttps://notebooklm.google.com",
+      "source_url": "https://notebooklm.google.com",
+      "source_title": "Google NotebookLM Plus、社内PDF横断検索で議事録作成が5分に短縮"
+    },
+    {
+      "text": "1Bパラメータで7B相当の精度。推論コスト80%削減。\n\nSakana AIの小型モデル、自社サーバーでAPIコスト月ほぼ0円が現実になる。\nあなたの会社のAI予算、8割圧縮できるかもしれない。\n\nhttps://sakana.ai",
+      "source_url": "https://sakana.ai",
+      "source_title": "Sakana AI、1Bパラメータで7B相当の性能──推論コスト80%削減の小型モデルを開発"
+    },
+    {
+      "text": "コードベース全体を1回で渡せる時代になった。\n\nClaudeの200Kコンテキスト、リポジトリを一括解析。\n自分のコードを全部渡したら隠れたバグ5件を検出した。\n\nあなたなら何を解析させる？\nhttps://www.anthropic.com/news",
+      "source_url": "https://www.anthropic.com/news",
+      "source_title": "Claude、200Kトークンでリポジトリ全体を一括解析──SWE-benchでトップスコア"
+    },
+    {
+      "text": "Meta Llama 3.1 405B、GPT-4相当の精度が無料・商用OK。\n\n自社サーバーで動かすと：\n・APIコストが月0円になる\n・社内データが外部送信ゼロ\n・あなたの会社が丸ごとAI化できる\n\nhttps://llama.meta.com",
+      "source_url": "https://llama.meta.com",
+      "source_title": "Meta Llama 3.1 405B、GPT-4相当の精度を無料・商用OKで公開"
+    },
+    {
+      "text": "競技プログラミング上位2%をAIが取った。\n\nOpenAI o3-mini、数学オリンピックを87%正解。\nGPT-4比75%コスト削減で、あなたのコードレビュー依頼コストも激減する。\n\nあなたなら何に使う？\nhttps://openai.com/index/openai-o3-mini/",
+      "source_url": "https://openai.com/index/openai-o3-mini/",
+      "source_title": "OpenAI o3-mini、競技プログラミング上位2%・数学オリンピック87%正解でGPT-4比75%安"
+    }
+  ]
+}
