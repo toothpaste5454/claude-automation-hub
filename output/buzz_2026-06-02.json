@@ -1,0 +1,79 @@
+{
+  "date": "2026-06-02",
+  "topics": [
+    {
+      "title": "Dify、GitHubスター60K超えのノーコードLLMアプリ構築ツール──10分でAIチャットボットが完成",
+      "summary": "オープンソースのノーコードAI開発プラットフォームDifyがGitHubスター数60Kを突破。APIキーを繋ぐだけで社内チャットボットやRAGパイプラインを構築でき、コードなしで本番運用まで対応。日本語ドキュメントも充実し国内での採用が急増。",
+      "url": "https://github.com/langgenius/dify",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "GitHub Copilot Enterprise、国内企業への導入でコードレビュー時間を平均70%削減",
+      "summary": "GitHubのAIコーディング支援「Copilot Enterprise」が国内大手企業での導入を加速。社内コードベース全体を学習源として、レビューとPR作成を自動化。平均70%のレビュー時間削減を達成した事例が報告されている。",
+      "url": "https://github.blog/jp/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Perplexity AI Pro、引用付きリサーチを一括生成──情報収集時間を1/5に短縮",
+      "summary": "Perplexity AI Proが検索・引用元つきまとめの一括生成に対応。従来2時間かかっていたリサーチ作業が20分程度に短縮。月額$20のProプランで検索精度が大幅に向上し、ビジネスリサーチでの活用が広がっている。",
+      "url": "https://www.perplexity.ai",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Google Gemini 2.5 Flash-Lite、GPT-4o比90%コスト削減で大量テキスト処理が現実的に",
+      "summary": "Google Gemini 2.5 Flash-Liteが同等精度でGPT-4o比90%のコスト削減を実現。月数万円かかっていた大量テキスト処理が数千円で可能になり、AI活用のコストボトルネックが解消された。API経由で今すぐ試せる。",
+      "url": "https://deepmind.google/technologies/gemini/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Qwen2.5-Coder、AlibaaオープンソースAIがGitHub ★10K突破──ローカル動作でAPIコスト0円",
+      "summary": "AlibabaのオープンソースコーディングAI「Qwen2.5-Coder」がGitHubスター10Kを突破。ローカルで動作するためAPIコストが完全0円になり、GitHub Copilotの有料プラン代替として注目されている。商用利用も可。",
+      "url": "https://github.com/QwenLM/Qwen2.5-Coder",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Anthropic Claude Projects、チームでプロンプトとドキュメントを共有──AI返答品質が均一化",
+      "summary": "AnthropicのClaude Projectsがプロンプトや社内ドキュメントをチーム全員で共有する機能を提供。5人のメンバーが同一プロジェクトで作業すると返答品質が均一化し、AI活用の属人化を解消できる。",
+      "url": "https://www.anthropic.com/claude",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "コードなしでAIチャットボットが10分で動いた。\n\nDify、APIキーを繋ぐだけでRAGパイプラインまで構築できる。\nあなたの社内FAQが今日から自動回答になる。GitHub ★60K超。\n\nhttps://github.com/langgenius/dify",
+      "source_url": "https://github.com/langgenius/dify",
+      "source_title": "Dify、GitHubスター60K超えのノーコードLLMアプリ構築ツール──10分でAIチャットボットが完成"
+    },
+    {
+      "text": "コードレビューに半日かかってた人、時間が返ってくる。\n\nCopilot Enterprise、社内コードベースを学習源に活用。\nレビュー時間が平均70%削減。あなたのPRも今日から変わる。\n\nhttps://github.blog/jp/",
+      "source_url": "https://github.blog/jp/",
+      "source_title": "GitHub Copilot Enterprise、国内企業への導入でコードレビュー時間を平均70%削減"
+    },
+    {
+      "text": "リサーチに2時間かけてた作業が、20分で終わった。\n\nPerplexity AI Pro、検索＋引用元つきでまとめを一括生成。\nあなたの情報収集コストが1/5になる。月$20。\n\nhttps://www.perplexity.ai",
+      "source_url": "https://www.perplexity.ai",
+      "source_title": "Perplexity AI Pro、引用付きリサーチを一括生成──情報収集時間を1/5に短縮"
+    },
+    {
+      "text": "GPT-4oと同レベルの精度で、コストが90%安い。\n\nGemini 2.5 Flash-Lite、月数万円の大量処理が数千円に。\nあなたの会社のAI予算、そのまま10倍のリクエスト数に使える。\n\nあなたなら何に使う？\nhttps://deepmind.google/technologies/gemini/",
+      "source_url": "https://deepmind.google/technologies/gemini/",
+      "source_title": "Google Gemini 2.5 Flash-Lite、GPT-4o比90%コスト削減で大量テキスト処理が現実的に"
+    },
+    {
+      "text": "GitHub Copilotの有料プラン、解約を考えてる人へ。\n\nQwen2.5-Coder、GitHub ★10K超えのOSSコーディングAI。\nローカルで動かすとAPIコストが完全0円になった。\n\nhttps://github.com/QwenLM/Qwen2.5-Coder",
+      "source_url": "https://github.com/QwenLM/Qwen2.5-Coder",
+      "source_title": "Qwen2.5-Coder、AlibaaオープンソースAIがGitHub ★10K突破──ローカル動作でAPIコスト0円"
+    },
+    {
+      "text": "チームのAI返答がバラバラで困ってる人、解決策がある。\n\nClaude Projects、プロンプトとドキュメントをチームで共有。\n5人のメンバー全員が同じ品質で回答できるようになった。\n\nあなたなら何を共有プロジェクトにする？\nhttps://www.anthropic.com/claude",
+      "source_url": "https://www.anthropic.com/claude",
+      "source_title": "Anthropic Claude Projects、チームでプロンプトとドキュメントを共有──AI返答品質が均一化"
+    }
+  ]
+}
