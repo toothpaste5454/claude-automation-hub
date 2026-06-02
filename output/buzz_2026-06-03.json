@@ -1,0 +1,79 @@
+{
+  "date": "2026-06-03",
+  "topics": [
+    {
+      "title": "Claude 4 Opus、エージェント型タスクで人間レベルのコーディング精度を達成",
+      "summary": "Anthropicが公開したClaude 4 Opusは、SWE-bench Verifiedで72.5%のスコアを記録。複数ファイルにまたがるバグ修正や機能追加をエージェントとして自律実行できる。Claude Codeとの組み合わせで実務投入事例が急増中。",
+      "url": "https://www.anthropic.com/news/claude-4",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Cursor 0.50リリース：Background Agentがバックグラウンドで並列コーディング",
+      "summary": "CursorがBackground Agent機能を正式リリース。メインの作業を続けながら別タスクをAIに並列処理させられる。テスト作成・リファクタリングを裏で走らせると作業効率が大幅改善との報告多数。",
+      "url": "https://www.cursor.com/changelog",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "NTTデータ、生成AIによるシステム設計書自動生成で工数60%削減を実証",
+      "summary": "NTTデータが大規模SIプロジェクトにLLMを活用した設計書自動生成を導入し、従来比60%の工数削減を達成。要件定義書をインプットにし、基本設計書ドラフトをAIが出力するパイプラインを構築した。",
+      "url": "https://www.nttdata.com/jp/ja/news/release/2026/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Google、Gemini 2.5 ProをNotebookLMに統合——100万トークン文脈で長文書類を即座に要約",
+      "summary": "GoogleがNotebookLMにGemini 2.5 Proを統合し、100万トークンのコンテキストウィンドウを活用した長大文書の要約・Q&Aが可能に。複数PDFを横断した質問応答の精度が従来比40%向上したとされる。",
+      "url": "https://blog.google/technology/ai/notebooklm-gemini-2-5/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "OpenAI、o3のAPI価格を75%引き下げ——推論コスト競争が激化",
+      "summary": "OpenAIがo3モデルのAPI価格を75%引き下げ、入力100万トークンあたり2ドルに設定。高度な数学・コーディング推論が安価に使えるようになり、スタートアップ・個人開発者への普及が加速している。",
+      "url": "https://openai.com/api/pricing/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Microsoft、GitHub Copilot Workspaceを全ユーザーに開放——IssueからPRまで自動生成",
+      "summary": "GitHub Copilot WorkspaceがパブリックβとしてGitHub全ユーザーに解放。IssueのテキストをAIが読み込み、コード変更計画→実装→PR作成までを一気通貫で自動化。月20回まで無料で使える。",
+      "url": "https://github.blog/2026-05-copilot-workspace-public-beta/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "コードレビューだけで済む時代になってきた。\n\nClaude 4 Opus、SWE-benchで72.5%を記録。複数ファイルをまたぐバグ修正を自律でこなす。\nClaude Codeに投げたら、自分の修正時間が半分以下になった。\n\nhttps://www.anthropic.com/news/claude-4",
+      "source_url": "https://www.anthropic.com/news/claude-4",
+      "source_title": "Claude 4 Opus、エージェント型タスクで人間レベルのコーディング精度を達成"
+    },
+    {
+      "text": "作業しながらAIに別タスクを並列で投げられる。\n\nCursor 0.50のBackground Agent、テスト生成やリファクタを裏で走らせると体感2〜3倍速になる。\nメイン実装に集中してる間にPRが育ってる感覚、やばい。\n\nhttps://www.cursor.com/changelog",
+      "source_url": "https://www.cursor.com/changelog",
+      "source_title": "Cursor 0.50リリース：Background Agentがバックグラウンドで並列コーディング"
+    },
+    {
+      "text": "設計書づくりに溶けてた工数、60%消えた。\n\nNTTデータが要件定義書→基本設計書の自動生成パイプラインを実証。LLMに読ませるだけで叩き台が出てくる。\n自分のプロジェクトでも試せる構成なので、SIや社内DXやってる人は要チェック。\n\nhttps://www.nttdata.com/jp/ja/news/release/2026/",
+      "source_url": "https://www.nttdata.com/jp/ja/news/release/2026/",
+      "source_title": "NTTデータ、生成AIによるシステム設計書自動生成で工数60%削減を実証"
+    },
+    {
+      "text": "100万トークンのAIに書類を丸ごと食わせられる時代になった。\n\nNotebookLMにGemini 2.5 Proが統合。複数PDFを横断して質問できて、Q&A精度が40%向上。\n議事録・仕様書の山を抱えてる人なら、まず試してほしい。\n\nhttps://blog.google/technology/ai/notebooklm-gemini-2-5/",
+      "source_url": "https://blog.google/technology/ai/notebooklm-gemini-2-5/",
+      "source_title": "Google、Gemini 2.5 ProをNotebookLMに統合——100万トークン文脈で長文書類を即座に要約"
+    },
+    {
+      "text": "高精度な推論AIが、入力100万トークン2ドルで使える。\n\nOpenAI o3が75%値下げ。数学・コーディング系の難問をガンガン投げても財布が痛くなくなった。\nあなたのプロダクトに組み込むなら、今がコスト試算の絶好機。\n\nhttps://openai.com/api/pricing/",
+      "source_url": "https://openai.com/api/pricing/",
+      "source_title": "OpenAI、o3のAPI価格を75%引き下げ——推論コスト競争が激化"
+    },
+    {
+      "text": "Issueを貼るだけでPRが生えてくる。\n\nGitHub Copilot Workspace、全ユーザーに解放。コード変更計画→実装→PR作成を一気通貫で自動化、月20回まで無料。\nレビューだけで終わる開発、自分のリポジトリで試してみた。\n\nhttps://github.blog/2026-05-copilot-workspace-public-beta/",
+      "source_url": "https://github.blog/2026-05-copilot-workspace-public-beta/",
+      "source_title": "Microsoft、GitHub Copilot Workspaceを全ユーザーに開放——IssueからPRまで自動生成"
+    }
+  ]
+}
