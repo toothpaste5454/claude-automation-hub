@@ -1,0 +1,79 @@
+{
+  "date": "2026-06-04",
+  "topics": [
+    {
+      "title": "Google Gemini CLI、GitHubで★30000突破——ターミナルから100万トークンのコードベースに相談",
+      "summary": "GoogleがオープンソースのCLIツールGemini CLIをリリース。Claude Codeと同様にターミナル上でファイルを読み込ませながらAI相談が可能。1Mトークンのコンテキストを活用してリポジトリ全体を把握したコーディング支援ができ、GitHubスター数が急増中。",
+      "url": "https://github.com/google-gemini/gemini-cli",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Dify v1.0、GUIだけで社内RAGエージェント構築——導入チームから工数90%削減の声が続出",
+      "summary": "オープンソースのLLMアプリ構築プラットフォームDifyがv1.0をリリース。RAGパイプライン・ツール連携・エージェントワークフローをGUIで設計でき、開発工数が最大90%削減できると国内IT系企業から報告が相次いでいる。",
+      "url": "https://github.com/langgenius/dify",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "AIコーディングツール利用者の55%が「週10時間節約」——GitHub開発者調査2025",
+      "summary": "GitHubの開発者調査で、AIコーディングツール（Copilot・Cursor等）を使う開発者の55%が週10時間以上の時間節約を実感していることが判明。年間換算で500時間以上の差がつく計算で、未導入チームとの生産性格差が拡大している。",
+      "url": "https://github.blog/2025-06-developer-ai-survey/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "AnthropicのMCP、OpenAI・Googleが採用——AIエージェントのUSB-Cとして業界標準化",
+      "summary": "AnthropicがオープンソースとしてリリースしたModel Context Protocol（MCP）を、OpenAIとGoogleが相次いで採用。AIエージェントが外部ツールと連携するための標準プロトコルとして業界標準化が進み、OSSのMCPサーバーが1000件超に達した。",
+      "url": "https://modelcontextprotocol.io/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Meta Llama 3.1 405B、GPT-4o同等の性能が商用無料——ローカル動作でデータが外に出ない",
+      "summary": "MetaがリリースしたオープンソースモデルのLlama 3.1 405Bが、多くのベンチマークでGPT-4oと同等の性能を示した。商用利用可能かつローカル動作できるため、データプライバシーを重視する企業への採用が急増している。",
+      "url": "https://ai.meta.com/blog/meta-llama-3-1/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "WindsurfのCascadeエンジン、マルチファイル編集でCursorを上回る——月$10で使えるAIエディタ",
+      "summary": "CodiumがリリースしたAIエディタWindsurf。独自のCascadeエンジンがコードベース全体のコンテキストを保持し、マルチファイル編集の精度でCursorを上回ると複数の開発者ベンチマークで報告。月$10から商用利用可能。",
+      "url": "https://codeium.com/windsurf",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "ターミナルからAIに直接相談できる。\n\nGemini CLI、★30000超。100万トークンでリポジトリ全体を読み込みコード質問に即答。\n自分のプロジェクトで試すと、ドキュメント探しの時間がゼロになる。\n\nhttps://github.com/google-gemini/gemini-cli",
+      "source_url": "https://github.com/google-gemini/gemini-cli",
+      "source_title": "Google Gemini CLI、GitHubで★30000突破——ターミナルから100万トークンのコードベースに相談"
+    },
+    {
+      "text": "社内AIエージェントを自分でゼロから作れる。\n\nDify v1.0、GUIだけでRAG・ツール連携・エージェントの設計が完結。導入チームから工数90%削減の声が続出。\nAPIキーさえあれば今すぐ動かせる。\n\nhttps://github.com/langgenius/dify",
+      "source_url": "https://github.com/langgenius/dify",
+      "source_title": "Dify v1.0、GUIだけで社内RAGエージェント構築——導入チームから工数90%削減の声が続出"
+    },
+    {
+      "text": "AIコーディングツールで週10時間節約できてる人が55%いる。\n\nGitHub調査。年間500時間差がつく計算で、未使用の人との格差が広がり続けてる。\nあなたのチーム、導入は済んだ？\n\nhttps://github.blog/2025-06-developer-ai-survey/",
+      "source_url": "https://github.blog/2025-06-developer-ai-survey/",
+      "source_title": "AIコーディングツール利用者の55%が「週10時間節約」——GitHub開発者調査2025"
+    },
+    {
+      "text": "AIツール連携のUSB-Cが決まった。\n\nAnthropicのMCPをOpenAI・Googleが採用。OSSサーバーが1000件超、どのAIでも同じ方法でツール連携できる。\n自分のシステムに組み込むなら今がタイミング。\n\nhttps://modelcontextprotocol.io/",
+      "source_url": "https://modelcontextprotocol.io/",
+      "source_title": "AnthropicのMCP、OpenAI・Googleが採用——AIエージェントのUSB-Cとして業界標準化"
+    },
+    {
+      "text": "GPT-4o同等の性能が無料で使える。\n\nMeta Llama 3.1 405B、商用OKかつローカル動作可。外部にデータを送らずGPT-4oクラスのAIが自社サーバーで動く。\nあなたの会社のAIコスト、今すぐ見直せる。\n\nhttps://ai.meta.com/blog/meta-llama-3-1/",
+      "source_url": "https://ai.meta.com/blog/meta-llama-3-1/",
+      "source_title": "Meta Llama 3.1 405B、GPT-4o同等の性能が商用無料——ローカル動作でデータが外に出ない"
+    },
+    {
+      "text": "Cursorだけが選択肢じゃなくなった。\n\nWindsurfのCascadeエンジン、コードベース全体を丸ごと把握。月$10でマルチファイル編集がCursorより正確との声が続出。\n自分のプロジェクトで試す価値がある。\n\nhttps://codeium.com/windsurf",
+      "source_url": "https://codeium.com/windsurf",
+      "source_title": "WindsurfのCascadeエンジン、マルチファイル編集でCursorを上回る——月$10で使えるAIエディタ"
+    }
+  ]
+}
