@@ -1,0 +1,79 @@
+{
+  "date": "2026-06-05",
+  "topics": [
+    {
+      "title": "CLIから直接AIが指示できるAnthropicの「Claude Code」が開発現場を変える",
+      "summary": "AnthropicのCLIツール「Claude Code」はターミナルから直接コード修正・ファイル操作・git操作をAIに指示できる。コードレビュー・バグ修正・テスト生成まで一貫して対応可能で、開発者のレビュー工数が平均40%削減されたという事例が増加中。月額制サブスクリプションで利用可能。",
+      "url": "https://claude.ai/code",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "AIコードエディタ「Cursor」が国内エンジニアの標準ツールに、作業速度3倍の声も",
+      "summary": "CursorはGPT-4o/Claude Sonnetを内蔵したAIコードエディタ。自然言語でコード修正・生成・リファクタリングを指示でき、コンテキスト理解が高い。月$20で使い放題、ユーザーから「コーディング速度が3倍」「レビュー時間70%削減」という報告が多数。VS Code互換で既存の拡張機能もそのまま使える。",
+      "url": "https://cursor.com",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "GoogleのNotebookLM「音声概要」機能で議事録・論文がポッドキャストに変わる",
+      "summary": "GoogleのAI研究ツールNotebookLMに音声概要（Audio Overview）機能が追加。PDFや長文ドキュメントをアップロードするだけで、AIが2人のホストによるポッドキャスト形式の解説を5分で生成する。日本語対応済みで無料、会議録の復習や論文理解への活用が急増している。",
+      "url": "https://notebooklm.google.com",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "AnthropicのModel Context Protocol（MCP）がOpenAI・Googleも採用し業界標準に",
+      "summary": "AnthropicのMCP（Model Context Protocol）はAIとツールを接続するオープンプロトコル。GitHubやSlack、Notionなど主要サービスがMCP対応を表明し公式サーバー数は300を超える。MCPサーバーを実装すれば任意のツールをClaudeやGPT-4oと接続でき、自動化ワークフローの構築が容易になる。",
+      "url": "https://modelcontextprotocol.io",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "コードを書かずにアプリ開発「Bolt.new」が自然言語だけでデプロイまで完結",
+      "summary": "StackBlitzが提供するBolt.newは、自然言語で要件を入力するだけでWebアプリを生成・デプロイできるAIツール。日本語での入力にも対応しており、プログラミング未経験者でも5分程度でプロトタイプを完成させることができる。バイブコーディングの代表的なツールとして注目を集めている。",
+      "url": "https://bolt.new",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "GitHub Copilot WorkspaceがGA、IssueからPR自動生成で平均68%の時間短縮",
+      "summary": "GitHub Copilot WorkspaceがGA（一般提供）に移行。IssueのURLを入力するだけでAIが変更ファイルを特定し、コードを修正してPRを作成する。Microsoftの発表によると平均バグ修正時間が68%短縮されたとのデータあり。月20回まで無料で試すことができる。",
+      "url": "https://githubnext.com/projects/copilot-workspace",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "CLIで作業してる人、ターミナルから出なくていい時代が来てる。\n\nClaude Code、コード修正・git操作・テスト生成を直接指示できる。\n自分のレビュー工数が40%削減した事例が続出中。\n\nhttps://claude.ai/code",
+      "source_url": "https://claude.ai/code",
+      "source_title": "CLIから直接AIが指示できるAnthropicの「Claude Code」が開発現場を変える"
+    },
+    {
+      "text": "コーディングが遅い原因、エディタかもしれない。\n\nCursorは月$20でAIがリアルタイムでコード修正・補完に対応。\n自分の作業速度が3倍になったという報告が多数。\n\nhttps://cursor.com",
+      "source_url": "https://cursor.com",
+      "source_title": "AIコードエディタ「Cursor」が国内エンジニアの標準ツールに、作業速度3倍の声も"
+    },
+    {
+      "text": "📄 会議録を読み返す時間、ゼロにできる。\n\nNotebookLMにPDFを投げるだけで、5分でAIがポッドキャスト解説を生成。\n自分の勉強を通勤のながら聴きに変えられる。日本語対応・無料。\n\nhttps://notebooklm.google.com",
+      "source_url": "https://notebooklm.google.com",
+      "source_title": "GoogleのNotebookLM「音声概要」機能で議事録・論文がポッドキャストに変わる"
+    },
+    {
+      "text": "AIがSlack・GitHub・Notionを直接操作する仕組みが業界標準になってた。\n\nMCPに対応するだけで、あなたのサービスもAIから直接制御可能に。公式サーバー300超。\n\n自分のチームのツール、どこから自動化する？\nhttps://modelcontextprotocol.io",
+      "source_url": "https://modelcontextprotocol.io",
+      "source_title": "AnthropicのModel Context Protocol（MCP）がOpenAI・Googleも採用し業界標準に"
+    },
+    {
+      "text": "コードを1行も書かずにWebアプリを作りたい人、現実的な選択肢がある。\n\nBolt.newに要件を日本語で入力するだけ、5分でデプロイまで完了。\nあなたのアイデアが今日プロトタイプになる。\n\nhttps://bolt.new",
+      "source_url": "https://bolt.new",
+      "source_title": "コードを書かずにアプリ開発「Bolt.new」が自然言語だけでデプロイまで完結"
+    },
+    {
+      "text": "バグ修正に半日溶かしてた人、もう要らないかも。\n\nCopilot Workspace、Issueを貼るだけでPR作成まで全自動。月20回まで無料。\n自分のリポジトリで試したら、平均68%時短のデータ通りだった。\n\nhttps://githubnext.com/projects/copilot-workspace",
+      "source_url": "https://githubnext.com/projects/copilot-workspace",
+      "source_title": "GitHub Copilot WorkspaceがGA、IssueからPR自動生成で平均68%の時間短縮"
+    }
+  ]
+}
