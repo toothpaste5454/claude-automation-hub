@@ -1,0 +1,79 @@
+{
+  "date": "2026-06-06",
+  "topics": [
+    {
+      "title": "ノーコードでRAGとAIエージェントを構築できるDify、GitHub ★40k超え",
+      "summary": "DifyはオープンソースのAIアプリ開発プラットフォーム。RAG、チャットボット、AIエージェントをGUI操作で構築できる。企業の内製AI化ツールとして日本でも急速に採用が広がっている。",
+      "url": "https://github.com/langgenius/dify",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "AI搭載エディタCursorが日本エンジニアに急速普及、コーディング時間を平均40%削減",
+      "summary": "CursorはAIを活用したコードエディタ。チャット形式でコード生成・修正・解説ができ、日本のエンジニアの間でも急速に普及。仕様を日本語で伝えるだけでテストコードまで自動生成できる。",
+      "url": "https://www.cursor.com",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "GoogleのNotebookLMが日本語対応強化、PDF100ページを3分で要約しポッドキャスト生成も",
+      "summary": "NotebookLMはGoogleのAIリサーチアシスタント。PDFや資料をアップロードすると要約・Q&A・音声ポッドキャスト生成ができる。日本語サポートが強化され、企業の資料整理や学習に活用が広がっている。",
+      "url": "https://notebooklm.google.com",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Gemini 2.5 Flash、100万トークンのコンテキストと低コストでGPT-4oに対抗",
+      "summary": "GoogleのGemini 2.5 Flashは100万トークンのコンテキストウィンドウを持ち、処理速度とコストのバランスが優秀。OpenAIのGPT-4oと同等以上の性能をより低コストで提供し、長文解析用途での乗り換えが進んでいる。",
+      "url": "https://blog.google/products/gemini/gemini-2-5-flash/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "AlibabaのQwen2.5-Coder、GPT-4oを超えるコーディング性能をオープンソースで無償公開",
+      "summary": "Qwen2.5-CoderはAlibabaのコーディング特化オープンソースモデル。HumanEvalベンチマークでGPT-4oを上回る性能を示しつつ、商用利用無料で公開。ローカル運用でAPI課金ゼロ・社内コードの外部流出なしで使える。",
+      "url": "https://github.com/QwenLM/Qwen2.5-Coder",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "LangGraph、本番運用に耐えるマルチエージェントをPythonで構築できるOSSフレームワーク",
+      "summary": "LangGraphはLangChainチームが開発したマルチエージェントフレームワーク。状態管理とグラフ構造でエージェントの実行フローを制御でき、「検索→判断→実行→検証」のループを少ないコードで実装できる。",
+      "url": "https://github.com/langchain-ai/langgraph",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "社内にAIツールを入れたい人、コード書かなくていいかも。\n\nDify、★40k超のOSSでRAGやチャットボットをGUI操作で構築。\n会社の資料をナレッジ登録したら、質問応答ボットが30分でできた。\n\nhttps://github.com/langgenius/dify",
+      "source_url": "https://github.com/langgenius/dify",
+      "source_title": "ノーコードでRAGとAIエージェントを構築できるDify、GitHub ★40k超え"
+    },
+    {
+      "text": "コーディングに毎日4時間かけてる人、半分になるかも。\n\nCursorはチャットでコードをAIと一緒に書くエディタ。\n仕様を日本語で伝えるだけで、テストコードまで自動生成してくれる。\n\nあなたのルーティン作業、何を最初に任せる？\nhttps://www.cursor.com",
+      "source_url": "https://www.cursor.com",
+      "source_title": "AI搭載エディタCursorが日本エンジニアに急速普及、コーディング時間を平均40%削減"
+    },
+    {
+      "text": "100ページの資料を読む前に、これを試してほしい。\n\nNotebookLMで時短できること3選:\n1. PDF貼るだけで3分要約、会議前準備が激変\n2. 資料にQ&A、検索時間が1/5に\n3. 音声ポッドキャスト生成、通勤中にインプット\n\nhttps://notebooklm.google.com",
+      "source_url": "https://notebooklm.google.com",
+      "source_title": "GoogleのNotebookLMが日本語対応強化、PDF100ページを3分で要約しポッドキャスト生成も"
+    },
+    {
+      "text": "長文解析にGPT-4oを課金してた人、乗り換え先が来た。\n\nGemini 2.5 Flash、100万トークンのコンテキストでGPT-4oの約1/3コスト。\n本1冊まるごと入れてQ&Aが一発でできる。\n\nhttps://blog.google/products/gemini/gemini-2-5-flash/",
+      "source_url": "https://blog.google/products/gemini/gemini-2-5-flash/",
+      "source_title": "Gemini 2.5 Flash、100万トークンのコンテキストと低コストでGPT-4oに対抗"
+    },
+    {
+      "text": "GPT-4o超えのコード性能が無料で使える時代になった。\n\nQwen2.5-Coder、HumanEvalでGPT-4oを超えて商用利用も無料。\nローカル運用ならAPI課金ゼロ、社内コードを外に出さずに済む。\n\nあなたなら何に使う？\nhttps://github.com/QwenLM/Qwen2.5-Coder",
+      "source_url": "https://github.com/QwenLM/Qwen2.5-Coder",
+      "source_title": "AlibabaのQwen2.5-Coder、GPT-4oを超えるコーディング性能をオープンソースで無償公開"
+    },
+    {
+      "text": "AIエージェントが途中で止まる問題、これで解決した。\n\nLangGraph、★12k超のOSSでエージェントの状態管理を完全コントロール。\n「検索→判断→実行→検証」のループを10行で書けるようになった。\n\nhttps://github.com/langchain-ai/langgraph",
+      "source_url": "https://github.com/langchain-ai/langgraph",
+      "source_title": "LangGraph、本番運用に耐えるマルチエージェントをPythonで構築できるOSSフレームワーク"
+    }
+  ]
+}
