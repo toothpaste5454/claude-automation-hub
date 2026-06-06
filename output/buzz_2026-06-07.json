@@ -1,0 +1,79 @@
+{
+  "date": "2026-06-07",
+  "topics": [
+    {
+      "title": "GitHub Copilot Coding Agent、IssueからPRまで全自動生成",
+      "summary": "Copilot Coding AgentがIssueを読んでコードを書き、PRまで作成する機能が展開中。バグ修正の平均時間が68%短縮のデータあり。月20回まで無料で試せる。",
+      "url": "https://github.blog/jp/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "NotebookLMの「音声概要」が日本語で利用可能に",
+      "summary": "PDFや資料をアップロードするだけでAIが日本語ポッドキャスト風に解説する機能が利用可能。30分かかっていた資料読みが大幅短縮。無料で使える。",
+      "url": "https://notebooklm.google/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "ノーコードAIワークフローDify、GitHubスター10万超で急拡大",
+      "summary": "オープンソースのAIアプリ開発プラットフォームDifyのスター数が10万超。ドラッグ&ドロップでLLMを組み合わせ業務フローを自動化できる。",
+      "url": "https://github.com/langgenius/dify",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Claude Code正式リリース、ターミナルから自律的にコーディング",
+      "summary": "AnthropicのCLIツール「Claude Code」が正式公開。ファイル編集・git操作・テスト実行まで自律的に実行。複雑な実装でも指示1つで完結する。",
+      "url": "https://claude.ai/code",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "OpenAI o3、競技プログラミング上位2%相当の性能でAPI提供開始",
+      "summary": "o3が競技プログラミングで上位2%相当のスコアを達成。数学オリンピックでも96.7%正答。1Mトークン$60でAPIから利用可能。",
+      "url": "https://openai.com/o3",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Cursor AI、月間ユーザー急増でVS Code代替として定着",
+      "summary": "AI-first IDE「Cursor」のユーザーが急速に拡大。Composer機能でファイル横断的な修正が指示1つで可能。月$20のProプランで使い放題。",
+      "url": "https://cursor.sh/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "バグ修正に半日溶かしてた人、もう要らないかも。\n\nCopilot Coding Agent、IssueをそのままPRに変換。月20回無料で、平均68%時短のデータあり。\n\n自分のリポジトリで試したら、レビューだけで済んだ。\nhttps://github.blog/jp/",
+      "source_url": "https://github.blog/jp/",
+      "source_title": "GitHub Copilot Coding Agent、IssueからPRまで全自動生成"
+    },
+    {
+      "text": "資料読みに30分かけてた人、これで終わり。\n\nNotebookLM、PDFを投げるだけで日本語ポッドキャスト風に解説。無料で、インプット時間が1/6になった。\n\n自分の報告書で試したら、移動中に全部頭に入った。\nhttps://notebooklm.google/",
+      "source_url": "https://notebooklm.google/",
+      "source_title": "NotebookLMの「音声概要」が日本語で利用可能に"
+    },
+    {
+      "text": "AIエージェントを量産できるDify、スター数10万超。\n\n自分の作業を自動化できた3つの使い方:\n\n1. Slack自動返信（設定5分）\n2. 毎朝ニュース要約メール\n3. 社内ドキュメントのQ&A\n\nhttps://github.com/langgenius/dify",
+      "source_url": "https://github.com/langgenius/dify",
+      "source_title": "ノーコードAIワークフローDify、GitHubスター10万超で急拡大"
+    },
+    {
+      "text": "🤖 実装を丸投げできるCLIが来た。\n\nClaude Code、ターミナルからファイル編集・git操作・テスト実行まで全部やってくれる。指示1つで完結。\n\n自分のコードで試したら、2時間の実装が15分だった。\nhttps://claude.ai/code",
+      "source_url": "https://claude.ai/code",
+      "source_title": "Claude Code正式リリース、ターミナルから自律的にコーディング"
+    },
+    {
+      "text": "競技プログラミング上位2%相当のAIが、APIで使えるようになった。\n\no3、数学オリンピックで96.7%正答。自分が詰まってたアルゴリズム問題に投げたら、解説付きで即答された。\n\nあなたなら何に使う？\nhttps://openai.com/o3",
+      "source_url": "https://openai.com/o3",
+      "source_title": "OpenAI o3、競技プログラミング上位2%相当の性能でAPI提供開始"
+    },
+    {
+      "text": "VS Codeから乗り換えたら作業速度が変わった。\n\nCursorで自分のコーディングが変わった3つの理由:\n\n1. ファイル横断の修正が指示1つ（月$20）\n2. バグ修正が平均3倍速い\n3. アーキテクチャ設計まで相談できる\n\nhttps://cursor.sh/",
+      "source_url": "https://cursor.sh/",
+      "source_title": "Cursor AI、月間ユーザー急増でVS Code代替として定着"
+    }
+  ]
+}
