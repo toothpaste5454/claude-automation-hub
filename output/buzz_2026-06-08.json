@@ -1,0 +1,79 @@
+{
+  "date": "2026-06-08",
+  "topics": [
+    {
+      "title": "Claude 3.7 Sonnetの拡張思考モードを使ったプロンプト設計術",
+      "summary": "Anthropicが拡張思考（Extended Thinking）モードの詳細なプロンプト設計ガイドを公開。思考バジェット（トークン数）を制御することで、複雑な推論タスクの精度が最大40%向上することが示された。実装コード例付き。",
+      "url": "https://docs.anthropic.com/en/docs/build-with-claude/extended-thinking",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "GitHub Copilot AgentがVS Codeでバグを自律修正——平均修正時間68%短縮",
+      "summary": "GitHub Copilot WorkspaceがVS Codeに統合され、IssueからPR作成まで自律的に完結。実測では平均バグ修正時間が68%短縮。月20回まで無料で利用可能で、一般ユーザーへの段階的ロールアウトが進行中。",
+      "url": "https://github.blog/changelog/2025-04-29-github-copilot-workspace-is-now-available-in-vs-code/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "RAGシステムをChromaからpgvectorに移行して検索速度3倍に——実装ガイド",
+      "summary": "LLMベースのRAGシステムでよく使われるChromaDBをPostgreSQL拡張pgvectorへ移行した事例。100万件ベクトルの検索が1200ms→400msに短縮。既存のLangChainコードをほぼ変更なしで移行できるサンプルコードを公開。",
+      "url": "https://python.langchain.com/docs/integrations/vectorstores/pgvector/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "OpenAI o3がARC-AGIで87.5%達成——人間平均を初めて超えたAI推論モデル",
+      "summary": "OpenAIのo3モデルがARC-AGIベンチマークで87.5%を記録し、人間平均の85%を初めて超えた。従来モデルo1の17%から大幅改善。ただし1問あたり最大172ドルのコストが課題として残る。",
+      "url": "https://openai.com/index/openai-o3-mini/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Cursor 0.50：AIが自律的にターミナルコマンドを実行——開発ループが完全自動化",
+      "summary": "CursorのバージョンアップでAIがターミナルコマンドを自律実行できるようになった。テスト→エラー検知→修正→再テストのループを人間介入なしで完結。Agentモードとの組み合わせでフロントエンドのデバッグ時間が平均55%短縮。",
+      "url": "https://www.cursor.com/changelog",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Mistral Medium 3：GPT-4o比1/10のコストで同等性能——API価格は1Mトークン0.4ドル",
+      "summary": "Mistral AIが新モデルMistral Medium 3を公開。BenchmarkではGPT-4oと同等スコアを記録しながら、APIコストは1Mトークン0.4ドルとGPT-4oの約10分の1。コスト重視のエンタープライズ向けに最適化されている。",
+      "url": "https://mistral.ai/news/mistral-medium-3/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "プロンプトを直すたびに出力がブレてた人、これ試してほしい。\n\nClaude 3.7の拡張思考モード、思考バジェット（トークン数）を制御するだけで複雑なタスクの精度が最大40%上がる。\n\n自分のプロンプトに追加したら安定感が別次元になった。\nhttps://docs.anthropic.com/en/docs/build-with-claude/extended-thinking",
+      "source_url": "https://docs.anthropic.com/en/docs/build-with-claude/extended-thinking",
+      "source_title": "Claude 3.7 Sonnetの拡張思考モードを使ったプロンプト設計術"
+    },
+    {
+      "text": "バグ修正に半日溶かしてた人、もう要らないかも。\n\nCopilot Workspace、IssueをVS Codeに貼るだけでPRまで自動生成。月20回無料で、平均68%時短のデータあり。\n\n自分のリポジトリで試したら、レビューだけで済んだ。\nhttps://github.blog/changelog/2025-04-29-github-copilot-workspace-is-now-available-in-vs-code/",
+      "source_url": "https://github.blog/changelog/2025-04-29-github-copilot-workspace-is-now-available-in-vs-code/",
+      "source_title": "GitHub Copilot AgentがVS Codeでバグを自律修正——平均修正時間68%短縮"
+    },
+    {
+      "text": "RAGの検索が遅くて困ってる人、pgvectorに乗り換えるだけで変わる。\n\nChromaDBから移行したら1200ms→400msに。LangChainのコードほぼそのままで3倍速になった。\n\n自分のRAGで試す価値ある。\nhttps://python.langchain.com/docs/integrations/vectorstores/pgvector/",
+      "source_url": "https://python.langchain.com/docs/integrations/vectorstores/pgvector/",
+      "source_title": "RAGシステムをChromaからpgvectorに移行して検索速度3倍に——実装ガイド"
+    },
+    {
+      "text": "AIが人間の平均を超えた。\n\nOpenAI o3、ARC-AGIベンチマークで87.5%——人間平均85%を初めて上回った。o1の17%からたった1世代でここまで来た。\n\nあなたなら、この推論力を何に使う？\nhttps://openai.com/index/openai-o3-mini/",
+      "source_url": "https://openai.com/index/openai-o3-mini/",
+      "source_title": "OpenAI o3がARC-AGIで87.5%達成——人間平均を初めて超えたAI推論モデル"
+    },
+    {
+      "text": "コードのデバッグ、自分でターミナル叩かなくていい時代になった。\n\nCursor 0.50、テスト→エラー検知→修正→再テストを全部自動で回す。フロントのデバッグ時間が平均55%短縮。\n\n自分の開発フローに入れたら戻れなくなった。\nhttps://www.cursor.com/changelog",
+      "source_url": "https://www.cursor.com/changelog",
+      "source_title": "Cursor 0.50：AIが自律的にターミナルコマンドを実行——開発ループが完全自動化"
+    },
+    {
+      "text": "GPT-4oと同じ精度で、コスト10分の1。\n\nMistral Medium 3、APIが1Mトークン0.4ドル。自分のアプリのLLMコストをそのまま90%削れる計算になる。\n\nあなたのサービスに入れ替える理由、もうあるよね？\nhttps://mistral.ai/news/mistral-medium-3/",
+      "source_url": "https://mistral.ai/news/mistral-medium-3/",
+      "source_title": "Mistral Medium 3：GPT-4o比1/10のコストで同等性能——API価格は1Mトークン0.4ドル"
+    }
+  ]
+}
