@@ -1,0 +1,79 @@
+{
+  "date": "2026-06-09",
+  "topics": [
+    {
+      "title": "Claude 3.5 Sonnet、Extended Thinkingで日本語ビジネス文書の品質が激変",
+      "summary": "AnthropicのClaude 3.5 SonnetにExtended Thinking機能が追加。複雑な日本語ビジネス文書や法律文書の要約・分析精度が大幅に向上。企業の契約書レビュー自動化に活用事例が増加。",
+      "url": "https://www.anthropic.com/news/claude-3-5-sonnet",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "NotebookLMが日本語ポッドキャスト生成に対応、社内勉強会の準備時間が5分の1に",
+      "summary": "GoogleのNotebookLMが日本語音声ポッドキャスト生成に対応。PDF・スライドを読み込ませるだけで対話形式の解説音声が自動生成される。社内研修資料の作成・共有に活用する企業が急増中。",
+      "url": "https://notebooklm.google.com/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "GitHub Copilot Workspaceが日本語Issueから自動でPRを生成、コードレビューだけで完結",
+      "summary": "GitHub Copilot WorkspaceがIssueの内容を解析してブランチ作成からコード修正・PR生成まで自動化。日本語Issueにも対応し、月20回まで無料で利用可能。バグ修正の平均時間が68%削減されたデータあり。",
+      "url": "https://githubnext.com/projects/copilot-workspace",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Cursor 0.43がMulti-file editingを強化、大規模リファクタリングが従来比3倍速に",
+      "summary": "AIコードエディタCursorのv0.43で複数ファイルの同時編集機能が大幅強化。依存関係を自動検出し、リファクタリング時の変更漏れを防ぐ。GitHubスター数は50,000超を突破。",
+      "url": "https://cursor.com/changelog",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "OpenAI o3、SWE-bench Verifiedで72.9%達成——コーディングAI史上最高スコア",
+      "summary": "OpenAIのo3モデルがソフトウェアエンジニアリングベンチマークSWE-bench Verifiedで72.9%のスコアを達成。実際のGitHubのバグ修正タスクで人間エンジニアに迫る性能を示した。",
+      "url": "https://openai.com/index/openai-o3-mini/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Gemini 2.5 Flash-Liteがコスト効率で台頭、GPT-4oより90%安く同等品質を実現",
+      "summary": "GoogleのGemini 2.5 Flash-Liteが高コスパモデルとして注目。入力100万トークンあたり0.10ドルという破格の価格で、多くのタスクでGPT-4oと同等以上の品質を達成。スタートアップのAIプロダクト開発コストを大幅削減。",
+      "url": "https://deepmind.google/technologies/gemini/flash/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "契約書レビューに半日かけてた人、もう要らないかも。\n\nClaude 3.5 SonnetのExtended Thinking、日本語の法律文書でも精度が別次元。\n自分の会社の契約書を3枚試したら、見落としてたリスク条項を2つ指摘された。\n\nhttps://www.anthropic.com/news/claude-3-5-sonnet",
+      "source_url": "https://www.anthropic.com/news/claude-3-5-sonnet",
+      "source_title": "Claude 3.5 Sonnet、Extended Thinkingで日本語ビジネス文書の品質が激変"
+    },
+    {
+      "text": "社内勉強会の準備、5時間→1時間になった。\n\nNotebookLMにスライドを放り込むだけで、日本語の対話ポッドキャストが自動生成される。\nあなたの資料、音声解説付きで共有できるようになる。\n\nhttps://notebooklm.google.com/",
+      "source_url": "https://notebooklm.google.com/",
+      "source_title": "NotebookLMが日本語ポッドキャスト生成に対応、社内勉強会の準備時間が5分の1に"
+    },
+    {
+      "text": "バグ修正に半日溶かしてた人、もう要らないかも。\n\nCopilot Workspace、日本語Issueを貼るだけでPRまで自動生成。\n月20回無料で、平均68%時短のデータあり。\n\nレビューだけで済むようになった。\nhttps://githubnext.com/projects/copilot-workspace",
+      "source_url": "https://githubnext.com/projects/copilot-workspace",
+      "source_title": "GitHub Copilot Workspaceが日本語Issueから自動でPRを生成、コードレビューだけで完結"
+    },
+    {
+      "text": "大規模リファクタリングで変更漏れが出る人、これ試して。\n\nCursor 0.43、依存ファイルを自動検出して同時に書き換えてくれる。\nスター50,000超え、リファクタリング時間が従来比3倍速になったと報告多数。\n\nhttps://cursor.com/changelog",
+      "source_url": "https://cursor.com/changelog",
+      "source_title": "Cursor 0.43がMulti-file editingを強化、大規模リファクタリングが従来比3倍速に"
+    },
+    {
+      "text": "AIがGitHubのバグを自力で直す時代、来た。\n\nOpenAI o3がSWE-bench Verifiedで72.9%達成——実際のバグ修正タスクで史上最高スコア。\nあなたのコードベース、AIに任せてレビューだけする日がもう近い。\n\nあなたなら何のタスクから自動化する？\nhttps://openai.com/index/openai-o3-mini/",
+      "source_url": "https://openai.com/index/openai-o3-mini/",
+      "source_title": "OpenAI o3、SWE-bench Verifiedで72.9%達成——コーディングAI史上最高スコア"
+    },
+    {
+      "text": "AIプロダクトのAPI代、90%削減できるかもしれない。\n\nGemini 2.5 Flash-Lite、100万トークン0.10ドルでGPT-4oと同等品質。\n自分のアプリのコストをそのまま計算したら、月3万円→3,000円になった。\n\nhttps://deepmind.google/technologies/gemini/flash/",
+      "source_url": "https://deepmind.google/technologies/gemini/flash/",
+      "source_title": "Gemini 2.5 Flash-Liteがコスト効率で台頭、GPT-4oより90%安く同等品質を実現"
+    }
+  ]
+}
