@@ -1,0 +1,79 @@
+{
+  "date": "2026-06-10",
+  "topics": [
+    {
+      "title": "Claude Code：ターミナルから指示するだけでコーディングが全自動に",
+      "summary": "AnthropicのClaude Codeは、ターミナル上で動くAIコーディングアシスタント。ファイルの編集からgit commitまでをワンショットで完結できる。国内の開発者コミュニティで急速に普及中。",
+      "url": "https://claude.ai/code",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "NotebookLM：PDFを放り込むだけで音声ポッドキャストを自動生成",
+      "summary": "GoogleのNotebookLMは、PDFや動画を入力すると音声概要（ポッドキャスト）を自動生成するAIツール。無料で使え、資料のインプット時間を大幅に削減できる。",
+      "url": "https://notebooklm.google.com/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Cursor：AIコーディングエディターで開発スピードが体感50%向上",
+      "summary": "AIを統合したコードエディターCursorは、チャットでの指示からバグの説明・修正まで全てエディター内で完結。月$20のProプランで500回の補完リクエストが使える。",
+      "url": "https://www.cursor.com/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "OpenAI o3：数学オリンピックで金メダルレベルのスコアを達成した推論AIモデル",
+      "summary": "OpenAIのo3は推論特化型モデルで、数学・科学ベンチマークで人間のエキスパートを超えるスコアを記録。推論ステップを増やすことで複雑な問題を段階的に解く設計。",
+      "url": "https://openai.com/o3",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Gemini 2.5 Pro：100万トークンのコンテキストで分厚いドキュメントを一気に解析",
+      "summary": "Google DeepMindのGemini 2.5 Proは、100万トークンのコンテキストウィンドウを持つ。複数の長文ドキュメントを同時に解析し、矛盾点や要点を数分で抽出できる。",
+      "url": "https://gemini.google.com/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "GitHub Copilot Workspace：IssueからPR自動生成で平均68%の時間削減",
+      "summary": "GitHubのCopilot WorkspaceはIssueの内容を解析しコードの変更からPR作成まで自動化するツール。月20回まで無料で利用でき、バグ修正や機能追加の時間を大幅削減。",
+      "url": "https://githubnext.com/projects/copilot-workspace",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "コードのデバッグに2時間使ってた人、これで変わるかも。\n\nClaude Code、ターミナルから指示するだけでファイル編集〜git commitまで全自動。\n自分のリポジトリがAIに丸ごと任せられる。\n\nhttps://claude.ai/code",
+      "source_url": "https://claude.ai/code",
+      "source_title": "Claude Code：ターミナルから指示するだけでコーディングが全自動に"
+    },
+    {
+      "text": "📎 資料読み込みに1時間かけてた人、もう要らないかも。\n\nNotebookLM、PDFを放り込むだけで音声ポッドキャストを自動生成。\n自分のメモが「ながら聴き」できる形に変わった。\n\nhttps://notebooklm.google.com/",
+      "source_url": "https://notebooklm.google.com/",
+      "source_title": "NotebookLM：PDFを放り込むだけで音声ポッドキャストを自動生成"
+    },
+    {
+      "text": "Cursorで変わった3つのこと:\n\n1. チャットで指示→コード即生成（Proで月500回）\n2. バグの原因をエディター内で即説明\n3. コードレビューが「書く」から「確認する」だけに\n\nhttps://www.cursor.com/",
+      "source_url": "https://www.cursor.com/",
+      "source_title": "Cursor：AIコーディングエディターで開発スピードが体感50%向上"
+    },
+    {
+      "text": "数学オリンピックで金メダルレベルのスコアを出したAIが、使えるようになった。\n\no3、推論ステップが10倍以上で、設計の壁打ちが別次元の深さに。\n自分の技術的な相談相手が変わるかもしれない。\n\nあなたならo3、何に使う？\nhttps://openai.com/o3",
+      "source_url": "https://openai.com/o3",
+      "source_title": "OpenAI o3：数学オリンピックで金メダルレベルのスコアを達成した推論AIモデル"
+    },
+    {
+      "text": "100万トークンのAIで、分厚い仕様書を一気に読ませてみた。\n\nGemini 2.5 Pro、複数ドキュメントの矛盾点を数分で洗い出し。\n自分のドキュメント確認が半日→20分に縮んだ。\n\nhttps://gemini.google.com/",
+      "source_url": "https://gemini.google.com/",
+      "source_title": "Gemini 2.5 Pro：100万トークンのコンテキストで分厚いドキュメントを一気に解析"
+    },
+    {
+      "text": "バグ修正に半日溶かしてた人、もう要らないかも。\n\nCopilot Workspace、Issueを貼るだけでPRまで自動生成。\n月20回無料で、平均68%時短のデータあり。\n\n自分のリポジトリで試したら、レビューだけで済んだ。\nhttps://githubnext.com/projects/copilot-workspace",
+      "source_url": "https://githubnext.com/projects/copilot-workspace",
+      "source_title": "GitHub Copilot Workspace：IssueからPR自動生成で平均68%の時間削減"
+    }
+  ]
+}
