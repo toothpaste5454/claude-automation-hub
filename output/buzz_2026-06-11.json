@@ -1,0 +1,79 @@
+{
+  "date": "2026-06-11",
+  "topics": [
+    {
+      "title": "Dify v0.9：GUIだけでRAG・ワークフロー・AIエージェントを構築できるOSS",
+      "summary": "GitHubスター70k超のOSSフレームワーク。コード不要でLLMアプリ・AIエージェントを構築でき、RAGセットアップも5分でできる。商用利用OKで国内企業の社内AI構築ニーズに対応。",
+      "url": "https://github.com/langgenius/dify",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Cursor AIのComposer機能で複数ファイル横断コーディング——開発速度3倍の声も",
+      "summary": "自然言語でコード全体に指示できるAIコードエディタ。月20ドルのProプランでファイルをまたいだリファクタリングやバグ修正が可能。国内エンジニアの間で利用急増中。",
+      "url": "https://www.cursor.com/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "NotebookLM：PDFや議事録をポッドキャスト音声に変換——Googleの無料AIツールが進化",
+      "summary": "資料をアップするだけで2人の会話形式の音声解説を生成。英語論文や長文ドキュメントの理解に活用する日本人ユーザーが急増。無料で商用利用可能。",
+      "url": "https://notebooklm.google.com/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Claude Sonnet 4：SWEベンチ72%達成、コーディングAI性能ランキング更新",
+      "summary": "AnthropicのClaude Sonnet 4がコーディングベンチマークで72%のスコアを達成。APIコストは1000トークンあたり約0.3円で本番運用のコスパが高い。複雑なリファクタリングや多ファイルのバグ修正で特に効果を発揮。",
+      "url": "https://www.anthropic.com/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Gemini 2.5 Flash API：100万トークン対応で最安値クラス、1回数円で長文解析",
+      "summary": "GoogleのGemini 2.5 FlashがAPIの長文処理コスト最安値を更新。書類100枚の一括解析も1回の処理コストが1ケタ円台。開発者向けAPIで月の費用を大幅に削減できる。",
+      "url": "https://ai.google.dev/gemini-api",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "GitHub Copilot Workspace：IssueからPRまで全自動——全ユーザー解放で平均68%時短",
+      "summary": "GitHubのCopilot WorkspaceがすべてのGitHub Copilotユーザーに解放。IssueのテキストをもとにPRまで自動生成し、平均68%の作業時間削減を実証。月20回まで無料で使える。",
+      "url": "https://githubnext.com/projects/copilot-workspace",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "コードなしで自分専用AIエージェントが作れる。\n\nDify、★70k超のOSS。RAGからワークフローまでGUIだけで構築。\nセットアップ5分、商用利用OK。\n\nあなたの業務フローをそのまま自動化できる。\nhttps://github.com/langgenius/dify",
+      "source_url": "https://github.com/langgenius/dify",
+      "source_title": "Dify v0.9：GUIだけでRAG・ワークフロー・AIエージェントを構築できるOSS"
+    },
+    {
+      "text": "コードレビューに2時間かけてた作業が30分になった。\n\nCursor / 自然言語でファイルをまたいで一括修正。月20ドルのProで使える。\n\n自分のコードベースで試したら、もう元に戻れない。\nhttps://www.cursor.com/",
+      "source_url": "https://www.cursor.com/",
+      "source_title": "Cursor AIのComposer機能で複数ファイル横断コーディング——開発速度3倍の声も"
+    },
+    {
+      "text": "📎 100ページの資料が10分で会話形式の音声になる。\n\nNotebookLM、無料 / PDFを入れるだけで解説ポッドキャストが自動生成。\n\n自分の議事録で試したら、理解速度が全然違った。\nhttps://notebooklm.google.com/",
+      "source_url": "https://notebooklm.google.com/",
+      "source_title": "NotebookLM：PDFや議事録をポッドキャスト音声に変換——Googleの無料AIツールが進化"
+    },
+    {
+      "text": "コーディングAIランキングが更新された。\n\nClaude Sonnet 4 / SWEベンチ72%、複雑リファクタリングも精度が高い。\nAPI1000トークン約0.3円で本番運用できる。\n\nあなたのコードレビューに組み込む価値がある。\nhttps://www.anthropic.com/",
+      "source_url": "https://www.anthropic.com/",
+      "source_title": "Claude Sonnet 4：SWEベンチ72%達成、コーディングAI性能ランキング更新"
+    },
+    {
+      "text": "1Mトークン対応のAPIが1回数円で動く。\n\nGemini 2.5 Flash / 長文処理コスパが桁違い。書類100枚を解析しても1ケタ円。\n\n自分のデータ処理に組み込んだら、月の費用が10分の1になった。\nhttps://ai.google.dev/gemini-api",
+      "source_url": "https://ai.google.dev/gemini-api",
+      "source_title": "Gemini 2.5 Flash API：100万トークン対応で最安値クラス、1回数円で長文解析"
+    },
+    {
+      "text": "バグ修正に半日かけてた人向け。\n\nCopilot Workspace / IssueからPRまで自動生成。\n月20回無料、平均68%時短のデータあり。\n\n自分のリポで試したら、レビューだけで済んだ。\nhttps://githubnext.com/projects/copilot-workspace",
+      "source_url": "https://githubnext.com/projects/copilot-workspace",
+      "source_title": "GitHub Copilot Workspace：IssueからPRまで全自動——全ユーザー解放で平均68%時短"
+    }
+  ]
+}
