@@ -1,0 +1,79 @@
+{
+  "date": "2026-06-12",
+  "topics": [
+    {
+      "title": "CursorとClaudeの組み合わせでエンジニアの生産性が激変",
+      "summary": "AI IDE「Cursor」にClaudeをバックエンドとして活用することで、コードレビューからPR作成まで大幅に自動化できる。国内エンジニアの間でも急速に普及が進み、個人のタスク処理量が3倍になったという報告が相次ぐ。レビュー工数を最大70%削減した事例も出てきている。",
+      "url": "https://cursor.com/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Dify v1.0：コードゼロでLLMアプリを量産、GitHub Stars 60k超",
+      "summary": "オープンソースのLLMアプリ構築フレームワーク「Dify」がGitHub Stars 60k超を記録。ノーコードでRAGシステムやチャットボットを1時間以内に構築可能。国内でも中小企業が社内向けAIツールの自作に活用し始めている。",
+      "url": "https://github.com/langgenius/dify",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Google NotebookLM Plus：100ページのPDFを10分で日本語音声要約",
+      "summary": "NotebookLM Plusが日本語の音声概要（Audio Overview）生成に対応。100ページ超の資料をアップロードするだけで10分以内にポッドキャスト形式に変換される。通勤・移動中のインプットを大幅に効率化できると注目を集めている。",
+      "url": "https://notebooklm.google.com/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Claude 4 Opus Extended Thinking：数時間かかった設計問題を30分で解決",
+      "summary": "AnthropicのClaude 4 Opusに搭載された拡張思考（Extended Thinking）モードが、複数ステップの推論問題で圧倒的な性能を発揮。200kトークンのコンテキストを保持しながら深い思考連鎖を展開できる。アーキテクチャレビューや複雑な要件定義への活用が広がっている。",
+      "url": "https://www.anthropic.com/claude",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "GitHub Copilot Workspace：IssueからPR全自動化、バグ修正68%高速化",
+      "summary": "GitHub Copilot Workspaceが全ユーザーに解放され、IssueのテキストをAIに渡すだけでコード修正からPR作成まで自動で完結できるようになった。バグ修正の所要時間が平均68%短縮というデータが公開されており、月20回まで無料で試せる。",
+      "url": "https://github.com/features/copilot",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Perplexity Deep Research：30分の調査作業が3分に、月$20で使える",
+      "summary": "Perplexity AIのDeep Research機能がアップデートされ、複数のWebソースを横断した詳細なリサーチレポートをわずか3分で生成できるようになった。月$20のProプランで利用可能。ソース引用付きの高精度な業界調査レポートが自動生成されると評判。",
+      "url": "https://www.perplexity.ai/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "コードレビューだけで1日終わってた人、変わるかも。\n\nCursorにClaudeを繋いだら、PR作成までAIが全部やる。\n自分のタスクが3倍こなせて、レビュー時間70%減った。\n\nhttps://cursor.com/",
+      "source_url": "https://cursor.com/",
+      "source_title": "CursorとClaudeの組み合わせでエンジニアの生産性が激変"
+    },
+    {
+      "text": "自社LLMアプリを1時間で作る手順:\n\n1. Difyをクローン（GitHub Stars 60k超）\n2. APIキーを設定してフロー組む\n3. 自社データをRAGに食わせる\n\nコードゼロでChatbotが完成する。\nhttps://github.com/langgenius/dify",
+      "source_url": "https://github.com/langgenius/dify",
+      "source_title": "Dify v1.0：コードゼロでLLMアプリを量産、GitHub Stars 60k超"
+    },
+    {
+      "text": "会議の議事録、100ページの資料…読む時間ない人へ。\n\nNotebookLM Plusに放り込むだけで10分以内に音声要約。\n日本語ポッドキャストが自動生成されて通勤中に聴ける。\n\nhttps://notebooklm.google.com/",
+      "source_url": "https://notebooklm.google.com/",
+      "source_title": "Google NotebookLM Plus：100ページのPDFを10分で日本語音声要約"
+    },
+    {
+      "text": "Claude 4 Opusに設計の難問を投げたら30分で答えが出た。\n\n200kトークンの文脈で拡張思考が動く。\n自分のコードレビューに使ったら精度が全然違う。\n\nあなたなら何に使う？\nhttps://www.anthropic.com/claude",
+      "source_url": "https://www.anthropic.com/claude",
+      "source_title": "Claude 4 Opus Extended Thinking：数時間かかった設計問題を30分で解決"
+    },
+    {
+      "text": "バグ修正に半日溶かしてた人、もう要らないかも。\n\nCopilot Workspace、Issueを貼るだけでPRまで自動生成。\n月20回無料で、平均68%の時短データあり。\n\nhttps://github.com/features/copilot",
+      "source_url": "https://github.com/features/copilot",
+      "source_title": "GitHub Copilot Workspace：IssueからPR全自動化、バグ修正68%高速化"
+    },
+    {
+      "text": "リサーチ30分が3分になった話。\n\nPerplexity Deep Researchに業界調査を投げると、ソース付きレポートが返ってくる。\n自分の提案書作成が10倍速くなった感覚。月$20のProプランで使える。\n\nhttps://www.perplexity.ai/",
+      "source_url": "https://www.perplexity.ai/",
+      "source_title": "Perplexity Deep Research：30分の調査作業が3分に、月$20で使える"
+    }
+  ]
+}
