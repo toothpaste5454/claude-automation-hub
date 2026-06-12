@@ -1,0 +1,79 @@
+{
+  "date": "2026-06-13",
+  "topics": [
+    {
+      "title": "OllamaでLlama 3をローカル実行、APIコスト月0円で使い放題",
+      "summary": "OllamaはMac/Linux/WindowsでLLMをローカル実行できるOSSツール。GitHub Stars 100k超。Llama 3.1（8B）なら一般的なM2 Macでも動作し、APIコストなしでコーディング補助が使い放題になる。社内データをクラウドに送らず処理できるためプライバシー重視の企業にも活用が広がっている。",
+      "url": "https://github.com/ollama/ollama",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "v0でUIモック作成が10分→2分に、テキスト指示だけでNext.jsコード生成",
+      "summary": "VercelのAIツール「v0」はテキスト指示からShadcn UIベースのReact/Next.jsコンポーネントをリアルタイムで生成する。生成されたコードはそのままコピペで使えるため、フロントエンドのモック作成時間が大幅短縮。デザインから実装への橋渡し作業が5分で完結するという声が増えている。",
+      "url": "https://v0.dev/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Claude Code CLIでコード修正からgit commitまで全自動化、1日3時間削減",
+      "summary": "AnthropicのCLIツール「Claude Code」でターミナルから直接コード修正・テスト実行・gitコミットを自動化できる。コンテキスト長200kで大規模コードベースも対応。バグ修正・リファクタリング・ドキュメント生成を丸投げでき、エンジニアの単純作業を1日2〜3時間削減できるという報告が増えている。",
+      "url": "https://claude.ai/code",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "LangGraphでマルチエージェント構築5倍速、GitHub Stars 10k超のOSSフレームワーク",
+      "summary": "LangChainのエージェントフレームワーク「LangGraph」がマルチエージェント対応を強化。状態管理とループ処理を直感的に定義でき、従来の実装より開発時間が大幅短縮。複数AIエージェントを繋いだ自律ワークフローをPythonで30分以内に組めると国際的にも採用が加速している。",
+      "url": "https://github.com/langchain-ai/langgraph",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "OpenAI o3-mini：GPT-4oの4分の1のコストで推論精度30%向上",
+      "summary": "OpenAIの推論特化モデルo3-miniはコーディング・数学・論理問題でGPT-4oを上回る正答率を記録しつつ、コストは約1/4に抑えられている。APIで月数千円以内から試せ、複雑なバグ解析や要件定義の自動化に活用されている。競合モデルとのコスト比較が注目を集めている。",
+      "url": "https://openai.com/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Windsurf IDE：Cascadeエンジンで1回の指示でファイル10個同時修正、無料プランあり",
+      "summary": "CodiumのAI IDE「Windsurf」は独自のCascadeエンジンでコードベース全体の文脈を保持し、1回の指示で複数ファイルを横断修正できる。Cursorと比較するレビュー記事が増えており、大規模リファクタリングでの精度の高さが評価されている。無料プランから始めて商用プランは月$10。",
+      "url": "https://codeium.com/windsurf",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "APIコスト気にして試せなかった人へ。\n\nOllamaでLlama 3をMacに入れると月0円で動く。\nStars 100k超、セットアップ3分で完了。\n\n自分のデータをクラウドに送らず、ローカルでAI処理できる。\nhttps://github.com/ollama/ollama",
+      "source_url": "https://github.com/ollama/ollama",
+      "source_title": "OllamaでLlama 3をローカル実行、APIコスト月0円で使い放題"
+    },
+    {
+      "text": "UIモック作成を爆速化する3ステップ:\n\n1. v0.devにデザイン要件を貼る（1分）\n2. 生成コードをそのままコピペ\n3. Shadcn UIベースで即プロダクション品質\n\n自分の作業が10分→2分になった感覚。\nhttps://v0.dev/",
+      "source_url": "https://v0.dev/",
+      "source_title": "v0でUIモック作成が10分→2分に、テキスト指示だけでNext.jsコード生成"
+    },
+    {
+      "text": "コード修正からcommitまで、全部ターミナルで終わる。\n\nClaude Code CLIに「このバグ直して」と指示するだけ。\n自分の作業が1日3時間削減、単純タスクは丸投げできる。\n\n200kトークンで大規模コードにも対応。\nhttps://claude.ai/code",
+      "source_url": "https://claude.ai/code",
+      "source_title": "Claude Code CLIでコード修正からgit commitまで全自動化、1日3時間削減"
+    },
+    {
+      "text": "AIエージェント開発を5倍速く仕上げる手順:\n\n1. LangGraphでノード定義（30分）\n2. 状態管理を追加してループ処理\n3. 複数エージェントを繋いで自律実行\n\n自分のワークフロー自動化がこれで完成した。\nhttps://github.com/langchain-ai/langgraph",
+      "source_url": "https://github.com/langchain-ai/langgraph",
+      "source_title": "LangGraphでマルチエージェント構築5倍速、GitHub Stars 10k超のOSSフレームワーク"
+    },
+    {
+      "text": "GPT-4oの4分の1のコストで推論精度が上がる。\n\no3-miniをコード問題に使うと正答率が30%上昇。\n自分のAPIコストを抑えながら難しいタスクを解かせられる。\n\nあなたなら何の問題に使う？\nhttps://openai.com/",
+      "source_url": "https://openai.com/",
+      "source_title": "OpenAI o3-mini：GPT-4oの4分の1のコストで推論精度30%向上"
+    },
+    {
+      "text": "CursorかWindsurfか迷ってた人へ。\n\nWindsurfのCascadeは1回の指示でファイル10個同時に修正する。\n自分のリファクタリング作業が、無料プランで完結した。\n\n大規模コードで試すと違いがわかる。\nhttps://codeium.com/windsurf",
+      "source_url": "https://codeium.com/windsurf",
+      "source_title": "Windsurf IDE：Cascadeエンジンで1回の指示でファイル10個同時修正、無料プランあり"
+    }
+  ]
+}
