@@ -1,0 +1,79 @@
+{
+  "date": "2026-06-14",
+  "topics": [
+    {
+      "title": "DifyでRAGパイプラインを10分で構築する方法",
+      "summary": "GitHubスター50,000超のOSSツールDifyを使えば、ドキュメントQAシステムをコードなしで構築できる。ベクターDB連携も設定画面のみで完結。自社データへの質問応答システムが最短10分で動く。",
+      "url": "https://github.com/langgenius/dify",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Claude Codeターミナルエージェントで実務コーディングを自動化",
+      "summary": "AnthropicのClaude Code CLIをターミナルから使うと、自然言語でコード生成・テスト・デバッグが一気通貫で動く。コードレビュー時間を大幅短縮した実例が国内エンジニアから多数報告されている。",
+      "url": "https://docs.anthropic.com/en/docs/claude-code",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "n8n + Claude APIで業務自動化ワークフローを1日で構築",
+      "summary": "OSSのn8nとClaude APIを組み合わせると、メール自動分類・Slack通知・レポート生成のワークフローが最短1日で稼働。クラウド版は月20ドルから、セルフホストは無料。GitHubスター40,000超。",
+      "url": "https://github.com/n8n-io/n8n",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "GitHub Copilot WorkspaceがIssueからPR作成まで全自動化",
+      "summary": "CopilotのWorkspace機能でIssueを貼るとコード変更からPR作成まで自動で行う。バグ修正時間が平均68%短縮のデータあり。月20回まで無料で試せる。",
+      "url": "https://githubnext.com/projects/copilot-workspace",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Meta Llama 4 Scout、128Kコンテキストで無料ローカル動作",
+      "summary": "MetaのLlama 4 Scoutは128Kトークンのコンテキストを持ちOllamaでローカル動作する。M1 MacでもAPIコストゼロで利用可能。GPT-4級の推論性能をセルフホストで実現できる。",
+      "url": "https://ai.meta.com/llama/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Cursor Agent Modeで複数ファイルのリファクタリングが丸ごと自動化",
+      "summary": "CursorのAgent Modeは複数ファイルにまたがるリファクタリングやテスト追加を自然言語指示だけで実行する。週15時間のコーディング作業が5時間に短縮した実務事例が報告されている。",
+      "url": "https://www.cursor.com/features",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "自社データに質問できる仕組み、1週間かかって作ってた人いない？\n\nDify、★50,000超のOSSツール。ドキュメントをアップするだけでRAGが動く。\nコードゼロ、10分で本番稼働できた。\n\nhttps://github.com/langgenius/dify",
+      "source_url": "https://github.com/langgenius/dify",
+      "source_title": "DifyでRAGパイプラインを10分で構築する方法"
+    },
+    {
+      "text": "コードレビューに毎日2時間溶かしてた人、これで変わった。\n\nClaude Code。ターミナルから自然言語でコード生成→テスト→デバッグが一気通貫。\n作業が90分→15分に短縮した。\n\nhttps://docs.anthropic.com/en/docs/claude-code",
+      "source_url": "https://docs.anthropic.com/en/docs/claude-code",
+      "source_title": "Claude Codeターミナルエージェントで実務コーディングを自動化"
+    },
+    {
+      "text": "自分の単純作業、n8nで全部AIに渡せた3ステップ:\n\n1. メール分類→Slack通知を20分で設定\n2. 朝のレポートをスケジュール実行\n3. Claude APIで文書要約を一括処理\n\nセルフホストは無料、★40,000超のOSS。 https://github.com/n8n-io/n8n",
+      "source_url": "https://github.com/n8n-io/n8n",
+      "source_title": "n8n + Claude APIで業務自動化ワークフローを1日で構築"
+    },
+    {
+      "text": "バグ修正に半日かけてた人、これで変わった。\n\nCopilot Workspace、Issueを貼るだけでPRまで全自動生成。\n平均68%の時短データあり、月20回まで無料。\n\nあなたのリポジトリで試してみる？ https://githubnext.com/projects/copilot-workspace",
+      "source_url": "https://githubnext.com/projects/copilot-workspace",
+      "source_title": "GitHub Copilot WorkspaceがIssueからPR作成まで全自動化"
+    },
+    {
+      "text": "GPT-4級の推論を月0円で使いたい人、Llama 4 Scoutが本命になった。\n\n128Kコンテキスト対応、Ollamaでローカル動作。\n自分のPC上でAPIコストゼロで使える。\n\nhttps://ai.meta.com/llama/",
+      "source_url": "https://ai.meta.com/llama/",
+      "source_title": "Meta Llama 4 Scout、128Kコンテキストで無料ローカル動作"
+    },
+    {
+      "text": "複数ファイルのリファクタリング、自分で書き直してた人いない？\n\nCursorのAgent Mode、自然言語で指示するだけで横断変更。\n週15時間のコード作業が5時間になった事例が続出中。\n\nhttps://www.cursor.com/features",
+      "source_url": "https://www.cursor.com/features",
+      "source_title": "Cursor Agent Modeで複数ファイルのリファクタリングが丸ごと自動化"
+    }
+  ]
+}
