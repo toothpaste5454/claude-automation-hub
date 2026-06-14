@@ -1,0 +1,79 @@
+{
+  "date": "2026-06-15",
+  "topics": [
+    {
+      "title": "Cursor Background Agents、ローカル並列エージェントで複数タスクを同時進行",
+      "summary": "CursorのBackground Agents機能で、バグ修正・レビュー・テスト追加など複数タスクを並列実行。ローカルマシン上で動作するため外部にコードを送らず安心。自分のリポジトリに直結して3タスク同時進行が可能",
+      "url": "https://www.cursor.com/blog/background-agents",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Google NotebookLM、音声概要で100ページ超の資料を5分でポッドキャスト化",
+      "summary": "NotebookLMの音声概要（Audio Overview）機能で長文資料をポッドキャスト形式に変換。日本語対応・無料で利用可能。通勤中の「ながら学習」として活用する事例が急増中",
+      "url": "https://notebooklm.google.com",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "MCP（Model Context Protocol）でClaude・CursorをSlack・Notion・DBと接続する実装事例",
+      "summary": "AnthropicのMCP（Model Context Protocol）がAIエージェント接続の標準規格として普及。GitHub・Slack・Notion等と繋ぐサーバーがOSSで続々公開。★1.2万超のリポジトリも登場し開発者に注目される",
+      "url": "https://modelcontextprotocol.io",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Claude Extended Thinking、競プロ問題の正答率が通常モードの2倍以上に向上",
+      "summary": "AnthropicのExtended Thinking（拡張思考）モードでClaudeが推論プロセスを段階的に可視化。数学・競技プログラミング問題で通常モード比2倍超の精度向上を確認。デバッグや設計レビューへの活用も拡大",
+      "url": "https://docs.anthropic.com/en/docs/build-with-claude/extended-thinking",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Gemini 2.5 Pro、100万トークンコンテキストで10万行コードベースを一括解析",
+      "summary": "Google Gemini 2.5 Proの100万トークンコンテキストにより、大規模コードベース全体を1回のプロンプトで解析可能に。バグ原因特定やリファクタリング計画での活用事例が急増。ファイルを開かずに問題箇所を特定できると話題",
+      "url": "https://deepmind.google/technologies/gemini/pro/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "OpenAI Codex CLI、自然言語でファイル編集・テスト・コミットまで完結するOSS",
+      "summary": "OpenAIがターミナル向けAIコーディングツールをOSSとして公開。日本語で指示するだけでファイル編集・テスト実行・gitコミットまで自動化。GitHubで★2万超を記録し急速に普及",
+      "url": "https://github.com/openai/codex",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "バグ修正しながら別のPRもレビュー完了してた。\n\nCursor Background Agents、ローカルで3タスクを並列実行。\n外部サーバーに送らないからセキュリティも安心。\n\n自分のリポジトリで試したら作業時間が体感で半分になった。\nhttps://www.cursor.com/blog/background-agents",
+      "source_url": "https://www.cursor.com/blog/background-agents",
+      "source_title": "Cursor Background Agents、ローカル並列エージェントで複数タスクを同時進行"
+    },
+    {
+      "text": "100ページの資料、通勤中に全部「聞いて」把握した。\n\nNotebookLM、音声概要機能で長文をポッドキャスト化。\n日本語対応・無料で、5分で要点をつかめる。\n\n自分のGoogleドキュメントをそのまま放り込むだけ。\nhttps://notebooklm.google.com",
+      "source_url": "https://notebooklm.google.com",
+      "source_title": "Google NotebookLM、音声概要で100ページ超の資料を5分でポッドキャスト化"
+    },
+    {
+      "text": "Claude + 自社Slackで「社内AI」を3時間で作った。\n\nMCP（Model Context Protocol）★1.2万、AI接続の標準規格。\nGitHub・Notion・DBと繋ぐサーバーがOSSで揃ってる。\n\nあなたのツール群もそのまま接続できる。\nhttps://modelcontextprotocol.io",
+      "source_url": "https://modelcontextprotocol.io",
+      "source_title": "MCP（Model Context Protocol）でClaude・CursorをSlack・Notion・DBと接続する実装事例"
+    },
+    {
+      "text": "AIの「考える過程」が全部見える時代になった。\n\nClaude Extended Thinking、推論ステップを可視化。\n競プロ問題の正答率が通常モードの2倍以上に上がった。\n\n自分のデバッグや設計レビューに使う価値ある。\nhttps://docs.anthropic.com/en/docs/build-with-claude/extended-thinking",
+      "source_url": "https://docs.anthropic.com/en/docs/build-with-claude/extended-thinking",
+      "source_title": "Claude Extended Thinking、競プロ問題の正答率が通常モードの2倍以上に向上"
+    },
+    {
+      "text": "10万行のコードを1回のプロンプトで丸ごと解析。\n\nGemini 2.5 Pro、100万トークンのコンテキスト。\nバグの原因を「ファイルを開かずに」特定できた。\n\n自分のコードベースをそのまま貼り込んでみる？\nhttps://deepmind.google/technologies/gemini/pro/",
+      "source_url": "https://deepmind.google/technologies/gemini/pro/",
+      "source_title": "Gemini 2.5 Pro、100万トークンコンテキストで10万行コードベースを一括解析"
+    },
+    {
+      "text": "「このファイルをリファクタしといて」が通じた。\n\nOpenAI Codex CLI、★2万超のOSS。\nターミナルに日本語で指示するだけで編集・テスト・コミットまで完結。\n\n自分の作業フローが変わるかも。\nhttps://github.com/openai/codex",
+      "source_url": "https://github.com/openai/codex",
+      "source_title": "OpenAI Codex CLI、自然言語でファイル編集・テスト・コミットまで完結するOSS"
+    }
+  ]
+}
