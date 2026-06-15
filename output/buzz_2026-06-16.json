@@ -1,0 +1,79 @@
+{
+  "date": "2026-06-16",
+  "topics": [
+    {
+      "title": "GitHub Copilot Editsで複数ファイルを一括リファクタリング",
+      "summary": "GitHub Copilotの「Copilot Edits」機能が複数ファイルにまたがるコード変更を自然言語で一括実行できる。リファクタリングや機能追加が大幅に効率化され、工数を最大90%削減した事例が報告されている。月$10から利用可能。",
+      "url": "https://github.blog/ai-and-ml/github-copilot/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Google NotebookLM、200万字まで対応のAI文書解析ツール",
+      "summary": "GoogleのNotebookLMは、PDF・論文・YouTubeをアップロードするだけでAIが内容を理解し質問に答えてくれる無料ツール。200万字のコンテキストに対応し、複数ソースの横断分析も可能。",
+      "url": "https://notebooklm.google.com/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "OllamaでMacにLLMをローカル実行、月額0円・APIキー不要",
+      "summary": "OllamaというOSSツールでMacのM系チップ上にLlama3.1などの大規模言語モデルをローカルで実行できる。7Bモデルなら実用速度で動作し、プライベートなコードも外部に送らずにAIアシストを受けられる。",
+      "url": "https://github.com/ollama/ollama",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Claude 拡張思考モード、複雑な推論タスクの正答率が2倍に向上",
+      "summary": "AnthropicのClaude拡張思考モードは、回答前に内部で段階的推論を行うことで数学・コーディング・法律文書の解析での正答率が大幅に向上。APIのパラメータ1つで有効化でき、思考プロセスも可視化できる。",
+      "url": "https://docs.anthropic.com/en/docs/build-with-claude/extended-thinking",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Gemini 2.0 Flash、無料APIで動画・音声・画像を100万トークンで同時処理",
+      "summary": "GoogleのGemini 2.0 Flashは動画・音声・画像・テキストを同時に処理できるマルチモーダルAI。無料のAPI枠があり、100万トークンのコンテキストウィンドウで長い技術文書や会議録の処理にも対応。",
+      "url": "https://ai.google.dev/gemini-api/docs/models",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "llama.cpp GGUF量子化でLlama3-70Bのメモリ使用量が1/4に",
+      "summary": "llama.cppのGGUF量子化技術により、70Bの大規模モデルが通常の1/4のメモリ（40GB→10GB）で動作可能になった。GitHub★73k超えのOSSで、CPUだけでも推論できるため自前サーバーへのLLM導入が現実的になっている。",
+      "url": "https://github.com/ggerganov/llama.cpp",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "リファクタリングで半日消えてた人、これで30分になった。\n\nCopilot Edits、複数ファイルを自然言語で一括変更。\n月$10から使えて工数90%削減のデータあり。\n\n自分のリポで試したらレビューだけで済んだ。\nhttps://github.blog/ai-and-ml/github-copilot/",
+      "source_url": "https://github.blog/ai-and-ml/github-copilot/",
+      "source_title": "GitHub Copilot Editsで複数ファイルを一括リファクタリング"
+    },
+    {
+      "text": "200ページの論文、読む前にNotebookLMに投げてる。\n\n使い方3つ:\n1. PDF貼るだけで5分以内に要約完成\n2. 「弱点は？」と聞くだけで批判的分析を代行\n3. 複数PDF横断で矛盾点を一括抽出\n\n無料、200万字まで対応。\nhttps://notebooklm.google.com/",
+      "source_url": "https://notebooklm.google.com/",
+      "source_title": "Google NotebookLM、200万字まで対応のAI文書解析ツール"
+    },
+    {
+      "text": "月額0円・APIキー不要でChatGPT並みのAIを手元に置ける。\n\nOllama、GitHub★110k。MacのM2で7Bモデルが実用速度。\n\n自分のコードを外に出したくない人にちょうどいい。\nhttps://github.com/ollama/ollama",
+      "source_url": "https://github.com/ollama/ollama",
+      "source_title": "OllamaでMacにLLMをローカル実行、月額0円・APIキー不要"
+    },
+    {
+      "text": "複雑な推論タスクの正答率が2倍になった。\n\nClaude拡張思考モード、APIのパラメータ1つで有効化。\nコーディング・数学・法律文書解析に特に効果大。\n\nあなたなら何に使う？\nhttps://docs.anthropic.com/en/docs/build-with-claude/extended-thinking",
+      "source_url": "https://docs.anthropic.com/en/docs/build-with-claude/extended-thinking",
+      "source_title": "Claude 拡張思考モード、複雑な推論タスクの正答率が2倍に向上"
+    },
+    {
+      "text": "無料APIで動画・音声・画像を同時に処理できる。\n\nGemini 2.0 Flash主な使い道:\n1. 動画→議事録を自動生成\n2. 100万トークンで長い文書を丸ごと解析\n3. 画像+テキストでUI改善提案を出力\n\nあなたの作業時間、半分になるかも。\nhttps://ai.google.dev/gemini-api/docs/models",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models",
+      "source_title": "Gemini 2.0 Flash、無料APIで動画・音声・画像を100万トークンで同時処理"
+    },
+    {
+      "text": "70Bの大型モデル、メモリが1/4で動くようになった。\n\nllama.cpp、★73k。GGUF量子化でLlama3-70Bが\n40GB→10GBで実行可能。\n\n自分のサーバーにLLMを乗せたい人の第一選択肢。\nhttps://github.com/ggerganov/llama.cpp",
+      "source_url": "https://github.com/ggerganov/llama.cpp",
+      "source_title": "llama.cpp GGUF量子化でLlama3-70Bのメモリ使用量が1/4に"
+    }
+  ]
+}
