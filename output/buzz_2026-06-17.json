@@ -1,0 +1,79 @@
+{
+  "date": "2026-06-17",
+  "topics": [
+    {
+      "title": "CursorのComposerモードで実装時間が70%削減できる理由",
+      "summary": "AIコーディングツールCursorのComposerモードが日本の開発者に急速に普及。複数ファイルを一括編集できる機能で、実装時間の70%削減を達成した事例が続出。特にReact/Next.jsプロジェクトでの効果が大きいと報告されている。",
+      "url": "https://cursor.sh/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Claude Opus 4.8のエージェント機能で何時間でも自律実行できる",
+      "summary": "Anthropic最新モデルClaude Opus 4.8が長時間の自律タスク実行を安定化。コードレビュー・文書要約・PR作成を連続処理でき、Claude Codeとの組み合わせでCI/CD自動化が実用レベルに達した。",
+      "url": "https://www.anthropic.com/claude",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Notion AIで会議議事録が5分で自動生成、日本語対応が大幅強化",
+      "summary": "NotionのAI機能が大幅アップデートし、日本語精度が向上。録音→文字起こし→議事録作成→タスク自動振り分けまで5分で完結。月額3,000円のAIプランで全機能が使えるとして国内ビジネス層に注目が集まっている。",
+      "url": "https://www.notion.so/product/ai",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Gemini 2.5 Flash Lite、無料枠で1日100万トークン処理可能",
+      "summary": "GoogleのGemini 2.5 Flash Liteが無料枠で日100万トークンを提供。コスト効率は従来比10倍以上で、スタートアップがOpenAI GPT-4oから乗り換えるケースが急増。APIコストをほぼゼロにできると話題に。",
+      "url": "https://ai.google.dev/gemini-api",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "GitHub Copilot Workspace、IssueからPR自動生成で68%の開発時間削減",
+      "summary": "GitHub Copilot WorkspaceがGA。IssueのURLを貼るだけでコード修正案とPRドラフトを自動生成し、実際の利用データで平均68%の開発時間削減を達成。月20回まで無料で試せることも話題。",
+      "url": "https://githubnext.com/projects/copilot-workspace",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "ローカルLLM実行ツールOllamaがGitHub ★10万超え、APIコストゼロを実現",
+      "summary": "ローカルLLM実行OSSのOllamaがGitHubスター10万を突破。コマンド1行でMacBook上にLlama 3やMistralを動かせ、APIコスト0円・プライバシー完全保護を実現。企業の社内データ活用に最適と評価が急上昇。",
+      "url": "https://github.com/ollama/ollama",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "コードに半日溶かしてた人、これ知ってる？\n\nCursor、「ここを直して」だけで関連ファイルを全部一括変更。\n実装時間70%削減の報告が急増してる。\n\n自分のプロジェクトで試したら、レビューだけで済んだ。\nhttps://cursor.sh/",
+      "source_url": "https://cursor.sh/",
+      "source_title": "CursorのComposerモードで実装時間が70%削減できる理由"
+    },
+    {
+      "text": "何時間でも止まらないAIが来た。\n\nClaude Opus 4.8、コードレビュー→要約→PR作成まで連続で自律処理。\n自分のCI/CDに組み込んだら、朝起きたら全部終わってた。\n\nあなたなら何を自動化する？\nhttps://www.anthropic.com/claude",
+      "source_url": "https://www.anthropic.com/claude",
+      "source_title": "Claude Opus 4.8のエージェント機能で何時間でも自律実行できる"
+    },
+    {
+      "text": "Notionで会議後の作業、AIに全部任せた。\n\n1. 録音→議事録5分で自動生成\n2. タスクをDBに自動振り分け\n3. 週報も過去メモから一発作成\n\n月3,000円でここまでできる。\nhttps://www.notion.so/product/ai",
+      "source_url": "https://www.notion.so/product/ai",
+      "source_title": "Notion AIで会議議事録が5分で自動生成、日本語対応が大幅強化"
+    },
+    {
+      "text": "APIコストが10分の1以下になるAI、知ってた？\n\nGemini 2.5 Flash Lite、無料枠で1日100万トークン処理できる。\nGPT-4oから乗り換えて月の請求がほぼ0円になった人が急増中。\n\nあなたのアプリに組み込んだらどうなる？\nhttps://ai.google.dev/gemini-api",
+      "source_url": "https://ai.google.dev/gemini-api",
+      "source_title": "Gemini 2.5 Flash Lite、無料枠で1日100万トークン処理可能"
+    },
+    {
+      "text": "バグ修正に半日溶かしてた人、もう要らないかも。\n\nCopilot Workspace、IssueのURLを貼るだけでPRまで自動生成。\n平均68%時短のデータあり、月20回は無料。\n\n自分のリポジトリで試したら、レビューだけで済んだ。\nhttps://githubnext.com/projects/copilot-workspace",
+      "source_url": "https://githubnext.com/projects/copilot-workspace",
+      "source_title": "GitHub Copilot Workspace、IssueからPR自動生成で68%の開発時間削減"
+    },
+    {
+      "text": "ローカルでLLMを動かしたら、APIコストが0円になった。\n\nOllama、コマンド1行でMacにLlama 3が動く。★10万超えのOSS。\n社内の機密データも外に出さずにAI活用できる。\n\n自分の作業フローが変わるかも。\nhttps://github.com/ollama/ollama",
+      "source_url": "https://github.com/ollama/ollama",
+      "source_title": "ローカルLLM実行ツールOllamaがGitHub ★10万超え、APIコストゼロを実現"
+    }
+  ]
+}
