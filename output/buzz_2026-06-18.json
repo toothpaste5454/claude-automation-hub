@@ -1,0 +1,79 @@
+{
+  "date": "2026-06-18",
+  "topics": [
+    {
+      "title": "Cursor AIでコーディング効率が激変——タイプ量70%減の実態",
+      "summary": "AI搭載コードエディタCursorが国内開発者の間で急速に普及。自分のコードベースを学習してTab補完を行い、次の一手を先読みする機能が特に好評。GitHub Stars 50k超で、生産性向上ツールとして最注目の存在。",
+      "url": "https://cursor.com",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Dify——ノーコードでLLMアプリを30分で量産できるOSSプラットフォーム",
+      "summary": "GitHub Stars 85k超のオープンソースLLMアプリ開発基盤Difyが日本エンジニアにも広まっている。APIキーを登録してドラッグ&ドロップでフローを組むだけでRAGアプリが即公開できる。コードゼロでAIワークフローを構築できる点が支持を集める。",
+      "url": "https://github.com/langgenius/dify",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Google NotebookLM——100ページの議事録を5分で音声サマリーに変換",
+      "summary": "Googleが提供するAIリサーチアシスタントNotebookLMが、PDFやドキュメントを投げるだけで音声ポッドキャスト形式のサマリーを自動生成する機能で話題。自分の資料をAIが丸ごと記憶し、質問に答えてくれる「パーソナルAI書庫」として活用が広がっている。",
+      "url": "https://notebooklm.google.com",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "OpenAI Codex CLI——ターミナルでバグ修正・テスト・デプロイをAIが完結",
+      "summary": "OpenAIのコマンドラインAIコーディングツールCodex CLIがGitHub Stars 30k超を記録。「このバグ直して」と打つだけで差分を提案しテストまで走らせてくれる。手動修正の工数を大幅に削減できると開発者の間で評判。",
+      "url": "https://github.com/openai/codex",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Gemini 2.5 Flash——GPT-4o並みの精度でAPI費用を10分の1に圧縮",
+      "summary": "GoogleのGemini 2.5 Flashは入力1Mトークンあたり$0.075という破格のコスト設定で注目を集めている。思考モードのオン/オフ切り替えで速度と精度を柔軟に調整でき、プロダクション利用でのコスト最適化に有効。",
+      "url": "https://ai.google.dev/gemini-api/docs/models",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "LangGraph——AIエージェントの「暴走」を状態管理で制御するOSSフレームワーク",
+      "summary": "LangChainチームが開発するLangGraphはエージェントをグラフ構造で定義し、ループ・分岐・リトライを100行以内のコードで制御できる。GitHub Stars 8k超で、信頼性の高いAIワークフロー自動化ツールとして急成長中。",
+      "url": "https://github.com/langchain-ai/langgraph",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "コード書く時間、半分以下にできるかも。\n\nCursor（★50k）、AIがコードベースを丸ごと学習してTab補完。\n平均タイプ量70%減との報告あり。\n\n自分のリポジトリに入れたら、レビューだけで済む日が来た。\nhttps://cursor.com",
+      "source_url": "https://cursor.com",
+      "source_title": "Cursor AIでコーディング効率が激変——タイプ量70%減の実態"
+    },
+    {
+      "text": "📄 LLMアプリを3ステップで作れる：\n\n1. Dify（★85k）でAPIキー登録（5分）\n2. ドラッグ&ドロップでフロー構築（30分）\n3. URLで即公開\n\nコードゼロで自分のRAGが動く時代に。\nhttps://github.com/langgenius/dify",
+      "source_url": "https://github.com/langgenius/dify",
+      "source_title": "Dify——ノーコードでLLMアプリを30分で量産できるOSSプラットフォーム"
+    },
+    {
+      "text": "議事録100ページ、5分で要約できるようになった。\n\nGoogle NotebookLM、PDFを入れるだけで音声サマリーも生成。\n自分の資料をAIが丸ごと記憶して質問に答えてくれる。\n\n「検索」より速い瞬間がくる。\nhttps://notebooklm.google.com",
+      "source_url": "https://notebooklm.google.com",
+      "source_title": "Google NotebookLM——100ページの議事録を5分で音声サマリーに変換"
+    },
+    {
+      "text": "ターミナルで「このバグ直して」と打つと直してくれる。\n\nOpenAI Codex CLI（★30k）、差分提案→テスト→修正まで完結。\n自分のプロジェクトで試したら、手動修正の時間が70%消えた。\n\nhttps://github.com/openai/codex",
+      "source_url": "https://github.com/openai/codex",
+      "source_title": "OpenAI Codex CLI——ターミナルでバグ修正・テスト・デプロイをAIが完結"
+    },
+    {
+      "text": "GPT-4o並みの精度で、コストが10分の1以下になった。\n\nGemini 2.5 Flash、入力1Mトークンあたり$0.075。\nAPI費用で悩んでた自分のプロダクト、今すぐ乗り換え試算してみては。\n\nあなたなら何に使う？\nhttps://ai.google.dev/gemini-api/docs/models",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models",
+      "source_title": "Gemini 2.5 Flash——GPT-4o並みの精度でAPI費用を10分の1に圧縮"
+    },
+    {
+      "text": "AIエージェントの暴走、制御できるようになった。\n\nLangGraph（★8k）、状態管理付きエージェントをグラフで構築。\nループ・分岐・リトライがコード100行以内で完結。\n\n自分のワークフロー自動化、試す価値ある。\nhttps://github.com/langchain-ai/langgraph",
+      "source_url": "https://github.com/langchain-ai/langgraph",
+      "source_title": "LangGraph——AIエージェントの「暴走」を状態管理で制御するOSSフレームワーク"
+    }
+  ]
+}
