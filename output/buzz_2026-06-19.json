@@ -1,0 +1,79 @@
+{
+  "date": "2026-06-19",
+  "topics": [
+    {
+      "title": "Copilot WorkspaceがIssueからPR自動生成を全ユーザーに提供",
+      "summary": "GitHub Copilot WorkspaceがすべてのGitHub利用者に開放。IssueのURLを貼り付けるだけでコード変更からPR作成まで自動化。平均68%の修正時間短縮が報告されている。",
+      "url": "https://githubnext.com/projects/copilot-workspace",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Claude 3.7 Sonnetの拡張思考機能でSWE-bench 70%超えを達成",
+      "summary": "AnthropicのClaude 3.7 Sonnetが拡張思考モードでSWE-bench Verifiedスコア70%超えを達成。コーディングタスクで特に効果的で、複雑な問題解決に活用が広がっている。",
+      "url": "https://www.anthropic.com/news/claude-3-7-sonnet",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Google NotebookLMが50言語対応・音声ポッドキャスト生成機能を強化",
+      "summary": "GoogleのNotebookLMがPDFや文書から音声ポッドキャストを生成する機能を50言語以上に対応。複数ドキュメントを横断した検索・要約も可能で、ビジネス活用が拡大している。",
+      "url": "https://notebooklm.google.com/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "CursorのBackground Agentが自律コーディングでエンジニア40万人超に普及",
+      "summary": "AIコードエディタCursorが自律的にタスクを遂行するBackground Agent機能を拡充。指示を出したままバックグラウンドで作業が完了し、40万人以上のエンジニアが利用している。",
+      "url": "https://www.cursor.com/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Meta Llama 3.1（405B）でGPT-4クラスのAIを無料でローカル実行可能に",
+      "summary": "Metaが4050億パラメータのLlama 3.1をオープンソースで提供。自前サーバーやクラウドで無料実行でき、GPT-4に匹敵するベンチマーク性能をAPI料金なしで利用できる。",
+      "url": "https://ai.meta.com/blog/meta-llama-3-1/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "OpenAI o1がChain-of-Thoughtで競技数学89%正解・PhD水準タスクをクリア",
+      "summary": "OpenAIのo1モデルが内部推論（Chain-of-Thought）を採用し、競技数学で89%の正解率を記録。PhD水準の専門タスクでも高精度を示し、科学・コーディング分野で特に有効。",
+      "url": "https://openai.com/o1/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "バグ修正で半日溶かしてた自分が消えた。\n\nCopilot Workspace、IssueからPR自動生成。\n修正時間が平均68%短縮、月20回無料で試せる。\n\nhttps://githubnext.com/projects/copilot-workspace",
+      "source_url": "https://githubnext.com/projects/copilot-workspace",
+      "source_title": "Copilot WorkspaceがIssueからPR自動生成を全ユーザーに提供"
+    },
+    {
+      "text": "3時間詰まってたバグ、Claudeに投げたら20分で解決。\n\n拡張思考モードをONにするだけ。SWE-bench 70%超えで、自分のコードレビューが激変した。\n\nあなたなら何に使う？\nhttps://www.anthropic.com/news/claude-3-7-sonnet",
+      "source_url": "https://www.anthropic.com/news/claude-3-7-sonnet",
+      "source_title": "Claude 3.7 Sonnetの拡張思考機能でSWE-bench 70%超えを達成"
+    },
+    {
+      "text": "📝 議事録整理、自分の作業が3倍速くなった。\n\nNotebookLMの使い方3選:\n1. PDFから音声ポッドキャスト生成（50言語対応）\n2. Q&Aで即座にソース付き回答\n3. 複数ドキュメント横断の要約\n\nhttps://notebooklm.google.com/",
+      "source_url": "https://notebooklm.google.com/",
+      "source_title": "Google NotebookLMが50言語対応・音声ポッドキャスト生成機能を強化"
+    },
+    {
+      "text": "コード書く時間、自分の場合40%削れた。\n\nCursor、Background Agentが指示だけで自律完了。\n40万人以上がすでに乗り換えてる。\n\nあなたのエディタ、まだVSCode？\nhttps://www.cursor.com/",
+      "source_url": "https://www.cursor.com/",
+      "source_title": "CursorのBackground Agentが自律コーディングでエンジニア40万人超に普及"
+    },
+    {
+      "text": "GPT-4クラスのAIを、月0円で動かせる時代が来た。\n\nMeta Llama 3.1（405B）、自分のサーバーで無料実行可能。API料金なしで思い切り実験できる。\n\nあなたなら何に使う？\nhttps://ai.meta.com/blog/meta-llama-3-1/",
+      "source_url": "https://ai.meta.com/blog/meta-llama-3-1/",
+      "source_title": "Meta Llama 3.1（405B）でGPT-4クラスのAIを無料でローカル実行可能に"
+    },
+    {
+      "text": "数学の問題、30分かけてた自分が懐かしい。\n\nOpenAI o1、内部でじっくり考えてから回答。\n競技数学で89%正解、あなたの難問にも使う価値あり。\n\nhttps://openai.com/o1/",
+      "source_url": "https://openai.com/o1/",
+      "source_title": "OpenAI o1がChain-of-Thoughtで競技数学89%正解・PhD水準タスクをクリア"
+    }
+  ]
+}
