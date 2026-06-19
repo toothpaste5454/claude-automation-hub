@@ -1,0 +1,79 @@
+{
+  "date": "2026-06-20",
+  "topics": [
+    {
+      "title": "DifyでノーコードRAGチャットbotを30分で構築する方法",
+      "summary": "OSSの「Dify」（GitHub ★50k超）を使えば、自社PDFや社内文書をもとにしたQ&Aチャットボットを30分で構築できる。ノーコードでRAG構成を設定でき、GPT/Claude/Geminiを手軽に切り替え可能。デプロイURLもワンクリックで発行できる。",
+      "url": "https://github.com/langgenius/dify",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Claude Sonnet 4.6 Tool UseでNotionとSlackを自動化する実践ガイド",
+      "summary": "AnthropicのClaude Sonnet 4.6で「Tool Use」機能を使えば、NotionへのデータAI入力やSlack通知の自動化をコード20行程度で実現できる。月1,000円以下のAPIコストで始められるため、個人や小規模チームにも最適。並列ツール実行で複数タスクを同時処理可能。",
+      "url": "https://docs.anthropic.com/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "vLLMでローカルLLM推論を8倍高速化 — GPU環境構築の実践手順",
+      "summary": "LLM高速推論ライブラリ「vLLM」（GitHub ★35k超）を導入すると、同じGPU環境でのLlamaなどのモデル実行速度が最大8倍向上する。PagedAttentionという独自のメモリ管理技術により、本番環境レベルのスループットを個人GPUでも実現可能。",
+      "url": "https://github.com/vllm-project/vllm",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "MCP（Model Context Protocol）で異なるAIツールを標準接続する方法",
+      "summary": "AnthropicがオープンソースとしてリリースしたMCPは、Claude・Cursor・各種SaaSを標準プロトコルで接続する仕組み。20行のコードでNotion・DB・外部APIとの連携が可能になり、AIエージェント間のデータ共有が大幅に簡素化された。対応ツール数が急増中。",
+      "url": "https://modelcontextprotocol.io/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "LM Studioで機密データをオフラインAI処理 — M1 Macでも動く",
+      "summary": "「LM Studio」を使えば、MacやWindowsでLlama・Mistral等のOSSモデルをオフラインで実行できる。外部サーバーへの通信が一切発生しないため機密データを安全に処理可能。M1 MacでLlama 3.1-8Bを毎秒20トークン程度で快適に実行できる。",
+      "url": "https://lmstudio.ai/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "bolt.newでブラウザだけでフルスタックアプリを30秒でプロトタイプする方法",
+      "summary": "StackBlitzの「bolt.new」は、テキストで指示するだけでHTML/CSS/JSを含むフルスタックアプリをブラウザ上で即生成できるAIツール。インストール不要で30秒以内にデモURLが生成され、Reactコンポーネントやバックエンドのコードも一括で作成できる。",
+      "url": "https://bolt.new",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "社内FAQ、外注してた自分が馬鹿みたいだった。\n\nDify（★50k OSSツール）の使い方:\n1. PDFをドロップでRAG構成完成\n2. GPT/Claude/Geminiをワンクリック切替\n3. デモURLを即公開、30分で完成\n\nhttps://github.com/langgenius/dify",
+      "source_url": "https://github.com/langgenius/dify",
+      "source_title": "DifyでノーコードRAGチャットbotを30分で構築する方法"
+    },
+    {
+      "text": "自分の作業フロー、AIに任せたら月3時間返ってきた。\n\nClaude Sonnet 4.6 + Tool Useでできること:\n1. Notionへの自動入力（コード20行）\n2. Slack通知を条件分岐で制御\n3. API費用は月1,000円以下から\n\nhttps://docs.anthropic.com/",
+      "source_url": "https://docs.anthropic.com/",
+      "source_title": "Claude Sonnet 4.6 Tool UseでNotionとSlackを自動化する実践ガイド"
+    },
+    {
+      "text": "ローカルLLM、遅くて諦めてた人に朗報。\n\nvLLM（★35k OSSライブラリ）で推論が8倍速くなる。\nRTX 4090でLlama実行、レスポンスが本番品質に。\n\n自分のGPUで試す価値ある。\nhttps://github.com/vllm-project/vllm",
+      "source_url": "https://github.com/vllm-project/vllm",
+      "source_title": "vLLMでローカルLLM推論を8倍高速化 — GPU環境構築の実践手順"
+    },
+    {
+      "text": "AIツール同士の連携、コード20行で終わった。\n\nMCPでできること3選:\n1. Claude+CursorでDB直結\n2. NotionをAIが自動要約\n3. 自社ツールを標準プロトコルで接続\n\nあなたのワークフローに試してみて。\nhttps://modelcontextprotocol.io/",
+      "source_url": "https://modelcontextprotocol.io/",
+      "source_title": "MCP（Model Context Protocol）で異なるAIツールを標準接続する方法"
+    },
+    {
+      "text": "社内の機密データをAIに渡せなかった人、解決策がある。\n\nLM Studioでローカル実行すれば外部サーバーゼロ。\nM1 MacでLlama 3.1-8B、会話速度は毎秒20トークン。\n\n自分のMacで今すぐ試せる。\nhttps://lmstudio.ai/",
+      "source_url": "https://lmstudio.ai/",
+      "source_title": "LM Studioで機密データをオフラインAI処理 — M1 Macでも動く"
+    },
+    {
+      "text": "フロントエンド実装、ひとりで詰まってた自分が終わった。\n\nbolt.new、プロンプト1文からフルスタックアプリを生成。\nブラウザだけで完結、30秒でデモURLができる。\n\nあなたなら何を作る？\nhttps://bolt.new",
+      "source_url": "https://bolt.new",
+      "source_title": "bolt.newでブラウザだけでフルスタックアプリを30秒でプロトタイプする方法"
+    }
+  ]
+}
