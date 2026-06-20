@@ -1,0 +1,79 @@
+{
+  "date": "2026-06-21",
+  "topics": [
+    {
+      "title": "ClaudeのArtifactsでコード不要のインタラクティブツール作成",
+      "summary": "Anthropic ClaudeのArtifacts機能を使うと、チャット画面内でHTMLやReactコンポーネントを即生成・実行できる。プロトタイプ作成が数時間から数分になった事例が続出。エンジニアだけでなく企画担当も独力で動くものを作れるようになった。",
+      "url": "https://www.anthropic.com/news/artifacts",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "GitHub Copilot WorkspaceでIssueからPR作成を完全自動化",
+      "summary": "GitHub Copilot WorkspaceはIssueの内容を読み込んでコード変更案からPRを自動生成する。バグ修正時間が平均68%削減というデータがあり、月20回まで無料で試せる。",
+      "url": "https://githubnext.com/projects/copilot-workspace",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Cursor IDE + Claude SonnetでAI駆動開発を実践",
+      "summary": "CursorのComposer機能にClaude Sonnetを組み合わせると、自然言語でコードベース全体を操作できる。ファイル横断のリファクタリングが数十分から数分に短縮。月額$20でほぼ使い放題。",
+      "url": "https://cursor.sh",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Meta Llama 3.1 405B: ローカル実行でAPI費用ゼロ、GPT-4と互角",
+      "summary": "MetaがLlama 3.1シリーズ（8B/70B/405B）をオープンウェイトで公開。405BモデルはGPT-4相当のベンチマーク結果を達成。ローカル実行でAPIコストをゼロにできる。",
+      "url": "https://ai.meta.com/blog/meta-llama-3-1/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "GPT-4o miniで従来比60%のコスト削減を実現",
+      "summary": "OpenAIのGPT-4o miniはGPT-4oと比較して約60%安い価格設定ながら、多くのタスクで遜色ない精度。チャットボットや分類タスクでのコスト最適化に効果的。",
+      "url": "https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Gemini 2.5 Pro: 100万トークンコンテキストで大規模コードベースを丸ごと解析",
+      "summary": "GoogleのGemini 2.5 ProはSWE-benchで業界最高水準のスコアを達成し、100万トークンのコンテキストウィンドウで数百本のファイルを一括解析できる。複数ファイルにまたがるバグ追跡が格段に楽になった。",
+      "url": "https://deepmind.google/technologies/gemini/pro/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "企画書を渡したら3分で動くツールができた。\n\nClaudeのArtifacts、チャットに頼むだけでできること:\n1. 計算フォーム（コード0行）\n2. アンケートHTML（即共有可）\n3. CSVのグラフ可視化\n\nhttps://www.anthropic.com/news/artifacts",
+      "source_url": "https://www.anthropic.com/news/artifacts",
+      "source_title": "ClaudeのArtifactsでコード不要のインタラクティブツール作成"
+    },
+    {
+      "text": "バグ修正に半日溶かしてた人、これで変わるかも。\n\nCopilot Workspace、IssueのURLを貼るだけでPRまで自動生成。\n平均68%時短のデータあり、月20回まで無料で試せる。\n\nhttps://githubnext.com/projects/copilot-workspace",
+      "source_url": "https://githubnext.com/projects/copilot-workspace",
+      "source_title": "GitHub Copilot WorkspaceでIssueからPR作成を完全自動化"
+    },
+    {
+      "text": "リファクタリングで1日消えてた作業、30分になった。\n\nCursor + Claude Sonnet、自然言語でコードベース全体を操作できる。\n月額$20でほぼ使い放題。\n\n自分のコードに話しかけるだけで書き換わる。\nhttps://cursor.sh",
+      "source_url": "https://cursor.sh",
+      "source_title": "Cursor IDE + Claude SonnetでAI駆動開発を実践"
+    },
+    {
+      "text": "APIコストが毎月かさんでる人、ローカルで動かす選択肢が増えた。\n\nMeta Llama 3.1 405B、商用利用可・費用ゼロでGPT-4と互角のベンチマーク結果。\n自社サーバで動かせばコストは電気代だけになる。\n\nあなたのシステム、どっちで動かす？\nhttps://ai.meta.com/blog/meta-llama-3-1/",
+      "source_url": "https://ai.meta.com/blog/meta-llama-3-1/",
+      "source_title": "Meta Llama 3.1 405B: ローカル実行でAPI費用ゼロ、GPT-4と互角"
+    },
+    {
+      "text": "GPT-4oのAPI費用、60%削減できた。\n\nGPT-4o mini、価格が6割安くても精度はほぼ同じ。\nチャットボット・分類・要約なら体感差ほとんどない。\n\n自分のプロダクト、モデルを切り替えるだけで変わる。\nhttps://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/",
+      "source_url": "https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/",
+      "source_title": "GPT-4o miniで従来比60%のコスト削減を実現"
+    },
+    {
+      "text": "コードベース全体をAIに読ませたい、それが現実になった。\n\nGemini 2.5 Pro、100万トークンのコンテキストでファイル数百本を一括解析。\nSWE-benchスコアは業界最高水準。\n\n自分のプロジェクト丸ごと貼り付けて試してみると面白い。\nhttps://deepmind.google/technologies/gemini/pro/",
+      "source_url": "https://deepmind.google/technologies/gemini/pro/",
+      "source_title": "Gemini 2.5 Pro: 100万トークンコンテキストで大規模コードベースを丸ごと解析"
+    }
+  ]
+}
