@@ -1,0 +1,79 @@
+{
+  "date": "2026-06-22",
+  "topics": [
+    {
+      "title": "Claude Code：AIがリポジトリごとコードを自律修正するCLIツール",
+      "summary": "AnthropicのClaude Codeはターミナルから直接Claudeを操作できるCLIツール。リポジトリのコードを理解し、バグ修正からコミットまで自律実行。開発者の作業時間を大幅に削減する。",
+      "url": "https://claude.ai/code",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "GitHub Copilot Workspace：IssueからPRまで全自動生成",
+      "summary": "GitHub Copilot WorkspaceはIssueを貼るだけでコード修正・テスト・PR作成を自動実行。エンジニアの作業をレビューだけにする機能として注目を集めている。平均68%の修正時間短縮データあり。",
+      "url": "https://githubnext.com/projects/copilot-workspace",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Google NotebookLM：50本の論文・資料をまとめてAIで横断分析",
+      "summary": "Google NotebookLMは最大50個のドキュメントをアップロードしてAIで横断分析できる無料ツール。研究者や学生が論文整理・レポート作成に活用し始めており、分析時間を数時間から数分に短縮できる。",
+      "url": "https://notebooklm.google.com",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Cursor：AIがコードの次の行を予測するVSCode系エディタ",
+      "summary": "CursorはAIが次に書くべきコードを丸ごと予測・補完するエディタ。月20ドルのProプランでGPT-4レベルの補完が無制限利用でき、開発者の作業時間を半分以下に短縮したという報告が多数ある。",
+      "url": "https://cursor.com",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Vercel v0：テキスト入力だけでReact UIコードを自動生成",
+      "summary": "Vercel v0は自然言語でUIの指示を入力するとReact/Tailwindのコードを即時生成するAIツール。プロトタイプ制作時間を数日から数時間に短縮でき、フロントエンド開発者のワークフローを大きく変えている。",
+      "url": "https://v0.dev",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Meta Llama 3.1 405B：GPT-4並みの性能をローカルで無料実行",
+      "summary": "MetaのLlama 3.1（405Bパラメータ）はGPT-4と同等の性能を持ちながら完全オープンソース。ローカル実行でAPIコストゼロ・データ外部送信なしでの利用が可能で、企業や個人開発者の間で急速に普及している。",
+      "url": "https://ai.meta.com/blog/meta-llama-3-1/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "コードレビューに2時間溶かしてた開発者、試してほしい。\n\nClaude Codeで自分のリポジトリを渡したら、バグ修正からコミットまで自動実行。\n30分かかってた作業が5分になった。\n\nhttps://claude.ai/code",
+      "source_url": "https://claude.ai/code",
+      "source_title": "Claude Code：AIがリポジトリごとコードを自律修正するCLIツール"
+    },
+    {
+      "text": "IssueからPRまで、自分で書かなくていい時代になった。\n\nCopilot Workspace、Issueを貼るだけでコード修正→テスト→PR作成まで全部やる。平均68%時短のデータあり。\n自分の作業がレビューだけになった人が続出。\n\nhttps://githubnext.com/projects/copilot-workspace",
+      "source_url": "https://githubnext.com/projects/copilot-workspace",
+      "source_title": "GitHub Copilot Workspace：IssueからPRまで全自動生成"
+    },
+    {
+      "text": "📖 論文50本を1時間で整理する方法。\n\nNotebookLMに資料をまとめてアップするだけで：\n1. 「この論文の主張は？」→即答\n2. 複数資料の矛盾点を自動検出\n3. 自分用まとめ文を自動生成\n\nhttps://notebooklm.google.com",
+      "source_url": "https://notebooklm.google.com",
+      "source_title": "Google NotebookLM：50本の論文・資料をまとめてAIで横断分析"
+    },
+    {
+      "text": "コードを「書く」から「確認する」に変わった。\n\nCursorはAIが次の行を丸ごと予測するエディタ。月20ドルで、自分の作業時間が1日8時間から4時間に縮んだという声が続出。\n\nhttps://cursor.com",
+      "source_url": "https://cursor.com",
+      "source_title": "Cursor：AIがコードの次の行を予測するVSCode系エディタ"
+    },
+    {
+      "text": "UIデザイン、もうFigmaで1から書かなくてもいいかも。\n\nVercel v0にテキストで「ダッシュボードを作って」と入力するだけでReactコードが出てくる。\n自分のプロトタイプ制作が2日→2時間になった。\n\nhttps://v0.dev",
+      "source_url": "https://v0.dev",
+      "source_title": "Vercel v0：テキスト入力だけでReact UIコードを自動生成"
+    },
+    {
+      "text": "GPT-4並みのAIが、API費用ゼロでローカル動作するようになった。\n\nMeta Llama 3.1（405B）はデータを外に出さず、月額0円で企業レベルのAIが使える。\n自分のPCスペックさえ足りれば今すぐ試せる。\n\nあなたなら何に使う？\nhttps://ai.meta.com/blog/meta-llama-3-1/",
+      "source_url": "https://ai.meta.com/blog/meta-llama-3-1/",
+      "source_title": "Meta Llama 3.1 405B：GPT-4並みの性能をローカルで無料実行"
+    }
+  ]
+}
