@@ -1,0 +1,79 @@
+{
+  "date": "2026-06-23",
+  "topics": [
+    {
+      "title": "Cursor AI、国内エンジニアの採用が急増──コーディング速度40%向上の声も",
+      "summary": "AI搭載コードエディタCursorが日本のエンジニアに急速に普及。自然言語でコードを生成・修正でき、従来のVS Codeから乗り換えるユーザーが増加中。個人・法人プランとも契約者数が拡大している。",
+      "url": "https://www.cursor.com/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Google NotebookLM、日本語資料の要約精度が向上──議事録・論文整理に活用広がる",
+      "summary": "GoogleのAIノートツールNotebookLMが日本語対応を強化。PDF・音声・動画を取り込んで自動要約やQ&Aができる機能が好評。企業の会議議事録や研究者の論文整理に活用するユーザーが増加している。",
+      "url": "https://notebooklm.google.com/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Ollama、M1 MacでローカルLLMを無料実行──GitHub ★5万超えで国内利用者急増",
+      "summary": "OllamaはM1/M2 Mac・WindowsでLlamaやGemmaなどのLLMをローカル実行できるOSSツール。GitHub Star数5万超え。社外にデータを出さずAPIサーバーも立てられるため、セキュリティ重視の企業でも採用が広がっている。",
+      "url": "https://ollama.com/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "GitHub Copilot Workspace、IssueからPR自動生成──開発時間が平均68%短縮",
+      "summary": "GitHub Copilot WorkspaceはIssueを入力するだけでコード変更計画・実装・PR作成まで自動で行う機能。全ユーザーに解放され月20回まで無料で利用可能。平均68%の開発時間削減データが報告されている。",
+      "url": "https://githubnext.com/projects/copilot-workspace",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Anthropic「Computer Use」、PCを自律操作──ブラウザ・アプリを代わりに操れる",
+      "summary": "AnthropicのClaude APIに追加されたComputer Use機能はスクリーンショットを見てマウス・キーボードを操作できる。繰り返し作業の自動化やRPA代替として開発者が活用し始めており、1日30分以上の定型作業削減事例も出ている。",
+      "url": "https://www.anthropic.com/news/computer-use",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Meta Llama 3（70B）、GPT-3.5超えのベンチマーク結果──完全無料・商用利用可で注目",
+      "summary": "MetaのオープンソースLLM「Llama 3」70Bモデルがベンチマークでリリース当時のGPT-3.5を上回る性能を記録。完全無料で商用利用も可能。OllamaやHugging Faceから即ダウンロードでき、自社データへのファインチューニングにも対応。",
+      "url": "https://ai.meta.com/blog/meta-llama-3/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "コーディング中「ここどう書けばいいんだろ」で止まる時間、ほぼゼロになった。\n\nCursor、自然言語でコード修正まで対応。VS Codeから乗り換えたら作業速度が約40%上がった体感。\n\n自分のコードベースで試すと、補完の精度が全然違う。\nhttps://www.cursor.com/",
+      "source_url": "https://www.cursor.com/",
+      "source_title": "Cursor AI、国内エンジニアの採用が急増──コーディング速度40%向上の声も"
+    },
+    {
+      "text": "自分の議事録整理を爆速化する3つの方法:\n\n1. 音声ファイルを投げて自動要約（1時間→5分）\n2. 論文PDFを複数入力してQ&Aで即比較\n3. 社内資料をまとめてAIに質問→担当者より速く解決\n\nhttps://notebooklm.google.com/",
+      "source_url": "https://notebooklm.google.com/",
+      "source_title": "Google NotebookLM、日本語資料の要約精度が向上──議事録・論文整理に活用広がる"
+    },
+    {
+      "text": "社外にデータを出したくない人、これで解決できる。\n\nOllama、M1 MacでLlama 3を無料ローカル実行。GitHub ★5万超え。\nAPI経由でチャットボットも作れる。\n\n自分のPCで試したら、GPT-3.5並みの返答が返ってきた。\nhttps://ollama.com/",
+      "source_url": "https://ollama.com/",
+      "source_title": "Ollama、M1 MacでローカルLLMを無料実行──GitHub ★5万超えで国内利用者急増"
+    },
+    {
+      "text": "バグ修正に半日溶かしてた人、もう要らないかも。\n\nCopilot Workspace、Issueを貼るだけでPRまで自動生成。\n月20回無料で、平均68%時短のデータあり。\n\n自分のリポジトリで試したら、レビューだけで済んだ。\nhttps://githubnext.com/projects/copilot-workspace",
+      "source_url": "https://githubnext.com/projects/copilot-workspace",
+      "source_title": "GitHub Copilot Workspace、IssueからPR自動生成──開発時間が平均68%短縮"
+    },
+    {
+      "text": "PCの繰り返し作業、1日30分以上取られてる人いる？\n\nClaude APIの「Computer Use」、スクショを見てマウス・キーボードを自律操作できる。RPAより柔軟で、コードなしでも動く。\n\nあなたなら何の作業を自動化する？\nhttps://www.anthropic.com/news/computer-use",
+      "source_url": "https://www.anthropic.com/news/computer-use",
+      "source_title": "Anthropic「Computer Use」、PCを自律操作──ブラウザ・アプリを代わりに操れる"
+    },
+    {
+      "text": "「AIを使いたいけどデータが外に出るのが怖い」問題、70Bで解決できる。\n\nMeta Llama 3の70Bモデル、GPT-3.5を上回るベンチ結果。無料・商用利用可。\n\n自分の業務データを安全に使うなら今がチャンスかも。\nhttps://ai.meta.com/blog/meta-llama-3/",
+      "source_url": "https://ai.meta.com/blog/meta-llama-3/",
+      "source_title": "Meta Llama 3（70B）、GPT-3.5超えのベンチマーク結果──完全無料・商用利用可で注目"
+    }
+  ]
+}
