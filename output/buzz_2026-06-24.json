@@ -1,0 +1,79 @@
+{
+  "date": "2026-06-24",
+  "topics": [
+    {
+      "title": "DifyでノーコードAIチャットボット構築、GitHub ★65,000超",
+      "summary": "オープンソースのLLMアプリ開発フレームワーク。ドラッグ＆ドロップでRAGやエージェントを構築でき、自社ドキュメントに答えるBotが30分以内に動く。GitHubスター数65,000超で国内エンジニアにも広まっている。",
+      "url": "https://github.com/langgenius/dify",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Cursor AIエディタでコードレビュー時間を大幅短縮",
+      "summary": "プロジェクト全体のコンテキストを把握するAIエディタ。自然言語でリファクタリングを指示したりバグの原因特定ができ、コードレビュー工数を大幅に削減できる。",
+      "url": "https://www.cursor.com/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Google NotebookLM、YouTube動画をソースに追加可能",
+      "summary": "GoogleのAIノートツールがYouTube動画をソースとして読み込めるようになった。議事録録画を貼るだけで要点まとめやQ&Aが即出力でき、情報整理の時間を大幅に短縮できる。",
+      "url": "https://notebooklm.google.com/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "v0 by Vercel、テキスト指示でReact UIを秒速生成",
+      "summary": "テキスト説明からReact＋TailwindのUIコンポーネントを自動生成するVercelのツール。月200クレジット無料で商用利用可。手作業の2時間が30秒に短縮できる。",
+      "url": "https://v0.dev/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Perplexity AI、全回答に引用元URL付きで調査時間50%短縮",
+      "summary": "AI検索エンジンPerplexityが全回答に引用元URLを付与。ファクトチェックが容易になり、Google検索と比較して調査時間が平均50%短縮されるとの報告が増えている。",
+      "url": "https://www.perplexity.ai/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "GitHub Copilot Workspace、IssueからPR自動生成で修正時間68%短縮",
+      "summary": "IssueのURLを貼るだけでコード変更からPR作成まで自動化するGitHub Copilot Workspaceが一般公開。バグ修正時間を平均68%短縮するデータが公開されており、月20回まで無料で試せる。",
+      "url": "https://githubnext.com/projects/copilot-workspace",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "ノーコードでAIチャットボットを作りたい人へ。\n\nDify、★65,000超のOSSフレームワーク。\nドラッグ＆ドロップでRAG・エージェントが構築できて、自社ドキュメントに答えるBotが30分で動いた。\n\nhttps://github.com/langgenius/dify",
+      "source_url": "https://github.com/langgenius/dify",
+      "source_title": "DifyでノーコードAIチャットボット構築、GitHub ★65,000超"
+    },
+    {
+      "text": "コードレビューに2時間かけてた人、試してほしい。\n\nCursor AIエディタ3つの使い方:\n1. プロジェクト全体を把握→コメント3秒で生成\n2. バグコードを貼るだけで原因＆修正案が出てくる\n3. 自然言語でリファクタリング指示→差分だけレビュー\n\nhttps://www.cursor.com/",
+      "source_url": "https://www.cursor.com/",
+      "source_title": "Cursor AIエディタでコードレビュー時間を大幅短縮"
+    },
+    {
+      "text": "議事録の整理に30分かけてた作業、これで5分になった。\n\nGoogle NotebookLM、YouTube動画もソースに追加できる。\n自分のミーティング録画を貼るだけで、要点＆Q&AがAIで即出力。\n\nhttps://notebooklm.google.com/",
+      "source_url": "https://notebooklm.google.com/",
+      "source_title": "Google NotebookLM、YouTube動画をソースに追加可能"
+    },
+    {
+      "text": "💻 デザインできないエンジニアがUIを作る時間、激変した。\n\nv0（Vercel）、テキストだけでReact＋Tailwindコンポーネントが出てくる。\n月200クレジット無料。手作業2時間 → 30秒で叩き台が完成。\n\nhttps://v0.dev/",
+      "source_url": "https://v0.dev/",
+      "source_title": "v0 by Vercel、テキスト指示でReact UIを秒速生成"
+    },
+    {
+      "text": "Google検索に比べて調査時間が50%短縮。\n\nPerplexityは全回答に引用元URLが付く。\n「これって本当?」と疑いながら調べてた人には、むしろ信頼しやすいかもしれない。\n\nあなたは何の調査に使う?\nhttps://www.perplexity.ai/",
+      "source_url": "https://www.perplexity.ai/",
+      "source_title": "Perplexity AI、全回答に引用元URL付きで調査時間50%短縮"
+    },
+    {
+      "text": "バグ修正に半日溶かしてた人、もう要らないかも。\n\nCopilot Workspace、IssueのURLを貼るだけでコード変更からPR作成まで自動化。\n自分のリポジトリで試したら、修正時間が平均68%短縮できたデータあり。\n\nhttps://githubnext.com/projects/copilot-workspace",
+      "source_url": "https://githubnext.com/projects/copilot-workspace",
+      "source_title": "GitHub Copilot Workspace、IssueからPR自動生成で修正時間68%短縮"
+    }
+  ]
+}
