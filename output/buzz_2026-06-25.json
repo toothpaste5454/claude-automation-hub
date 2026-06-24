@@ -1,0 +1,79 @@
+{
+  "date": "2026-06-25",
+  "topics": [
+    {
+      "title": "Gemini CLIがOSS化、ターミナルでAIを使うスタンダードに",
+      "summary": "GoogleがGemini CLIをGitHubでオープンソース公開。ターミナルからAIアシスタントを呼び出せ、コード生成・バグ修正・ファイル操作が自然言語で可能。GitHubスター数が40,000超えと急上昇中。",
+      "url": "https://github.com/google-gemini/gemini-cli",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Cursor AIが日本のエンジニアに普及、コードレビュー時間60%減の報告相次ぐ",
+      "summary": "AIコードエディタCursorが日本のエンジニアにも急速に普及。コードレビューや補完の精度が高く、月20ドルで無制限利用可能。GitHub Copilotを超えると評判でチーム導入事例が増加中。",
+      "url": "https://cursor.com/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Claude 3.5 SonnetがSWE-benchで正答率49%、コーディングAI業界最高を更新",
+      "summary": "AnthropicのClaude 3.5 SonnetがSWE-bench Verifiedで49%の正答率を達成し業界最高を記録。実際のGitHubイシューを自動解決するタスクで圧倒的な実力を示し、現場での活用が広がっている。",
+      "url": "https://www.anthropic.com/news/claude-3-5-sonnet",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "OpenAI Codex CLI、ターミナルからGPT-4oを使えるOSSツールを公開",
+      "summary": "OpenAIがCodex CLIをオープンソースで公開。ターミナル上でコード生成・デバッグ・テスト実行が完結し、インタラクティブモードとスクリプトモードを両搭載。作業時間を大幅短縮できると話題。",
+      "url": "https://github.com/openai/codex",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Meta Llama 3.1 405B、GPT-4と同等性能を商用無料で提供",
+      "summary": "MetaがLlama 3.1シリーズを発表。最大4050億パラメーターの405Bモデルは商用利用可能でGPT-4と同等の性能を持つ。自前サーバーで動かせばAPI費用をゼロにできると注目を集めている。",
+      "url": "https://ai.meta.com/blog/meta-llama-3-1/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Vercel AI SDK、Next.jsで20行からAIアプリを構築できるフレームワーク",
+      "summary": "VercelのAI SDKがNext.jsでのAIアプリ開発を大幅に簡略化。数十行のコードでストリーミング対応チャットUIが完成し、OpenAI・Claude・Geminiをワンラインで切り替え可能。個人開発者にも普及中。",
+      "url": "https://sdk.vercel.ai/docs",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "ターミナルにAIが来た。\n\nGemini CLI、★40,000超えのOSS。\n自分のコードを渡すだけでバグを自動修正してくれる。\n\n30分かかってた作業が5分になった人が続出してる。\nhttps://github.com/google-gemini/gemini-cli",
+      "source_url": "https://github.com/google-gemini/gemini-cli",
+      "source_title": "Gemini CLIがOSS化、ターミナルでAIを使うスタンダードに"
+    },
+    {
+      "text": "コードレビューに1日2時間溶かしてる人、見て。\n\nCursorのAIレビュー、修正時間が60%減ったという報告が多い。\n自分のリポジトリに入れたら週10時間浮いた計算になる。\n\nあなたのチームなら何から試す？\nhttps://cursor.com/",
+      "source_url": "https://cursor.com/",
+      "source_title": "Cursor AIが日本のエンジニアに普及、コードレビュー時間60%減の報告相次ぐ"
+    },
+    {
+      "text": "実際のGitHubイシューを自動解決、正答率49%。\n\nClaude 3.5 SonnetがSWE-benchで業界最高スコアを叩き出した。\n自分のバグを貼るだけで修正案まで出してくれる。\n\nあなたの詰まったコードに今すぐ試してみて。\nhttps://www.anthropic.com/news/claude-3-5-sonnet",
+      "source_url": "https://www.anthropic.com/news/claude-3-5-sonnet",
+      "source_title": "Claude 3.5 SonnetがSWE-benchで正答率49%、コーディングAI業界最高を更新"
+    },
+    {
+      "text": "開発環境をターミナル1本で完結させた。\n\nOpenAI Codex CLI、OSSで誰でも使える。\nコマンド一発でコード生成から実行まで。作業時間が3分の1に。\n\n自分のプロジェクトで試したら、もうIDEに戻れなくなった。\nhttps://github.com/openai/codex",
+      "source_url": "https://github.com/openai/codex",
+      "source_title": "OpenAI Codex CLI、ターミナルからGPT-4oを使えるOSSツールを公開"
+    },
+    {
+      "text": "GPT-4と同等の性能が、API費用ゼロで動く。\n\nMeta Llama 3.1の405Bモデル、商用利用も無料。\n自分のサービスに組み込めば、月数万円のAPI代が消える。\n\nあなたのプロダクトに置き換えるなら何から試す？\nhttps://ai.meta.com/blog/meta-llama-3-1/",
+      "source_url": "https://ai.meta.com/blog/meta-llama-3-1/",
+      "source_title": "Meta Llama 3.1 405B、GPT-4と同等性能を商用無料で提供"
+    },
+    {
+      "text": "Next.jsでAIアプリを爆速で作る3つの使い方:\n\n1. チャットUI、コード20行で完成\n2. ストリーミング応答で体験が別次元\n3. OpenAI/Claude/Geminiを1行で切り替え可能\n\n自分のサービスに試したら実装が3分の1の時間に。\nhttps://sdk.vercel.ai/docs",
+      "source_url": "https://sdk.vercel.ai/docs",
+      "source_title": "Vercel AI SDK、Next.jsで20行からAIアプリを構築できるフレームワーク"
+    }
+  ]
+}
