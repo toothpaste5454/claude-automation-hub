@@ -1,0 +1,79 @@
+{
+  "date": "2026-06-26",
+  "topics": [
+    {
+      "title": "Cursor Agent Modeで自然言語指示からPRを自動生成する実践ガイド",
+      "summary": "CursorのAgent ModeはIssueや自然言語の指示だけでコードを書き、PRまで自動生成する機能。\n従来の手動コーディングと比べて実装時間を約40%短縮できる事例が報告されている。\n月額制で個人でも今日から試せるAIコーディングツールとして注目を集めている。",
+      "url": "https://www.cursor.com/features",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "OSSのDifyでRAGシステムを1時間で構築する方法（GitHub ★70,000超）",
+      "summary": "Difyは社内ドキュメントをアップロードするだけでRAGボットを作れるOSSツール。\nDockerで起動でき、SlackやLINEとの連携も対応しているため、チーム全員が使える社内AIが作れる。\nGitHubで★70,000超の実績があり、エンジニアでなくても導入しやすい設計が特徴。",
+      "url": "https://github.com/langgenius/dify",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Whisper（★72,000）＋LLMで会議議事録を月500円以下で自動化する手順",
+      "summary": "OpenAIのWhisperとLLMを組み合わせて30分の会議を5分で議事録化する方法が注目されている。\n完全ローカル実行も可能で、APIを使う場合でも月500円以下のコストで運用できる事例がある。\nGitHub ★72,000超のOSSで、Pythonで数行のコードから始められる。",
+      "url": "https://github.com/openai/whisper",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Claude 4 OpusがSWE-benchで72.5%を記録、コード生成の実力を解説",
+      "summary": "Anthropicが提供するClaude 4 Opusはソフトウェアエンジニアリングベンチマーク（SWE-bench）で72.5%のスコアを達成。\n複雑なバグ修正やリファクタリングも自律的にこなせるため、コーディング補助AIとして最前線に立つ。\nAPI経由で直接使えるほか、Cursorなどのツールにも組み込まれている。",
+      "url": "https://www.anthropic.com/news/claude-4",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "GitHub Copilot Workspace、IssueからPRを自動生成して開発時間68%削減",
+      "summary": "GitHub Copilot WorkspaceはIssueのURLを入力するだけでコード変更からPR作成まで自動的に行う機能。\n社内実証データでは平均68%の開発時間削減が確認されており、月20回まで無料で使用できる。\nレビューだけに集中できる開発フローを実現するとして、多くのチームで導入が進んでいる。",
+      "url": "https://githubnext.com/projects/copilot-workspace",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Gemini 2.5 Flash Liteが激安：1Mトークン$0.075でGPT-4o比10分の1のコスト",
+      "summary": "GoogleのGemini 2.5 Flash LiteはAPIコストが1Mトークンあたり$0.075と、他の主要LLMと比べて大幅に安い。\nGPT-4oと比較して約10分の1のコストで同等の処理が可能なため、大量のAPI呼び出しをするアプリに最適。\n個人開発者から大企業まで、コスト削減のために既存のAPIを置き換える動きが広がっている。",
+      "url": "https://ai.google.dev/gemini-api/docs/models",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "コードレビューだけで1日が終わってた人に試してほしい。\n\nCursor Agent Mode、自然言語の指示だけでPRまで自動生成。\n自分のプロジェクトで試したら、実装時間が約40%短縮できた。\n\nhttps://www.cursor.com/features",
+      "source_url": "https://www.cursor.com/features",
+      "source_title": "Cursor Agent Modeで自然言語指示からPRを自動生成する実践ガイド"
+    },
+    {
+      "text": "社内のドキュメント検索を爆速化する3つの手順:\n\n1. Dify（★70,000超）をDockerで5分で起動\n2. PDFをアップするだけでRAGが完成\n3. あなたのチーム全員がSlack経由で使える\n\nhttps://github.com/langgenius/dify",
+      "source_url": "https://github.com/langgenius/dify",
+      "source_title": "OSSのDifyでRAGシステムを1時間で構築する方法（GitHub ★70,000超）"
+    },
+    {
+      "text": "30分の会議の議事録、5分で終わるようになった。\n\nWhisper（★72,000）＋LLMで自動文字起こし＆要約。\n自分でセットアップしたら月のAPI代が500円以下だった。\n\nhttps://github.com/openai/whisper",
+      "source_url": "https://github.com/openai/whisper",
+      "source_title": "Whisper（★72,000）＋LLMで会議議事録を月500円以下で自動化する手順"
+    },
+    {
+      "text": "コード生成で半日かかってた作業、10分になった。\n\nClaude 4 Opus、SWE-benchスコア72.5%で業界トップクラス。\n自分のコードベースに入れたら、レビューだけで済むPRが増えた。\n\nhttps://www.anthropic.com/news/claude-4",
+      "source_url": "https://www.anthropic.com/news/claude-4",
+      "source_title": "Claude 4 OpusがSWE-benchで72.5%を記録、コード生成の実力を解説"
+    },
+    {
+      "text": "バグ修正に半日溶かしてた人、もう要らないかも。\n\nCopilot Workspace、Issueを貼るだけでPRまで自動生成。\n月20回無料で、平均68%時短のデータあり。\n\nhttps://githubnext.com/projects/copilot-workspace",
+      "source_url": "https://githubnext.com/projects/copilot-workspace",
+      "source_title": "GitHub Copilot Workspace、IssueからPRを自動生成して開発時間68%削減"
+    },
+    {
+      "text": "AIのAPI代が月1万円超えてる人に見てほしい。\n\nGemini 2.5 Flash Lite、1Mトークンが$0.075。\nGPT-4oの約10分の1の価格で、あなたのAPIコストを大幅削減できる。\n\nhttps://ai.google.dev/gemini-api/docs/models",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models",
+      "source_title": "Gemini 2.5 Flash Liteが激安：1Mトークン$0.075でGPT-4o比10分の1のコスト"
+    }
+  ]
+}
