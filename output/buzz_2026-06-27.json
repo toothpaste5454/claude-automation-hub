@@ -1,0 +1,79 @@
+{
+  "date": "2026-06-27",
+  "topics": [
+    {
+      "title": "Perplexity Proで論文・調査リサーチを1/3の時間に短縮する使い方",
+      "summary": "Perplexity Proは月約3,000円でGPT-4oとClaude両方を切り替えながら使えるAI検索エンジン。\n引用元URLが自動で付与されるため、論文調査や情報収集の時間を大幅に短縮できる。\n個人ユーザーが「リサーチ時間が1/3になった」と報告する事例が増えている。",
+      "url": "https://www.perplexity.ai/pro",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Claude Code CLIでGitHub IssueからPR自動作成——個人開発者の作業時間が1/5に",
+      "summary": "Claude Code CLIはターミナルからAIエージェントを動かし、Issueを渡すだけで自動でコードを書いてPRを作成するツール。\n個人開発者が「1タスク平均15分になった」と報告する事例が出始めている。\nAnthropicが提供する無料枠内でも試すことができる。",
+      "url": "https://claude.ai/code",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "LangChain（GitHub ★10万超）で社内AIチャットを1時間で構築する手順",
+      "summary": "LangChainはRAGシステムやAIエージェントを短時間で実装できるPythonフレームワーク。\n自社PDFをアップするだけで社内文書検索ボットが作れ、SlackやLINEとの連携も対応している。\nGitHubで★10万超の実績があり、pip installで即始められる。",
+      "url": "https://github.com/langchain-ai/langchain",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Meta Llama 4 Maverick、商用利用OKのOSSで月額ゼロのAI運用が可能に",
+      "summary": "Meta Llama 4 MaverickはGPT-4oクラスの性能を持つオープンソースLLMで商用利用が可能。\nローカル実行すれば月額コストゼロで、自社データを外部に送らずに使える。\nHugging Faceからダウンロードして今すぐ試すことができる。",
+      "url": "https://llama.meta.com",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Google Veo 3、テキストから60秒動画＋音声を自動生成——映像制作コストが激変",
+      "summary": "Google Veo 3はテキストプロンプトから60秒の動画に効果音・ナレーションまで自動生成できるAI動画モデル。\nVertex AI経由で試すことができ、プレゼン用動画やSNS動画を0から作れる。\n映像制作に2日かかっていた作業が1時間で完了したという事例が報告されている。",
+      "url": "https://deepmind.google/technologies/veo/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Windsurf IDE（Codeium）、GPT-4oとClaude両方の補完を無料で——Copilot乗り換えが加速",
+      "summary": "Windsurf IDEはCursorやGitHub Copilotに対抗するAI-first開発環境で、無料枠でも主要LLMによるコード補完が使える。\nユーザーからCopilotより補完が体感0.3秒速いという報告が相次いでいる。\nVSCode拡張機能としても使えるため、既存環境からの移行が容易。",
+      "url": "https://codeium.com/windsurf",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "論文調査に半日かかってた作業、30分で終わった。\n\nPerplexity Pro、月約3,000円でGPT-4oとClaude両方使い放題。\nURLとソースが一緒に出るから、あなたのリサーチが即引用可能になる。\n\nhttps://www.perplexity.ai/pro",
+      "source_url": "https://www.perplexity.ai/pro",
+      "source_title": "Perplexity Proで論文・調査リサーチを1/3の時間に短縮する使い方"
+    },
+    {
+      "text": "コード修正に3時間かけてた人、これ試してほしい。\n\nClaude Code CLI、Issueを渡すだけで自動でコードを書いてPRを作成。\n自分の小規模リポジトリで試したら、1タスク平均15分になった。\n\nhttps://claude.ai/code",
+      "source_url": "https://claude.ai/code",
+      "source_title": "Claude Code CLIでGitHub IssueからPR自動作成——個人開発者の作業時間が1/5に"
+    },
+    {
+      "text": "社内AIチャットを1時間で作る方法:\n\n1. LangChain（★10万超）をpip install\n2. 自社PDFだけでRAG完成\n3. あなたのSlackに繋いで即運用\n\nhttps://github.com/langchain-ai/langchain",
+      "source_url": "https://github.com/langchain-ai/langchain",
+      "source_title": "LangChain（GitHub ★10万超）で社内AIチャットを1時間で構築する手順"
+    },
+    {
+      "text": "無料でGPT-4oクラスのAIが手元で動く時代。\n\nMeta Llama 4、商用利用OKのOSS。\nローカルで動かせば月額0円、自分のデータを外に出さずに使える。\n\nあなたなら何に使う？\nhttps://llama.meta.com",
+      "source_url": "https://llama.meta.com",
+      "source_title": "Meta Llama 4 Maverick、商用利用OKのOSSで月額ゼロのAI運用が可能に"
+    },
+    {
+      "text": "映像制作に2日かかってた仕事、1時間で終わった。\n\nGoogle Veo 3、テキストで60秒動画＋音声まで自動生成。\n自分のプレゼン動画を0から作れてVertex AIで今すぐ試せる。\n\nhttps://deepmind.google/technologies/veo/",
+      "source_url": "https://deepmind.google/technologies/veo/",
+      "source_title": "Google Veo 3、テキストから60秒動画＋音声を自動生成——映像制作コストが激変"
+    },
+    {
+      "text": "コード補完が遅くてイライラしてた人、これにした。\n\nWindsurf IDE（Codeium）、GPT-4oとClaude両方が無料で。\n自分の環境で乗り換えたらCopilotより補完が体感0.3秒速い。\n\nhttps://codeium.com/windsurf",
+      "source_url": "https://codeium.com/windsurf",
+      "source_title": "Windsurf IDE（Codeium）、GPT-4oとClaude両方の補完を無料で——Copilot乗り換えが加速"
+    }
+  ]
+}
