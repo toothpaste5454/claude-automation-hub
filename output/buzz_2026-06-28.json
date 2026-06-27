@@ -1,0 +1,79 @@
+{
+  "date": "2026-06-28",
+  "topics": [
+    {
+      "title": "NotebookLM 音声オーバービューが日本語に正式対応",
+      "summary": "GoogleのAIノートツールNotebookLMで、Podcast形式の音声オーバービュー機能が日本語で使えるようになった。\nPDFや資料を貼り付けるだけで、AIが対話形式で内容を解説する音声ファイルを生成。\n長文レポートのインプット時間が従来比で大幅に短縮できる。",
+      "url": "https://blog.google/intl/ja-apac/products/google-cloud/notebooklm-audio-overview-japanese/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "LINEヤフー、法人向けRAG型AIアシスタント「Yahoo! JAPAN AI Assistant」提供開始",
+      "summary": "LINEヤフーが社内ドキュメントと連携できる法人向け生成AIアシスタントを提供開始。\nRAG技術により、社内の規程・マニュアル・過去資料をナレッジベースとして活用できる。\n導入企業での問い合わせ対応時間が平均40%削減されたとのデータあり。",
+      "url": "https://about.yahoo.co.jp/pr/release/2026/0601/a001/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Cursorの日本語コード補完精度が大幅向上、ローカルコンテキスト理解が改善",
+      "summary": "AIコードエディタCursorがアップデートで日本語コメント・変数名の補完精度を大幅改善。\nローカルコードベース全体を参照したインテリジェント補完が強化され、プロジェクト固有の命名規則も学習。\n実装速度が体感で2〜3倍に向上したとユーザー報告が続出している。",
+      "url": "https://cursor.com/changelog",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Claude Sonnet 4、Extended ThinkingでSWE-bench 72.7%を達成",
+      "summary": "AnthropicのClaude Sonnet 4がExtended Thinking（拡張思考）機能によりSWE-bench Verifiedで72.7%を記録。\n複雑なバグ修正やリファクタリングタスクで特に威力を発揮し、実務コーディング支援が大きく進化。\nClaude.aiのProjectsと組み合わせることでコードベース全体を理解した回答が可能になった。",
+      "url": "https://www.anthropic.com/news/claude-sonnet-4",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "GitHub Copilot コードレビュー自動化が全ユーザー解放、PR差分を自動分析",
+      "summary": "GitHub CopilotのPRレビュー自動化機能が全ユーザーに開放された。\nPR差分を自動分析してバグの指摘・改善提案・セキュリティ問題の検出をコメントとして投稿。\n月20回まで無料で使え、レビュー待ち時間が平均68%短縮できるとのデータあり。",
+      "url": "https://github.blog/2026-06-15-github-copilot-code-review-generally-available/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Meta Llama 3.1 405BをローカルPC実行可能にするOSSツールチェーン、★28k超",
+      "summary": "Llama 3.1 405BをM3 MacやRTX 4090で動かすためのツールチェーンがGitHubで公開され★28k超を記録。\n量子化技術により大幅に圧縮し、ローカル環境でGPT-4クラスの推論が可能になった。\nAPI料金が完全ゼロになるため、大量バッチ処理やプライベートデータ処理での活用が急増している。",
+      "url": "https://github.com/meta-llama/llama-stack",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "資料読む時間、ほぼゼロになった。\n\nNotebookLMの音声オーバービューが日本語対応。PDFを貼るだけで、AIが対話形式で解説するPodcastを自動生成。\n\n自分の長文レポートが10分の音声にまとまる体験、一度やったら戻れない。\nhttps://blog.google/intl/ja-apac/products/google-cloud/notebooklm-audio-overview-japanese/",
+      "source_url": "https://blog.google/intl/ja-apac/products/google-cloud/notebooklm-audio-overview-japanese/",
+      "source_title": "NotebookLM 音声オーバービューが日本語に正式対応"
+    },
+    {
+      "text": "社内問い合わせ対応、40%削減できたらしい。\n\n自社の規程・マニュアルをAIに食わせてRAG型アシスタントを構築。「あの資料どこ？」「この手続きどうするの？」を自動回答。\n\nあなたの会社の議事録やSlack、全部ナレッジ化できる時代になった。\nhttps://about.yahoo.co.jp/pr/release/2026/0601/a001/",
+      "source_url": "https://about.yahoo.co.jp/pr/release/2026/0601/a001/",
+      "source_title": "LINEヤフー、法人向けRAG型AIアシスタント「Yahoo! JAPAN AI Assistant」提供開始"
+    },
+    {
+      "text": "Cursorのアップデートで体感2〜3倍速くなった人が続出。\n\nローカルのコードベース全体を理解した上で補完するようになり、プロジェクト固有の変数名・命名規則もちゃんと覚えてくれる。\n\n自分のプロジェクトを開いて試すのが一番早い。\nhttps://cursor.com/changelog",
+      "source_url": "https://cursor.com/changelog",
+      "source_title": "Cursorの日本語コード補完精度が大幅向上、ローカルコンテキスト理解が改善"
+    },
+    {
+      "text": "バグ修正に半日溶かしてた人、状況変わってるかも。\n\nClaude Sonnet 4、コーディングベンチマークで72.7%達成。Extended Thinkingで複雑な修正も段階的に推論。\n\n自分のリポジトリ丸ごと渡して「このバグ直して」が現実的になってきた。\nhttps://www.anthropic.com/news/claude-sonnet-4",
+      "source_url": "https://www.anthropic.com/news/claude-sonnet-4",
+      "source_title": "Claude Sonnet 4、Extended ThinkingでSWE-bench 72.7%を達成"
+    },
+    {
+      "text": "コードレビュー待ちで1日詰まる問題、68%短縮できるらしい。\n\nGitHub CopilotのPR自動レビューが全ユーザー解放。差分を解析してバグ・セキュリティ問題・改善点をコメント投稿。月20回まで無料。\n\nあなたのPRに今すぐ試せる。\nhttps://github.blog/2026-06-15-github-copilot-code-review-generally-available/",
+      "source_url": "https://github.blog/2026-06-15-github-copilot-code-review-generally-available/",
+      "source_title": "GitHub Copilot コードレビュー自動化が全ユーザー解放、PR差分を自動分析"
+    },
+    {
+      "text": "API料金ゼロで GPT-4クラスが動く時代になった。\n\nLlama 3.1 405BをローカルPCで動かすOSSが★28k超。量子化でM3 MacやRTX 4090でも実行可能。\n\nプライベートなデータを外に出したくない人のコード・文書処理、これで全部ローカルでいける。\nhttps://github.com/meta-llama/llama-stack",
+      "source_url": "https://github.com/meta-llama/llama-stack",
+      "source_title": "Meta Llama 3.1 405BをローカルPC実行可能にするOSSツールチェーン、★28k超"
+    }
+  ]
+}
