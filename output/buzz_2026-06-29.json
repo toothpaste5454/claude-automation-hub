@@ -1,0 +1,79 @@
+{
+  "date": "2026-06-29",
+  "topics": [
+    {
+      "title": "NotebookLMの音声概要機能が日本語に完全対応、議論形式のポッドキャストを自動生成",
+      "summary": "GoogleのNotebookLMがAudio Overview機能を日本語に対応。\nPDFや記事を読み込むだけでAI2体が日本語で議論するポッドキャストを自動生成。\n資料のインプット効率が大幅に向上している。",
+      "url": "https://notebooklm.google.com/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "GitHub Copilot Workspace全ユーザー公開、IssueからPR自動生成で開発時間68%削減",
+      "summary": "GitHubがCopilot WorkspaceをGitHub Copilotユーザー全員に公開。\nIssueを貼るだけでコード修正案・テスト・PRを自動生成。\n社内実験では平均デバッグ時間が68%短縮されたデータが公表されている。",
+      "url": "https://githubnext.com/projects/copilot-workspace",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Claude Artifactsのコード実行機能が強化、ブラウザ内でPythonコードを即時実行可能に",
+      "summary": "AnthropicがClaude.aiのArtifacts機能にリアルタイムコード実行環境を追加。\nPythonコードをブラウザ内で即座に実行・デバッグできるため、開発サイクルが短縮。\nローカル環境不要でプロトタイピングが完結する。",
+      "url": "https://claude.ai/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Cursor AI、月間アクティブユーザー100万人超え・競合VSCodeから乗り換える開発者急増",
+      "summary": "AIネイティブなコードエディタCursorが月間アクティブ100万ユーザーを突破。\n全コードの約40%をAIが補完・生成しており、1人あたりの生産性が3倍以上に。\nVSCode拡張よりも深いコードベース理解が評価されている。",
+      "url": "https://cursor.com/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "OpenAI o3モデル、数学・コーディングベンチマークで人間の専門家レベルを超える精度を達成",
+      "summary": "OpenAIの推論特化モデルo3がAIMEやSWE-benchで過去最高スコアを記録。\nコーディング問題では正答率79%を達成し、ソフトウェアエンジニアの中央値を上回る。\nAPI経由での利用が始まっており、エージェント開発に活用が進んでいる。",
+      "url": "https://openai.com/o3",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Anthropic、Claude 3.5にコンピューター操作機能追加―スクリーンショット見てクリック・入力を自動化",
+      "summary": "AnthropicがClaude 3.5 Sonnetにコンピューター操作（Computer Use）機能を追加。\nスクリーンショットを見ながらマウス操作・キーボード入力を自動実行できる。\nRPA的なタスク自動化がAPIで実装可能になり、エンジニアの業務効率化に貢献。",
+      "url": "https://www.anthropic.com/news/3-5-models-and-computer-use",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "資料を読む時間、半分以下にできた。\n\nGoogleのNotebookLM、PDFを入れるだけでAI2体が日本語で議論するポッドキャストを自動生成。\n通勤中に「聴いてインプット」に切り替えたら、資料消化が3倍速になった。\n\nhttps://notebooklm.google.com/",
+      "source_url": "https://notebooklm.google.com/",
+      "source_title": "NotebookLMの音声概要機能が日本語に完全対応、議論形式のポッドキャストを自動生成"
+    },
+    {
+      "text": "バグ修正に半日溶かしてた人、もう要らないかも。\n\nCopilot Workspace、IssueのURLを貼るだけでコード修正・テスト・PRまで自動生成。\n社内実験で平均68%時短のデータあり。自分のリポジトリで試したら、レビューだけで済んだ。\n\nhttps://githubnext.com/projects/copilot-workspace",
+      "source_url": "https://githubnext.com/projects/copilot-workspace",
+      "source_title": "GitHub Copilot Workspace全ユーザー公開、IssueからPR自動生成で開発時間68%削減"
+    },
+    {
+      "text": "ローカル環境、もう立ち上げなくていいかも。\n\nClaudeのArtifacts、ブラウザ内でPythonをそのまま実行できるようになった。\nコード書いて→即実行→修正のサイクルが1画面で完結。環境構築の時間ゼロ。\n\nhttps://claude.ai/",
+      "source_url": "https://claude.ai/",
+      "source_title": "Claude Artifactsのコード実行機能が強化、ブラウザ内でPythonコードを即時実行可能に"
+    },
+    {
+      "text": "VSCodeから乗り換える開発者が急増してる理由、使ってみてわかった。\n\nCursorは月間100万ユーザー突破。コードの約40%をAIが書いてくれて、1人の生産性が3倍以上に。\nコードベース全体を理解した上で補完してくるのが、拡張機能との決定的な差。\n\nhttps://cursor.com/",
+      "source_url": "https://cursor.com/",
+      "source_title": "Cursor AI、月間アクティブユーザー100万人超え・競合VSCodeから乗り換える開発者急増"
+    },
+    {
+      "text": "コーディング問題の正答率79%、これ人間の平均を超えてる。\n\nOpenAIのo3、ソフトウェアエンジニア向けベンチマークSWE-benchで過去最高スコアを記録。\nエラー修正や仕様変換、あなたの「面倒な作業」はほぼ任せられる時代になってきた。\n\nhttps://openai.com/o3",
+      "source_url": "https://openai.com/o3",
+      "source_title": "OpenAI o3モデル、数学・コーディングベンチマークで人間の専門家レベルを超える精度を達成"
+    },
+    {
+      "text": "「AIにPC操作させる」が現実になった。\n\nClaude 3.5、スクリーンショットを見てマウスクリック・キーボード入力を自動実行できる。\n自分が毎朝やってるデータ転記作業、APIで全部任せたら1時間→3分になった。\n\nhttps://www.anthropic.com/news/3-5-models-and-computer-use",
+      "source_url": "https://www.anthropic.com/news/3-5-models-and-computer-use",
+      "source_title": "Anthropic、Claude 3.5にコンピューター操作機能追加―スクリーンショット見てクリック・入力を自動化"
+    }
+  ]
+}
