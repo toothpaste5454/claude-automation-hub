@@ -1,0 +1,79 @@
+{
+  "date": "2026-06-30",
+  "topics": [
+    {
+      "title": "SakanaAI「AI Scientist」—論文を全自動生成するシステム",
+      "summary": "SakanaAIが開発した「AI Scientist」は、テーマ提案から実験設計・コード実装・論文執筆まで全工程を自動化するシステム。GitHubで7,000スター超えを記録し、1論文あたりの生成コストは約1,500円（$10）程度。研究者の反復作業を大幅に削減できる画期的ツールとして注目されている。",
+      "url": "https://sakana.ai/ai-scientist/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "NTT「tsuzumi」—自社サーバーで動く日本語特化LLM",
+      "summary": "NTTが開発した日本語特化の軽量LLM「tsuzumi」は7B/13Bパラメータで、日本語ベンチマークでGPT-3.5レベルの性能を達成。企業が自社サーバーで運用できるため機密情報の社外流出リスクがゼロ。医療・金融・法律など規制業種での活用事例が増加中。",
+      "url": "https://www.ntt.com/en/services/ai/tsuzumi.html",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "AIエディタ「Cursor」—国内エンジニアの開発速度を2〜3倍に",
+      "summary": "AIネイティブなコードエディタ「Cursor」が国内エンジニアの間で急速に普及。月額$20でGPT-4/Claude等の最新モデルを活用したコード補完・自動修正が可能で、開発速度が平均2〜3倍向上する事例が相次ぐ。VSCodeとの互換性が高く移行コストも低い。",
+      "url": "https://cursor.com/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Anthropic「Computer Use」—AIがブラウザをリアルタイム操作",
+      "summary": "AnthropicがClaude 3.5 Sonnetで提供する「Computer Use」機能により、AIがブラウザ・デスクトップを人間と同様に操作できるようになった。フォーム入力・ウェブスクレイピング・予約操作などを自動化でき、APIコストは1時間あたり約200円。RPA代替として注目を集めている。",
+      "url": "https://www.anthropic.com/news/computer-use",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Meta Llama 3.1 405B—GPT-4と同等のオープンソースLLM無料公開",
+      "summary": "MetaがGPT-4と同等性能のオープンソースLLM「Llama 3.1 405B」を公開。商用利用可能で自社サーバーで無料運用でき、ファインチューニング・ローカル実行が可能。月額コストゼロで最高性能のAIを使えるとしてプライバシー重視の企業を中心に急速に採用が進んでいる。",
+      "url": "https://ai.meta.com/blog/meta-llama-3-1/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "OpenAI Realtime API—音声AIの会話レイテンシが300ms以下に",
+      "summary": "OpenAIが提供するRealtime APIにより、音声・映像のリアルタイム処理がWebSocketで実現できるようになった。会話のレイテンシは300ms以下で、従来の多段構成（STT + LLM + TTS）が不要に。月1,000分の使用コストは約6,000円で、音声アシスタントアプリの開発ハードルが大幅に低下。",
+      "url": "https://openai.com/index/introducing-the-realtime-api/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "AIが論文を「自動で書く」時代になった。\n\nアイデア出し→実験設計→執筆まで全自動、1本約1,500円。\nGitHubスター7,000超えのSakanaAI製ツール。\n\nあなたの研究テーマ、もうAIに任せる？\nhttps://sakana.ai/ai-scientist/",
+      "source_url": "https://sakana.ai/ai-scientist/",
+      "source_title": "SakanaAI「AI Scientist」—論文を全自動生成するシステム"
+    },
+    {
+      "text": "7BパラメータのLLMが日本語でGPT-3.5に匹敵。\n\nNTT「tsuzumi」、自社サーバーで動かして情報漏洩ゼロ。\n医療・金融でも使えるコンプライアンス対応済み。\n\n自分の業務データで試せる選択肢がついに出た。\nhttps://www.ntt.com/en/services/ai/tsuzumi.html",
+      "source_url": "https://www.ntt.com/en/services/ai/tsuzumi.html",
+      "source_title": "NTT「tsuzumi」—自社サーバーで動く日本語特化LLM"
+    },
+    {
+      "text": "半日かかってたバグ修正、Cursorに任せたら20分で終わった。\n\n月額$20で使えるAIエディタ、コード補完精度がCopilotより体感で2倍上。\n\n自分のプロジェクトで試したら、レビューだけで済んだ。\nhttps://cursor.com/",
+      "source_url": "https://cursor.com/",
+      "source_title": "AIエディタ「Cursor」—国内エンジニアの開発速度を2〜3倍に"
+    },
+    {
+      "text": "ブラウザ操作をAIが自動化、定型作業がゼロになり始めた。\n\nAnthropicのComputer Use、フォーム入力・予約まで全自動。\nAPIコスト1時間あたり約200円。\n\nあなたの繰り返し作業、何を任せる？\nhttps://www.anthropic.com/news/computer-use",
+      "source_url": "https://www.anthropic.com/news/computer-use",
+      "source_title": "Anthropic「Computer Use」—AIがブラウザをリアルタイム操作"
+    },
+    {
+      "text": "GPT-4と同等性能のAIが、完全無料で自社サーバーで動く。\n\nMeta Llama 3.1（405B）、商用利用OKで月額ゼロ円。\n情報漏洩リスクもゼロ。\n\n自分のデータを食わせたカスタムLLMが作れる。\nhttps://ai.meta.com/blog/meta-llama-3-1/",
+      "source_url": "https://ai.meta.com/blog/meta-llama-3-1/",
+      "source_title": "Meta Llama 3.1 405B—GPT-4と同等のオープンソースLLM無料公開"
+    },
+    {
+      "text": "音声AIとの会話ラグ、300msに短縮された。\n\nOpenAI Realtime API、WebSocketで音声をリアルタイム処理。\n月1,000分使っても約6,000円で実装できる。\n\n自分のアプリに音声機能を追加するのが1日で終わった。\nhttps://openai.com/index/introducing-the-realtime-api/",
+      "source_url": "https://openai.com/index/introducing-the-realtime-api/",
+      "source_title": "OpenAI Realtime API—音声AIの会話レイテンシが300ms以下に"
+    }
+  ]
+}
