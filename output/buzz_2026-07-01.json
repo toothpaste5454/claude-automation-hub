@@ -1,0 +1,79 @@
+{
+  "date": "2026-07-01",
+  "topics": [
+    {
+      "title": "Google NotebookLM 日本語音声概要対応 — 50のソースが30秒でポッドキャストに",
+      "summary": "GoogleのAIノートアシスタント「NotebookLM」が日本語の音声概要（Audio Overview）を含む全機能を解放。PDFや動画を最大50個アップロードすると、30秒でポッドキャスト形式の要約が生成される。議事録・論文・書籍のダイジェストを耳から学習できると国内ビジネスパーソンの間で急速に普及中。",
+      "url": "https://notebooklm.google.com/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "GitHub Copilot Workspace — Issue貼るだけでPRが全自動生成、月20回無料",
+      "summary": "GitHubのCopilot Workspaceが全ユーザーに解放。Issueのタイトルと内容を貼り付けるだけでコード修正からコミット・PRまでを自動生成し、平均68%の時短データが報告されている。月20回まで無料で利用可能で、国内エンジニアの間でも活用事例が急増している。",
+      "url": "https://github.blog/2024-04-29-github-copilot-workspace/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Dify — ノーコードでLLMアプリを構築するOSSがGitHub 45,000スター超え",
+      "summary": "オープンソースのLLMアプリ開発プラットフォーム「Dify」がGitHubで45,000スターを突破。ChatGPT/Claude/Gemini等のAPIを組み合わせたAIワークフローをノーコードで構築でき、社内チャットBot・RAGシステム・自動化フローを数時間で立ち上げられる。国内でも中小企業の業務AI化ツールとして注目を集めている。",
+      "url": "https://dify.ai/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Groq LPU — Llama 3を750トークン/秒で処理、OpenAIの10倍速いLLM推論",
+      "summary": "独自設計チップ「LPU」でLLMを超高速処理するGroqが、Llama 3を750トークン/秒で処理できると公表。OpenAI APIの10倍以上の速度を誇り、APIキーは無料で取得可能。レイテンシに敏感なリアルタイムアプリ・音声アシスタント・ゲームNPCなどでの採用が急増している。",
+      "url": "https://groq.com/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Mistral Large 2 — GPT-4性能の123Bモデルを商用利用可でオープンソース公開",
+      "summary": "フランスAI企業MistralがGPT-4と同等性能の123Bパラメータモデル「Mistral Large 2」を公開。商用利用OKで自社サーバーで無料運用できるほか、GDPRなどEUプライバシー規制への対応も容易。多言語対応・コーディング能力が高く、特に欧州の企業で急速な採用が進んでいる。",
+      "url": "https://mistral.ai/news/mistral-large-2407/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "DeepSeek-V2 — GPT-4性能のLLMがAPI利用コスト1/30で使える",
+      "summary": "中国のDeepSeekが671BパラメータのMoEアーキテクチャモデル「DeepSeek-V2」を公開。GPT-4と同等のベンチマーク性能を持ちながら、1Mトークンあたりのコストは$2以下（GPT-4の約1/30）。オープンソース公開により自社サーバーでの無料運用も可能で、LLMコスト削減を求める企業への採用が急拡大している。",
+      "url": "https://github.com/deepseek-ai/DeepSeek-V2",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "50本のPDFをまとめるのに2時間かかってた。\n\nNotebookLM、ソースを入れると30秒でポッドキャスト要約が出る。\n日本語の音声概要も対応済みで、移動中に耳から学べる。\n\n自分の議事録・論文の束、今すぐ放り込んでみて。\nhttps://notebooklm.google.com/",
+      "source_url": "https://notebooklm.google.com/",
+      "source_title": "Google NotebookLM 日本語音声概要対応 — 50のソースが30秒でポッドキャストに"
+    },
+    {
+      "text": "IssueにURL貼るだけで、PRが勝手に出来上がってた。\n\nGitHub Copilot Workspace、コミットまで自動で月20回無料。\n平均68%の時短は伊達じゃない。\n\nあなたの積み残しIssue、今日全部消化できるかも。\nhttps://github.blog/2024-04-29-github-copilot-workspace/",
+      "source_url": "https://github.blog/2024-04-29-github-copilot-workspace/",
+      "source_title": "GitHub Copilot Workspace — Issue貼るだけでPRが全自動生成、月20回無料"
+    },
+    {
+      "text": "LLMアプリをノーコードで作る3ステップ:\n\n1. Slack Bot でAI回答（30分）\n2. PDF→FAQ 即答Bot\n3. ワークフローにAI判断を追加\n\n自分のチームで今日から使える。GitHub 45,000スター。\nhttps://dify.ai/",
+      "source_url": "https://dify.ai/",
+      "source_title": "Dify — ノーコードでLLMアプリを構築するOSSがGitHub 45,000スター超え"
+    },
+    {
+      "text": "LLMの返答が遅い、そう思ってる人に教えたい。\n\nGroqのLPUチップ、Llama 3を750トークン/秒で処理。\nOpenAIより体感10倍速く、無料枠で今すぐ試せる。\n\nあなたのアプリ、これに差し替えたら何が変わる？\nhttps://groq.com/",
+      "source_url": "https://groq.com/",
+      "source_title": "Groq LPU — Llama 3を750トークン/秒で処理、OpenAIの10倍速いLLM推論"
+    },
+    {
+      "text": "GPT-4相当のモデルが、自社サーバーで無料で動く。\n\nMistral Large 2（123B）、商用利用OKでAPI不要。\nGDPR対応なのでEU案件にも通る。\n\nあなたなら何の業務データを食わせる？\nhttps://mistral.ai/news/mistral-large-2407/",
+      "source_url": "https://mistral.ai/news/mistral-large-2407/",
+      "source_title": "Mistral Large 2 — GPT-4性能の123Bモデルを商用利用可でオープンソース公開"
+    },
+    {
+      "text": "GPT-4と同性能のAIがAPI利用コスト1/30になった。\n\nDeepSeek-V2、671Bパラメータで精度はそのまま。\n1Mトークン処理が$2以下で使える。\n\n自分のLLMコスト、これに換算したらいくらになる？\nhttps://github.com/deepseek-ai/DeepSeek-V2",
+      "source_url": "https://github.com/deepseek-ai/DeepSeek-V2",
+      "source_title": "DeepSeek-V2 — GPT-4性能のLLMがAPI利用コスト1/30で使える"
+    }
+  ]
+}
