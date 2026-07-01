@@ -1,0 +1,79 @@
+{
+  "date": "2026-07-02",
+  "topics": [
+    {
+      "title": "ノーコードでChatGPT×外部ツール連携アプリを30分で作れるOSS「Dify」がGitHubスター5万超に",
+      "summary": "DifyはノーコードでチャットボットやワークフローアプリをGUI操作で構築できるOSSツール。PDF読み込みチャットボットやSlack・Notion連携ワークフローを30分以内に作れる。国内企業への導入事例も増加しており、GitHubスターが5万を突破した。",
+      "url": "https://github.com/langgenius/dify",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "AIコードエディター「Cursor」でコーディング速度2.5倍——国内開発者の間で急速に普及",
+      "summary": "CursorはAIが補完・リファクタリング・バグ修正を支援するコードエディター。月$20のProプランで、コーディング速度が平均2.5倍になった事例が多数報告されている。VS Code互換で既存環境をほぼそのまま引き継げるため、乗り換えコストが低い。",
+      "url": "https://cursor.sh",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Claude「Projects」機能で複数会話をまたいだ記憶と専用ファイル参照が可能に",
+      "summary": "ClaudeのProjects機能により、セッションをまたいでも文脈・記憶を保持し、登録したPDFや資料を参照し続けることができる。毎回同じ説明を繰り返す手間が不要になる。月$20のProプランで利用可能。",
+      "url": "https://claude.ai",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "AnthropicがブラウザとPC操作を自動化する「Computer Use」APIを提供——30分の手動作業が5分に",
+      "summary": "Computer Use APIを使うと、Claudeがスクリーン上のUIを認識してクリック・テキスト入力・ファイル操作を自動実行する。30分かかっていた手動作業が5分に短縮された事例も。Pythonで数十行のコードから利用開始できる。",
+      "url": "https://www.anthropic.com/news/computer-use",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "PCをAIエージェント化するOSS「Open Interpreter」がGitHubスター5.5万超——自然言語でPC操作が現実に",
+      "summary": "Open InterpreterはChatGPT Code InterpreterをローカルPCで動かすOSSツール。自然言語の指示だけでファイル操作・Webスクレイピング・メール下書きまで自動実行できる。GitHubスターが5.5万を超え個人・企業双方での活用が広がっている。",
+      "url": "https://github.com/OpenInterpreter/open-interpreter",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Perplexity AIが引用付きリサーチレポートを5分で自動生成する「Pages」機能を追加",
+      "summary": "Perplexity Pagesはリサーチ質問を入力するだけで、引用付きの詳細レポートを自動生成する機能。競合分析・市場調査・技術比較などの調査業務を大幅に短縮できる。無料プランでも月複数回利用可能。",
+      "url": "https://www.perplexity.ai",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "ノーコードでAIアプリを30分で作れる。\n\nDify、GitHubスター5万超のOSS。\n\n1. PDF読み込みチャットボット\n2. Slack×Notion連携ワークフロー\n3. APIキー1つで自社サービスに埋め込み\n\nあなたのサービスに今すぐ組み込める。\nhttps://github.com/langgenius/dify",
+      "source_url": "https://github.com/langgenius/dify",
+      "source_title": "ノーコードでChatGPT×外部ツール連携アプリを30分で作れるOSS「Dify」がGitHubスター5万超に"
+    },
+    {
+      "text": "コードレビューに2時間かけてた人、半分以下になるかも。\n\nCursor、月$20のAIエディター。\nコーディング速度が平均2.5倍になった事例が続出。\n\n自分のコードで試したら、補完が的確すぎて怖い。\nhttps://cursor.sh",
+      "source_url": "https://cursor.sh",
+      "source_title": "AIコードエディター「Cursor」でコーディング速度2.5倍——国内開発者の間で急速に普及"
+    },
+    {
+      "text": "毎回Claudeに同じ説明をしてた人、もう要らなくなった。\n\nProjects機能で複数会話をまたいでも記憶が持続。\nPDFや資料を登録すれば「これを参考に」が毎回不要に。\n\nあなたの専用AIアシスタントが月$20で育てられる。\nhttps://claude.ai",
+      "source_url": "https://claude.ai",
+      "source_title": "Claude「Projects」機能で複数会話をまたいだ記憶と専用ファイル参照が可能に"
+    },
+    {
+      "text": "30分の手動作業が、AIの指示1つで5分に縮まった。\n\nClaude Computer Useは画面を認識してクリックから入力まで全自動。\n「この予約して」「データまとめて」だけで完結する。\n\nあなたなら何の作業を自動化したい？\nhttps://www.anthropic.com/news/computer-use",
+      "source_url": "https://www.anthropic.com/news/computer-use",
+      "source_title": "AnthropicがブラウザとPC操作を自動化する「Computer Use」APIを提供——30分の手動作業が5分に"
+    },
+    {
+      "text": "コードを書かずにPCをAIが動かせる時代、もう来てる。\n\nOpen Interpreter、GitHubスター5.5万のOSS。\n\n1. 自然言語でファイル操作・変換を自動実行\n2. Webスクレイピングをテキスト指示で完了\n3. あなたのPC作業が丸ごとエージェント化できる\n\nhttps://github.com/OpenInterpreter/open-interpreter",
+      "source_url": "https://github.com/OpenInterpreter/open-interpreter",
+      "source_title": "PCをAIエージェント化するOSS「Open Interpreter」がGitHubスター5.5万超——自然言語でPC操作が現実に"
+    },
+    {
+      "text": "30分かけてたリサーチが、5分で完成するようになった。\n\nPerplexity Pages、入力するだけで引用付きレポートを自動生成。\n競合分析・市場調査が1クリックで完結する。\n\n自分の調査業務が何分に縮まるか試してみてほしい。\nhttps://www.perplexity.ai",
+      "source_url": "https://www.perplexity.ai",
+      "source_title": "Perplexity AIが引用付きリサーチレポートを5分で自動生成する「Pages」機能を追加"
+    }
+  ]
+}
