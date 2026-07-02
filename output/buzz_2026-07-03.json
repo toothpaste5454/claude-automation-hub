@@ -1,0 +1,79 @@
+{
+  "date": "2026-07-03",
+  "topics": [
+    {
+      "title": "CursorのBackground Agent—ローカル不要で複数タスクを並行処理",
+      "summary": "CursorのBackground Agent機能で、クラウド上でコードを非同期実行・修正できるようになった。複数タスクを同時進行させることで1日のコーディング量が平均3倍に増えたとの報告がある。エージェントが動く間、別の作業に集中できるのが最大のメリット。",
+      "url": "https://cursor.com/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Dify（★55k超）—エンジニアなしで社内RAGチャットボットを30分で構築",
+      "summary": "オープンソースのLLMアプリビルダー「Dify」がGitHubで★55,000を突破。GUIだけでRAGパイプラインを組めるため、プログラミング知識なしで社内ドキュメント検索ボットが作れる。Supabase連携も充実しており、個人から企業まで導入が急拡大している。",
+      "url": "https://github.com/langgenius/dify",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "NotebookLM Audio Overview—100ページのPDFを20分のポッドキャストに自動変換",
+      "summary": "GoogleのNotebookLMに追加されたAudio Overview機能が注目を集めている。技術PDFやホワイトペーパーを2人のホストが掛け合う形式のポッドキャストに自動変換でき、通勤・運動中に複雑な論文を「聴いて」理解できる。インプット効率が大幅に向上するとして人気急上昇中。",
+      "url": "https://notebooklm.google.com/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "OpenAI o3—SWE-bench Verifiedで71.7%達成、実際のGitHubバグを自動修正",
+      "summary": "OpenAI o3がSWE-bench Verifiedで71.7%のスコアを達成した。実際のGitHubリポジトリのバグ修正タスクを自律的に解決できるレベルに到達。Copilot Workspaceと組み合わせることでイシューからPRまでの時間が平均68%短縮されたという事例が報告されている。",
+      "url": "https://openai.com/o3",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "LangGraph（★10k超）—マルチエージェントAIワークフローを200行以内で実装",
+      "summary": "LangChainが開発するマルチエージェントフレームワーク「LangGraph」のGitHub Starsが10,000を超えた。状態を持つエージェントのループ・分岐をグラフ構造で直感的に定義でき、複雑なワークフローも200行以内のPythonコードで実装できる。RAGとの組み合わせ事例も急増中。",
+      "url": "https://github.com/langchain-ai/langgraph",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Gemini 2.5 Pro Deep Research—50以上のソースを5分で横断調査しレポート生成",
+      "summary": "GoogleのGemini 2.5 ProのDeep Research機能が一般ユーザーにも開放された。プロンプト一つで50以上のWebページを自動検索・読み込みし、引用付きレポートを生成する。これまで1〜2時間かかっていた競合調査や市場分析が5分以内で完了するとして急速に普及している。",
+      "url": "https://gemini.google.com/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "コード書いてる間、AIが別のタスクを並行で直してる。\n\nCursorのBackground Agent、クラウドで非同期実行。\n放置している間に1日3倍のコードが仕上がった事例も。\n\n自分のリポで試したら、朝に投げて夕方にPR来てた。\nhttps://cursor.com/",
+      "source_url": "https://cursor.com/",
+      "source_title": "CursorのBackground Agent—ローカル不要で複数タスクを並行処理"
+    },
+    {
+      "text": "エンジニアなしで社内RAGボット、30分で完成した。\n\nDify（★55k超）でのセットアップ3ステップ:\n\n1. 社内PDFアップロード（5分）\n2. GUIでパイプライン設定（20分）\n3. Slack連携して公開（5分）\n\nコードゼロで動いた。\nhttps://github.com/langgenius/dify",
+      "source_url": "https://github.com/langgenius/dify",
+      "source_title": "Dify（★55k超）—エンジニアなしで社内RAGチャットボットを30分で構築"
+    },
+    {
+      "text": "通勤中に100ページの論文を「聴いて」理解できるようになった。\n\nNotebookLM Audio Overview、PDFを20分のポッドキャストに自動変換。\n2人の対話形式で内容を噛み砕いてくれる。\n\n自分のインプット量が3倍になった。\nhttps://notebooklm.google.com/",
+      "source_url": "https://notebooklm.google.com/",
+      "source_title": "NotebookLM Audio Overview—100ページのPDFを20分のポッドキャストに自動変換"
+    },
+    {
+      "text": "実際のGitHubバグを71.7%の精度で自動修正できるAIが出てきた。\n\no3 + Copilot Workspaceで、イシューからPRまで平均68%時短。\nコードレビューだけに集中できる時代になってきた。\n\nあなたのリポで最初に任せたいバグは何？\nhttps://openai.com/o3",
+      "source_url": "https://openai.com/o3",
+      "source_title": "OpenAI o3—SWE-bench Verifiedで71.7%達成、実際のGitHubバグを自動修正"
+    },
+    {
+      "text": "複数AIエージェントの連携、もう難しくない。\n\nLangGraph（★10k超）でエージェントをグラフ構造で定義。\n200行以内で長時間・複数ツール連携のワークフローが動いた。\n\n自分のRAGに組み込んだら精度が2倍になった。\nhttps://github.com/langchain-ai/langgraph",
+      "source_url": "https://github.com/langchain-ai/langgraph",
+      "source_title": "LangGraph（★10k超）—マルチエージェントAIワークフローを200行以内で実装"
+    },
+    {
+      "text": "市場調査に2時間かけてた作業、5分で終わるようになった。\n\nGemini 2.5 Pro Deep Research、50以上のソースを横断して引用付きレポートを自動生成。\n競合分析・論文サーベイ・製品比較に使える。\n\nあなたなら何を最初に任せる？\nhttps://gemini.google.com/",
+      "source_url": "https://gemini.google.com/",
+      "source_title": "Gemini 2.5 Pro Deep Research—50以上のソースを5分で横断調査しレポート生成"
+    }
+  ]
+}
