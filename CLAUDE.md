@@ -23,6 +23,7 @@
 
 - **`process-buzz.js`のスレッド生成は`gemini-2.5-flash-lite`を使用**（`gemini-2.0-flash`はquota制限で失敗→2026-05-06修正済み）
 - **Supabaseの`threads`テーブルが存在しないとスレッド保存が失敗する**（2026-05-06作成済み。再作成が必要な場合は`x_buzz_tool/supabase_setup.sql`のSQLを実行すること）
+- **`check-github-usage.js`（毎日8:00 JST、Vercel Cron）はGitHub Actions残り分数をTelegram通知するが、GitHub Billing APIの反映ラグにより実際の消費より少なめに出ることがある**（2026-07-03確認：自前APIが76%使用と返した同時刻に、GitHub公式Budgetアラートは90%使用だった）。枠逼迫の一次情報はGitHub公式のBudgetアラートメールを優先すること。詳細は`tasks/lessons.md`の2026-07-03エントリを参照。
 
 ---
 
