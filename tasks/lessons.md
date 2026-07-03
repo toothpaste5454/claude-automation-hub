@@ -1,5 +1,23 @@
 # Lessons
 
+## 2026-07-03: Vercel Hobbyプランの「Cron 2個まで」制限で3つ目のCronが自動発火しなかった
+
+**事象**: `check-github-usage.js`（毎日8:00 JST予定）を手動curlすると正常動作するのに、当日朝は一通も自動通知が来なかった。`vercel crons ls`には3件（`process-buzz`, `generate-daily-thread`, `check-github-usage`）とも正しく表示されており、設定ミスは見当たらなかった。
+
+**根本原因**: Vercel API（`GET https://api.vercel.com/v2/user`）で確認したところ、このアカウントは`"plan": "hobby"`（無料プラン）だった。Vercel Hobbyプランは**1プロジェクトあたりCron Jobsが2つまで**という制限があり、`vercel.json`に3つ定義していても、ダッシュボード上の一覧やCLIの`vercel crons ls`には表示されるが、**3つ目以降は実際にはスケジュール発火しない**（手動叩き・`workflow_dispatch`相当のトリガーだけは動く）。
+
+**対処**:
+- `check-github-usage`のトリガーをVercel CronからGitHub Actionsの`schedule` cronに移行（`.github/workflows/check-github-usage.yml`、毎日12:00 JST = `0 3 * * *`）。ワークフローがVercelの`/api/check-github-usage`をcurlで呼ぶだけの薄い構成。
+- `vercel.json`の`crons`配列から`check-github-usage`エントリを削除し、Vercel側は2つ（`process-buzz`, `generate-daily-thread`）に戻した。
+- GitHub Actions Secrets（リポジトリ設定）に`CRON_SECRET`をVercelと同じ値で登録し、`x-cron-secret`ヘッダーで認証。
+
+**防止ルール**:
+- Vercel Cronを新規追加する際は、必ず`vercel.json`の`crons`配列が**2件以内**に収まっているか確認すること（Hobbyプランの上限）。3件目以降を追加したい場合は、①Proプランへのアップグレード、②GitHub Actionsの`schedule`ワークフローに逃がす、③既存Cronの処理に相乗りさせる、のいずれかを選ぶこと。
+- `vercel crons ls`や`vercel.json`に定義があっても「実際に発火するか」はイコールではない。プラン上限の疑いがある場合は`GET https://api.vercel.com/v2/user`のレスポンスの`billing.plan`で契約プランを確認できる。
+- 「手動では動くのに自動発火だけ来ない」症状が出たら、まずCronの本数とプラン上限を疑うこと（コードのバグとは限らない）。
+
+---
+
 ## 2026-07-03: GitHub Actions残り分数通知の文言修正・API精度の限界を確認
 
 **事象**: 「GitHub Actionsの残り利用可能時間を毎日Telegram通知したい」という依頼を受け、既存実装（`api/check-github-usage.js`、2026-06-11導入）の存在に気づかず新規実装を作りかけた。調査の結果、以下が判明：
