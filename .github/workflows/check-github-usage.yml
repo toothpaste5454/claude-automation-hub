@@ -1,0 +1,25 @@
+name: Check GitHub Actions Usage
+
+on:
+  schedule:
+    - cron: '0 3 * * *'  # 毎日 12:00 JST (3:00 UTC)
+  workflow_dispatch:       # 手動実行用
+
+jobs:
+  check-usage:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Call check-github-usage API
+        env:
+          CRON_SECRET: ${{ secrets.CRON_SECRET }}
+        run: |
+          RESPONSE=$(curl -s -w "\n%{http_code}" -X POST "https://claudeautomationhub.vercel.app/api/check-github-usage" \
+            -H "x-cron-secret: $CRON_SECRET")
+          HTTP_CODE=$(echo "$RESPONSE" | tail -n1)
+          BODY=$(echo "$RESPONSE" | head -n-1)
+          echo "HTTP $HTTP_CODE"
+          echo "$BODY"
+          if [ "$HTTP_CODE" != "200" ]; then
+            echo "Failed"
+            exit 1
+          fi

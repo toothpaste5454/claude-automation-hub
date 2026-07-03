@@ -4,10 +4,6 @@
   "framework": null,
   "crons": [
     {
-      "path": "/api/check-github-usage",
-      "schedule": "0 3 * * *"
-    },
-    {
       "path": "/api/process-buzz",
       "schedule": "30 23 * * *"
     },
