@@ -1,0 +1,79 @@
+{
+  "date": "2026-07-04",
+  "topics": [
+    {
+      "title": "Claude Code × ターミナル活用術：コミットまで全自動化するワークフロー",
+      "summary": "AnthropicのClaude Codeはターミナル内でコードを読み、バグを修正し、テストを実行してコミットまで一貫して行えるAIコーディングツール。コーディング作業の大部分を委譲でき、開発者は方針決定に集中できる。インタラクティブモードとスクリプトモードの両方に対応。",
+      "url": "https://www.anthropic.com/claude-code",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Difyで社内ChatGPT環境を1日で構築：GitHub ★5万超のOSSが日本企業にも広まる",
+      "summary": "DifyはノーコードでカスタムチャットボットやRAGアプリを構築できるオープンソースLLMアプリプラットフォーム。Docker一発で起動し、OpenAI等のAPIキーを設定するだけで社内GPT環境が完成する。社内PDFをRAGで読み込ませれば専門的な質問にも回答できる。",
+      "url": "https://github.com/langgenius/dify",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "NotebookLM活用：100万トークンの資料を音声ポッドキャスト化して移動中に学習",
+      "summary": "GoogleのNotebookLMは100万トークン（約750万文字）まで資料を取り込み、AIが内容を解説する音声ポッドキャストを自動生成する機能を持つ。長文のPDF・スライド・ウェブページを投入すると、2名のAIホストが対話形式で要点を解説する20分程度の音声を生成。",
+      "url": "https://notebooklm.google/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "GitHub Copilot Coding Agent：IssueをアサインするだけでPR自動生成、テスト込み",
+      "summary": "GitHub Copilotの新しいCoding Agent機能はIssueをアサインすると、コードベースを調査しバグを修正してテストを実行しPRを作成するまで全自動で行う。GitHubのデータではバグ修正時間が平均68%短縮されたという報告がある。VSCode上からも操作可能。",
+      "url": "https://github.com/features/copilot",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Ollama × Llama 3：GPU不要でM1 MacにLLMをローカル構築、★10万超のOSS",
+      "summary": "OllamaはLlama3・Mistral・Phi-3等のオープンソースLLMをローカルで簡単に動かせるツール。GitHub星10万超え。コマンド一発でモデル取得、Open WebUIと組み合わせるとChatGPT風のUIが使える。データがクラウドに送られないため機密情報の処理にも安心。",
+      "url": "https://github.com/ollama/ollama",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "OpenAI o3 mini：ARC-AGIベンチマーク87.5%達成、複雑推論が別次元に",
+      "summary": "OpenAIのo3 miniは抽象推論ベンチマークARC-AGIで87.5%を達成し、従来モデルを大幅に上回る推論能力を示した。数学・コーディング・論理パズルなど複雑なタスクで特に力を発揮し、ChatGPT Plusユーザーは月200回まで利用できる。",
+      "url": "https://openai.com/index/openai-o3-mini/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "コードレビューに毎日2時間かけてた人、これ見て。\n\nClaude Codeをターミナルに入れると、バグ指摘→修正→テスト→コミットまで全部流れる。\n自分の作業が「方針を決めるだけ」になった。\n\nhttps://www.anthropic.com/claude-code",
+      "source_url": "https://www.anthropic.com/claude-code",
+      "source_title": "Claude Code × ターミナル活用術：コミットまで全自動化するワークフロー"
+    },
+    {
+      "text": "社内GPTを1日で立ち上げる3ステップ:\n\n1. Dify（★5万超OSS）をDockerで起動\n2. APIキーを貼るだけでチャットUI完成\n3. 社内PDFをRAGに追加で専門回答が可能\n\nあなたの会社に明日から導入できる。\nhttps://github.com/langgenius/dify",
+      "source_url": "https://github.com/langgenius/dify",
+      "source_title": "Difyで社内ChatGPT環境を1日で構築：GitHub ★5万超のOSSが日本企業にも広まる"
+    },
+    {
+      "text": "分厚い資料読むのに丸1日かかってた人、これに変えた。\n\nNotebookLMに100万トークンまで放り込むと、AIが音声ポッドキャストを自動生成。\n移動中20分で把握できるようになった。\n\nhttps://notebooklm.google/",
+      "source_url": "https://notebooklm.google/",
+      "source_title": "NotebookLM活用：100万トークンの資料を音声ポッドキャスト化して移動中に学習"
+    },
+    {
+      "text": "バグ修正に半日溶かしてた人、もう要らないかも。\n\nGitHub CopilotにIssueをアサインすると、調査→修正→PR作成まで全自動。\nあなたのレビューだけで済むようになる。68%時短のデータあり。\n\nhttps://github.com/features/copilot",
+      "source_url": "https://github.com/features/copilot",
+      "source_title": "GitHub Copilot Coding Agent：IssueをアサインするだけでPR自動生成、テスト込み"
+    },
+    {
+      "text": "ローカルLLMを今日から始める3ステップ:\n\n1. Ollama（★10万超）をインストール\n2. ollama pull llama3でモデル取得\n3. Open WebUIでChatGPT風UIが完成\n\nあなたのPCがオフラインAIに変わる。\nhttps://github.com/ollama/ollama",
+      "source_url": "https://github.com/ollama/ollama",
+      "source_title": "Ollama × Llama 3：GPU不要でM1 MacにLLMをローカル構築、★10万超のOSS"
+    },
+    {
+      "text": "人間の専門家水準をAIが突破した。\n\nOpenAI o3がARC-AGIで87.5%を達成。複雑な論理タスクで自分のアシスタントが別次元になった。月200回まで無料で使える。\n\nあなたなら何に使う？\nhttps://openai.com/index/openai-o3-mini/",
+      "source_url": "https://openai.com/index/openai-o3-mini/",
+      "source_title": "OpenAI o3 mini：ARC-AGIベンチマーク87.5%達成、複雑推論が別次元に"
+    }
+  ]
+}
