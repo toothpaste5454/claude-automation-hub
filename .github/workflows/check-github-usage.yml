@@ -5,9 +5,14 @@ on:
     - cron: '0 3 * * *'  # 毎日 12:00 JST (3:00 UTC)
   workflow_dispatch:       # 手動実行用
 
+concurrency:
+  group: check-github-usage
+  cancel-in-progress: true
+
 jobs:
   check-usage:
     runs-on: ubuntu-latest
+    timeout-minutes: 2
     steps:
       - name: Call check-github-usage API
         env:
