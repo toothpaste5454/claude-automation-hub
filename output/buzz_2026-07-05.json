@@ -1,0 +1,79 @@
+{
+  "date": "2026-07-05",
+  "topics": [
+    {
+      "title": "Claude 4のExtended Thinkingで複雑な要件定義を10分で完成させる方法",
+      "summary": "Claude Sonnet 4のExtended Thinking機能を活用すると、複数の制約条件が絡む要件定義を段階的に思考させられる。プロンプトに「think step by step」ではなく明示的な思考予算を指定することで精度が大幅に向上。実案件での工数削減率は平均65%との報告も。",
+      "url": "https://www.anthropic.com/claude/sonnet",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "NotebookLM Plusの音声概要機能が日本語に対応、会議議事録を5分でポッドキャスト化",
+      "summary": "Google NotebookLM Plusの音声概要（Audio Overview）機能が日本語ソースに対応。100ページ超のPDFを5分以内に自然な対話音声に変換できる。月額料金は約2,000円で法人向けの複数ドキュメント一括処理にも利用が拡大中。",
+      "url": "https://notebooklm.google.com",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "GitHub Copilot WorkspaceがIssueからPR自動生成、国内企業で開発速度1.8倍の報告",
+      "summary": "GitHub Copilot WorkspaceがGAとなり国内エンタープライズ導入が加速。IssueのタイトルとコメントだけでPR草稿まで自動生成し、コードレビュー待ちの工数を平均55%削減。月20回まで無料で試せるため小規模チームでも導入しやすい。",
+      "url": "https://githubnext.com/projects/copilot-workspace",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Cursor 0.50リリース、Background Agentが全ユーザーに開放されバックグラウンドで並列タスク実行",
+      "summary": "Cursor 0.50でBackground Agentが全プランに開放。メインの作業を続けながら別のコード変更・テスト実行・ドキュメント生成を並列処理できる。同時実行数は最大5タスク、Proプランで月50回まで無料枠あり。",
+      "url": "https://cursor.com/changelog",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Gemini 2.5 Pro APIの長文処理コストが最大75%削減、100万トークン超の文書分析が現実的に",
+      "summary": "GoogleがGemini 2.5 Pro APIの料金を改定し、100万トークン超の入力に対して最大75%のコスト削減を実施。200万トークンのコンテキストウィンドウを使った法律文書・財務報告書の一括分析が実用的なコストで可能になった。",
+      "url": "https://ai.google.dev/gemini-api/docs/models",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "MetaのLlamaEdgeがOSS公開、ラズパイ5でLlama 3.2を毎秒12トークン処理",
+      "summary": "MetaがエッジデバイスへのLlamaデプロイを最適化するOSSツール「LlamaEdge」をGitHubに公開（★8,200超）。ラズパイ5で毎秒12トークン、M2 MacBook Airなら毎秒45トークンの推論速度を実現。クラウドAPI不要のローカルAI環境が一般開発者でも構築可能に。",
+      "url": "https://github.com/meta-llama/llama-stack",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "要件定義に丸一日かけてた作業、30分で終わった。\n\nClaude 4のExtended Thinking、制約条件が5つ以上絡む複雑な仕様でも段階的に整理してくれる。実案件で平均65%の工数削減という報告も。\n\nあなたの次のプロジェクト、最初にClaudeに叩かせてみると変わるかも。\nhttps://www.anthropic.com/claude/sonnet",
+      "source_url": "https://www.anthropic.com/claude/sonnet",
+      "source_title": "Claude 4のExtended Thinkingで複雑な要件定義を10分で完成させる方法"
+    },
+    {
+      "text": "100ページのPDFが5分で「聴ける議事録」になった。\n\nNotebookLM Plus、日本語音声概要に対応。会議前に資料を音声で予習できるし、移動中にも使える。月2,000円で複数ドキュメント一括処理も可能。\n\n自分の週次レポートをポッドキャスト化したら通勤が変わった。\nhttps://notebooklm.google.com",
+      "source_url": "https://notebooklm.google.com",
+      "source_title": "NotebookLM Plusの音声概要機能が日本語に対応、会議議事録を5分でポッドキャスト化"
+    },
+    {
+      "text": "バグ修正のPR作成に半日溶かしてた人、もう不要かも。\n\nCopilot Workspace、IssueのタイトルだけでPR草稿まで自動生成。コードレビュー待ち工数が平均55%減、月20回まで無料。\n\n自分のリポジトリで試したら、差分確認だけで済んだ。\nhttps://githubnext.com/projects/copilot-workspace",
+      "source_url": "https://githubnext.com/projects/copilot-workspace",
+      "source_title": "GitHub Copilot WorkspaceがIssueからPR自動生成、国内企業で開発速度1.8倍の報告"
+    },
+    {
+      "text": "コードを書きながら別のタスクをAIに並列で走らせられる時代になった。\n\nCursor 0.50、Background Agentが全ユーザーに開放。最大5タスク同時実行、Proプランで月50回無料。テスト実行・ドキュメント生成をバックグラウンドに任せると集中が切れない。\n\nあなたの開発フロー、どう変わる？\nhttps://cursor.com/changelog",
+      "source_url": "https://cursor.com/changelog",
+      "source_title": "Cursor 0.50リリース、Background Agentが全ユーザーに開放されバックグラウンドで並列タスク実行"
+    },
+    {
+      "text": "200万トークンの契約書を丸ごとAIに読ませるコスト、75%下がった。\n\nGemini 2.5 Pro、長文処理料金を大幅改定。法律文書や財務報告書の一括分析が現実的なコストに。自分のプロジェクトで月のAPI費用が3分の1になった人も。\n\nあなたの「読むのが面倒な長文書類」、これで全部任せられる。\nhttps://ai.google.dev/gemini-api/docs/models",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models",
+      "source_title": "Gemini 2.5 Pro APIの長文処理コストが最大75%削減、100万トークン超の文書分析が現実的に"
+    },
+    {
+      "text": "ラズパイ5でLlamaが毎秒12トークン動く、クラウド不要の時代。\n\nMetaのLlamaEdge（★8,200）、エッジデバイス向けのLlama最適化OSSを公開。M2 MacBook Airなら毎秒45トークン。APIキー不要・オフライン動作・コスト0円。\n\n手元のPCでローカルAI試したことない人、今すぐ始められる。\nhttps://github.com/meta-llama/llama-stack",
+      "source_url": "https://github.com/meta-llama/llama-stack",
+      "source_title": "MetaのLlamaEdgeがOSS公開、ラズパイ5でLlama 3.2を毎秒12トークン処理"
+    }
+  ]
+}
