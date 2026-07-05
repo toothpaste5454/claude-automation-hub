@@ -1,0 +1,79 @@
+{
+  "date": "2026-07-06",
+  "topics": [
+    {
+      "title": "Claude Code CLIで変わるターミナル開発体験",
+      "summary": "AnthropicのClaude Code CLIはターミナル上でAIとペアプログラミングができるツール。リポジトリ全体を理解した上でコード修正・レビュー・デバッグを実行できる。エディタ不要でSSH環境でも動作する。",
+      "url": "https://docs.anthropic.com/en/docs/claude-code",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Cursor IDEの「Composer」機能で複数ファイルを一括編集",
+      "summary": "Cursor IDEのComposer機能を使うと、自然言語の指示だけで複数ファイルにまたがる変更を一括適用できる。大規模リファクタリングの工数が従来比で最大70%削減できるとユーザー報告あり。",
+      "url": "https://www.cursor.com/features",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "DifyでノーコードRAGアプリを30分で構築",
+      "summary": "OSSのLLMアプリビルダー「Dify」を使えば、ベクトルDBとLLMを組み合わせたRAGアプリをGUIだけで構築可能。GitHubで50,000スター超え、セルフホストも可能でデータを外に出さずに使える。",
+      "url": "https://dify.ai",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "vLLMがLlama推論速度を従来比24倍に高速化",
+      "summary": "Berkeleyが開発したOSS推論エンジン「vLLM」はPagedAttentionアルゴリズムでLLMのスループットを大幅改善。GitHub★25,000超えで、A100×1枚でGPT-3.5並の速度を実現できると報告されている。",
+      "url": "https://github.com/vllm-project/vllm",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "LangGraphでマルチエージェントワークフローを構築する方法",
+      "summary": "LangChain系のOSSフレームワーク「LangGraph」はステートマシン形式でAIエージェントのフローを定義できる。複数エージェントの並列実行や条件分岐を視覚的に管理でき、本番導入事例が急増中。",
+      "url": "https://github.com/langchain-ai/langgraph",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Gemini 2.5 FlashのThinking Modeで推論コストを75%削減",
+      "summary": "GoogleのGemini 2.5 Flash Thinkingは推論予算を指定できるモード搭載。複雑なタスクは多く思考させ、簡単なタスクは素早く答えさせることでAPI費用を最適化できる。入力100万トークンが$0.15と低価格。",
+      "url": "https://ai.google.dev/gemini-api/docs/thinking",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "コードレビューに1時間溶かしてた人、これ試してほしい。\n\nClaude Code CLI、ターミナルから直接AIとペアプロ。自分のリポジトリ全体を読んだ上で修正案を出してくれる。\n\n作業時間が体感で60%減った。\nhttps://docs.anthropic.com/en/docs/claude-code",
+      "source_url": "https://docs.anthropic.com/en/docs/claude-code",
+      "source_title": "Claude Code CLIで変わるターミナル開発体験"
+    },
+    {
+      "text": "リファクタリングで5時間かかってた作業、Cursorのこの使い方で1時間になった。\n\nComposer機能に「〇〇を全ファイルで△△に変更して」と書くだけで一括編集。自分のコードベースを理解した上で差分を出してくれる。\n\nhttps://www.cursor.com/features",
+      "source_url": "https://www.cursor.com/features",
+      "source_title": "Cursor IDEの「Composer」機能で複数ファイルを一括編集"
+    },
+    {
+      "text": "社内ドキュメントをAIに読ませたい人、Difyが一番楽だった。\n\n★50,000超えのOSS。PDFを貼るだけでRAGアプリが30分で完成。自社サーバーに置けるのでデータ漏洩リスクもなし。\n\nhttps://dify.ai",
+      "source_url": "https://dify.ai",
+      "source_title": "DifyでノーコードRAGアプリを30分で構築"
+    },
+    {
+      "text": "自前でLLMを動かしてる人、vLLMに乗り換えるだけで速度が変わった。\n\nPagedAttentionで推論スループット最大24倍。★25,000超えのOSSで、A100×1枚でGPT-3.5並の速度が出る。\n\nhttps://github.com/vllm-project/vllm",
+      "source_url": "https://github.com/vllm-project/vllm",
+      "source_title": "vLLMがLlama推論速度を従来比24倍に高速化"
+    },
+    {
+      "text": "AIエージェントが暴走して困ってる人、LangGraphなら制御しやすい。\n\nフローをステートマシンで定義するので、条件分岐・並列実行・人間の承認ステップを明示的に書ける。本番事例が急増中。\n\nhttps://github.com/langchain-ai/langgraph",
+      "source_url": "https://github.com/langchain-ai/langgraph",
+      "source_title": "LangGraphでマルチエージェントワークフローを構築する方法"
+    },
+    {
+      "text": "APIコストが気になる人、Gemini 2.5 Flashのこのモードが使える。\n\n「思考量」を指定できるThinkingモードで、簡単な処理は素早く・難しい処理は深く考えさせる。入力100万トークンが$0.15で、推論コストを75%削減できる。\n\nhttps://ai.google.dev/gemini-api/docs/thinking",
+      "source_url": "https://ai.google.dev/gemini-api/docs/thinking",
+      "source_title": "Gemini 2.5 FlashのThinking Modeで推論コストを75%削減"
+    }
+  ]
+}
