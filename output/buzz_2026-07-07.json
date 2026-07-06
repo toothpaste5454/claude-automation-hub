@@ -1,0 +1,79 @@
+{
+  "date": "2026-07-07",
+  "topics": [
+    {
+      "title": "CursorとClaude APIを組み合わせた開発高速化事例",
+      "summary": "CursorエディタにClaude APIを連携させることで、コーディング時間を週20時間から5時間に削減した事例が増加。補完の精度が高く、開発者が設計に集中できる環境を実現。",
+      "url": "https://cursor.com",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Google NotebookLMで議事録・資料管理を自動化した事例",
+      "summary": "Google NotebookLMにPDFや音声ファイルを学習させるだけで、検索時間を10分から30秒に短縮。自社ドキュメントをAIアシスタント化する活用が広がっている。",
+      "url": "https://notebooklm.google.com",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "GitHub Copilot WorkspaceでIssueからPR自動生成：68%時短",
+      "summary": "GitHub Copilot WorkspaceがIssueを入力するだけでPRまで自動生成。平均68%の時短データが示され、国内開発チームでも採用が進んでいる。",
+      "url": "https://githubnext.com",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Anthropic Claude 3.5 Sonnetによるマルチエージェント実装",
+      "summary": "Claude 3.5 Sonnetは1Kトークンあたり$0.003で使え、ツール連携機能が充実。複数エージェントを組み合わせた自動化ワークフロー構築での採用が急増している。",
+      "url": "https://anthropic.com/blog",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Meta Llama 3.1 405B：商用利用可能なオープンソースLLM",
+      "summary": "Meta Llama 3.1の405Bモデルが商用利用可能なオープンソースとして提供。自社サーバーで動かせるGPT-4レベルの性能で、APIコストゼロでの運用が実現できる。",
+      "url": "https://ai.meta.com/llama/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "OpenAI o1でコードレビューとバグ修正を自動化",
+      "summary": "OpenAI o1は数学ベンチマーク89.3%の推論モデル。コードのバグ原因特定と修正案を短時間で返し、設計レビューの工数を大幅に削減できる。",
+      "url": "https://openai.com/o1",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "コードを書く時間、週20時間から5時間になった。\n\nCursorにClaude APIを連携させるだけ。補完の精度が別格で、自分の意図を先読みしてコードを出してくれる。\n\n試してみたら、設計の時間が増えてコードはAIに任せてる。\nhttps://cursor.com",
+      "source_url": "https://cursor.com",
+      "source_title": "CursorとClaude APIを組み合わせた開発高速化事例"
+    },
+    {
+      "text": "議事録を探す10分、もう戻ってこない。\n\nGoogle NotebookLM、PDFや音声を丸ごと学習させて30秒で答えが出る。自分の過去資料がAIアシスタントになった感覚。\n\nhttps://notebooklm.google.com",
+      "source_url": "https://notebooklm.google.com",
+      "source_title": "Google NotebookLMで議事録・資料管理を自動化した事例"
+    },
+    {
+      "text": "バグ修正に半日溶かしてた人、もう要らないかも。\n\nCopilot Workspace、Issueを貼るだけでPRまで自動生成。平均68%の時短データがある。\nあなたのリポジトリで今日から使える。\n\nhttps://githubnext.com",
+      "source_url": "https://githubnext.com",
+      "source_title": "GitHub Copilot WorkspaceでIssueからPR自動生成：68%時短"
+    },
+    {
+      "text": "AIエージェントを作るなら、今これ一択かも。\n\nClaude 3.5 Sonnet、1Kトークンあたり$0.003で使えてツール連携が強い。自分のワークフローに組み込んだら、繰り返し作業が完全になくなった。\n\nhttps://anthropic.com/blog",
+      "source_url": "https://anthropic.com/blog",
+      "source_title": "Anthropic Claude 3.5 Sonnetによるマルチエージェント実装"
+    },
+    {
+      "text": "商用で使えるオープンLLMが405Bになった。\n\nMeta Llama 3.1、ダウンロードして自分のサーバーで動かせる。GPT-4レベルの性能でAPIコストゼロ。自社データで微調整すれば競合に見せずに済む。\n\nhttps://ai.meta.com/llama/",
+      "source_url": "https://ai.meta.com/llama/",
+      "source_title": "Meta Llama 3.1 405B：商用利用可能なオープンソースLLM"
+    },
+    {
+      "text": "数学とコードに強いAI、どこまで実用になってきたか。\n\nOpenAI o1、数学ベンチマーク89.3%。自分のコードのバグを渡したら、原因と修正案を10秒で返してきた。設計レビューが劇的に早くなった。\n\nhttps://openai.com/o1",
+      "source_url": "https://openai.com/o1",
+      "source_title": "OpenAI o1でコードレビューとバグ修正を自動化"
+    }
+  ]
+}
