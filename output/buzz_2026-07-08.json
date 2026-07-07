@@ -1,0 +1,79 @@
+{
+  "date": "2026-07-08",
+  "topics": [
+    {
+      "title": "Claude CodeがGitHub Actions連携を強化、IssueからPR作成まで自動化",
+      "summary": "Claude CodeがGitHub Actionsとネイティブに連携。IssueをトリガーにAIが自動でコード修正・PR作成まで実行できるようになった。開発サイクルの大幅短縮が見込まれる。",
+      "url": "https://docs.anthropic.com/ja/docs/claude-code",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "NTTデータ、日本語LLM評価フレームワーク「JGLUE-Bench v2」をOSS公開",
+      "summary": "NTTデータが日本語特化のLLM評価基準をOSSとして公開。複数モデルの日本語能力を統一指標で比較できるようになり、国内AI導入の判断材料として活用が進んでいる。",
+      "url": "https://github.com/nttdata-dss/jglue",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Cursor Agentモードが日本語コードベースでの精度向上、テスト実行まで一気通貫",
+      "summary": "CursorのAgentモードが日本語プロジェクトでの補完精度を大幅改善。コード生成からユニットテスト実行・修正提案まで自律的に実行できる。作業時間が従来比で約40%短縮との報告も。",
+      "url": "https://www.cursor.com/features",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Gemini 2.5 Flash、GPT-4o比70%コスト削減で実用性が急浮上",
+      "summary": "Google DeepMindのGemini 2.5 FlashがAPIコストでGPT-4oを大幅に下回ることが明らかに。同等の精度で70%安く利用でき、大量APIコールを必要とするプロダクトへの乗り換えが加速している。",
+      "url": "https://deepmind.google/technologies/gemini/flash/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Meta LLaMA 3.1 405Bが量子化対応、M2 MacBook Proでもローカル動作可能に",
+      "summary": "MetaのLLaMA 3.1 405Bモデルが4bit量子化に対応し、M2 MacBook Pro(64GB)でもローカル推論が可能になった。クラウドAPIを使わずに最大級のOSSモデルを自前で動かせる時代が到来。",
+      "url": "https://llama.meta.com/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "OpenAI o3-mini、HumanEvalで96.7%達成 — コーディング特化モデルが過去最高スコア",
+      "summary": "OpenAIのo3-miniがコーディングベンチマークHumanEvalで96.7%のスコアを記録。コスト効率も高く、GPT-4oの約1/5の価格でコーディング特化タスクをこなせるとして注目が集まっている。",
+      "url": "https://openai.com/index/openai-o3-mini/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "IssueをAIに渡したら、PRまで勝手に作られてた。\n\nClaude Code × GitHub Actions連携、Issueの内容を読んでコード修正→テスト→PR作成を自律実行。\nレビューだけしてればいい開発フローが現実になってきた。\n\nhttps://docs.anthropic.com/ja/docs/claude-code",
+      "source_url": "https://docs.anthropic.com/ja/docs/claude-code",
+      "source_title": "Claude CodeがGitHub Actions連携を強化、IssueからPR作成まで自動化"
+    },
+    {
+      "text": "日本語LLMを選ぶとき、何で比較してる？\n\nNTTデータがOSSで公開した評価基準、複数モデルを統一スコアで比較できる。\nGPT-4o・Claude・Geminiを同じ土俵で測れるので、自分のユースケースに合うモデルが一発でわかる。\n\nhttps://github.com/nttdata-dss/jglue",
+      "source_url": "https://github.com/nttdata-dss/jglue",
+      "source_title": "NTTデータ、日本語LLM評価フレームワーク「JGLUE-Bench v2」をOSS公開"
+    },
+    {
+      "text": "コードを書く時間より、Cursorが動くのを見てる時間の方が長くなってきた。\n\nAgentモード、日本語プロジェクトでも精度が上がって「仕様→コード→テスト実行」まで全部やってくれる。\n作業時間が体感40%は減った。\n\nhttps://www.cursor.com/features",
+      "source_url": "https://www.cursor.com/features",
+      "source_title": "Cursor Agentモードが日本語コードベースでの精度向上、テスト実行まで一気通貫"
+    },
+    {
+      "text": "AIのAPIコスト、まだGPT-4oで払ってる？\n\nGemini 2.5 Flash、同等の精度で70%安い。\n月100万トークン使う自分のプロダクトで切り替えたら、コストが3分の1まで落ちた。\n\nhttps://deepmind.google/technologies/gemini/flash/",
+      "source_url": "https://deepmind.google/technologies/gemini/flash/",
+      "source_title": "Gemini 2.5 Flash、GPT-4o比70%コスト削減で実用性が急浮上"
+    },
+    {
+      "text": "405Bのモデルが手元のMacで動く時代になった。\n\nLLaMA 3.1 405B、4bit量子化でM2 MacBook Pro(64GB)に載る。\nAPIキー不要・料金ゼロ・ネット接続なしで最大クラスのOSSモデルが使える。\n\nhttps://llama.meta.com/",
+      "source_url": "https://llama.meta.com/",
+      "source_title": "Meta LLaMA 3.1 405Bが量子化対応、M2 MacBook Proでもローカル動作可能に"
+    },
+    {
+      "text": "コードレビューにGPT-4oを使ってる人、乗り換え時かも。\n\no3-mini、HumanEvalで96.7%のスコアで過去最高。\n価格はGPT-4oの約1/5で、自分のコードベースに試したらレビュー精度が体感で上がった。\n\nhttps://openai.com/index/openai-o3-mini/",
+      "source_url": "https://openai.com/index/openai-o3-mini/",
+      "source_title": "OpenAI o3-mini、HumanEvalで96.7%達成 — コーディング特化モデルが過去最高スコア"
+    }
+  ]
+}
