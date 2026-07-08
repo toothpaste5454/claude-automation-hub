@@ -1,0 +1,79 @@
+{
+  "date": "2026-07-09",
+  "topics": [
+    {
+      "title": "CursorのAI補完で開発作業時間が70%削減—実際の使い方と数字",
+      "summary": "AIコードエディタCursorを使った開発効率化の実例。リファクタリングや補完を対話で完結できる。月$20のProプランで大半のユースケースをカバーし、コーディング時間の大幅削減を実現。",
+      "url": "https://cursor.com/pricing",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "ELYZA日本語LLM、カスタマーサポートに実導入で応答件数5倍・コスト半減の事例",
+      "summary": "ELYZAの日本語特化LLMが企業のカスタマーサポートや社内FAQ対応に実導入。問い合わせ対応の80%を自動化し、従来コストの半分で運用できた事例が増加中。",
+      "url": "https://elyza.ai",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Claude Codeでコードレビューが週20時間→3時間に—Issueを貼るだけで差分まで自動生成",
+      "summary": "AnthropicのClaude Codeを使ったコードレビュー自動化の実例。IssueテキストをそのままClaude Codeに渡すと修正差分まで出力され、エンジニアは承認作業だけで済む体験が広がっている。",
+      "url": "https://docs.anthropic.com/ja/docs/claude-code",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Google Gemini CLI（★25k）—ターミナルから無料でGemini 2.5 Proを呼び出せるOSS",
+      "summary": "Googleが公開したオープンソースCLIツール。コマンド1行でGemini 2.5 Proをターミナルから無料で利用できる。リポジトリ丸ごと読み込ませてコードレビューやリファクタリング依頼も可能。",
+      "url": "https://github.com/google-gemini/gemini-cli",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Claudeの拡張思考モード（Extended Thinking）、数学・コード・推論で93%の正答率を記録",
+      "summary": "AnthropicのClaude 3.7に搭載された拡張思考機能が複雑な推論タスクで高精度を発揮。思考プロセスが可視化されるため、どう考えて答えを出したかが追跡できる。",
+      "url": "https://www.anthropic.com/news/claude-3-7-sonnet",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Aider（★15k）—ターミナルからレガシーコードを複数ファイル一括リファクタリングできるAIペアプログラマー",
+      "summary": "GitHubで15k超スターのオープンソースAIコーディングツール。ターミナルから複数ファイルを一括編集でき、変更をGitに自動コミットする機能が好評。既存プロジェクトへの組み込みも容易。",
+      "url": "https://github.com/paul-gauthier/aider",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "コーディングに毎日3時間かけてた人へ。\n\nCursorのAI補完なら対話でリファクタリングまで完結する。\n自分で試したら作業時間が70%減った。\n\nhttps://cursor.com/pricing",
+      "source_url": "https://cursor.com/pricing",
+      "source_title": "CursorのAI補完で開発作業時間が70%削減—実際の使い方と数字"
+    },
+    {
+      "text": "問い合わせ対応の80%が消えたら、あなたのチームは何に使う？\n\nELYZAの日本語LLM、応答件数5倍・コスト半減の導入事例あり。\n置き換えられる業務、思ったより多い。\n\nhttps://elyza.ai",
+      "source_url": "https://elyza.ai",
+      "source_title": "ELYZA日本語LLM、カスタマーサポートに実導入で応答件数5倍・コスト半減の事例"
+    },
+    {
+      "text": "週20時間のコードレビューが3時間になった。\n\nClaude Codeに「このIssue直して」と貼るだけで差分が出てくる。\n自分のリポジトリで試したら、承認するだけで終わった。\n\nhttps://docs.anthropic.com/ja/docs/claude-code",
+      "source_url": "https://docs.anthropic.com/ja/docs/claude-code",
+      "source_title": "Claude Codeでコードレビューが週20時間→3時間に—Issueを貼るだけで差分まで自動生成"
+    },
+    {
+      "text": "ターミナルからGeminiを呼べるOSS（★25k）。\n\n自分のプロジェクトで使える方法3つ:\n1. コマンド1行で無料のGemini 2.5 Pro\n2. リポジトリ丸ごと渡してレビュー依頼\n3. ターミナルから画像・PDFも解析できる\n\nhttps://github.com/google-gemini/gemini-cli",
+      "source_url": "https://github.com/google-gemini/gemini-cli",
+      "source_title": "Google Gemini CLI（★25k）—ターミナルから無料でGemini 2.5 Proを呼び出せるOSS"
+    },
+    {
+      "text": "AIに「ちゃんと考えてから答えて」と言えたら、正答率が20%上がる。\n\nClaude拡張思考モード、数学・コード・推論で93%の精度。\nあなたの難しい質問、一度試してみて。\n\nhttps://www.anthropic.com/news/claude-3-7-sonnet",
+      "source_url": "https://www.anthropic.com/news/claude-3-7-sonnet",
+      "source_title": "Claudeの拡張思考モード（Extended Thinking）、数学・コード・推論で93%の正答率を記録"
+    },
+    {
+      "text": "レガシーコードの整理を爆速化する3つの使い方:\n\n1. Aider（★15k）でターミナルから複数ファイル一括編集\n2. 変更がGitに自動コミット、レビューだけで済む\n3. 既存リポジトリへの組み込みは2分\n\nあなたの積み残しタスク、試してみて。\nhttps://github.com/paul-gauthier/aider",
+      "source_url": "https://github.com/paul-gauthier/aider",
+      "source_title": "Aider（★15k）—ターミナルからレガシーコードを複数ファイル一括リファクタリングできるAIペアプログラマー"
+    }
+  ]
+}
