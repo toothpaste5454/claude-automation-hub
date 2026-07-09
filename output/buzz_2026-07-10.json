@@ -1,0 +1,79 @@
+{
+  "date": "2026-07-10",
+  "topics": [
+    {
+      "title": "Google NotebookLMの音声概要機能、1時間の資料が5分のポッドキャストに自動変換",
+      "summary": "GoogleのNotebookLMが資料をポッドキャスト形式の音声サマリーに自動変換する機能を提供。PDFや議事録を貼るだけで移動中に「耳で読める」形式に変換。会議資料や論文のインプット効率が大幅に向上する。",
+      "url": "https://notebooklm.google.com",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Dify（★72,000）、コード不要でRAG・チャットbot・AIエージェントを構築できるOSS",
+      "summary": "ノーコードでAIワークフローを構築できるオープンソースプラットフォーム。ドラッグ&ドロップで複雑なAIパイプラインを設定可能。国内スタートアップや中小企業のAI内製化ツールとして活用が広がっている。",
+      "url": "https://github.com/langgenius/dify",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "GitHub Copilot Workspace、IssueからPR作成まで全自動でバグ修正時間を68%短縮",
+      "summary": "バグのIssueを貼るだけでコード修正からテスト、PR作成まで自動完結するサービス。月20回まで無料で利用でき、平均68%の時短効果が報告されている。レビューだけに集中できる環境を作れる。",
+      "url": "https://githubnext.com/projects/copilot-workspace",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Open WebUI（★52,000）、自分のPCをプライベートChatGPTにできるOSS",
+      "summary": "ローカルLLM（Ollama等）をChatGPTライクなブラウザUIで操作できるオープンソースツール。RAGや音声入力にも対応し、APIキー不要でプライベートなAI環境を構築できる。52,000スターを超えた。",
+      "url": "https://github.com/open-webui/open-webui",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Fabric（★35,000）、YouTubeや記事を100種以上のAIパターンでCLI分析できるツール",
+      "summary": "YouTubeのURLや記事テキストをCLIに入力するだけで要約・論点抽出・活用アイデア生成などを実行できるツール。Daniel Miessler作で100種以上のパターンが同梱されており、カスタマイズも可能。",
+      "url": "https://github.com/danielmiessler/fabric",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "LiteLLM（★15,000）、OpenAI・Claude・Gemini等100以上のLLMを統一APIで呼び出せるプロキシ",
+      "summary": "100社以上のLLMプロバイダーを同一インターフェースで扱えるPythonライブラリ。モデルの切り替えをコード変更なしに実現し、コスト最適化やフォールバック設定も簡単に構成できる。",
+      "url": "https://github.com/BerriAI/litellm",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "議事録の読み直しに30分かけてる人、耳で聞くだけで済む。\n\nGoogle NotebookLM、資料を貼るだけで5分のポッドキャストに自動変換。\n移動中でも会議の全論点を拾える。\n\nhttps://notebooklm.google.com",
+      "source_url": "https://notebooklm.google.com",
+      "source_title": "Google NotebookLMの音声概要機能、1時間の資料が5分のポッドキャストに自動変換"
+    },
+    {
+      "text": "コード不要でAIワークフローが作れるOSS、★72,000超えてた。\n\nDify、ドラッグ&ドロップでRAG・チャットbot・エージェントを構築できる。\nあなたの繰り返し作業、どれをAI化したい？\n\nhttps://github.com/langgenius/dify",
+      "source_url": "https://github.com/langgenius/dify",
+      "source_title": "Dify（★72,000）、コード不要でRAG・チャットbot・AIエージェントを構築できるOSS"
+    },
+    {
+      "text": "自分のリポジトリ、レビューだけで済む。\n\nGitHub Copilot Workspace、Issueを貼るだけでPRまで自動完結。\n月20回まで無料、平均68%の時短効果あり。\n\nhttps://githubnext.com/projects/copilot-workspace",
+      "source_url": "https://githubnext.com/projects/copilot-workspace",
+      "source_title": "GitHub Copilot Workspace、IssueからPR作成まで全自動でバグ修正時間を68%短縮"
+    },
+    {
+      "text": "自分のPCをプライベートChatGPTにできるOSS、★52,000超えてた。\n\nOpen WebUI、Ollamaと繋ぐだけで全LLMをブラウザのUIで操作できる。\nAPIキー不要・ログ外部送信なし。\n\nhttps://github.com/open-webui/open-webui",
+      "source_url": "https://github.com/open-webui/open-webui",
+      "source_title": "Open WebUI（★52,000）、自分のPCをプライベートChatGPTにできるOSS"
+    },
+    {
+      "text": "情報収集に毎日1時間かけてる人、10分に縮まった。\n\nFabric（★35,000）、YouTubeのURLを貼るだけで要約・論点をCLIで自動抽出。\n100種以上のパターンが最初から揃ってる。\n\nhttps://github.com/danielmiessler/fabric",
+      "source_url": "https://github.com/danielmiessler/fabric",
+      "source_title": "Fabric（★35,000）、YouTubeや記事を100種以上のAIパターンでCLI分析できるツール"
+    },
+    {
+      "text": "複数のLLM APIを1つのコードで切り替えてる人いる？\n\nLiteLLM（★15,000）、100以上のLLMを統一APIで呼び出せるプロキシ。\n自分の用途に合わせてモデルを秒で切り替えられる。\n\nhttps://github.com/BerriAI/litellm",
+      "source_url": "https://github.com/BerriAI/litellm",
+      "source_title": "LiteLLM（★15,000）、OpenAI・Claude・Gemini等100以上のLLMを統一APIで呼び出せるプロキシ"
+    }
+  ]
+}
