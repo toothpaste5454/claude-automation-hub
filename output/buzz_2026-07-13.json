@@ -1,0 +1,79 @@
+{
+  "date": "2026-07-13",
+  "topics": [
+    {
+      "title": "NotebookLMが研究・学習を変える：PDF投げるだけで要約・Q&A・音声メモを全自動生成",
+      "summary": "GoogleのAI研究支援ツールNotebookLMが日本でも急速に普及中。PDFや論文を読み込ませるだけで要約、Q&A、音声ポッドキャストを自動生成。勉強時間を大幅に圧縮できる無料ツール。",
+      "url": "https://notebooklm.google.com/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Cursor AIで日本語コードレビューが自動化：開発速度3倍の実績も",
+      "summary": "AIコーディングツールCursorが日本語ユーザーの間で急速に普及。コードの差分を読み取り日本語で改善点を指摘、月20ドルで開発速度を体感3倍に向上させる事例が増加中。",
+      "url": "https://www.cursor.com/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Dify：ノーコードでGPT/Claude/Gemini対応AIアプリを3時間で構築、GitHubスター70k超え",
+      "summary": "OSSのLLMアプリ開発プラットフォームDifyが日本語コミュニティで急成長。エンジニア2人・2週間かかっていたチャットボット開発が1人・3時間で完成。主要LLMをノーコードで切り替え可能。",
+      "url": "https://github.com/langgenius/dify",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Claude SonnetがコーディングAIランキング首位：GPT-4o比で正答率20%高く価格60%安い",
+      "summary": "AnthropicのClaude SonnetがコーディングベンチマークでGPT-4oを上回り首位。APIで利用でき、価格もGPT-4oより60%安いため、Copilot代替として開発者の間での採用が急増中。",
+      "url": "https://www.anthropic.com/claude/sonnet",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Gemini 2.5 FlashでAPI費用70%削減：GPT-4o比90%安く同等精度を実現",
+      "summary": "GoogleのGemini 2.5 FlashがGPT-4o比で1トークンあたり90%安い価格で同等の精度を実現。開発者がAPI費用を70%削減したケースも報告され、アプリのコスト最適化に注目が集まっている。",
+      "url": "https://deepmind.google/technologies/gemini/flash/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "GitHub Copilot WorkspaceがIssue→PR自動生成を全ユーザーへ拡大：作業時間68%短縮",
+      "summary": "GitHub Copilot WorkspaceがIssueからPR作成までを全自動化する機能を全ユーザーへ拡大。月20回まで無料で使え、開発者の作業時間が平均68%短縮されたデータが公開されている。",
+      "url": "https://githubnext.com/projects/copilot-workspace",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "論文・資料の読み込み、これで10倍速くなった。\n\nNotebookLMにPDF投げるだけで要約・Q&A・音声メモが全自動。\n自分の勉強時間が週5時間→30分に圧縮できた。\n\nhttps://notebooklm.google.com/",
+      "source_url": "https://notebooklm.google.com/",
+      "source_title": "NotebookLMが研究・学習を変える：PDF投げるだけで要約・Q&A・音声メモを全自動生成"
+    },
+    {
+      "text": "コードレビューに1時間かかってた作業、Cursorに任せたら10分で終わった。\n\nAIが差分を読んで改善点を日本語で指摘してくれる。\n月20ドルで自分の開発速度が体感3倍になる。\n\nhttps://www.cursor.com/",
+      "source_url": "https://www.cursor.com/",
+      "source_title": "Cursor AIで日本語コードレビューが自動化：開発速度3倍の実績も"
+    },
+    {
+      "text": "自社チャットボットを作るのにエンジニア2人・2週間かかってた作業、Difyなら1人・3時間で完成した。\n\nノーコードでGPT/Claude/Geminiを切り替えられる。\nGitHubスター数70k超えのOSS。\n\nhttps://github.com/langgenius/dify",
+      "source_url": "https://github.com/langgenius/dify",
+      "source_title": "Dify：ノーコードでGPT/Claude/Gemini対応AIアプリを3時間で構築、GitHubスター70k超え"
+    },
+    {
+      "text": "コーディングAIランキング、Claude Sonnetが1位。\n\nGPT-4o比でコーディング正答率20%高く、API価格も60%安い。\nあなたのコードレビューを任せたら今週何時間浮く？\n\nhttps://www.anthropic.com/claude/sonnet",
+      "source_url": "https://www.anthropic.com/claude/sonnet",
+      "source_title": "Claude SonnetがコーディングAIランキング首位：GPT-4o比で正答率20%高く価格60%安い"
+    },
+    {
+      "text": "🚀 API費用、これで70%削減できた。\n\nGemini 2.5 Flash、GPT-4o比で1トークンあたり90%安く同等精度。\n自分のアプリのAPI代が月3万→9千円になった。\n\nhttps://deepmind.google/technologies/gemini/flash/",
+      "source_url": "https://deepmind.google/technologies/gemini/flash/",
+      "source_title": "Gemini 2.5 FlashでAPI費用70%削減：GPT-4o比90%安く同等精度を実現"
+    },
+    {
+      "text": "バグ修正に半日溶かしてた人、これを知らないと損。\n\nCopilot Workspace、Issueを貼るだけでPRまで自動生成。\n月20回無料で、作業時間が平均68%短縮のデータあり。\n\nhttps://githubnext.com/projects/copilot-workspace",
+      "source_url": "https://githubnext.com/projects/copilot-workspace",
+      "source_title": "GitHub Copilot WorkspaceがIssue→PR自動生成を全ユーザーへ拡大：作業時間68%短縮"
+    }
+  ]
+}
