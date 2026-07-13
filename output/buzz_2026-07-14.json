@@ -1,0 +1,79 @@
+{
+  "date": "2026-07-14",
+  "topics": [
+    {
+      "title": "Dify: ノーコードLLMアプリ開発プラットフォームがGitHubスター★100k突破",
+      "summary": "DifyはオープンソースのLLMアプリ開発基盤。ノーコードでChatBot・RAG・エージェントを構築できる。GitHubスター数が10万を超え、日本企業の内製AI開発でも採用が急増している。",
+      "url": "https://github.com/langgenius/dify",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Claude Code: ターミナルから複数ファイルを横断して自律バグ修正、コードレビュー時間を大幅削減",
+      "summary": "AnthropicのClaude Codeはターミナルから操作できるAIエージェント。複数ファイルにまたがるバグの調査・修正・コミットまで自律実行。1時間かかっていたコードレビューが10分になった事例が国内で増加中。",
+      "url": "https://www.anthropic.com/claude-code",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Cursor AIエージェント: 指示1行で複数ファイル実装が完了、導入チームの開発速度が平均2倍に",
+      "summary": "CursorのAgent機能が進化し、複数ファイルにまたがる実装を自然言語の指示1行で完了できる。国内開発チームの調査では平均開発速度が2倍になった報告もある。",
+      "url": "https://cursor.com",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "GitHub Copilot Workspace: IssueからPR作成まで全自動、修正時間68%短縮のデータ",
+      "summary": "GitHub Copilot WorkspaceがすべてのGitHubユーザーに開放。IssueのURLを貼るだけでPRまで自動生成し、バグ修正時間が平均68%短縮されるデータがある。月20回まで無料で試せる。",
+      "url": "https://githubnext.com/projects/copilot-workspace",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Gemini 2.5 Flash: 無料APIで100万トークン処理・思考モード対応、APIコストを大幅削減",
+      "summary": "GoogleのGemini 2.5 FlashはAPIの無料枠で100万トークンの処理が可能。思考モードで複雑な推論にも対応しており、APIコストを最大10分の1に削減できる選択肢として注目されている。",
+      "url": "https://ai.google.dev/gemini-api/docs/models",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Ollama: M1 MacでローカルLLMが動くOSSツール、GitHubスター★100k超え",
+      "summary": "OllamaはM1 MacでLlama3などのLLMをローカル実行できるOSSツール。GitHubスター数10万超えで、クラウドに送れないデータをローカルでAI処理する用途で活用が急拡大している。",
+      "url": "https://github.com/ollama/ollama",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "LLMアプリを自社で作りたい人、Difyが一番早い。\n\nノーコードでRAG・エージェントを構築。\nGitHubスター★100k超え。\n\n自分のデータで動くAIを1時間で試せる。\nhttps://github.com/langgenius/dify",
+      "source_url": "https://github.com/langgenius/dify",
+      "source_title": "Dify: ノーコードLLMアプリ開発プラットフォームがGitHubスター★100k突破"
+    },
+    {
+      "text": "コードレビューに1時間かけてた作業、10分になった。\n\nClaude Code、複数ファイルを横断してバグ修正まで自律実行。\n「どこ直す？」の特定も全部やってくれる。\n\n自分のリポジトリで試した人なら分かる感覚。\nhttps://www.anthropic.com/claude-code",
+      "source_url": "https://www.anthropic.com/claude-code",
+      "source_title": "Claude Code: ターミナルから複数ファイルを横断して自律バグ修正、コードレビュー時間を大幅削減"
+    },
+    {
+      "text": "1日中コードを書いてる人に試してほしい。\n\nCursorのAgent機能、複数ファイルの実装が指示1行で完了。\n導入チームで開発速度が平均2倍のデータあり。\n\n自分のプロジェクトに入れるだけで感覚が変わる。\nhttps://cursor.com",
+      "source_url": "https://cursor.com",
+      "source_title": "Cursor AIエージェント: 指示1行で複数ファイル実装が完了、導入チームの開発速度が平均2倍に"
+    },
+    {
+      "text": "バグ修正に半日溶かしてた人、もう要らないかも。\n\nCopilot Workspace、Issueを貼るだけでPRまで自動生成。\n月20回無料、修正時間が平均68%短くなるデータあり。\n\n自分のリポジトリで試したら、レビューだけで済んだ。\nhttps://githubnext.com/projects/copilot-workspace",
+      "source_url": "https://githubnext.com/projects/copilot-workspace",
+      "source_title": "GitHub Copilot Workspace: IssueからPR作成まで全自動、修正時間68%短縮のデータ"
+    },
+    {
+      "text": "無料APIで100万トークン処理できるモデルが使える。\n\nGemini 2.5 Flash、思考モードで複雑な推論にも対応。\nあなたのAPIコストが最大10分の1になる可能性がある。\n\nあなたなら何に使う？\nhttps://ai.google.dev/gemini-api/docs/models",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models",
+      "source_title": "Gemini 2.5 Flash: 無料APIで100万トークン処理・思考モード対応、APIコストを大幅削減"
+    },
+    {
+      "text": "クラウドに送れないデータでもAIを使いたい人へ。\n\nOllama、M1 MacでLlama3がローカル動作するOSS。\nGitHubスター★100k超えで、APIコスト0円になる。\n\n自分のPCに入れるだけで即使える。\nhttps://github.com/ollama/ollama",
+      "source_url": "https://github.com/ollama/ollama",
+      "source_title": "Ollama: M1 MacでローカルLLMが動くOSSツール、GitHubスター★100k超え"
+    }
+  ]
+}
