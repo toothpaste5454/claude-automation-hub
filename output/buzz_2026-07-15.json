@@ -1,0 +1,79 @@
+{
+  "date": "2026-07-15",
+  "topics": [
+    {
+      "title": "OSS製LLMアプリビルダー「Dify」がGitHubスター6万超え—ノーコードでRAGエージェントを構築",
+      "summary": "DifyはGitHub Stars 6万超のOSSで、RAGパイプラインやLLMエージェントをノーコードで構築できる。APIキー1つで複数のLLMプロバイダーを切り替えられ、セルフホストも可能。日本企業での社内チャットボット構築にも活用されている。",
+      "url": "https://github.com/langgenius/dify",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Claude Codeでプルリクレビュー自動化—エンジニアの作業時間を週5時間削減",
+      "summary": "Anthropicのターミナルエージェント「Claude Code」は、コードベース全体を読んでIssue解決からPRまで自動で行う。月額Proプランで使え、レビュー待ち時間ゼロの開発フローを実現。週5時間の工数削減事例も報告されている。",
+      "url": "https://docs.anthropic.com/en/docs/claude-code",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "GoogleのNotebookLMで論文50本を1時間でまとめる—音声ポッドキャスト機能も話題",
+      "summary": "NotebookLMはPDF・URL・テキストを取り込んでAIが質疑応答に答えるツール。論文50本を読み込んでキーポイントを整理したり、Audio Overview機能で音声ポッドキャスト形式で要約を聴ける。無料で使える。",
+      "url": "https://notebooklm.google.com/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "LLM推論フレームワークvLLMがGitHubスター4万超—最大24倍のスループット向上を実現",
+      "summary": "vLLMはLLM推論を最適化するOSSフレームワーク。PagedAttentionでメモリ効率を大幅改善し、HuggingFace互換APIで最大24倍のスループットを実現。クラウドコスト削減やオンプレLLM運用に活用されている。",
+      "url": "https://github.com/vllm-project/vllm",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "GitHub Copilot WorkspaceでIssueからPR作成を全自動—バグ修正時間が68%短縮",
+      "summary": "GitHub Copilot WorkspaceはIssueの内容を読み込み、コード変更からテスト追記・PR作成まで自動で行うエージェント機能。月20回まで無料で試せ、バグ修正時間が平均68%短縮したデータがある。",
+      "url": "https://githubnext.com/projects/copilot-workspace",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Google Gemini 2.5 Pro、コーディングベンチマーク1位—100万トークンのコンテキスト対応",
+      "summary": "GoogleのGemini 2.5 Proは100万トークンのコンテキスト窓を持ち、HumanEvalなどのコーディングベンチマークでトップスコアを記録。長いコードベース全体を読んだうえで実装・レビューが可能。APIで利用できる。",
+      "url": "https://deepmind.google/technologies/gemini/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "社内チャットボット、1日かけて作ってた人いる？\n\nDify、GitHubスター6万超のOSSでRAGエージェントがノーコードで動く。\nAPIキー1本つないで30分で社内資料QAが動いた。\n\nhttps://github.com/langgenius/dify",
+      "source_url": "https://github.com/langgenius/dify",
+      "source_title": "OSS製LLMアプリビルダー「Dify」がGitHubスター6万超え—ノーコードでRAGエージェントを構築"
+    },
+    {
+      "text": "レビュー待ちで止まってた作業、これで消えた。\n\nClaude Code、ターミナルで動くAIエージェント。\nIssueを渡すだけでコード修正→テスト→PRまで自動。週5時間の作業が浮いた。\n\nhttps://docs.anthropic.com/en/docs/claude-code",
+      "source_url": "https://docs.anthropic.com/en/docs/claude-code",
+      "source_title": "Claude Codeでプルリクレビュー自動化—エンジニアの作業時間を週5時間削減"
+    },
+    {
+      "text": "論文読む時間がない人への3つのNotebookLM活用法:\n\n1. PDF50本まとめて入れてAIに質問→要点を30分で把握\n2. Audio Overviewで通勤中に音声要約を聴く\n3. 気になる箇所だけ引用付きで深掘り\n\nhttps://notebooklm.google.com/",
+      "source_url": "https://notebooklm.google.com/",
+      "source_title": "GoogleのNotebookLMで論文50本を1時間でまとめる—音声ポッドキャスト機能も話題"
+    },
+    {
+      "text": "自分でLLMを動かしてる人、推論コストが激減するかも。\n\nvLLM、GitHubスター4万超のOSSで速度が最大24倍。\nHuggingFaceのモデルをそのまま読み込めてGPU費用を大幅削減できる。\n\nhttps://github.com/vllm-project/vllm",
+      "source_url": "https://github.com/vllm-project/vllm",
+      "source_title": "LLM推論フレームワークvLLMがGitHubスター4万超—最大24倍のスループット向上を実現"
+    },
+    {
+      "text": "バグ修正に半日かけてた作業、もう要らないかも。\n\nCopilot Workspace、IssueをコピペするだけでPRまで自動生成。\n月20回無料で使えて、平均68%の時短データあり。\n\nhttps://githubnext.com/projects/copilot-workspace",
+      "source_url": "https://githubnext.com/projects/copilot-workspace",
+      "source_title": "GitHub Copilot WorkspaceでIssueからPR作成を全自動—バグ修正時間が68%短縮"
+    },
+    {
+      "text": "コードベース全体を読んで答えるAI、本当に来た。\n\nGemini 2.5 Pro、100万トークン対応でコーディング評価1位。\n自分のリポジトリ全部渡して「ここ直して」が通じる。\n\nあなたなら何に使う？\nhttps://deepmind.google/technologies/gemini/",
+      "source_url": "https://deepmind.google/technologies/gemini/",
+      "source_title": "Google Gemini 2.5 Pro、コーディングベンチマーク1位—100万トークンのコンテキスト対応"
+    }
+  ]
+}
