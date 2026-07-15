@@ -1,0 +1,79 @@
+{
+  "date": "2026-07-16",
+  "topics": [
+    {
+      "title": "Cursorで月20時間削減：AIコーディングツールの実践活用",
+      "summary": "AIコーディングツールCursorを導入した開発者が月20時間以上の作業削減を報告。コード補完だけでなく、バグ修正やリファクタリングにも活用されており、月$20のProプランが中小チームで人気を集めている。",
+      "url": "https://cursor.com",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "DifyでRAGアプリをノーコードで構築：GitHub ★60k超のOSSが変えるAI開発",
+      "summary": "ノーコード・ローコードでLLMアプリを構築できるDifyがGitHub ★60k超を達成。PDF→QAボット、Slack連携、社内検索など複数のユースケースに対応。プロンプト管理からRAG実装まで一括で対応できる。",
+      "url": "https://github.com/langgenius/dify",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Claude Codeで実務投入：PR作成時間を平均65%削減した実践例",
+      "summary": "AnthropicのCLIベースAIコーディングツールClaude Codeが実務で成果を出している。ファイル編集からgit操作まで自律実行し、エンジニアのPR作成時間を平均65%削減。無料枠から今日から試せる。",
+      "url": "https://claude.ai/code",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "GitHub Copilot Workspace：IssueからPRまで平均68%時短の自動化",
+      "summary": "GitHubのCopilot WorkspaceがIssueを入力するだけでPRを自動生成する機能を強化。平均68%の時短データが示され、月20回まで無料で試せる。全ユーザーに開放済みで今すぐ使える。",
+      "url": "https://githubnext.com/projects/copilot-workspace",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Llama 3.1 405B：GPT-4相当のオープンソースLLMをローカル環境で動かす",
+      "summary": "MetaのLlama 3.1 405BがオープンソースでリリースされGPT-4相当の性能をローカル環境で実現可能に。商用利用OKのライセンスで、自社データをクラウドに流さずファインチューニングも無制限に行える。",
+      "url": "https://llama.meta.com",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "NotebookLM：1500万文字の資料をAIがポッドキャスト化・横断分析する使い方",
+      "summary": "GoogleのNotebookLMが1500万文字までの資料を自動的に要約・ポッドキャスト化する機能で注目を集める。PDF・YouTube動画・Googleドキュメントを横断分析し、会議メモの議事録化も即時対応。全機能無料で使える。",
+      "url": "https://notebooklm.google.com",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "自分のコードレビューに半日かけてた人、試してみて。\n\nCursor Pro（月$20）、補完・リファクタ・バグ修正まで全部AIに投げられる。\n使い始めて月20時間以上浮いたというエンジニアが続出中。\n\nhttps://cursor.com",
+      "source_url": "https://cursor.com",
+      "source_title": "Cursorで月20時間削減：AIコーディングツールの実践活用"
+    },
+    {
+      "text": "RAGを「ゼロから」作ってた人、もう要らないかも。\n\nDify（GitHub ★60k超）、ノーコードで3つ全部できる:\n・PDF→QAボット（10分）\n・Slack→要約bot\n・社内検索\n\nhttps://github.com/langgenius/dify",
+      "source_url": "https://github.com/langgenius/dify",
+      "source_title": "DifyでRAGアプリをノーコードで構築：GitHub ★60k超のOSSが変えるAI開発"
+    },
+    {
+      "text": "PRを出すのに1時間かかってた作業、これで15分になった。\n\nClaude Code、ファイル編集からgit pushまで全部CLI上で動く。\n平均65%時短のデータあり、無料枠で今日から試せる。\n\nhttps://claude.ai/code",
+      "source_url": "https://claude.ai/code",
+      "source_title": "Claude Codeで実務投入：PR作成時間を平均65%削減した実践例"
+    },
+    {
+      "text": "IssueがPRになる。しかも平均68%時短。\n\n自分のリポジトリで試してみたら、レビューだけで済んだ。\n月20回無料、今すぐ使える。\n\nあなたなら何から片付ける？\nhttps://githubnext.com/projects/copilot-workspace",
+      "source_url": "https://githubnext.com/projects/copilot-workspace",
+      "source_title": "GitHub Copilot Workspace：IssueからPRまで平均68%時短の自動化"
+    },
+    {
+      "text": "GPT-4相当のAIが「タダ」で自社サーバーに置ける。\n\nLlama 3.1 405B、ライセンスで商用OK。\n自社データをクラウドに流さず、ファインチューニングも無制限。\n\nあなたなら何のデータで試す？\nhttps://llama.meta.com",
+      "source_url": "https://llama.meta.com",
+      "source_title": "Llama 3.1 405B：GPT-4相当のオープンソースLLMをローカル環境で動かす"
+    },
+    {
+      "text": "議事録に追われてる人、これ試して。\n\nNotebookLM、1500万文字まで食わせられる:\n1. PDF→ポッドキャスト化（10分）\n2. 複数文書を横断質問（出典付き）\n3. 会議メモ→議事録（即時）\n\n全部無料。\nhttps://notebooklm.google.com",
+      "source_url": "https://notebooklm.google.com",
+      "source_title": "NotebookLM：1500万文字の資料をAIがポッドキャスト化・横断分析する使い方"
+    }
+  ]
+}
