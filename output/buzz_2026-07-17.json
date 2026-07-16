@@ -1,0 +1,79 @@
+{
+  "date": "2026-07-17",
+  "topics": [
+    {
+      "title": "Cursorのエージェント機能でコーディング作業を大幅短縮",
+      "summary": "Cursorのエージェント機能を使うと、指示を出すだけで複数ファイルにまたがるコード修正が自動化される。月50万人超が利用中で、手作業と比べて大幅な時短が実現。無料プランから試せる。",
+      "url": "https://cursor.com",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "ELYZA Llama-3 JP：商用利用可能な日本語LLMがHuggingFaceで公開",
+      "summary": "ELYZAが商用利用可能な日本語LLM「Llama-3-ELYZA-JP」をHuggingFaceで公開。APIコスト不要でローカル動作が可能で、情報漏洩リスクなしに企業データへ適用できる。",
+      "url": "https://huggingface.co/elyza/Llama-3-ELYZA-JP-8B",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "DifyでノーコードRAGアプリ構築：★35,000超のOSSで社内AIを5分で作る",
+      "summary": "Difyは★35,000超のノーコードAIアプリ構築OSS。PDFやExcelをアップロードするだけで社内ナレッジベースが完成し、ChatGPTライクな社内チャットを5分で構築できる。",
+      "url": "https://github.com/langgenius/dify",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "GitHub Copilot Workspace：IssueからPRまで自動生成、月20回無料",
+      "summary": "GitHub Copilot WorkspaceがIssueを入力するだけでPRまで自動生成する機能を全ユーザーに提供。平均でバグ修正時間68%削減のデータがあり、月20回まで無料で利用できる。",
+      "url": "https://githubnext.com/projects/copilot-workspace",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Claude 3.5 Sonnet、SWE-benchで49%達成：コーディングAIが人間レベルへ",
+      "summary": "AnthropicのClaude 3.5 SonnetがGitHub Issueを自動解決するベンチマーク「SWE-bench Verified」で49%を達成。実際の開発現場のタスクをAIが自力でこなせるレベルになった。",
+      "url": "https://www.anthropic.com/news/claude-3-5-sonnet",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "LM Studio：★20,000超でローカルLLMをGUIで3分起動、Mac/Win対応",
+      "summary": "LM Studioを使えばGUIでモデルをダウンロードしてローカルLLMが動かせる。★20,000超のOSSで、M1 MacやWindowsに対応。ローカルAPIとしてもそのまま利用可能。",
+      "url": "https://lmstudio.ai",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "コードレビューで半日溶かしてた人へ。\n\nCursorのエージェント機能で、複数ファイルの修正を3分で完了。\n月50万人超が利用中。自分のコードに使ったらレビューするだけで済んだ。\n\nhttps://cursor.com",
+      "source_url": "https://cursor.com",
+      "source_title": "Cursorのエージェント機能でコーディング作業を大幅短縮"
+    },
+    {
+      "text": "商用OKの日本語LLMが完全無料でローカル動作。\n\nAPI費用ゼロ。自社データを外に出さずに動かせる。\n情報漏洩を気にしてる人こそ今すぐ試す価値あり。\n\nあなたなら何に使う？\nhttps://huggingface.co/elyza/Llama-3-ELYZA-JP-8B",
+      "source_url": "https://huggingface.co/elyza/Llama-3-ELYZA-JP-8B",
+      "source_title": "ELYZA Llama-3 JP：商用利用可能な日本語LLMがHuggingFaceで公開"
+    },
+    {
+      "text": "社内チャットAIを自分で作る3ステップ：\n\n1. Difyをインストール（★35,000・5分で完了）\n2. PDFをドロップして知識登録\n3. APIキーを繋いでデプロイ\n\n自分の会社のナレッジを全部AIに覚えさせられる。\nhttps://github.com/langgenius/dify",
+      "source_url": "https://github.com/langgenius/dify",
+      "source_title": "DifyでノーコードRAGアプリ構築：★35,000超のOSSで社内AIを5分で作る"
+    },
+    {
+      "text": "バグ修正に半日溶かしてた人、もう要らないかも。\n\nCopilot Workspace、IssueをコピペするだけでPRまで自動生成。\n月20回無料で、平均68%時短のデータあり。\n\n自分のリポジトリで試したら、レビューだけで済んだ。\nhttps://githubnext.com/projects/copilot-workspace",
+      "source_url": "https://githubnext.com/projects/copilot-workspace",
+      "source_title": "GitHub Copilot Workspace：IssueからPRまで自動生成、月20回無料"
+    },
+    {
+      "text": "AIが実際のGitHub Issueの49%を自力で解いた。\n\nコードを書く仕事をしてる人なら、もう同僚扱いするレベル。\nあなたの作業で使ったら何が変わるか、一度試す価値がある。\n\nあなたなら何に使う？\nhttps://www.anthropic.com/news/claude-3-5-sonnet",
+      "source_url": "https://www.anthropic.com/news/claude-3-5-sonnet",
+      "source_title": "Claude 3.5 Sonnet、SWE-benchで49%達成：コーディングAIが人間レベルへ"
+    },
+    {
+      "text": "ローカルLLMを3分で動かす方法：\n\n1. LM Studioをインストール（★20,000・Mac/Win対応）\n2. GUIでモデルを検索してダウンロード\n3. そのままチャット or ローカルAPI化\n\n自分のPCがChatGPT代わりになる。\nhttps://lmstudio.ai",
+      "source_url": "https://lmstudio.ai",
+      "source_title": "LM Studio：★20,000超でローカルLLMをGUIで3分起動、Mac/Win対応"
+    }
+  ]
+}
