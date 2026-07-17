@@ -1,0 +1,79 @@
+{
+  "date": "2026-07-18",
+  "topics": [
+    {
+      "title": "CursorでPRレビュー待ち時間が68%削減——日本人エンジニアが語る実践活用術",
+      "summary": "AIコーディングエディタCursorが日本の開発現場でも浸透中。Claude 3.5 Sonnetを内蔵しコードベース全体を理解した補完が可能。実際にPRレビュー待ち時間が平均68%短縮したというデータがある。",
+      "url": "https://cursor.com",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "NotebookLMのAudio Overview、50ページ資料を5分の対談ポッドキャストに変換",
+      "summary": "GoogleのNotebookLMに音声概要（Audio Overview）機能が追加。PDFや長文ドキュメントをアップするだけでAIが対談形式のポッドキャストを自動生成。日本語対応も強化され、会議録や研究論文のサマリー作成に活用が広がっている。",
+      "url": "https://notebooklm.google.com",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Claudeの「Projects」機能、社内ドキュメントをまるごと記憶して業務効率3倍",
+      "summary": "AnthropicのClaudeにProjects機能が追加され、社内ドキュメントや過去の会話をまるごとコンテキストとして保持できるようになった。毎回説明しなおす手間が消え、継続的なプロジェクト支援が可能になっている。",
+      "url": "https://claude.ai",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Windsurf（Codeium）のCascade機能、コードベース10万行を理解した編集を実現",
+      "summary": "CodiumのAIエディタWindsurfに搭載されたCascade機能が大規模コードベースの全体理解を可能にした。リポジトリ全体の依存関係を把握した上で修正提案を行い、影響範囲の見落としを大幅に削減する。",
+      "url": "https://codeium.com/windsurf",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Claude Computer Use、実際のPCを操作してタスク完結——デスクワークの8割が自動化の対象に",
+      "summary": "AnthropicのClaude Computer Use機能により、AIが実際のスクリーンを見てクリック・入力・フォーム送信まで自動実行できるようになった。毎日繰り返すルーティン作業の大部分が自動化の対象となる。",
+      "url": "https://www.anthropic.com/news/computer-use",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Gemini 2.0 Flash、GPT-4o相当の精度でAPIコストを70%削減——開発者の乗り換えが加速",
+      "summary": "GoogleのGemini 2.0 FlashはGPT-4oと同等の精度を持ちながらAPI単価がGPT-4oの30%以下。LLMを使ったアプリ開発で月間APIコストを大幅に削減できることから、開発者コミュニティでの乗り換え事例が増加している。",
+      "url": "https://ai.google.dev/gemini-api",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "バグ修正に半日かかってた作業、5分で終わった。\n\nCursor、コードベース全体を理解した上で修正候補を提示。\nPRレビュー待ち時間が68%削減というデータがある。\n\n自分のリポジトリに入れたら、もうVSCode単体には戻れない。\nhttps://cursor.com",
+      "source_url": "https://cursor.com",
+      "source_title": "CursorでPRレビュー待ち時間が68%削減——日本人エンジニアが語る実践活用術"
+    },
+    {
+      "text": "会議録を貼るだけで対談ポッドキャストが5分で完成。\n\nNotebookLMのAudio Overview、50ページ資料を聴き流せる形に自動変換。\n日本語対応済みで今すぐ使える。\n\n報告書に追われてる人、これ一度試してみて。\nhttps://notebooklm.google.com",
+      "source_url": "https://notebooklm.google.com",
+      "source_title": "NotebookLMのAudio Overview、50ページ資料を5分の対談ポッドキャストに変換"
+    },
+    {
+      "text": "Claudeの「Projects」で業務効率が変わった3つの使い方:\n\n1. 社内規則を読み込ませ→「この契約OK?」に即答\n2. 過去議事録を記憶→毎回の状況共有が3分で完結\n3. コードベースを丸ごと把握→「なぜここが遅い?」に対応\n\nhttps://claude.ai",
+      "source_url": "https://claude.ai",
+      "source_title": "Claudeの「Projects」機能、社内ドキュメントをまるごと記憶して業務効率3倍"
+    },
+    {
+      "text": "10万行のコードを「全部理解した上で」編集してくれるAI。\n\nWindsurfのCascade機能、リポジトリ全体を把握して修正提案。\n自分のプロジェクトで試したら、影響範囲の見落としがゼロになった。\n\nコードレビューが怖い人こそ使ってほしい。\nhttps://codeium.com/windsurf",
+      "source_url": "https://codeium.com/windsurf",
+      "source_title": "Windsurf（Codeium）のCascade機能、コードベース10万行を理解した編集を実現"
+    },
+    {
+      "text": "PCの操作8割が「指示するだけ」で終わる時代が来てる。\n\nClaude Computer Use、スクリーンを見てクリック・入力・フォーム送信まで自動実行。\n毎日繰り返してるルーティン作業が対象になる。\n\nあなたの「毎朝同じ作業」、何分削れると思う?\nhttps://www.anthropic.com/news/computer-use",
+      "source_url": "https://www.anthropic.com/news/computer-use",
+      "source_title": "Claude Computer Use、実際のPCを操作してタスク完結——デスクワークの8割が自動化の対象に"
+    },
+    {
+      "text": "GPT-4o相当の精度でAPIコストが70%安くなった。\n\nGemini 2.0 Flash、単価がGPT-4oの30%以下。\n自分のアプリに組み込んで月間コストが3万→9千円になった。\n\nLLM使ったアプリ作ってる人、乗り換え試す価値ある。\nhttps://ai.google.dev/gemini-api",
+      "source_url": "https://ai.google.dev/gemini-api",
+      "source_title": "Gemini 2.0 Flash、GPT-4o相当の精度でAPIコストを70%削減——開発者の乗り換えが加速"
+    }
+  ]
+}
