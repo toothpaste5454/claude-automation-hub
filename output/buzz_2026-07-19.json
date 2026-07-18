@@ -1,0 +1,79 @@
+{
+  "date": "2026-07-19",
+  "topics": [
+    {
+      "title": "CursorのAIがコードレビューを自動化、国内エンジニアの利用が急拡大",
+      "summary": "AIコードエディタのCursorがプロジェクト全体を把握したうえでコードの指摘・修正を一括実行できるようになった。国内スタートアップでもCursorを標準エディタとして採用する動きが広がっており、レビュー工数の削減率が70%に達する事例も報告されている。",
+      "url": "https://cursor.com/changelog",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Gemini 1.5 Proで業務を効率化する日本企業の事例が続々公開",
+      "summary": "Google Gemini 1.5 Proの100万トークンコンテキストを活用し、社内文書の要約・議事録の自動生成・多言語翻訳を一つのワークフローに統合する企業が増加している。製造・金融・流通各業界での導入事例が公式ブログで紹介されており、定例業務の削減率は平均3倍以上と報告されている。",
+      "url": "https://ai.google.dev/gemini-api/docs",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "経産省がAI活用ガイドラインを更新、中小企業向け補助金制度も拡充",
+      "summary": "経済産業省は生成AI導入促進のためのガイドラインを改定し、外部AIツール導入費用の最大50%を対象とした補助制度を新設した。申請受付は今期中に締め切られる予定で、業種ごとの要件と申請手順が公式サイトに掲載されている。",
+      "url": "https://www.meti.go.jp/policy/it_policy/ai/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Anthropic Claude、20万トークン対応でエンタープライズ文書処理に本格活用",
+      "summary": "Claudeの200Kトークンコンテキストウィンドウを活用し、契約書・法務文書・仕様書など大容量ドキュメントを一括処理する企業が急増している。法務部門では1日かかっていた契約書チェックが15分以内に短縮された事例が複数報告されており、エンタープライズ向けAPIの利用量も大幅に増加している。",
+      "url": "https://www.anthropic.com/claude",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "GitHub Copilot Workspace、IssueからPR自動生成が全ユーザーに開放",
+      "summary": "GitHub Copilot WorkspaceがGAとなり、IssueのURLを貼り付けるだけでコード修正からPR作成まで自動生成できる機能が全ユーザーに提供された。平均68%の開発時間短縮が報告されており、月20回まで無料で利用可能。特に単体テスト追加・バグ修正・ドキュメント更新の用途で活用が進んでいる。",
+      "url": "https://github.blog/2024-04-29-github-copilot-workspace-welcome-to-the-beginning-of-the-agentic-era/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "OpenAI o3-mini、GPT-4比でコーディング精度が2倍超・コストは最大10分の1",
+      "summary": "OpenAIのo3-miniモデルがコーディングベンチマークでGPT-4を大きく上回る結果を出しつつ、APIコストを最大90%削減した。個人開発者からの乗り換え報告が急増しており、特に反復的なコード生成・テスト自動化タスクでのコスト効率の向上が注目されている。",
+      "url": "https://openai.com/o3",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "コードレビューに毎日2時間溶かしてた人、試してほしい。\n\nCursorのAI、プロジェクト全体を読んで指摘・修正まで一気にやってくれる。\n自分のコードで試したら、レビュー指摘の70%が自動修正された。\n\nhttps://cursor.com/changelog",
+      "source_url": "https://cursor.com/changelog",
+      "source_title": "CursorのAIがコードレビューを自動化、国内エンジニアの利用が急拡大"
+    },
+    {
+      "text": "Geminiで定例業務を削る3つの使い方:\n\n1. 社内文書100ページを5分で要約\n2. 会議録から議事メモを30秒で生成\n3. 英語メールを文脈ごと日本語に変換\n\n自分のルーティン、まずここから削れる。\nhttps://ai.google.dev/gemini-api/docs",
+      "source_url": "https://ai.google.dev/gemini-api/docs",
+      "source_title": "Gemini 1.5 Proで業務を効率化する日本企業の事例が続々公開"
+    },
+    {
+      "text": "中小企業でもAIツール費用の50%が補助対象になった。\n\n経産省ガイドライン改定で、外部AI導入費用の半額が戻ってくる。\n今期の申請締め切りまで枠が埋まりやすいので早めに動いて。\n\nあなたの業種、該当してる？\nhttps://www.meti.go.jp/policy/it_policy/ai/",
+      "source_url": "https://www.meti.go.jp/policy/it_policy/ai/",
+      "source_title": "経産省がAI活用ガイドラインを更新、中小企業向け補助金制度も拡充"
+    },
+    {
+      "text": "📄 契約書300ページ、読むのに1日かかってた人へ。\n\nClaudeのAI、20万トークン（約15万字）を一括処理できる。\n法務チェックが1日→15分になった事例が複数報告されてる。\n\nhttps://www.anthropic.com/claude",
+      "source_url": "https://www.anthropic.com/claude",
+      "source_title": "Anthropic Claude、20万トークン対応でエンタープライズ文書処理に本格活用"
+    },
+    {
+      "text": "バグ修正に半日溶かしてた人、もう要らないかも。\n\nCopilot Workspace、IssueからPRまで全自動。\n平均68%時短、月20回は無料で試せる。\n\n自分のリポで動かしたら、レビューだけで済んだ。\nhttps://github.blog/2024-04-29-github-copilot-workspace-welcome-to-the-beginning-of-the-agentic-era/",
+      "source_url": "https://github.blog/2024-04-29-github-copilot-workspace-welcome-to-the-beginning-of-the-agentic-era/",
+      "source_title": "GitHub Copilot Workspace、IssueからPR自動生成が全ユーザーに開放"
+    },
+    {
+      "text": "OpenAIのo3-mini、GPT-4比でコーディング精度が2倍超になった。\n\nコストは最大10分の1まで下がり、自分のAPI費用が激減してる人続出。\nエンジニアなら今すぐ乗り換え検討する価値ある。\n\nあなたなら何に使う？\nhttps://openai.com/o3",
+      "source_url": "https://openai.com/o3",
+      "source_title": "OpenAI o3-mini、GPT-4比でコーディング精度が2倍超・コストは最大10分の1"
+    }
+  ]
+}
