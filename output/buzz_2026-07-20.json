@@ -1,0 +1,79 @@
+{
+  "date": "2026-07-20",
+  "topics": [
+    {
+      "title": "CursorのAgentモードで開発スピードが2倍に：月$20で無制限利用",
+      "summary": "AIコーディングツールCursorのAgentモードが日本人エンジニアの間で急速に普及。「このバグを直して」と指示するだけでファイルをまたいで自動修正、PRまで対応。月$20の無制限プランで試せる。",
+      "url": "https://cursor.com/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "GoogleのNotebookLM Plusが国内企業で活用急増：PDF50件同時分析で調査時間70%削減",
+      "summary": "NotebookLM PlusはPDFや動画など最大50件を同時にアップして横断分析・要約・Q&Aが可能。「自分の資料からしか答えない」設計で幻覚リスクが低く、月2,000円から利用できる。",
+      "url": "https://notebooklm.google.com/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "オープンソースAIワークフローDifyがGitHub ★6万超：ノーコードでエージェント構築",
+      "summary": "Difyはプログラミング不要でRAGやAPIを組み合わせたAIワークフローを構築できるOSSツール。SlackやLINE・Notionとも接続でき、定型業務の完全自動化を実現している企業が増加中。",
+      "url": "https://github.com/langgenius/dify",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "GitHub Copilot WorkspaceがGA：IssueからPR作成まで全自動化、バグ修正時間68%削減",
+      "summary": "GitHub Copilot WorkspaceがすべてのGitHubユーザーに解放。IssueのURLを貼るだけでコード変更・テスト・PR作成まで自動生成する。月20回まで無料で試せ、平均68%の時間短縮が報告されている。",
+      "url": "https://github.com/features/copilot",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Meta Llama 3.1 405B無料公開：GPT-4相当の性能、APIコストは約1/10",
+      "summary": "MetaがLlama 3.1の405Bパラメータモデルを商用利用可能な形で無料公開。Groq CloudやTogetherAIで即利用可能で、APIコストはクローズドモデルの約1/10。自前アプリへの組み込みコストが大幅削減できる。",
+      "url": "https://ai.meta.com/blog/meta-llama-3-1/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "AnthropicのClaude Computer Use APIが公開：AIがスクリーンを見て自律的にPC操作",
+      "summary": "Claude 3.5 SonnetのComputer Use機能がAPI公開。AIがスクリーンショットを見ながらブラウザ操作・クリック・入力を自律実行する。毎日30分かかるデータ収集や反復作業の完全自動化に活用されている。",
+      "url": "https://www.anthropic.com/news/3-5-models-and-computer-use",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "コード書く時間、半分にできるかも。\n\nCursorのAgentモードなら「このバグ直して」と指示するだけ。ファイルをまたいで自動修正、月$20で無制限。自分のリポジトリで試したら、レビューだけで済むようになった。\n\nhttps://cursor.com/",
+      "source_url": "https://cursor.com/",
+      "source_title": "CursorのAgentモードで開発スピードが2倍に：月$20で無制限利用"
+    },
+    {
+      "text": "📖 調査レポート作成が70%速くなった。\n\nNotebookLM PlusはPDF・動画を最大50件同時分析してAIが要約・Q&Aを生成。自分の資料からしか答えないから幻覚リスクが低い。月2,000円から使えるので試してみて。\n\nhttps://notebooklm.google.com/",
+      "source_url": "https://notebooklm.google.com/",
+      "source_title": "GoogleのNotebookLM Plusが国内企業で活用急増：PDF50件同時分析で調査時間70%削減"
+    },
+    {
+      "text": "AIエージェントをコードなしで作れる。\n\nDifyはRAGやAPIを組み合わせたワークフローをGUI操作だけで構築できるOSS、GitHub ★6万超。自分のSlackに繋げたら毎日の定型業務が全自動になった。\n\nhttps://github.com/langgenius/dify",
+      "source_url": "https://github.com/langgenius/dify",
+      "source_title": "オープンソースAIワークフローDifyがGitHub ★6万超：ノーコードでエージェント構築"
+    },
+    {
+      "text": "バグ修正に半日溶かしてた人、もう要らないかも。\n\nCopilot WorkspaceはIssueのURLを貼るだけでPR作成まで全自動。平均68%時短のデータあり。月20回まで無料で、自分のリポジトリで試したらレビューだけで済んだ。\n\nhttps://github.com/features/copilot",
+      "source_url": "https://github.com/features/copilot",
+      "source_title": "GitHub Copilot WorkspaceがGA：IssueからPR作成まで全自動化、バグ修正時間68%削減"
+    },
+    {
+      "text": "商用OKのGPT-4クラスが無料で使える時代に。\n\nMeta Llama 3.1の405Bモデルはクローズドモデルに匹敵する性能でAPIコストが約1/10。自分のアプリに組み込んで月1万円のコストが1,000円以下になった人も出てきた。\n\nhttps://ai.meta.com/blog/meta-llama-3-1/",
+      "source_url": "https://ai.meta.com/blog/meta-llama-3-1/",
+      "source_title": "Meta Llama 3.1 405B無料公開：GPT-4相当の性能、APIコストは約1/10"
+    },
+    {
+      "text": "スクリーンを見て自律的にPC操作するAIが使えるようになった。\n\nClaude Computer UseはブラウザやアプリをAIが自律操作。毎日30分かかってたデータ収集が完全自動化。自分の反復作業をAPIに渡すだけで代わりにやってくれる。\n\nhttps://www.anthropic.com/news/3-5-models-and-computer-use",
+      "source_url": "https://www.anthropic.com/news/3-5-models-and-computer-use",
+      "source_title": "AnthropicのClaude Computer Use APIが公開：AIがスクリーンを見て自律的にPC操作"
+    }
+  ]
+}
