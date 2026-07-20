@@ -1,0 +1,79 @@
+{
+  "date": "2026-07-21",
+  "topics": [
+    {
+      "title": "Claude Codeでコーディング作業を自動化：ターミナルからコミットまで一括処理",
+      "summary": "AnthropicのCLIツール「Claude Code」がエンジニアの間で急速に普及。ターミナル上で編集・テスト・コミットを自然言語指示だけで自動化でき、作業時間を最大60%削減できると報告するユーザーが増加している。",
+      "url": "https://www.anthropic.com/claude-code",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "NotebookLMで会議録・資料の要約が劇変：議事録作成時間80%削減",
+      "summary": "GoogleのNotebookLMが日本企業の業務効率化で注目を集めている。PDFや議事録を読み込むだけで自動要約とQ&A生成が可能で、会議後の作業時間を大幅に削減。音声概要（Audio Overview）機能も追加され活用幅が広がった。",
+      "url": "https://notebooklm.google.com",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Cursor IDE：国内エンジニアの利用急増、知らないと損な活用テクニック3選",
+      "summary": "AIコードエディタ「Cursor」の国内利用者が急増中。Ctrl+Kによるその場リファクタ、Composerによる複数ファイル横断実装、エラー文貼り付けによる自動修正など、生産性を大幅に向上させる機能が揃っている。",
+      "url": "https://cursor.com",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Meta Llama 3.1 405B：GPT-4相当のオープンソースLLMがGitHub ★150k超え",
+      "summary": "MetaのLlama 3.1 405Bモデルが商用利用可能なオープンソースとして公開され、GPT-4相当の性能を無料で利用できるとして世界中で注目。自前サーバーやクラウドで動かせるため、APIコストゼロの選択肢として急速に普及している。",
+      "url": "https://github.com/meta-llama/llama3",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Gemini 2.5 Flash：1Mトークン$0.075の超低コストモデルが応答0.5秒以下を実現",
+      "summary": "GoogleのGemini 2.5 Flashが速度・コストの両面でAPI開発者に支持されている。1Mトークンあたり$0.075という価格設定と0.5秒以下の応答速度が特徴で、アプリのAIコストを従来比10分の1以下に圧縮できると話題になっている。",
+      "url": "https://ai.google.dev/gemini-api/docs/models/gemini",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Qwen2.5-Coder-32B：アリババOSSコーディングモデルがGPT-4oを超えるベンチマーク結果",
+      "summary": "アリババの公開するQwen2.5-Coder-32BがHumanEvalなどのコーディングベンチマークでGPT-4oを上回る成績を記録。GitHub Stars 20k超えで、ローカル実行も可能なため「無料でGPT-4o超えが使える」として開発者コミュニティで急速に広まっている。",
+      "url": "https://github.com/QwenLM/Qwen2.5-Coder",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "コードレビューに毎日2時間溶かしてた人へ。\n\nClaude Code、ターミナル1つで編集→テスト→コミットまで自動化。\n自分の作業が最大60%短縮できる。\n\nhttps://www.anthropic.com/claude-code",
+      "source_url": "https://www.anthropic.com/claude-code",
+      "source_title": "Claude Codeでコーディング作業を自動化：ターミナルからコミットまで一括処理"
+    },
+    {
+      "text": "会議録を読み返す時間、毎日30分節約できた。\n\nNotebookLMに資料を入れると、要約＋Q&Aを自動生成。\n自分の議事録作業が80%以上消えた人が続出している。\n\nhttps://notebooklm.google.com",
+      "source_url": "https://notebooklm.google.com",
+      "source_title": "NotebookLMで会議録・資料の要約が劇変：議事録作成時間80%削減"
+    },
+    {
+      "text": "Cursorを使ってる人向け、知らないと損な使い方3選：\n\n1. Ctrl+Kで選択範囲をその場でリファクタ（5分→30秒）\n2. Composerで複数ファイル横断の実装を一発生成\n3. エラー文を貼るだけで自分のコードに合わせた修正案\n\nhttps://cursor.com",
+      "source_url": "https://cursor.com",
+      "source_title": "Cursor IDE：国内エンジニアの利用急増、知らないと損な活用テクニック3選"
+    },
+    {
+      "text": "MetaのOSSがGPT-4相当になった。\n\nLlama 3.1 405B、GitHub ★150k超えで誰でも無料で動かせる。\n自分のサーバーでChatGPTクラスのAIが走る時代になった。\n\nあなたなら何に使う？\nhttps://github.com/meta-llama/llama3",
+      "source_url": "https://github.com/meta-llama/llama3",
+      "source_title": "Meta Llama 3.1 405B：GPT-4相当のオープンソースLLMがGitHub ★150k超え"
+    },
+    {
+      "text": "API費用が10分の1になった体験、これが一番デカい。\n\nGemini 2.5 Flash、1Mトークン$0.075で応答0.5秒以下。\n自分のアプリのコストが月3万→3000円になった。\n\nhttps://ai.google.dev/gemini-api/docs/models/gemini",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini",
+      "source_title": "Gemini 2.5 Flash：1Mトークン$0.075の超低コストモデルが応答0.5秒以下を実現"
+    },
+    {
+      "text": "無料で使えるコーディングAIがGPT-4o超えの性能になった。\n\nQwen2.5-Coder-32B、GitHub ★20k超えでローカル実行も可能。\nプログラミングベンチマークでGPT-4oを上回り、自分のPCで動かせる。\n\nあなたなら何のコードに使う？\nhttps://github.com/QwenLM/Qwen2.5-Coder",
+      "source_url": "https://github.com/QwenLM/Qwen2.5-Coder",
+      "source_title": "Qwen2.5-Coder-32B：アリババOSSコーディングモデルがGPT-4oを超えるベンチマーク結果"
+    }
+  ]
+}
