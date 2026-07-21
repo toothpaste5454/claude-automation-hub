@@ -1,0 +1,79 @@
+{
+  "date": "2026-07-22",
+  "topics": [
+    {
+      "title": "Dify：コード不要でLLMアプリを構築できるOSSビルダー、GitHub ★40k超え",
+      "summary": "LLMアプリをGUIだけで作れるOSS「Dify」がGitHub ★40k超えを記録。RAG・チャットボット・ワークフロー自動化などを数分で構築でき、日本の企業内AI開発にも活用が広まっている。コード不要でAPIキーを繋ぐだけでデプロイまで完了できる。",
+      "url": "https://github.com/langgenius/dify",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Open Interpreter：自然言語でコードを実行するローカルAI、GitHub ★50k超え",
+      "summary": "ターミナル上で自然言語の指示→コード生成→即実行を完結させるOSS「Open Interpreter」。Excel集計・データ分析・ファイル操作などをAIが代行し、手作業30分の作業を1分程度に短縮。ローカル実行で外部送信なしのセキュアな環境も選択可能。",
+      "url": "https://github.com/OpenInterpreter/open-interpreter",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Claude Projects：200kトークン対応の長期コンテキスト管理で業務効率が劇変",
+      "summary": "AnthropicのClaudeに搭載されたProjects機能で、200kトークン（約500ページ相当）のドキュメントをプロジェクト単位で記憶・参照できる。社内規程・技術仕様・過去資料をまるごと読み込ませた状態で質問できるため、情報収集・確認作業が大幅に削減される。",
+      "url": "https://www.anthropic.com/claude",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "DeepSeek-R1：o1レベルの推論能力をオープンソースで公開、GitHub ★70k超え",
+      "summary": "中国のDeepSeekがGPT-4 o1相当の推論特化モデルをMITライセンスで公開。数学・コーディングベンチマークでo1と互角のスコアを記録しながら、自前サーバーやクラウドで無料実行が可能。GitHub Stars ★70k超えで開発者コミュニティに急速に普及している。",
+      "url": "https://github.com/deepseek-ai/DeepSeek-R1",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Aider：ターミナルから自然言語でGitコミットまで完結するAIコーディングツール",
+      "summary": "ターミナル上でAIとペアプログラミングができるOSS「Aider」がGitHub ★20k超えを記録。OpenAI・Claude・Gemini等の主要LLMと接続でき、自然言語の指示からコード修正・テスト実行・コミットまでを一括自動化。既存リポジトリへの導入が容易なため開発者の間で急速に広まっている。",
+      "url": "https://github.com/Aider-AI/aider",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "LangGraph：ステートフルなAIエージェントワークフローを構築するOSSフレームワーク",
+      "summary": "LangChainチームによるLangGraphがAIエージェント開発のデファクトスタンダードとして注目を集めている。ステート管理・自動リトライ・マルチエージェント連携をサポートし、中断→再開が可能なワークフローを簡単に構築できる。GitHub ★7k超えで企業の業務自動化への採用が増えている。",
+      "url": "https://github.com/langchain-ai/langgraph",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "社内AIツールの内製に6ヶ月かかってた時代、終わった。\n\nDify、GitHub ★40k超えのOSSで、LLMアプリをGUIだけで構築できる。\n自分のドキュメントをRAGで検索するシステムが5分でできた。\n\nhttps://github.com/langgenius/dify",
+      "source_url": "https://github.com/langgenius/dify",
+      "source_title": "Dify：コード不要でLLMアプリを構築できるOSSビルダー、GitHub ★40k超え"
+    },
+    {
+      "text": "Excelの集計、手動30分がAI実行1分に。\n\nOpen Interpreter、★50k超えOSSで自然言語→コード→実行を手元で完結。\nあなたのPCでデータ分析を全自動化できる。\n\nhttps://github.com/OpenInterpreter/open-interpreter",
+      "source_url": "https://github.com/OpenInterpreter/open-interpreter",
+      "source_title": "Open Interpreter：自然言語でコードを実行するローカルAI、GitHub ★50k超え"
+    },
+    {
+      "text": "500ページの資料を全部読んでくれるAIが使えるようになった。\n\nClaude Projects、200kトークン対応で自分のドキュメントを丸ごと記憶。\n会議前の準備が0分になった人が続出している。\n\nhttps://www.anthropic.com/claude",
+      "source_url": "https://www.anthropic.com/claude",
+      "source_title": "Claude Projects：200kトークン対応の長期コンテキスト管理で業務効率が劇変"
+    },
+    {
+      "text": "GPT-4級の推論AIが無料OSSになった。\n\nDeepSeek-R1、GitHub ★70k超えで数学・コード精度がo1と互角。\n自分のPCで走らせてる人が世界中にいる。\n\nあなたなら何を解かせる？\nhttps://github.com/deepseek-ai/DeepSeek-R1",
+      "source_url": "https://github.com/deepseek-ai/DeepSeek-R1",
+      "source_title": "DeepSeek-R1：o1レベルの推論能力をオープンソースで公開、GitHub ★70k超え"
+    },
+    {
+      "text": "ターミナルAIコーディングを爆速化する3つの使い方:\n\n1. 自然言語でコミットまで完結（Aider ★20k）\n2. スタックトレースを貼るだけで修正コード生成\n3. 複数ファイルのリファクタを一括実行\n\nhttps://github.com/Aider-AI/aider",
+      "source_url": "https://github.com/Aider-AI/aider",
+      "source_title": "Aider：ターミナルから自然言語でGitコミットまで完結するAIコーディングツール"
+    },
+    {
+      "text": "AIエージェントが中断→再開できるようになった。\n\nLangGraph、GitHub ★7k超えでステートフルなAI自動化が作れる。\nあなたの業務フローがエラーで止まっても、自動リトライで完走。\n\nhttps://github.com/langchain-ai/langgraph",
+      "source_url": "https://github.com/langchain-ai/langgraph",
+      "source_title": "LangGraph：ステートフルなAIエージェントワークフローを構築するOSSフレームワーク"
+    }
+  ]
+}
