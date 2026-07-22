@@ -1,0 +1,79 @@
+{
+  "date": "2026-07-23",
+  "topics": [
+    {
+      "title": "CursorでコードレビューをAIに任せたら開発速度が激変した話",
+      "summary": "AI統合コードエディタCursorが国内エンジニアの間で急速に普及。コード補完・レビュー・リファクタリングをAIが支援し、多くのユーザーが開発速度2〜3倍を報告している。月$20のサブスクで試せる。",
+      "url": "https://cursor.sh",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "GitHub Copilot WorkspaceがIssueからPRまで自動化、68%の時短効果",
+      "summary": "GitHub Copilot WorkspaceはIssueのURLを貼るだけでコード修正案とPR草案を自動生成。ベータ版では平均68%の作業時間短縮が報告されている。月20回まで無料で試せる。",
+      "url": "https://githubnext.com/projects/copilot-workspace",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "GoogleのNotebookLMが論文・PDFのリサーチを大幅に効率化",
+      "summary": "GoogleのNotebookLMは論文やPDFをアップロードするだけで、出典付きで質問に答えるパーソナルAIアシスタントが作れる。複数ソースを横断して情報を整理し、リサーチにかかる時間を大幅に短縮できる。",
+      "url": "https://notebooklm.google.com",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Meta Llama 3.1 405BがGPT-4クラスの性能をオープンソースで実現",
+      "summary": "MetaのLlama 3.1 405Bモデルは商用利用可能なオープンソースで、GPT-4に匹敵するベンチマークスコアを記録。自社サーバーやローカル環境での完全オフライン運用が可能で、データプライバシーを保ちながら高性能AIを活用できる。",
+      "url": "https://ai.meta.com/blog/meta-llama-3-1/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "GPT-4o miniがGPT-4比10倍のコスト削減を実現、APIコスト革命",
+      "summary": "OpenAIのGPT-4o miniは$0.15/100万トークンという破格の価格設定で、GPT-4と比較して約10倍のコスト削減を実現。精度はGPT-4の85%水準を維持しており、個人開発者や中小企業のAIサービス構築コストを大幅に下げた。",
+      "url": "https://openai.com/pricing",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Gemini 1.5 Proの100万トークンコンテキストが開発・リサーチを変える",
+      "summary": "GoogleのGemini 1.5 Proは最大100万トークン（本約1000冊分）を一度に処理できる。コードベース全体の分析から長文契約書の要約まで、これまで複数回に分けていた処理が1回のAPIコールで完結する。",
+      "url": "https://gemini.google.com",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "コード修正に3時間かかってた作業、Cursorで30分になった。\n\n月$20で自分のエディタがAIペアプロ環境に変わる。\nあなたのチームのレビュー時間、半分にできるかも。\n\nhttps://cursor.sh",
+      "source_url": "https://cursor.sh",
+      "source_title": "CursorでコードレビューをAIに任せたら開発速度が激変した話"
+    },
+    {
+      "text": "バグ票を渡すだけでPRが出てきた。\n\nCopilot WorkspaceはIssueのURLを貼るだけで修正コードとPR草案を生成。平均68%時短のデータが出ている。\n\nあなたのリポジトリで試す価値ある？\nhttps://githubnext.com/projects/copilot-workspace",
+      "source_url": "https://githubnext.com/projects/copilot-workspace",
+      "source_title": "GitHub Copilot WorkspaceがIssueからPRまで自動化、68%の時短効果"
+    },
+    {
+      "text": "リサーチに丸1日溶かしてた作業、NotebookLMで5分になった。\n\n論文やPDFを放り込むだけで、出典付きで質問に答えるAIが完成。\n\n自分の調査スタイル、変わるかもしれない。\nhttps://notebooklm.google.com",
+      "source_url": "https://notebooklm.google.com",
+      "source_title": "GoogleのNotebookLMが論文・PDFのリサーチを大幅に効率化"
+    },
+    {
+      "text": "GPT-4クラスが無料でローカル動作できる時代。\n\nMeta Llama 3.1（405B）は商用利用可で自社サーバーでオフライン運用が可能。\n\nあなたの会社のデータ、クラウドに送らなくて済むかも。\nhttps://ai.meta.com/blog/meta-llama-3-1/",
+      "source_url": "https://ai.meta.com/blog/meta-llama-3-1/",
+      "source_title": "Meta Llama 3.1 405BがGPT-4クラスの性能をオープンソースで実現"
+    },
+    {
+      "text": "APIコスト、GPT-4比で10倍安くなった。\n\nGPT-4o miniは$0.15/100万token。精度はGPT-4の85%水準をキープ。\n\n自分のサービスの費用、今すぐ計算し直してみて。\nhttps://openai.com/pricing",
+      "source_url": "https://openai.com/pricing",
+      "source_title": "GPT-4o miniがGPT-4比10倍のコスト削減を実現、APIコスト革命"
+    },
+    {
+      "text": "100万トークン、何に使う？\n\nGemini 1.5 Proは本1000冊分を1回のAPIで処理。コードベース全体の分析も長文書類の要約も一発でできる。\n\nあなたの作業で一番時間がかかってる部分、これで削れそう？\nhttps://gemini.google.com",
+      "source_url": "https://gemini.google.com",
+      "source_title": "Gemini 1.5 Proの100万トークンコンテキストが開発・リサーチを変える"
+    }
+  ]
+}
