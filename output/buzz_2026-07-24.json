@@ -1,0 +1,79 @@
+{
+  "date": "2026-07-24",
+  "topics": [
+    {
+      "title": "「AI Scientist」が論文1本を2,200円で自動生成——東京発Sakana AIの衝撃",
+      "summary": "東京拠点のSakana AIが開発した自律研究AI。仮説立案・実験コード生成・論文執筆まで完全自動化。コストは1論文あたり約15ドル（2,200円）で、機械学習研究の加速に注目が集まっている。",
+      "url": "https://sakana.ai/ai-scientist/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "NTT軽量日本語LLM「tsuzumi」——6Bパラメータでオンプレ運用、機密データをクラウドに出さず活用",
+      "summary": "NTTが開発した日本語特化の軽量LLM「tsuzumi」。6Bパラメータながら日本語ビジネス文書処理に最適化。クラウドへのデータ送信不要なオンプレ運用が可能で、金融・医療・法務業界での導入が加速中。",
+      "url": "https://group.ntt/jp/topics/2024/02/01/tsuzumi.html",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Notion AIの日本語対応——会議メモを貼ると10秒でアクションリストに変換",
+      "summary": "Notion AIが日本語ドキュメント処理を強化。議事録・長文メモを貼り付けると、要約・アクションアイテム抽出・Slackメッセージ下書きを自動生成。日本語チームでの活用事例が急増中。",
+      "url": "https://www.notion.so/ja-jp/product/ai",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "GitHub Copilot WorkspaceがIssueからPR作成まで全自動——バグ修正時間68%削減",
+      "summary": "GitHub Copilot WorkspaceがIssue起点の自動コーディングを全ユーザーへ展開。GitHubのIssueにコンテキストを入れるだけでコード変更〜PR作成を自動化。内部データでバグ修正時間平均68%短縮、月20回まで無料。",
+      "url": "https://githubnext.com/projects/copilot-workspace",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "VSCodeからCursorへ乗り換え急増——AI-firstエディタで「コーディング速度2倍」の声",
+      "summary": "AIネイティブなコードエディタCursorの利用者が急増。VSCodeの拡張機能をそのまま使いながら、コード自動生成・バグ修正・リファクタリングをAIと対話しながら実行。月20ドルのProプランで生産性2倍以上の報告が相次ぐ。",
+      "url": "https://cursor.com",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Gemini 2.0 Flash——本800冊分を処理できる100万トークンモデルが実用コストで利用可能",
+      "summary": "GoogleのGemini 2.0 Flashが100万トークンのコンテキストウィンドウを実用的なコストで提供。長大な契約書・仕様書・コードベースを丸ごと入力して質問できる使い方が広まり、ドキュメント処理のワークフローが変わりつつある。",
+      "url": "https://ai.google.dev/gemini-api/docs/models/gemini",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "研究論文1本を2,200円で書けるAIが出てきた。\n\nSakana AI（東京）のAI Scientist、仮説→実験→執筆まで全部やる。\n自分の研究テーマをAIにぶん投げる時代。\n\nあなたならどの分野で試す？\nhttps://sakana.ai/ai-scientist/",
+      "source_url": "https://sakana.ai/ai-scientist/",
+      "source_title": "「AI Scientist」が論文1本を2,200円で自動生成——東京発Sakana AIの衝撃"
+    },
+    {
+      "text": "社内データをクラウドに出せない制約が消えつつある。\n\nNTTのtsuzumi、6Bパラメータで日本語業務向け軽量モデル。\nオンプレで動くから機密文書をそのまま食わせて要約できる。\n\nあなたの会社の稟議書、試してみる価値あるかも。\nhttps://group.ntt/jp/topics/2024/02/01/tsuzumi.html",
+      "source_url": "https://group.ntt/jp/topics/2024/02/01/tsuzumi.html",
+      "source_title": "NTT軽量日本語LLM「tsuzumi」——6Bパラメータでオンプレ運用、機密データをクラウドに出さず活用"
+    },
+    {
+      "text": "1時間の会議メモ、Notion AIに貼ったら10秒でアクションリストになった。\n\n要約→ToDoリスト→Slackメッセージ下書きまで全部出てくる。\nあなたのチームの議事録業務、半分消えるかも。\n\nhttps://www.notion.so/ja-jp/product/ai",
+      "source_url": "https://www.notion.so/ja-jp/product/ai",
+      "source_title": "Notion AIの日本語対応——会議メモを貼ると10秒でアクションリストに変換"
+    },
+    {
+      "text": "バグ修正に半日かけてた作業、IssueをCopilotに渡したらPRが届いた。\n\nGitHub Copilot Workspace、月20回まで無料で使える。\n平均68%時短のデータあり、あとはレビューするだけ。\n\n自分のリポジトリで試してみる価値はある。\nhttps://githubnext.com/projects/copilot-workspace",
+      "source_url": "https://githubnext.com/projects/copilot-workspace",
+      "source_title": "GitHub Copilot WorkspaceがIssueからPR作成まで全自動——バグ修正時間68%削減"
+    },
+    {
+      "text": "Cursorに乗り換えて変わった3つ：\n\n1. 関数名を書くだけでコード生成（10分→30秒）\n2. スタックトレースを貼ると即修正案が出る\n3. 既存コードのリファクタリング提案まで来る\n\n月20ドル。自分の作業時間と比べたら安すぎた。\nhttps://cursor.com",
+      "source_url": "https://cursor.com",
+      "source_title": "VSCodeからCursorへ乗り換え急増——AI-firstエディタで「コーディング速度2倍」の声"
+    },
+    {
+      "text": "本800冊分を一度に読めるAIが、月1ドル以下で使える時代になった。\n\nGemini 2.0 Flash、100万トークン対応でAPIから使える。\n長大な仕様書や契約書を丸ごと入れて質問する使い方が急増中。\n\nあなたの社内文書、全部食わせてみる？\nhttps://ai.google.dev/gemini-api/docs/models/gemini",
+      "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini",
+      "source_title": "Gemini 2.0 Flash——本800冊分を処理できる100万トークンモデルが実用コストで利用可能"
+    }
+  ]
+}
