@@ -1,0 +1,79 @@
+{
+  "date": "2026-07-25",
+  "topics": [
+    {
+      "title": "GitHub★7万超のOSS「Dify」でAIワークフローを30分で構築する方法",
+      "summary": "DifyはコードなしでChatGPT・Claude等を組み合わせたAIワークフローを構築できるOSS。APIキーを設定するだけでSlackボット・PDF Q&Aアプリなどを短時間で作成できる。GitHub★7万超でコミュニティも活発。",
+      "url": "https://github.com/langgenius/dify",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Cursor × Claude Opus 5でコードレビュー時間が80%削減—エンジニア活用事例",
+      "summary": "CursorのAIコーディングアシスタントにClaude Opus 5を設定したエンジニアが、コードレビュー時間を80%削減。バグ検出精度が向上し、1日あたり約2時間の節約を実現した実例が国内コミュニティで話題。",
+      "url": "https://www.cursor.com",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Google NotebookLM、社内PDF100本を10分でナレッジベース化する活用法",
+      "summary": "NotebookLMに社内資料100本をアップロードし、横断Q&A・自動要約・音声Podcast生成を活用する事例が増加。マニュアル検索の手間がゼロになり、議事録や規定書の参照時間が大幅に短縮される。",
+      "url": "https://notebooklm.google.com",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Claude Opus 5、SWE-benchmarkで72.5%達成—AIコーディングエージェントの新基準",
+      "summary": "AnthropicのClaude Opus 5がSWE-benchmark verifiedで72.5%を記録し、実際のGitHubイシュー解決能力で業界最高水準を達成。コーディングエージェントとして実務での活用事例が急増している。",
+      "url": "https://www.anthropic.com/claude",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "GitHub Copilot Agent Mode、バグ修正→PR自動生成で平均68%の作業時間短縮",
+      "summary": "GitHub CopilotのAgent ModeがIssueからPR作成まで全自動化。平均68%の修正時間短縮を達成し、月20回まで無料で利用可能。全ユーザーへ展開済み。",
+      "url": "https://github.com/features/copilot",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Meta Llama 4 Scout、170億パラメータのマルチモーダルAIが商用無料に",
+      "summary": "MetaのLlama 4 ScoutはApache 2.0ライセンスで商用利用が無料。170億アクティブパラメータながら画像・テキスト対応のマルチモーダル性能を持ち、自社プロダクトへの組み込みが現実的に。",
+      "url": "https://ai.meta.com/llama/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "AIツール、手動で組み合わせてる人なら試す価値ある。\n\nDify（★7万超）で自動化できる3つの使い方:\n\n1. GPT+Claude+検索を1クリック連携\n2. Slackボットを30分で構築\n3. PDFのQ&Aアプリをコードなしで作成\n\nhttps://github.com/langgenius/dify",
+      "source_url": "https://github.com/langgenius/dify",
+      "source_title": "GitHub★7万超のOSS「Dify」でAIワークフローを30分で構築する方法"
+    },
+    {
+      "text": "コードレビューに毎日2時間溶かしてた人、これ試して。\n\nCursor × Claude Opus 5を自分のリポジトリに設定したら\nレビュー時間が80%削減になった。\n\nバグ指摘の精度が上がって、承認するだけで済んでる。\nhttps://www.cursor.com",
+      "source_url": "https://www.cursor.com",
+      "source_title": "Cursor × Claude Opus 5でコードレビュー時間が80%削減—エンジニア活用事例"
+    },
+    {
+      "text": "社内マニュアル、毎回Ctrl+Fで探してる人に教えたい。\n\nNotebookLMにPDF100本入れたら10分でQ&A可能になった。\n検索ゼロ・要約自動・音声Podcastまで生成できる。\n\n自分の業務資料で試す価値あり。\nhttps://notebooklm.google.com",
+      "source_url": "https://notebooklm.google.com",
+      "source_title": "Google NotebookLM、社内PDF100本を10分でナレッジベース化する活用法"
+    },
+    {
+      "text": "GitHubイシューをAIが72.5%の確率で自力解決する。\n\nClaude Opus 5のSWE-benchmark結果。\nあなたのバックログ、AIに渡したら何割消える？\n\n実務でのコーディングエージェント活用が一気に現実的になった。\nhttps://www.anthropic.com/claude",
+      "source_url": "https://www.anthropic.com/claude",
+      "source_title": "Claude Opus 5、SWE-benchmarkで72.5%達成—AIコーディングエージェントの新基準"
+    },
+    {
+      "text": "バグ修正に半日かけてた自分、もう要らないかもしれない。\n\nCopilot Agent Mode、Issueを貼るだけでPRまで自動生成。\n平均68%時短・月20回まで無料で試せる。\n\n自分のリポジトリで動かしたら、レビューだけで済んだ。\nhttps://github.com/features/copilot",
+      "source_url": "https://github.com/features/copilot",
+      "source_title": "GitHub Copilot Agent Mode、バグ修正→PR自動生成で平均68%の作業時間短縮"
+    },
+    {
+      "text": "GPT-4相当のAIモデルが無料で商用利用できる時代になった。\n\nMeta Llama 4 Scout、170億パラメータでマルチモーダル対応。\nApache 2.0ライセンスなので自社サービスに組み込める。\n\nあなたのプロダクトなら何を置き換える？\nhttps://ai.meta.com/llama/",
+      "source_url": "https://ai.meta.com/llama/",
+      "source_title": "Meta Llama 4 Scout、170億パラメータのマルチモーダルAIが商用無料に"
+    }
+  ]
+}
