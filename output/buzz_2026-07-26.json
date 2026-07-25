@@ -1,0 +1,79 @@
+{
+  "date": "2026-07-26",
+  "topics": [
+    {
+      "title": "Dify：ノーコードで社内RAGアプリを2時間で構築【★40k超OSS】",
+      "summary": "オープンソースのLLMアプリ開発プラットフォームDifyが急成長。RAG・ワークフロー・APIをGUIで設定でき、GitHubスター数40k超。自社データを使った社内AIアシスタントをエンジニアなしで2時間以内に構築できる事例が増えている。",
+      "url": "https://github.com/langgenius/dify",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Cursor AIコーディング：コードレビュー時間を40%削減した実録",
+      "summary": "AIコーディングツールCursorがコードベース全体を読んで改善提案を自動生成。月$20で全機能が使え、実際の開発チームでコードレビュー時間を40%削減・開発速度1.4倍向上した事例が報告されている。",
+      "url": "https://cursor.com/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Google NotebookLM：会議録音を議事録に変換する実践的な3つの使い方",
+      "summary": "GoogleのAI研究ノートNotebookLMが音声ファイルの自動議事録生成や、複数ドキュメントをまたいだ質問応答に対応。音声概要機能で録音から重要ポイントを自動抽出できる機能が使いやすいと好評。",
+      "url": "https://notebooklm.google.com/",
+      "genre": "AI/テクノロジー",
+      "source": "domestic"
+    },
+    {
+      "title": "Claude Computer Use：ブラウザ・ファイル・アプリを自律操作する新機能",
+      "summary": "AnthropicのClaude Computer Useが一般公開され、ブラウザ操作・ファイル管理・デスクトップアプリの自動化が可能に。コード不要で「〜して」と指示するだけでPCの繰り返し作業を自動化できる。",
+      "url": "https://www.anthropic.com/news/computer-use",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Gemini 2.5 Pro：100万トークンで文庫本700冊分を一括処理する衝撃",
+      "summary": "Google Gemini 2.5 Proが100万トークンコンテキストに対応し、コードベース全体・長時間動画・大量の法律文書を1回のAPIコールで処理可能に。開発者・リサーチャーの間で活用事例が急増している。",
+      "url": "https://gemini.google.com/",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    },
+    {
+      "title": "Open Interpreter：★55k超OSS、コードなしでPCの繰り返し作業を8割自動化",
+      "summary": "オープンソースのローカルAIエージェントOpen Interpreterが、自然言語でコード実行・ファイル操作・ブラウザ操作を自動化。GitHubスター数55k超で、プログラミング不要でデータ分析・レポート生成が完結する使い方が広まっている。",
+      "url": "https://github.com/OpenInterpreter/open-interpreter",
+      "genre": "AI/テクノロジー",
+      "source": "international"
+    }
+  ],
+  "posts": [
+    {
+      "text": "社内資料に質問できるAIを作るのに、1週間かかってた。\n\nDify（★40k超）、RAGもワークフローもGUIで組める。\nAPIキーとデータを入れるだけで2時間→完成した。\n\n自分のデータで動かしたい人は試す価値がある。\nhttps://github.com/langgenius/dify",
+      "source_url": "https://github.com/langgenius/dify",
+      "source_title": "Dify：ノーコードで社内RAGアプリを2時間で構築【★40k超OSS】"
+    },
+    {
+      "text": "コードレビューに毎日2時間使ってた自分が変わった。\n\nCursor、コードベース全体を読んでバグ・改善点を自動提案。\n月$20で全機能。実測で開発速度1.4倍になった。\n\nまずフリープランで試してみる価値はある。\nhttps://cursor.com/",
+      "source_url": "https://cursor.com/",
+      "source_title": "Cursor AIコーディング：コードレビュー時間を40%削減した実録"
+    },
+    {
+      "text": "会議の録音を賢く活用する3つの使い方:\n\n1. 音声ファイルをアップ→自動で議事録生成\n2. 「この決定の根拠は？」と質問→関連発言を引用回答\n3. 複数録音をまとめてプロジェクト進捗を整理\n\nhttps://notebooklm.google.com/",
+      "source_url": "https://notebooklm.google.com/",
+      "source_title": "Google NotebookLM：会議録音を議事録に変換する実践的な3つの使い方"
+    },
+    {
+      "text": "毎朝30分かけてたデータ集計、頼んだら全部やってくれた。\n\nClaude Computer Use、ブラウザ・ファイル・アプリを自律操作。\n「このサイトのデータをシートにまとめて」だけで動く。\n\n自分の繰り返し作業を何個委託できるか考え始めた。\nhttps://www.anthropic.com/news/computer-use",
+      "source_url": "https://www.anthropic.com/news/computer-use",
+      "source_title": "Claude Computer Use：ブラウザ・ファイル・アプリを自律操作する新機能"
+    },
+    {
+      "text": "文庫本700冊分のテキストが1回のAPIコールで処理できる。\n\nGemini 2.5 Pro、100万トークン対応。コードベース・動画・法律文書を一発で読ませる使い方が広がってる。\n\nあなたなら何に使う？\nhttps://gemini.google.com/",
+      "source_url": "https://gemini.google.com/",
+      "source_title": "Gemini 2.5 Pro：100万トークンで文庫本700冊分を一括処理する衝撃"
+    },
+    {
+      "text": "「このCSVを分析してグラフにして」で全部やってくれた。\n\nOpen Interpreter、★55k超のOSS。ローカルでコード実行・ファイル操作を自動化。\n自分のPCが自律で動く感覚。\n\nコードが書けなくても作業の8割を委託できる。\nhttps://github.com/OpenInterpreter/open-interpreter",
+      "source_url": "https://github.com/OpenInterpreter/open-interpreter",
+      "source_title": "Open Interpreter：★55k超OSS、コードなしでPCの繰り返し作業を8割自動化"
+    }
+  ]
+}
